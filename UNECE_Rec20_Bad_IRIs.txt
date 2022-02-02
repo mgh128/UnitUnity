@@ -1,0 +1,14 @@
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_[unit_of_angle]_per_second_squared> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#tonne_of_substance_90_%_dry> Code: 30/ILLEGAL_PERCENT_ENCODING in FRAGMENT: The host component a percent occurred without two following hexadecimal digits.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_angle]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#lot_[unit_of_procurement]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bar_[unit_of_packaging]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_[unit_of_angle]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_time]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cup_[unit_of_volume]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_time]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#lot_[unit_of_weight]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilogram_of_substance_90_%_dry> Code: 30/ILLEGAL_PERCENT_ENCODING in FRAGMENT: The host component a percent occurred without two following hexadecimal digits.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#rod_[unit_of_distance]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_angle]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bar_[unit_of_pressure]> Code: 0/ILLEGAL_CHARACTER in FRAGMENT: The character violates the grammar rules for URIs/IRIs.
