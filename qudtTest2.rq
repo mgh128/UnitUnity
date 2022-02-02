@@ -1,0 +1,10 @@
+#qudtTest1.rq
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gs1: <http://gs1.org/voc/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+CONSTRUCT { ?q qudt:uneceCommonCode ?r . ?q qudt:ucumCode ?u . } WHERE { ?q a qudt:Unit . OPTIONAL {?q qudt:uneceCommonCode ?r } OPTIONAL {?q qudt:ucumCode ?u} } ORDER BY ?q
+

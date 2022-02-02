@@ -1,0 +1,3976 @@
+@prefix dc:           <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:      <http://purl.org/dc/terms/> .
+@prefix gs1:          <http://gs1.org/voc/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix qkdv:         <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt:         <http://qudt.org/schema/qudt/> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:         <http://www.w3.org/2004/02/skos/core#> .
+@prefix sou:          <http://qudt.org/vocab/sou/> .
+@prefix unit:         <http://qudt.org/vocab/unit/> .
+@prefix vaem:         <http://www.linkedmodel.org/schema/vaem#> .
+@prefix voag:         <http://voag.linkedmodel.org/schema/voag#> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+
+unit:MegaHZ-PER-T  qudt:ucumCode  "MHz.T-1"^^qudt:UCUMcs .
+
+unit:PicoM  qudt:ucumCode     "pm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C52" .
+
+unit:BYTE  qudt:ucumCode      "By"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "AD" .
+
+unit:A-PER-DEG_C  qudt:ucumCode  "A/Cel"^^qudt:UCUMcs , "A.Cel-1"^^qudt:UCUMcs .
+
+unit:MegaPA-L-PER-SEC
+        qudt:ucumCode         "MPa.L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F97" .
+
+unit:MilliMOL  qudt:ucumCode  "mmol"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C18" .
+
+unit:CentiM2-PER-SEC  qudt:ucumCode  "cm2.s-1"^^qudt:UCUMcs .
+
+unit:OZ  qudt:ucumCode  "[oz_av]"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-DeciL
+        qudt:ucumCode  "mg.dL-1"^^qudt:UCUMcs .
+
+unit:PER-DAY  qudt:ucumCode   "d-1"^^qudt:UCUMcs , "/d"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E91" .
+
+unit:MilliC  qudt:ucumCode    "mC"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D86" .
+
+unit:CentiST  qudt:ucumCode   "cSt"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4C" .
+
+unit:PER-MO  qudt:ucumCode    "mo-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H11" .
+
+unit:U  qudt:ucumCode         "u"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D43" .
+
+unit:TON_US-PER-YD3  qudt:ucumCode  "[ston_av].[cyd_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L93" .
+
+unit:MicroMOL-PER-MOL
+        qudt:ucumCode  "umol/mol"^^qudt:UCUMcs , "umol.mol-1"^^qudt:UCUMcs .
+
+unit:NanoS-PER-CentiM
+        qudt:ucumCode         "nS.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G44" .
+
+unit:CentiM3-PER-K  qudt:ucumCode  "cm3/K"^^qudt:UCUMcs , "cm3.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G27" .
+
+unit:J-PER-KiloGM-K-PA
+        qudt:ucumCode  "J.kg-1.K-1.Pa-1"^^qudt:UCUMcs .
+
+unit:M2-PER-GM_DRY  qudt:ucumCode  "m2.g-1{dry}"^^qudt:UCUMcs .
+
+unit:DRAM_UK  qudt:ucumCode   "[dr_ap]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DRI" .
+
+unit:MOL-PER-DeciM3  qudt:ucumCode  "mol.dm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C35" .
+
+unit:PERCENT-PER-HR  qudt:ucumCode  "%.h-1"^^qudt:UCUMcs .
+
+unit:GM_Nitrogen-PER-M2-DAY
+        qudt:ucumCode  "g.m-2.d-1{N}"^^qudt:UCUMcs .
+
+unit:LB-PER-MIN  qudt:ucumCode  "[lb_av].min-1"^^qudt:UCUMcs .
+
+unit:MicroMHO  qudt:ucumCode  "umho"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "NR" .
+
+unit:PicoMOL-PER-L  qudt:ucumCode  "pmol.L-1"^^qudt:UCUMcs .
+
+unit:GRAIN  qudt:ucumCode     "[gr]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GRN" .
+
+unit:CAL_TH-PER-CentiM-SEC-DEG_C
+        qudt:ucumCode         "cal_th/(cm.s.Cel)"^^qudt:UCUMcs , "cal_th.cm-1.s-1.Cel-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J78" .
+
+unit:MilliGM-PER-HR  qudt:ucumCode  "mg.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4M" .
+
+unit:CentiM2-PER-CentiM3
+        qudt:ucumCode  "cm2.cm-3"^^qudt:UCUMcs .
+
+unit:MOL-PER-MIN  qudt:ucumCode  "mol.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L30" .
+
+unit:AttoC  qudt:ucumCode  "aC"^^qudt:UCUMcs .
+
+unit:MicroMOL-PER-M2-HR
+        qudt:ucumCode  "umol/m2/h"^^qudt:UCUMcs , "umol.m-2.h-1"^^qudt:UCUMcs .
+
+unit:CentiM3-PER-M3  qudt:ucumCode  "cm3/m3"^^qudt:UCUMcs , "cm3.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J87" .
+
+unit:OZ_PER-GAL_UK  qudt:ucumCode  "[oz_av].[gal_br]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L37" .
+
+unit:MilliM-PER-YR  qudt:ucumCode  "mm/a"^^qudt:UCUMcs , "mm.a-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H66" .
+
+unit:PSI-PER-PSI  qudt:ucumCode  "[psi].[psi]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L52" .
+
+unit:MilliC-PER-M3  qudt:ucumCode  "mC.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D88" .
+
+unit:MOL-PER-M3-SEC  qudt:ucumCode  "mol.m-3.s-1"^^qudt:UCUMcs .
+
+unit:BQ-PER-KiloGM  qudt:ucumCode  "Bq/kg"^^qudt:UCUMcs , "Bq.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A18" .
+
+unit:NUM-PER-CentiM-KiloYR
+        qudt:ucumCode  "{#}.cm-2.ka-1"^^qudt:UCUMcs .
+
+unit:MO  qudt:ucumCode        "mo"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MON" .
+
+unit:J-PER-KiloGM-K-M3
+        qudt:ucumCode  "J.kg-1.K.m-3"^^qudt:UCUMcs .
+
+unit:WB-PER-MilliM  qudt:ucumCode  "Wb.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D60" .
+
+unit:MegaPA-M3-PER-SEC
+        qudt:ucumCode         "MPa.m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F98" .
+
+unit:CD-PER-M2  qudt:ucumCode  "cd/m2"^^qudt:UCUMcs , "cd.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A24" .
+
+unit:CentiMOL-PER-KiloGM
+        qudt:ucumCode  "cmol/kg"^^qudt:UCUMcs , "cmol.kg-1"^^qudt:UCUMcs .
+
+unit:TON_Metric-PER-DAY
+        qudt:ucumCode         "t.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L71" .
+
+unit:LB_F-PER-LB  qudt:ucumCode  "[lbf_av].[lb_av]-1"^^qudt:UCUMcs .
+
+unit:S-PER-M  qudt:ucumCode   "S/m"^^qudt:UCUMcs , "S.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D10" .
+
+unit:K-M2-PER-KiloGM-SEC
+        qudt:ucumCode  "K.m2.kg-1.s-1"^^qudt:UCUMcs .
+
+unit:PicoH  qudt:ucumCode     "pH"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C73" .
+
+unit:MI_US  qudt:ucumCode  "[mi_us]"^^qudt:UCUMcs .
+
+unit:J-PER-M  qudt:ucumCode   "J/m"^^qudt:UCUMcs , "J.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B12" .
+
+unit:PetaC  qudt:ucumCode  "PC"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-MOL  qudt:ucumCode  "kg/mol"^^qudt:UCUMcs , "kg.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D74" .
+
+unit:PPTR_VOL  qudt:ucumCode  "[pptr]{vol}"^^qudt:UCUMcs .
+
+unit:KiloGM  qudt:ucumCode    "kg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KGM" .
+
+unit:NUM-PER-MilliGM  qudt:ucumCode  "{#}.mg-1"^^qudt:UCUMcs .
+
+unit:AC  qudt:ucumCode        "[acr_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "ACR" .
+
+unit:PER-WK  qudt:ucumCode    "wk-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H85" .
+
+unit:CAL_TH-PER-SEC-CentiM-K
+        qudt:ucumCode         "cal_th/(s.cm.K)"^^qudt:UCUMcs , "cal_th.s-1.cm-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D38" .
+
+unit:BBL_UK_PET-PER-DAY
+        qudt:uneceCommonCode  "J59" .
+
+unit:GI_UK-PER-HR  qudt:ucumCode  "[gil_br].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K33" .
+
+unit:C_Ab-PER-CentiM2
+        qudt:ucumCode  "10.C.cm-2"^^qudt:UCUMcs .
+
+unit:DYN-SEC-PER-CentiM
+        qudt:ucumCode         "dyn.s/cm"^^qudt:UCUMcs , "dyn.s.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A51" .
+
+unit:BTU_IT-PER-LB_F  qudt:ucumCode  "[Btu_IT]/[lbf_av]"^^qudt:UCUMcs , "[Btu_IT].[lbf_av]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "AZ" .
+
+unit:OERSTED  qudt:ucumCode   "Oe"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "66" .
+
+unit:MicroGM-PER-M3-HR
+        qudt:ucumCode  "ug.m-3.h-1"^^qudt:UCUMcs .
+
+unit:MegaN-M  qudt:ucumCode   "MN.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B74" .
+
+unit:SLUG  qudt:uneceCommonCode  "F13" .
+
+unit:TON_SHORT  qudt:ucumCode  "[ston_av]"^^qudt:UCUMcs .
+
+unit:BU_US_DRY-PER-SEC
+        qudt:ucumCode         "[bu_us]/s"^^qudt:UCUMcs , "[bu_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J71" .
+
+unit:KiloMOL-PER-SEC  qudt:ucumCode  "kmol.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E94" .
+
+unit:MIN_Angle  qudt:ucumCode  "'"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D61" .
+
+unit:KiloW  qudt:ucumCode     "kW"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KWT" .
+
+unit:LB_T  qudt:ucumCode  "[lb_tr]"^^qudt:UCUMcs .
+
+unit:OZ-PER-GAL_US  qudt:ucumCode  "[oz_av].[gal_us]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L38" .
+
+unit:NanoMOL-PER-MicroMOL
+        qudt:ucumCode  "nmol.umol-1"^^qudt:UCUMcs .
+
+unit:PER-YD3  qudt:ucumCode   "[cyd_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M10" .
+
+unit:KiloV-A  qudt:ucumCode   "kV.A"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KVA" .
+
+unit:PicoA-PER-MicroMOL-L
+        qudt:ucumCode  "pA.umol-1.L-1"^^qudt:UCUMcs .
+
+unit:NUM  qudt:ucumCode  "{#}"^^qudt:UCUMcs , "1"^^qudt:UCUMcs .
+
+unit:TON_LONG  qudt:ucumCode  "[lton_av]"^^qudt:UCUMcs .
+
+unit:DYN-SEC-PER-CentiM3
+        qudt:ucumCode         "dyn.s/cm3"^^qudt:UCUMcs , "dyn.s.cm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A50" .
+
+unit:DEG_F-PER-K  qudt:ucumCode  "[degF]/K"^^qudt:UCUMcs , "[degF].K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J20" .
+
+unit:NanoMOL-PER-M2-DAY
+        qudt:ucumCode  "nmol.m-2.d-1"^^qudt:UCUMcs .
+
+unit:WK  qudt:ucumCode        "wk"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "WEE" .
+
+unit:PicoC  qudt:ucumCode     "pC"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C71" .
+
+unit:KiloCAL_TH-PER-SEC
+        qudt:ucumCode         "kcal_th.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K55" .
+
+unit:KiloGM_F-PER-M2  qudt:ucumCode  "kgf.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B40" .
+
+unit:YR_TROPICAL  qudt:ucumCode  "a_t"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D42" .
+
+unit:MegaC  qudt:ucumCode     "MC"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D77" .
+
+unit:MegaJ-PER-M2  qudt:ucumCode  "MJ.m-2"^^qudt:UCUMcs .
+
+unit:K  qudt:ucumCode         "K"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KEL" .
+
+unit:M2-PER-MOL  qudt:ucumCode  "m2.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D22" .
+
+unit:GM-PER-GM  qudt:ucumCode  "g/g"^^qudt:UCUMcs , "g.g-1"^^qudt:UCUMcs .
+
+unit:N-CentiM  qudt:ucumCode  "N.cm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F88" .
+
+unit:YR_Common  qudt:uneceCommonCode  "L95" .
+
+unit:L-PER-SEC  qudt:ucumCode  "L/s"^^qudt:UCUMcs , "L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G51" .
+
+unit:CentiM3  qudt:ucumCode   "cm3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CMQ" .
+
+unit:ANGSTROM  qudt:ucumCode  "Ao"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A11" .
+
+unit:HZ-PER-T  qudt:ucumCode  "Hz.T-1"^^qudt:UCUMcs .
+
+unit:BTU_TH-PER-SEC  qudt:ucumCode  "[Btu_th]/s"^^qudt:UCUMcs , "[Btu_th].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J52" .
+
+unit:MilliMOL-PER-M3  qudt:ucumCode  "mmol.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C86" .
+
+unit:MegaOHM  qudt:ucumCode   "MOhm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B75" .
+
+unit:BBL_UK_PET  qudt:uneceCommonCode  "J57" .
+
+unit:DEGREE_BAUME_US_LIGHT
+        qudt:uneceCommonCode  "J16" .
+
+unit:DEG-PER-HR  qudt:ucumCode  "deg/h"^^qudt:UCUMcs , "deg.h-1"^^qudt:UCUMcs .
+
+unit:PER-SEC-M2  qudt:ucumCode  "s-1.m-2"^^qudt:UCUMcs , "/(s1.m2)"^^qudt:UCUMcs .
+
+unit:MilliW-PER-M2  qudt:ucumCode  "mW.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C32" .
+
+unit:M2-PER-SR  qudt:ucumCode  "m2.sr-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D27" .
+
+unit:N-SEC  qudt:ucumCode     "N.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C57" .
+
+unit:KiloR  qudt:ucumCode     "kR"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KR" .
+
+unit:NanoS-PER-M  qudt:ucumCode  "nS.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G45" .
+
+unit:CD  qudt:ucumCode        "cd"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CDL" .
+
+unit:GAUGE_FR  qudt:ucumCode  "[Ch]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H79" .
+
+unit:MilliN-PER-M  qudt:ucumCode  "mN.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C22" .
+
+unit:WB-M  qudt:ucumCode      "Wb.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "P50" .
+
+unit:N-PER-MilliM2  qudt:ucumCode  "N.mm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C56" .
+
+unit:LB-PER-HR  qudt:ucumCode  "[lb_av].h-1"^^qudt:UCUMcs .
+
+unit:LB  qudt:ucumCode  "[lb_av]"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-M3-SEC
+        qudt:ucumCode  "mg.m-3.s-1"^^qudt:UCUMcs .
+
+unit:FT-PER-DEG_F  qudt:ucumCode  "[ft_i].[lbf_av].[degF]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K13" .
+
+unit:FemtoMOL-PER-L  qudt:ucumCode  "fmol.L-1"^^qudt:UCUMcs .
+
+unit:TON_US-PER-HR  qudt:ucumCode  "[ston_av].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E18" , "4W" .
+
+unit:BTU_IT-PER-LB-DEG_R
+        qudt:ucumCode  "[Btu_IT]/([lb_av].[degR])"^^qudt:UCUMcs , "[Btu_IT].[lb_av]-1.[degR]-1"^^qudt:UCUMcs .
+
+unit:PER-T-SEC  qudt:ucumCode  "T-1.s-1"^^qudt:UCUMcs .
+
+unit:V-PER-M2  qudt:ucumCode  "V.m-2"^^qudt:UCUMcs .
+
+unit:Stone_UK  qudt:ucumCode  "[stone_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "STI" .
+
+unit:MilliSV  qudt:ucumCode   "mSv"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C28" .
+
+unit:M2-PER-HZ-DEG  qudt:ucumCode  "m2.Hz-1.deg-1"^^qudt:UCUMcs .
+
+unit:PDL-PER-FT2  qudt:ucumCode  "[lb_av].[ft_i].s-2.[sft_i]-1"^^qudt:UCUMcs .
+
+unit:MOL-PER-KiloGM  qudt:ucumCode  "mol/kg"^^qudt:UCUMcs , "mol.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C19" .
+
+unit:PPTH-PER-HR  qudt:ucumCode  "[ppth].h-1"^^qudt:UCUMcs .
+
+unit:FemtoGM-PER-KiloGM
+        qudt:ucumCode  "fg.kg-1"^^qudt:UCUMcs .
+
+unit:PA-M-PER-SEC  qudt:ucumCode  "Pa.m.s-1"^^qudt:UCUMcs .
+
+unit:MegaGM-PER-M3  qudt:ucumCode  "Mg.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B72" .
+
+unit:PERCENT-PER-M  qudt:ucumCode  "%.m-1"^^qudt:UCUMcs .
+
+unit:GALILEO  qudt:ucumCode  "Gal"^^qudt:UCUMcs .
+
+unit:M2-HZ  qudt:ucumCode  "m2.Hz"^^qudt:UCUMcs .
+
+unit:MOL-PER-M2-SEC-SR
+        qudt:ucumCode  "mol.m-2.s-1.sr-1"^^qudt:UCUMcs .
+
+unit:MilliV  qudt:ucumCode    "mV"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2Z" .
+
+unit:BIT  qudt:ucumCode       "bit"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J63" .
+
+unit:KiloC-PER-M2  qudt:ucumCode  "kC.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B28" .
+
+unit:MicroGAL-PER-M  qudt:ucumCode  "uGal.m-1"^^qudt:UCUMcs .
+
+unit:L-PER-K  qudt:ucumCode   "L/K"^^qudt:UCUMcs , "L.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G28" .
+
+unit:FT-PER-MIN  qudt:ucumCode  "[ft_i]/min"^^qudt:UCUMcs , "[ft_i].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FR" .
+
+unit:QT_US-PER-MIN  qudt:ucumCode  "[qt_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L10" .
+
+unit:KiloPA  qudt:ucumCode    "kPa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KPA" .
+
+unit:K-M-PER-SEC  qudt:ucumCode  "K.m.s-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-MilliM
+        qudt:ucumCode         "kg.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KW" .
+
+unit:GigaC  qudt:ucumCode  "GC"^^qudt:UCUMcs .
+
+unit:RT  qudt:ucumCode  "100.[cft_i]"^^qudt:UCUMcs .
+
+unit:MicroS-PER-CentiM
+        qudt:ucumCode         "uS.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G42" .
+
+unit:PicoMOL-PER-L-DAY
+        qudt:ucumCode  "pmol.L-1.d-1"^^qudt:UCUMcs .
+
+unit:KiloM  qudt:ucumCode  "km"^^qudt:UCUMcs .
+
+unit:DeciBAR-PER-YR  qudt:ucumCode  "dbar.a-1"^^qudt:UCUMcs .
+
+unit:GigaC-PER-M3  qudt:ucumCode  "GC.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A84" .
+
+unit:KiloBQ  qudt:ucumCode    "kBq"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2Q" .
+
+unit:BTU_IT-FT-PER-FT2-HR-DEG_F
+        qudt:ucumCode         "[Btu_IT].[ft_i]/([ft_i]2.h.[degF])"^^qudt:UCUMcs , "[Btu_IT].[ft_i].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J40" .
+
+unit:MicroSV-PER-HR  qudt:ucumCode  "uSv.h-1"^^qudt:UCUMcs .
+
+unit:KiloPOND  qudt:uneceCommonCode  "B51" .
+
+unit:ATM  qudt:ucumCode       "atm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "ATM" .
+
+unit:BTU_IT-PER-LB  qudt:ucumCode  "[Btu_IT]/[lb_av]"^^qudt:UCUMcs , "[Btu_IT].[lb_av]-1"^^qudt:UCUMcs .
+
+unit:MilliL-PER-MIN  qudt:ucumCode  "mL/min"^^qudt:UCUMcs , "mL.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "41" .
+
+unit:PINT_UK  qudt:ucumCode   "[pt_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "PTI" .
+
+unit:PER-SR  qudt:ucumCode  "sr-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-FT  qudt:ucumCode  "[Btu_IT].[ft_i]"^^qudt:UCUMcs .
+
+unit:AMU  qudt:ucumCode  "u"^^qudt:UCUMcs .
+
+unit:BBL_US_PET-PER-HR
+        qudt:ucumCode         "[bbl_us]/h"^^qudt:UCUMcs , "[bbl_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J62" .
+
+unit:A_Ab-CentiM2  qudt:ucumCode  "Bi.cm2"^^qudt:UCUMcs .
+
+unit:A  qudt:ucumCode         "A"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "AMP" .
+
+unit:TON_Metric  qudt:ucumCode  "t"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "TN" .
+
+unit:J-PER-KiloGM-K  qudt:ucumCode  "J.kg-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B11" .
+
+unit:KiloM-PER-DAY  qudt:ucumCode  "km.d-1"^^qudt:UCUMcs .
+
+unit:MilliPA-SEC-PER-BAR
+        qudt:ucumCode         "mPa.s.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L16" .
+
+unit:IN3-PER-SEC  qudt:ucumCode  "[cin_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G58" .
+
+unit:TonEnergy  qudt:ucumCode  "Gcal"^^qudt:UCUMcs .
+
+unit:ERG  qudt:ucumCode       "erg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A57" .
+
+unit:BREATH-PER-MIN  qudt:ucumCode  "min-1{breath}"^^qudt:UCUMcs , "/min{breath}"^^qudt:UCUMcs .
+
+unit:ARCMIN  qudt:ucumCode    "'"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D61" .
+
+unit:KiloGM-PER-M3-SEC
+        qudt:ucumCode  "kg.m-3.s-1"^^qudt:UCUMcs .
+
+unit:CentiM-PER-SEC  qudt:ucumCode  "cm/s"^^qudt:UCUMcs , "cm.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2M" .
+
+unit:KiloCAL-PER-CentiM2-MIN
+        qudt:ucumCode  "kcal.cm-2.min-1"^^qudt:UCUMcs .
+
+unit:CAL_TH-PER-GM-DEG_C
+        qudt:ucumCode         "cal_th/(g.Cel)"^^qudt:UCUMcs , "cal_th.g-1.Cel-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J79" .
+
+unit:M-PER-SEC  qudt:ucumCode  "m/s"^^qudt:UCUMcs , "m.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MTS" .
+
+unit:KiloGM-MilliM2  qudt:ucumCode  "kg.mm2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F19" .
+
+unit:OZ_VOL_UK-PER-DAY
+        qudt:ucumCode         "[foz_br].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J95" .
+
+unit:OZ_VOL_US  qudt:ucumCode  "[foz_us]"^^qudt:UCUMcs .
+
+unit:J-PER-M2  qudt:ucumCode  "J/m2"^^qudt:UCUMcs , "J.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B13" .
+
+unit:W-PER-M2-PA  qudt:ucumCode  "W.m-2.Pa-1"^^qudt:UCUMcs .
+
+unit:SR  qudt:ucumCode        "sr"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D27" .
+
+unit:KiloGM-PER-M2-SEC
+        qudt:ucumCode  "kg.m-2.s-1"^^qudt:UCUMcs .
+
+unit:PER-SEC2  qudt:ucumCode  "s-2"^^qudt:UCUMcs .
+
+unit:IN-PER-SEC2  qudt:ucumCode  "[in_i]/s2"^^qudt:UCUMcs , "[in_i].s-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "IV" .
+
+unit:PER-FT3  qudt:ucumCode   "[cft_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K20" .
+
+unit:W-PER-M2-NanoM  qudt:ucumCode  "W.m-2.nm-1"^^qudt:UCUMcs .
+
+unit:PER-T-M  qudt:ucumCode  "T-1.m-1"^^qudt:UCUMcs .
+
+unit:REM  qudt:ucumCode  "REM"^^qudt:UCUMcs .
+
+unit:FT3-PER-DEG_F  qudt:ucumCode  "[cft_i].[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K21" .
+
+unit:MIN  qudt:ucumCode       "min"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MIN" .
+
+unit:LB_F-PER-IN2-DEG_F
+        qudt:ucumCode         "[lbf_av].[sin_i]-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K86" .
+
+unit:NanoSEC  qudt:ucumCode   "ns"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C47" .
+
+unit:GM-PER-M3  qudt:ucumCode  "g/m3"^^qudt:UCUMcs , "g.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A93" .
+
+unit:GAL_UK  qudt:ucumCode    "[gal_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GLI" .
+
+unit:GAL_US-PER-HR  qudt:ucumCode  "[gal_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G50" .
+
+unit:CAL_MEAN  qudt:ucumCode  "cal_m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J75" .
+
+unit:A-SEC  qudt:ucumCode     "A.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A8" .
+
+unit:GAL_UK-PER-MIN  qudt:ucumCode  "[gal_br].m-1in"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G3" .
+
+unit:MegaC-PER-M3  qudt:ucumCode  "MC.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B69" .
+
+unit:MilliGM-PER-KiloGM
+        qudt:ucumCode  "mg/kg"^^qudt:UCUMcs , "mg.kg-1"^^qudt:UCUMcs .
+
+unit:PSI  qudt:ucumCode  "[psi]"^^qudt:UCUMcs .
+
+unit:GM-PER-MilliM  qudt:ucumCode  "g.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H76" .
+
+unit:W-M2  qudt:ucumCode  "W.m2"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-M  qudt:ucumCode  "kg/m"^^qudt:UCUMcs , "kg.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KL" .
+
+unit:OZ-PER-MIN  qudt:ucumCode  "[oz_av].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L35" .
+
+unit:MicroSEC  qudt:ucumCode  "us"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B98" .
+
+unit:BEAT-PER-MIN  qudt:ucumCode  "min-1{H.B.}"^^qudt:UCUMcs , "/min{H.B.}"^^qudt:UCUMcs .
+
+unit:GAUSS  qudt:ucumCode     "G"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "76" .
+
+unit:ATM_T  qudt:ucumCode     "att"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "ATT" .
+
+unit:DEG-PER-SEC  qudt:ucumCode  "deg/s"^^qudt:UCUMcs , "deg.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E96" .
+
+unit:MilliL  qudt:ucumCode    "mL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MLT" .
+
+unit:MegaV  qudt:ucumCode     "MV"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B78" .
+
+unit:PER-SEC-M2-SR  qudt:ucumCode  "s-1.m-2.sr-1"^^qudt:UCUMcs , "/(s.m2.sr)"^^qudt:UCUMcs .
+
+unit:NUM-PER-HR  qudt:ucumCode  "{#}.h-1"^^qudt:UCUMcs .
+
+unit:MOL-PER-MOL  qudt:ucumCode  "mol.mol-1"^^qudt:UCUMcs .
+
+unit:DeciM3-PER-M3  qudt:ucumCode  "dm3/m3"^^qudt:UCUMcs , "dm3.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J91" .
+
+unit:M2-HZ2  qudt:ucumCode  "m2.Hz2"^^qudt:UCUMcs .
+
+unit:ExaC  qudt:ucumCode  "EC"^^qudt:UCUMcs .
+
+unit:MicroS  qudt:ucumCode    "uS"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B99" .
+
+unit:ZettaC  qudt:ucumCode  "ZC"^^qudt:UCUMcs .
+
+unit:BTU_IT  qudt:ucumCode  "[Btu_IT]"^^qudt:UCUMcs .
+
+unit:STILB  qudt:ucumCode  "sb"^^qudt:UCUMcs .
+
+unit:GM-PER-DeciM3  qudt:ucumCode  "g.dm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F23" .
+
+unit:J-M2-PER-KiloGM  qudt:ucumCode  "J.m2.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B20" .
+
+unit:KiloC  qudt:ucumCode     "kC"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B26" .
+
+unit:PicoPA-PER-KiloM
+        qudt:ucumCode         "pPa.km-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H69" .
+
+unit:DYN-PER-CentiM  qudt:ucumCode  "dyn/cm"^^qudt:UCUMcs , "dyn.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DX" .
+
+unit:ERG-PER-GM  qudt:ucumCode  "erg/g"^^qudt:UCUMcs , "erg.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A61" .
+
+unit:DEGREE_BALLING  qudt:uneceCommonCode
+                "J17" .
+
+unit:GAL_US-PER-SEC  qudt:ucumCode  "[gal_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K30" .
+
+unit:DeciM2  qudt:ucumCode    "dm2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DMK" .
+
+unit:DEG_C-PER-M  qudt:ucumCode  "Cel.m-1"^^qudt:UCUMcs .
+
+unit:KiloMOL-PER-HR  qudt:ucumCode  "kmol.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K58" .
+
+unit:EV-PER-ANGSTROM  qudt:ucumCode  "eV/Ao"^^qudt:UCUMcs , "eV.Ao-1"^^qudt:UCUMcs .
+
+unit:K-M-PER-W  qudt:ucumCode  "K.m.W-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H35" .
+
+unit:MX  qudt:ucumCode        "Mx"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B65" .
+
+unit:TeraJ  qudt:ucumCode     "TJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D30" .
+
+unit:MilliSEC  qudt:ucumCode  "ms"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C26" .
+
+unit:IN_H2O  qudt:ucumCode    "[in_i'H2O]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F78" .
+
+unit:PER-IN3  qudt:ucumCode   "[cin_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K49" .
+
+unit:MilliM-PER-MIN  qudt:ucumCode  "mm/min"^^qudt:UCUMcs , "mm.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H81" .
+
+unit:W-M2-PER-SR  qudt:ucumCode  "W.m2.sr-1"^^qudt:UCUMcs .
+
+unit:K-PER-HR  qudt:ucumCode  "K.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F10" .
+
+unit:W-PER-CentiM2  qudt:ucumCode  "W.cm-2"^^qudt:UCUMcs .
+
+unit:MicroMOL-PER-SEC
+        qudt:ucumCode  "umol/s"^^qudt:UCUMcs , "umol.s-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-SEC2  qudt:ucumCode  "kg/s2"^^qudt:UCUMcs , "kg.s-2"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-FT3  qudt:ucumCode  "[Btu_IT]/[ft_i]3"^^qudt:UCUMcs , "[Btu_IT].[ft_i]-3"^^qudt:UCUMcs .
+
+unit:PA-PER-M  qudt:ucumCode  "Pa/m"^^qudt:UCUMcs , "Pa.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H42" .
+
+unit:MilliG  qudt:ucumCode  "m[g]"^^qudt:UCUMcs .
+
+unit:CentiM-PER-K  qudt:ucumCode  "cm/K"^^qudt:UCUMcs , "cm.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F51" .
+
+unit:KiloGM-PER-M2  qudt:ucumCode  "kg/m2"^^qudt:UCUMcs , "kg.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "28" .
+
+unit:MilliGM-PER-SEC  qudt:ucumCode  "mg/s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F34" .
+
+unit:N-PER-MilliM  qudt:ucumCode  "N.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F47" .
+
+unit:ZeptoC  qudt:ucumCode  "zC"^^qudt:UCUMcs .
+
+unit:MicroN  qudt:ucumCode    "uN"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B92" .
+
+unit:MOL-PER-M2-SEC-M-SR
+        qudt:ucumCode  "mol.m-2.s-1.m-1.sr-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-KiloGM
+        qudt:ucumCode         "kg.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "3H" .
+
+unit:SH  qudt:ucumCode  "10.ns"^^qudt:UCUMcs .
+
+unit:M2-K-PER-W  qudt:ucumCode  "m2.K.W-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D19" .
+
+unit:NanoGM  qudt:ucumCode  "ng"^^qudt:UCUMcs .
+
+unit:FemtoGM-PER-L  qudt:ucumCode  "fg.L-1"^^qudt:UCUMcs .
+
+unit:FRAME-PER-SEC  qudt:ucumCode  "s-1{frame}"^^qudt:UCUMcs , "/s{frame}"^^qudt:UCUMcs .
+
+unit:GI_US-PER-MIN  qudt:ucumCode  "[gil_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K38" .
+
+unit:CentiM3-PER-MIN  qudt:ucumCode  "cm3/min"^^qudt:UCUMcs , "cm3.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G49" .
+
+unit:TONNE-PER-M3  qudt:ucumCode  "t.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D41" .
+
+unit:NUM-PER-L  qudt:ucumCode  "{#}.L-1"^^qudt:UCUMcs .
+
+unit:TON_US  qudt:ucumCode    "[ston_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "STN" .
+
+unit:PER-J-M3  qudt:ucumCode  "J-1.m-3"^^qudt:UCUMcs .
+
+unit:PA-M3-PER-SEC  qudt:ucumCode  "Pa.m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G01" .
+
+unit:ERG-SEC  qudt:ucumCode  "erg.s"^^qudt:UCUMcs .
+
+unit:N-PER-CentiM  qudt:ucumCode  "N.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M23" .
+
+unit:MilliH-PER-KiloOHM
+        qudt:ucumCode         "mH.kOhm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H05" .
+
+unit:ROD  qudt:ucumCode       "[rd_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F49" .
+
+unit:PicoS-PER-M  qudt:ucumCode  "pS.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L42" .
+
+unit:BU_US_DRY-PER-DAY
+        qudt:ucumCode         "[bu_us]/d"^^qudt:UCUMcs , "[bu_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J68" .
+
+unit:Gold-OunceTroy  qudt:ucumCode  "[oz_tr]{Au}"^^qudt:UCUMcs .
+
+unit:MicroRAD  qudt:ucumCode  "urad"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B97" .
+
+unit:M2-HR-DEG_C-PER-KiloCAL_IT
+        qudt:ucumCode         "m2.h.Cel/kcal_IT"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L14" .
+
+unit:M3-PER-SEC2  qudt:ucumCode  "m3/s2"^^qudt:UCUMcs , "m3.s-2"^^qudt:UCUMcs .
+
+unit:GRAD  qudt:uneceCommonCode  "A91" .
+
+unit:GigaW-HR  qudt:ucumCode  "GW.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GWH" .
+
+unit:PA-M-PER-SEC2  qudt:ucumCode  "Pa.m.s-2"^^qudt:UCUMcs .
+
+unit:MilliL-PER-M3  qudt:ucumCode  "mL/m3"^^qudt:UCUMcs , "mL.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H65" .
+
+unit:N-M  qudt:ucumCode       "N.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "NU" .
+
+unit:ERG-PER-GM-SEC  qudt:ucumCode  "erg/(g.s)"^^qudt:UCUMcs , "erg.g-1.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A62" .
+
+unit:MilliS-PER-M  qudt:ucumCode  "mS.m-1"^^qudt:UCUMcs .
+
+unit:M-PER-HR  qudt:ucumCode  "m/h"^^qudt:UCUMcs , "m.h-1"^^qudt:UCUMcs .
+
+unit:FBM  qudt:ucumCode  "[bf_i]"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-SEC  qudt:ucumCode  "kg/s"^^qudt:UCUMcs , "kg.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KGS" .
+
+unit:TONNE-PER-HA  qudt:ucumCode  "t.har-1"^^qudt:UCUMcs .
+
+unit:T  qudt:ucumCode         "T"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D33" .
+
+unit:KiloGM-M-PER-SEC
+        qudt:ucumCode         "kg.m/s"^^qudt:UCUMcs , "kg.m.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B31" .
+
+unit:PDL  qudt:ucumCode  "[lb_av].[ft_i].s-2"^^qudt:UCUMcs .
+
+unit:MegaL  qudt:ucumCode     "ML"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MAL" .
+
+unit:BU_US  qudt:ucumCode     "[bu_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "BUA" .
+
+unit:A-PER-J  qudt:ucumCode  "A/J"^^qudt:UCUMcs , "A.J-1"^^qudt:UCUMcs .
+
+unit:PER-SEC-SR  qudt:ucumCode  "s-1.sr-1"^^qudt:UCUMcs , "/(s.sr)"^^qudt:UCUMcs .
+
+unit:BTU_IT-IN  qudt:ucumCode  "[Btu_IT].[in_i]"^^qudt:UCUMcs .
+
+unit:PicoMOL-PER-M3-SEC
+        qudt:ucumCode  "pmol.m-3.s-1"^^qudt:UCUMcs .
+
+unit:DPI  qudt:ucumCode       "{dot}/[in_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E39" .
+
+unit:BTU_IT-PER-HR-FT2
+        qudt:ucumCode  "[Btu_IT]/(h.[ft_i]2)"^^qudt:UCUMcs , "[Btu_IT].h-1.[ft_i]-2"^^qudt:UCUMcs .
+
+unit:GigaOHM  qudt:ucumCode   "GOhm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A87" .
+
+unit:PSI-IN3-PER-SEC  qudt:ucumCode  "[psi].[cin_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K87" .
+
+unit:L-PER-DAY  qudt:ucumCode  "L/d"^^qudt:UCUMcs , "L.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "LD" .
+
+unit:GM-PER-MIN  qudt:ucumCode  "g.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F28" .
+
+unit:MilliC-PER-M2  qudt:ucumCode  "mC.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D89" .
+
+unit:GRAIN-PER-GAL  qudt:ucumCode  "[gr].[gal_br]-1"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-M3-HR
+        qudt:ucumCode  "mg.m-3.h-1"^^qudt:UCUMcs .
+
+unit:TONNE-PER-MIN  qudt:ucumCode  "t.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L78" .
+
+unit:MilliRAD  qudt:ucumCode  "mrad"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C25" .
+
+unit:REV-PER-MIN  qudt:ucumCode  "{#}.min-1"^^qudt:UCUMcs .
+
+unit:MicroGM-PER-L  qudt:ucumCode  "ug/L"^^qudt:UCUMcs , "ug.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H29" .
+
+unit:BFT  qudt:uneceCommonCode  "M19" .
+
+unit:OZ_VOL_UK-PER-HR
+        qudt:ucumCode         "[foz_br].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J96" .
+
+unit:KiloGM_F-M-PER-CentiM2
+        qudt:ucumCode         "kgf.m.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E44" .
+
+unit:ERG-PER-SEC  qudt:ucumCode  "erg/s"^^qudt:UCUMcs , "erg.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A63" .
+
+unit:HectoBAR  qudt:ucumCode  "hbar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HBA" .
+
+unit:KiloHZ-M  qudt:ucumCode  "kHz.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M17" .
+
+unit:S-PER-CentiM  qudt:ucumCode  "S.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H43" .
+
+unit:OHM  qudt:ucumCode       "Ohm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "OHM" .
+
+unit:PicoFARAD  qudt:ucumCode  "pF"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4T" .
+
+unit:MicroBAR  qudt:ucumCode  "ubar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B85" .
+
+unit:FT2-PER-SEC  qudt:ucumCode  "[sft_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "S3" .
+
+unit:MicroGM  qudt:ucumCode   "ug"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MC" .
+
+unit:M2-PER-SEC  qudt:ucumCode  "m2/s"^^qudt:UCUMcs , "m2.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "S4" .
+
+unit:GM-PER-KiloGM  qudt:ucumCode  "g/kg"^^qudt:UCUMcs , "g.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GK" .
+
+unit:MilliCi  qudt:ucumCode   "mCi"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MCU" .
+
+unit:KiloGM_F-M  qudt:ucumCode  "kgf.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B38" .
+
+unit:MilliGM-PER-M3-DAY
+        qudt:ucumCode  "mg.m-3.d-1"^^qudt:UCUMcs .
+
+unit:TeraOHM  qudt:ucumCode   "TOhm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H44" .
+
+unit:OZ_VOL_US-PER-SEC
+        qudt:ucumCode         "[foz_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K12" .
+
+unit:DEG_F-HR-FT2-PER-BTU_IT
+        qudt:ucumCode         "[degF]/(h.[ft_i]2.[Btu_IT])"^^qudt:UCUMcs , "[degF].h-1.[ft_i]-2.[Btu_IT]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J22" .
+
+unit:KiloW-HR  qudt:ucumCode  "kW.h"^^qudt:UCUMcs .
+
+unit:CLO  qudt:uneceCommonCode  "J83" .
+
+unit:C-M2  qudt:ucumCode  "C.m2"^^qudt:UCUMcs .
+
+unit:BTU_IT-IN-PER-HR-FT2-DEG_F
+        qudt:ucumCode         "[Btu_IT].[in_i]/(h.[ft_i]2.[degF])"^^qudt:UCUMcs , "[Btu_IT].[in_i].h-1.[ft_i]-2.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J41" .
+
+unit:NUM-PER-M2-DAY  qudt:ucumCode  "{#}.m-2.d-1"^^qudt:UCUMcs .
+
+unit:MilliMOL-PER-L  qudt:ucumCode  "mmol/L"^^qudt:UCUMcs , "mmol.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M33" .
+
+unit:KiloGM-PER-KiloMOL
+        qudt:ucumCode         "kg.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F24" .
+
+unit:C-PER-M  qudt:ucumCode  "C/m"^^qudt:UCUMcs , "C.m-1"^^qudt:UCUMcs .
+
+unit:MilliBAR-PER-BAR
+        qudt:ucumCode         "mbar.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F04" .
+
+unit:YD3-PER-SEC  qudt:ucumCode  "[cyd_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M16" .
+
+unit:TON_UK-PER-DAY  qudt:ucumCode  "[lton_av].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L85" .
+
+unit:K-PER-MIN  qudt:ucumCode  "K.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F11" .
+
+unit:KiloV  qudt:ucumCode     "kV"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KVT" .
+
+unit:V-M  qudt:ucumCode  "V.m"^^qudt:UCUMcs .
+
+unit:CH  qudt:ucumCode        "[ch_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "X1" .
+
+unit:SLUG-PER-MIN  qudt:uneceCommonCode
+                "L67" .
+
+unit:M3-PER-K  qudt:ucumCode  "m3.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G29" .
+
+unit:CentiPOISE-PER-BAR
+        qudt:ucumCode         "cP/bar"^^qudt:UCUMcs , "cP.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J74" .
+
+unit:CWT_LONG  qudt:ucumCode  "[lcwt_av]"^^qudt:UCUMcs .
+
+unit:FT3-PER-HR  qudt:ucumCode  "[cft_i].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2K" .
+
+unit:NanoMOL-PER-MicroMOL-DAY
+        qudt:ucumCode  "nmol.umol-1.d-1"^^qudt:UCUMcs .
+
+unit:PINT_UK-PER-MIN  qudt:ucumCode  "[pt_br].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L55" .
+
+unit:MI  qudt:ucumCode  "[mi_i]"^^qudt:UCUMcs .
+
+unit:MilliBAR  qudt:ucumCode  "mbar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MBR" .
+
+unit:NUM-PER-MicroL  qudt:ucumCode  "{#}.uL-1"^^qudt:UCUMcs .
+
+unit:T-SEC  qudt:ucumCode  "T.s"^^qudt:UCUMcs .
+
+unit:PINT_UK-PER-HR  qudt:ucumCode  "[pt_br].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L54" .
+
+unit:DecaARE  qudt:ucumCode   "daar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DAA" .
+
+unit:C-PER-MilliM3  qudt:ucumCode  "C/mm3"^^qudt:UCUMcs , "C.mm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A30" .
+
+unit:GT  qudt:ucumCode  "t{gross}"^^qudt:UCUMcs .
+
+unit:KiloPA-PER-K  qudt:ucumCode  "kPa.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F83" .
+
+unit:H_Ab  qudt:ucumCode  "nH"^^qudt:UCUMcs .
+
+unit:J  qudt:ucumCode         "J"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "JOU" .
+
+unit:W-PER-M2-K  qudt:ucumCode  "W.m-2.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D55" .
+
+unit:K-PER-K  qudt:ucumCode   "K.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F02" .
+
+unit:BTU_IT-PER-LB_F-DEG_F
+        qudt:ucumCode         "[Btu_IT]/([lbf_av].[degF])"^^qudt:UCUMcs , "[Btu_IT].[lbf_av]-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J43" .
+
+unit:MicroIN  qudt:ucumCode  "u[in_i]"^^qudt:UCUMcs .
+
+unit:MegaBIT-PER-SEC  qudt:ucumCode  "Mbit/s"^^qudt:UCUMcs , "MBd"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E20" .
+
+unit:MilliMOL-PER-M2  qudt:ucumCode  "mmol.m-2"^^qudt:UCUMcs .
+
+unit:CentiM2  qudt:ucumCode   "cm2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CMK" .
+
+unit:H-PER-OHM  qudt:ucumCode  "H.Ohm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H04" .
+
+unit:AttoJ-SEC  qudt:ucumCode  "aJ.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B18" .
+
+unit:M2-SEC-PER-RAD  qudt:ucumCode  "m2.s.rad-1"^^qudt:UCUMcs .
+
+unit:MilliFARAD  qudt:ucumCode  "mF"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C10" .
+
+unit:N-PER-KiloGM  qudt:ucumCode  "N.kg-1"^^qudt:UCUMcs .
+
+unit:MOL  qudt:ucumCode       "mol"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C34" .
+
+unit:MilliGM-PER-M  qudt:ucumCode  "mg.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C12" .
+
+unit:DEG_F  qudt:ucumCode     "[degF]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FAH" .
+
+unit:PINT_US-PER-SEC  qudt:ucumCode  "[pt_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L60" .
+
+unit:LUX  qudt:ucumCode       "lx"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "LUX" .
+
+unit:PicoMOL-PER-KiloGM
+        qudt:ucumCode  "pmol.kg-1"^^qudt:UCUMcs .
+
+unit:CUP_US  qudt:ucumCode    "[cup_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G21" .
+
+unit:CFU  qudt:ucumCode  "[CFU]"^^qudt:UCUMcs .
+
+unit:PER-HR  qudt:ucumCode  "h-1"^^qudt:UCUMcs , "/h"^^qudt:UCUMcs .
+
+unit:CAL_IT  qudt:ucumCode  "cal_IT"^^qudt:UCUMcs .
+
+unit:RAD-PER-M  qudt:ucumCode  "rad.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C84" .
+
+unit:FT-LA  qudt:ucumCode  "[ft_i].Lmb"^^qudt:UCUMcs .
+
+unit:LA  qudt:ucumCode  "Lmb"^^qudt:UCUMcs .
+
+unit:DEG_R-PER-MIN  qudt:ucumCode  "[degR]/min"^^qudt:UCUMcs , "[degR].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J29" .
+
+unit:ERG-PER-G  qudt:ucumCode  "erg/g"^^qudt:UCUMcs , "erg.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A61" .
+
+unit:REV  qudt:ucumCode  "{#}"^^qudt:UCUMcs .
+
+unit:MicroM3-PER-MilliL
+        qudt:ucumCode  "um3.mL-1"^^qudt:UCUMcs .
+
+unit:HP_Metric  qudt:uneceCommonCode  "HJ" .
+
+unit:Palladium-OunceTroy
+        qudt:ucumCode  "[oz_tr]{Pd}"^^qudt:UCUMcs .
+
+unit:PA-PER-MIN  qudt:ucumCode  "Pa.min-1"^^qudt:UCUMcs .
+
+unit:H-PER-KiloOHM  qudt:ucumCode  "H.kOhm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H03" .
+
+unit:MicroGRAY  qudt:ucumCode  "uGy"^^qudt:UCUMcs .
+
+unit:PER-CentiM3  qudt:ucumCode  "cm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H50" .
+
+unit:N-M-PER-M2  qudt:ucumCode  "N.m.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H86" .
+
+unit:OHM-M2-PER-M  qudt:ucumCode  "Ohm2.m.m-1"^^qudt:UCUMcs .
+
+unit:PK_UK-PER-SEC  qudt:ucumCode  "[pk_br].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L47" .
+
+unit:MicroPA  qudt:ucumCode   "uPa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B96" .
+
+unit:MI-PER-HR  qudt:ucumCode  "[mi_i]/h"^^qudt:UCUMcs , "[mi_i].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HM" .
+
+unit:DeciN-M  qudt:ucumCode   "dN.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DN" .
+
+unit:TON_UK-PER-YD3  qudt:ucumCode  "[lton_av].[cyd_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L92" .
+
+unit:FARAD  qudt:ucumCode     "F"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FAR" .
+
+unit:MicroBQ-PER-L  qudt:ucumCode  "uBq.L-1"^^qudt:UCUMcs .
+
+unit:KiloV-A-HR  qudt:ucumCode  "kV.A.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C79" .
+
+unit:E  qudt:ucumCode  "[e]"^^qudt:UCUMcs .
+
+unit:FT3-PER-SEC  qudt:ucumCode  "[ft_i]3/s"^^qudt:UCUMcs , "[ft_i]3.s-1"^^qudt:UCUMcs , "[cft_i]/s"^^qudt:UCUMcs , "[cft_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E17" .
+
+unit:L-PER-MicroMOL  qudt:ucumCode  "L.umol-1"^^qudt:UCUMcs .
+
+unit:AC-FT  qudt:ucumCode  "[acr_br].[ft_i]"^^qudt:UCUMcs .
+
+unit:BQ-PER-L  qudt:ucumCode  "Bq.L-1"^^qudt:UCUMcs .
+
+unit:HR  qudt:ucumCode        "h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K42" .
+
+unit:QT_UK-PER-HR  qudt:ucumCode  "[qt_br].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K95" .
+
+unit:DWT  qudt:ucumCode  "[pwt_tr]"^^qudt:UCUMcs .
+
+unit:QT_US_DRY  qudt:ucumCode  "[dqt_us]"^^qudt:UCUMcs .
+
+unit:IU  qudt:ucumCode  "[iU]"^^qudt:UCUMcs , "[IU]"^^qudt:UCUMcs .
+
+unit:C3-M-PER-J2  qudt:ucumCode  "C3.m/J2"^^qudt:UCUMcs , "C3.m.J-2"^^qudt:UCUMcs .
+
+unit:TeraW-HR  qudt:ucumCode  "TW/h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D32" .
+
+unit:FT-PER-HR  qudt:ucumCode  "[ft_i]/h"^^qudt:UCUMcs , "[ft_i].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K14" .
+
+unit:BTU_IT-PER-SEC-FT2
+        qudt:ucumCode  "[Btu_IT]/(s.[ft_i]2)"^^qudt:UCUMcs , "[Btu_IT].s-1.[ft_i]-2"^^qudt:UCUMcs .
+
+unit:FT2-SEC-DEG_F  qudt:ucumCode  "[sft_i].s.[degF]"^^qudt:UCUMcs .
+
+unit:MicroBQ  qudt:ucumCode   "uBq"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H08" .
+
+unit:MilliM_HG  qudt:ucumCode  "mm[Hg]"^^qudt:UCUMcs .
+
+unit:KiloL  qudt:ucumCode     "kL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K6" .
+
+unit:SV  qudt:ucumCode        "Sv"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D13" .
+
+unit:BBL_US-PER-DAY  qudt:ucumCode  "[bbl_us]/d"^^qudt:UCUMcs , "[bbl_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B1" .
+
+unit:FT_H2O  qudt:ucumCode    "[ft_i'H2O]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K24" .
+
+unit:MilliGM-PER-M2-HR
+        qudt:ucumCode  "mg.m-2.h-1"^^qudt:UCUMcs .
+
+unit:MegaHZ-M  qudt:ucumCode  "MHz.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H39" .
+
+unit:Pennyweight  qudt:ucumCode  "[pwt_tr]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DWT" .
+
+unit:TBSP  qudt:ucumCode      "[tbs_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G24" .
+
+unit:KiloMOL-PER-KiloGM
+        qudt:ucumCode         "kmol/kg"^^qudt:UCUMcs , "kmol.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "P47" .
+
+unit:MHO  qudt:ucumCode       "mho"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "NQ" .
+
+unit:MicroM3  qudt:ucumCode  "um3"^^qudt:UCUMcs .
+
+unit:DEGREE_PLATO  qudt:uneceCommonCode
+                "PLA" .
+
+unit:NanoW  qudt:ucumCode     "nW"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C49" .
+
+unit:KiloLB_F-PER-FT  qudt:ucumCode  "[lbf_av].[ft_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F17" .
+
+unit:MegaEV-PER-SpeedOfLight
+        qudt:ucumCode  "MeV.[c]-1"^^qudt:UCUMcs .
+
+unit:NanoMOL-PER-L-HR
+        qudt:ucumCode  "nmol.L-1.h-1"^^qudt:UCUMcs .
+
+unit:NanoBQ-PER-L  qudt:ucumCode  "nBq.L-1"^^qudt:UCUMcs .
+
+unit:IU-PER-L  qudt:ucumCode  "[iU]/L"^^qudt:UCUMcs , "[iU].L-1"^^qudt:UCUMcs , "[IU]/L"^^qudt:UCUMcs , "[IU].L-1"^^qudt:UCUMcs .
+
+unit:MilliRAD_R-PER-HR
+        qudt:ucumCode  "mRAD.h-1"^^qudt:UCUMcs .
+
+unit:MegaW-HR  qudt:ucumCode  "MW.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MWH" .
+
+unit:GM-MilliM  qudt:ucumCode  "g.mm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H84" .
+
+unit:LB-PER-SEC  qudt:ucumCode  "[lb_av].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K81" .
+
+unit:CentiBAR  qudt:ucumCode  "cbar"^^qudt:UCUMcs .
+
+unit:GAL_US-PER-DAY  qudt:ucumCode  "[gal_us]/d"^^qudt:UCUMcs , "[gal_us].d-1"^^qudt:UCUMcs .
+
+unit:LB_F-FT  qudt:ucumCode  "[lbf_av].[ft_i]"^^qudt:UCUMcs .
+
+unit:MI_N-PER-HR  qudt:ucumCode  "[nmi_i]/h"^^qudt:UCUMcs , "[nmi_i].h-1"^^qudt:UCUMcs .
+
+unit:FemtoMOL-PER-KiloGM
+        qudt:ucumCode  "fmol.kg-1"^^qudt:UCUMcs .
+
+unit:MOL-PER-SEC  qudt:ucumCode  "mol/s"^^qudt:UCUMcs , "mol.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E95" .
+
+unit:J-PER-MOL  qudt:ucumCode  "J.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B15" .
+
+unit:PH  qudt:ucumCode        "[pH]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L53" .
+
+unit:KiloM-PER-HR  qudt:ucumCode  "km/h"^^qudt:UCUMcs , "km.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KMH" .
+
+unit:CORD  qudt:ucumCode  "[crd_us]"^^qudt:UCUMcs .
+
+unit:LB-PER-FT-SEC  qudt:ucumCode  "[lb_av].[ft_i]-1.s-1"^^qudt:UCUMcs .
+
+unit:MicroH-PER-M  qudt:ucumCode  "uH.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B91" .
+
+unit:Hundredweight_US
+        qudt:ucumCode         "[scwt_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CWA" .
+
+unit:GON  qudt:ucumCode       "gon"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A91" .
+
+unit:FT_HG  qudt:ucumCode     "[ft_i'Hg]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K25" .
+
+unit:CentiM3-PER-MOL  qudt:ucumCode  "cm3/mol"^^qudt:UCUMcs , "cm3.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A36" .
+
+unit:W-PER-M  qudt:ucumCode  "W.m-1"^^qudt:UCUMcs .
+
+unit:MicroW  qudt:ucumCode    "uW"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D80" .
+
+unit:J-SEC-PER-MOL  qudt:ucumCode  "J.s.mol-1"^^qudt:UCUMcs .
+
+unit:AU  qudt:ucumCode        "AU"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A12" .
+
+unit:BTU_TH-PER-LB-DEG_F
+        qudt:ucumCode         "[Btu_th]/([lb_av].[degF])"^^qudt:UCUMcs , "[Btu_th].[lb_av]-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J50" .
+
+unit:LM-SEC  qudt:ucumCode    "lm.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B62" .
+
+unit:BTU_IT-PER-HR  qudt:ucumCode  "[Btu_IT]/h"^^qudt:UCUMcs , "[Btu_IT].h-1"^^qudt:UCUMcs .
+
+unit:A-PER-RAD  qudt:ucumCode  "A/rad"^^qudt:UCUMcs , "A.rad-1"^^qudt:UCUMcs .
+
+unit:BBL_US_DRY  qudt:uneceCommonCode  "BLD" .
+
+unit:MilliGM-PER-DAY  qudt:ucumCode  "mg.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F32" .
+
+unit:SLUG-PER-FT-SEC  qudt:uneceCommonCode
+                "L64" .
+
+unit:ERG-PER-CentiM2-SEC
+        qudt:ucumCode         "erg/(cm2.s)"^^qudt:UCUMcs , "erg.cm-2.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A65" .
+
+unit:W-PER-FT2  qudt:ucumCode  "W.[sft_i]-1"^^qudt:UCUMcs .
+
+unit:V-PER-SEC  qudt:ucumCode  "V.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H46" .
+
+unit:MicroBQ-PER-KiloGM
+        qudt:ucumCode  "uBq.kg-1"^^qudt:UCUMcs .
+
+unit:PER-M-SEC  qudt:ucumCode  "m-1.s-1"^^qudt:UCUMcs .
+
+unit:LY  qudt:ucumCode        "[ly]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B57" .
+
+unit:FT-LB_F-PER-FT2  qudt:ucumCode  "[ft_i].[lbf_av].[sft_i]-1"^^qudt:UCUMcs .
+
+unit:GM-PER-M2  qudt:ucumCode  "g/m2"^^qudt:UCUMcs , "g.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GM" .
+
+unit:SEC-FT2  qudt:ucumCode  "s.[sft_i]"^^qudt:UCUMcs , "s.[ft_i]2"^^qudt:UCUMcs .
+
+unit:CAL_IT-PER-GM-DEG_C
+        qudt:ucumCode         "cal_IT/(g.Cel)"^^qudt:UCUMcs , "cal_IT.g-1.Cel-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J76" .
+
+unit:MegaLB_F  qudt:ucumCode  "M[lbf_av]"^^qudt:UCUMcs .
+
+unit:DEG_C-PER-HR  qudt:ucumCode  "Cel/h"^^qudt:UCUMcs , "Cel.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H12" .
+
+unit:KiloJ-PER-KiloGM-K
+        qudt:ucumCode         "kJ/(kg.K)"^^qudt:UCUMcs , "kJ.kg-1.K-1"^^qudt:UCUMcs , "kJ.(kg.K)-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B43" .
+
+unit:MilliBAR-M3-PER-SEC
+        qudt:ucumCode         "mbar.m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F92" .
+
+unit:MegaC-PER-M2  qudt:ucumCode  "MC.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B70" .
+
+unit:GM-PER-MilliL  qudt:ucumCode  "g.mL-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GJ" .
+
+unit:KiloGM-PER-L  qudt:ucumCode  "kg/L"^^qudt:UCUMcs , "kg.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B35" .
+
+unit:A-M2-PER-J-SEC  qudt:ucumCode  "A.m2/(J.s)"^^qudt:UCUMcs , "A.m2.J-1.s-1"^^qudt:UCUMcs .
+
+unit:FARAD-PER-KiloM  qudt:ucumCode  "F/km"^^qudt:UCUMcs , "F.km-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H33" .
+
+unit:DEG_F-HR-PER-BTU_IT
+        qudt:ucumCode  "[degF].h/[Btu_IT]"^^qudt:UCUMcs , "[degF].h.[Btu_IT]-1"^^qudt:UCUMcs .
+
+unit:MilliM4  qudt:ucumCode   "mm4"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G77" .
+
+unit:KiloCAL_TH-PER-HR
+        qudt:ucumCode         "kcal_th.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E15" .
+
+unit:CAL_IT-PER-SEC-CentiM-K
+        qudt:ucumCode         "cal_IT/(s.cm.K)"^^qudt:UCUMcs , "cal_IT.s-1.cm-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D71" .
+
+unit:KiloCAL  qudt:ucumCode  "kcal"^^qudt:UCUMcs .
+
+unit:BTU_TH-PER-FT3  qudt:ucumCode  "[Btu_th]/[ft_i]3"^^qudt:UCUMcs , "[Btu_th].[ft_i]-3"^^qudt:UCUMcs .
+
+unit:W-SEC  qudt:ucumCode     "W.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J55" .
+
+unit:KiloGM-SEC2  qudt:ucumCode  "kg.s2"^^qudt:UCUMcs .
+
+unit:V_Ab-PER-CentiM  qudt:ucumCode  "10.nV.cm-1"^^qudt:UCUMcs .
+
+unit:FT-LB_F-PER-M2  qudt:ucumCode  "[ft_i].[lbf_av].m-2"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-CentiM2
+        qudt:ucumCode         "mg.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H63" .
+
+unit:KiloPA-PER-BAR  qudt:ucumCode  "kPa.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F03" .
+
+unit:HR-FT2  qudt:ucumCode  "h.[sft_i]"^^qudt:UCUMcs , "h.[ft_i]2"^^qudt:UCUMcs .
+
+unit:KiloA-PER-M  qudt:ucumCode  "kA.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B24" .
+
+unit:DRAM_US  qudt:ucumCode   "[dr_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DRA" .
+
+unit:MOL-PER-KiloGM-PA
+        qudt:ucumCode         "mol.kg-1.Pa-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "P51" .
+
+unit:KiloCAL-PER-MOL-DEG_C
+        qudt:ucumCode  "kcal.mol-1.Cel-1"^^qudt:UCUMcs .
+
+unit:MilliW-PER-M2-NanoM
+        qudt:ucumCode  "mW.m-2.nm-1"^^qudt:UCUMcs .
+
+unit:M-K  qudt:ucumCode       "m.K"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D18" .
+
+unit:N-PER-A  qudt:ucumCode   "N.A-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H40" .
+
+unit:GM-PER-MOL  qudt:ucumCode  "g.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A94" .
+
+unit:OZ_F  qudt:ucumCode  "[ozf_av]"^^qudt:UCUMcs .
+
+unit:Silver-OunceTroy
+        qudt:ucumCode  "[oz_tr](Ag}"^^qudt:UCUMcs .
+
+unit:CentiM2-MIN  qudt:ucumCode  "cm2.min"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-DAY  qudt:ucumCode  "kg.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F30" .
+
+unit:IN_HG  qudt:ucumCode     "[in_i'Hg]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F79" .
+
+unit:V-PER-CentiM  qudt:ucumCode  "V.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D47" .
+
+unit:W-PER-M2-NanoM-SR
+        qudt:ucumCode  "W.m-2.nm-1.sr-1"^^qudt:UCUMcs .
+
+unit:DEG_C-PER-MIN  qudt:ucumCode  "Cel/min"^^qudt:UCUMcs , "Cel.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H13" .
+
+unit:DEG-PER-SEC2  qudt:ucumCode  "deg/s2"^^qudt:UCUMcs , "deg.s-2"^^qudt:UCUMcs .
+
+unit:KiloGM_F-M-PER-SEC
+        qudt:ucumCode         "kgf.m.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B39" .
+
+unit:LB-DEG_F  qudt:ucumCode  "[lb_av].[degF]"^^qudt:UCUMcs .
+
+unit:NanoM  qudt:ucumCode     "nm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C45" .
+
+unit:MegaBAR  qudt:ucumCode  "Mbar"^^qudt:UCUMcs .
+
+unit:KiloCAL_IT-PER-HR-M-DEG_C
+        qudt:ucumCode         "kcal_IT.h-1.m-1.Cel-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K52" .
+
+unit:OZ_VOL_US-PER-MIN
+        qudt:ucumCode         "[foz_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K11" .
+
+unit:NanoGM-PER-KiloGM
+        qudt:ucumCode         "ng/kg"^^qudt:UCUMcs , "ng.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L32" .
+
+unit:L-PER-KiloGM  qudt:ucumCode  "L/kg"^^qudt:UCUMcs , "L.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H83" .
+
+unit:H-PER-M  qudt:ucumCode   "H.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A98" .
+
+unit:NUM-PER-HectoGM  qudt:ucumCode  "{#}.hg-1"^^qudt:UCUMcs .
+
+unit:W-PER-IN2  qudt:ucumCode  "W.[sin_i]-1"^^qudt:UCUMcs .
+
+unit:TEX  qudt:ucumCode       "tex"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D34" .
+
+unit:BTU_MEAN  qudt:ucumCode  "[Btu_m]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J39" .
+
+unit:PicoMOL-PER-M-W-SEC
+        qudt:ucumCode  "pmol.m-1.W-1.s-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-FT2  qudt:ucumCode  "[Btu_IT]/[ft_i]2"^^qudt:UCUMcs , "[Btu_IT].[ft_i]-2"^^qudt:UCUMcs .
+
+unit:NanoFARAD-PER-M  qudt:ucumCode  "nF.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C42" .
+
+unit:QT_UK-PER-MIN  qudt:ucumCode  "[qt_br].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K96" .
+
+unit:BTU_IT-PER-DEG_R
+        qudt:ucumCode  "[Btu_IT]/[degR]"^^qudt:UCUMcs , "[Btu_IT].[degR]-1"^^qudt:UCUMcs .
+
+unit:MilliV-PER-MIN  qudt:ucumCode  "mV.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H62" .
+
+unit:PicoGM  qudt:ucumCode  "pg"^^qudt:UCUMcs .
+
+unit:MicroM  qudt:ucumCode    "um"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4H" .
+
+unit:BBL_UK_PET-PER-HR
+        qudt:uneceCommonCode  "J60" .
+
+unit:BBL  qudt:ucumCode       "[bbl_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "BLL" .
+
+unit:BTU_IT-PER-MOL-DEG_F
+        qudt:ucumCode  "[Btu_IT]/(mol.[degF])"^^qudt:UCUMcs , "[Btu_IT].mol-1.[degF]-1"^^qudt:UCUMcs .
+
+unit:SEC2  qudt:ucumCode  "s2"^^qudt:UCUMcs .
+
+unit:KiloWB-PER-M  qudt:ucumCode  "kWb.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B56" .
+
+unit:C-M  qudt:ucumCode       "C.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A26" .
+
+unit:NanoH  qudt:ucumCode     "nH"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C43" .
+
+unit:OZ_PER-IN3  qudt:ucumCode  "[oz_av].[cin_i]-1"^^qudt:UCUMcs .
+
+unit:GAL_US_DRY  qudt:ucumCode  "[gal_wi]"^^qudt:UCUMcs .
+
+unit:PA-M  qudt:ucumCode  "Pa.m"^^qudt:UCUMcs .
+
+unit:CentiM_HG  qudt:ucumCode  "cm[Hg]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J89" .
+
+unit:CentiM  qudt:ucumCode    "cm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CMT" .
+
+unit:BAR-PER-K  qudt:ucumCode  "bar/K"^^qudt:UCUMcs , "bar.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F81" .
+
+unit:KiloGM-K  qudt:ucumCode  "kg.K"^^qudt:UCUMcs .
+
+unit:YD3-PER-DAY  qudt:ucumCode  "[cyd_i].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M12" .
+
+unit:FT-PER-SEC  qudt:ucumCode  "[ft_i]/s"^^qudt:UCUMcs , "[ft_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FS" .
+
+unit:A-M2  qudt:ucumCode      "A.m2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A5" .
+
+unit:QT_US-PER-SEC  qudt:ucumCode  "[qt_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L11" .
+
+unit:MicroFARAD-PER-M
+        qudt:ucumCode         "uF.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B89" .
+
+unit:QT_UK  qudt:ucumCode     "[qt_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "QTI" .
+
+unit:GM-PER-DEG_C  qudt:ucumCode  "d.Cel-1"^^qudt:UCUMcs .
+
+unit:MilliA  qudt:ucumCode    "mA"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4K" .
+
+unit:S  qudt:ucumCode         "S"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "SIE" .
+
+unit:K-PER-T  qudt:ucumCode  "K.T-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-SEC-M2
+        qudt:ucumCode         "kg/(s.m2)"^^qudt:UCUMcs , "kg.s-1.m-2)"^^qudt:UCUMcs , "kg.(s.m2)-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H56" .
+
+unit:MilliR_man  qudt:ucumCode  "mREM"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L31" .
+
+unit:YR_Sidereal  qudt:uneceCommonCode  "L96" .
+
+unit:MilliGM-PER-GM  qudt:ucumCode  "mg/g"^^qudt:UCUMcs , "mg.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H64" .
+
+unit:MicroH  qudt:ucumCode    "uH"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B90" .
+
+unit:LB_F-IN  qudt:ucumCode  "[lbf_av].[in_i]"^^qudt:UCUMcs .
+
+unit:MicroS-PER-M  qudt:ucumCode  "uS.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G43" .
+
+unit:MOL-PER-M3  qudt:ucumCode  "mol/m3"^^qudt:UCUMcs , "mol.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C36" .
+
+unit:FT2-DEG_F  qudt:ucumCode  "[sft_i].[degF]"^^qudt:UCUMcs .
+
+unit:LB-PER-FT  qudt:ucumCode  "[lb_av].[ft_i]-1"^^qudt:UCUMcs .
+
+unit:KAT  qudt:ucumCode       "kat"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KAT" .
+
+unit:M-PER-FARAD  qudt:ucumCode  "m.F-1"^^qudt:UCUMcs .
+
+unit:CAL_IT-PER-GM  qudt:ucumCode  "cal_IT/g"^^qudt:UCUMcs , "cal_IT.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D75" .
+
+unit:MilliL-PER-SEC  qudt:ucumCode  "mL.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "40" .
+
+unit:PA-SEC-PER-M  qudt:ucumCode  "P.s.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C67" .
+
+unit:NanoH-PER-M  qudt:ucumCode  "nH.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C44" .
+
+unit:YD3-PER-HR  qudt:ucumCode  "[cyd_i].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M13" .
+
+unit:NUM-PER-KiloM2  qudt:ucumCode  "{#}.km-2"^^qudt:UCUMcs .
+
+unit:PPTR  qudt:ucumCode  "[pptr]"^^qudt:UCUMcs .
+
+unit:M2-PER-K  qudt:ucumCode  "m2.K-1"^^qudt:UCUMcs .
+
+unit:J-SEC  qudt:ucumCode     "J.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B18" .
+
+unit:NanoC  qudt:ucumCode     "nC"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C40" .
+
+unit:M3-PER-MIN  qudt:ucumCode  "m3.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G53" .
+
+unit:N-PER-M3  qudt:ucumCode  "N.m-3"^^qudt:UCUMcs .
+
+unit:PER-M-NanoM-SR  qudt:ucumCode  "m-1.nm-1.sr-1"^^qudt:UCUMcs .
+
+unit:CAL_IT-PER-SEC-CentiM2-K
+        qudt:ucumCode         "cal_IT/(s.cm2.K)"^^qudt:UCUMcs , "cal_IT.s-1.cm-2.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D72" .
+
+unit:MilliDEG_C  qudt:ucumCode  "mCel"^^qudt:UCUMcs .
+
+unit:OZ-FT  qudt:ucumCode     "[oz_av].[ft_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4R" .
+
+unit:EV-PER-M  qudt:ucumCode  "eV/m"^^qudt:UCUMcs , "eV.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A54" .
+
+unit:A-PER-CentiM  qudt:ucumCode  "A.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A2" .
+
+unit:BBL_US  qudt:ucumCode    "[bbl_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "BLL" .
+
+unit:YD3-PER-DEG_F  qudt:ucumCode  "[cyd_i].[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M11" .
+
+unit:PINT_US-PER-DAY  qudt:ucumCode  "[pt_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L57" .
+
+unit:N-M2-PER-A  qudt:ucumCode  "N.m^2/A"^^qudt:UCUMcs , "N.m^2.A-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "P49" .
+
+unit:ARCSEC  qudt:ucumCode    "''"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D62" .
+
+unit:NP  qudt:ucumCode        "Np"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C50" .
+
+unit:BU_UK-PER-MIN  qudt:ucumCode  "[bu_br]/min"^^qudt:UCUMcs , "[bu_br].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J66" .
+
+unit:KiloCAL-PER-CentiM2-SEC
+        qudt:ucumCode  "kcal.cm-2.s-1"^^qudt:UCUMcs .
+
+unit:MegaPA-PER-BAR  qudt:ucumCode  "MPa.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F05" .
+
+unit:DEG_F-PER-MIN  qudt:ucumCode  "[degF]/min"^^qudt:UCUMcs , "[degF].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J24" .
+
+unit:FemtoJ  qudt:ucumCode    "fJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A70" .
+
+unit:ERG-PER-CentiM  qudt:ucumCode  "erg/cm"^^qudt:UCUMcs , "erg.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A58" .
+
+unit:J-PER-HR  qudt:ucumCode  "J.h-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-FT2-SEC-DEG_F
+        qudt:ucumCode  "[Btu_IT]/([ft_i]2.s.[degF])"^^qudt:UCUMcs , "[Btu_IT].[ft_i]-2.s-1.[degF]-1"^^qudt:UCUMcs .
+
+unit:K-M  qudt:ucumCode  "K.m"^^qudt:UCUMcs .
+
+unit:J-PER-K  qudt:ucumCode   "J.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "JE" .
+
+unit:KiloGM_F-PER-MilliM2
+        qudt:ucumCode         "kgf.mm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E41" .
+
+unit:LB-FT2  qudt:ucumCode    "[lb_av].[sft_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K65" .
+
+unit:N  qudt:ucumCode         "N"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "NEW" .
+
+unit:KiloGAUSS  qudt:ucumCode  "kG"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "78" .
+
+unit:BQ-PER-M3  qudt:ucumCode  "Bq/m3"^^qudt:UCUMcs , "Bq.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A19" .
+
+unit:PERMEABILITY_EM_REL
+        qudt:ucumCode  "[mu_0]"^^qudt:UCUMcs .
+
+unit:MegaJ-PER-SEC  qudt:ucumCode  "MJ.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D78" .
+
+unit:MicroTORR  qudt:ucumCode  "uTorr"^^qudt:UCUMcs .
+
+unit:MicroC  qudt:ucumCode    "uC"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B86" .
+
+unit:SEC  qudt:ucumCode       "s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "SEC" .
+
+unit:OHM-M  qudt:ucumCode     "Ohm.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C61" .
+
+unit:PK_UK-PER-DAY  qudt:ucumCode  "[pk_br].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L44" .
+
+unit:CentiPOISE  qudt:ucumCode  "cP"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C7" .
+
+unit:W-SEC-PER-M2  qudt:ucumCode  "W.s.m-2"^^qudt:UCUMcs .
+
+unit:FT3-PER-DAY  qudt:ucumCode  "[cft_i].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K22" .
+
+unit:GAL_UK-PER-SEC  qudt:ucumCode  "[gal_br].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K28" .
+
+unit:W-HR  qudt:ucumCode  "W.h"^^qudt:UCUMcs .
+
+unit:RAD-PER-MIN  qudt:ucumCode  "rad/min"^^qudt:UCUMcs , "rad.min-1"^^qudt:UCUMcs .
+
+unit:OZ-PER-SEC  qudt:ucumCode  "[oz_av].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L36" .
+
+unit:MicroV-PER-M  qudt:ucumCode  "uV.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C3" .
+
+unit:PPM  qudt:ucumCode  "[ppm]"^^qudt:UCUMcs .
+
+unit:MilliM-PER-HR  qudt:ucumCode  "mm/h"^^qudt:UCUMcs , "mm.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H67" .
+
+unit:DYN-CentiM  qudt:ucumCode  "dyn.cm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J94" .
+
+unit:BTU_TH  qudt:ucumCode  "[Btu_th]"^^qudt:UCUMcs .
+
+unit:CentiC  qudt:ucumCode  "cC"^^qudt:UCUMcs .
+
+unit:M3-PER-M3  qudt:ucumCode  "m3.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H60" .
+
+unit:FT-LB_F  qudt:ucumCode  "[ft_i].[lbf_av]"^^qudt:UCUMcs .
+
+unit:PetaBYTE  qudt:ucumCode  "PBy"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E36" .
+
+unit:Ci  qudt:ucumCode        "Ci"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CUR" .
+
+unit:A-PER-MilliM2  qudt:ucumCode  "A/mm2"^^qudt:UCUMcs , "A.mm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A7" .
+
+unit:KiloCAL-PER-MIN  qudt:ucumCode  "kcal.min-1"^^qudt:UCUMcs .
+
+unit:SEC-PER-M  qudt:ucumCode  "s.m-1"^^qudt:UCUMcs .
+
+unit:PK_US_DRY-PER-MIN
+        qudt:ucumCode         "[pk_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L50" .
+
+unit:CAL_TH-PER-SEC-CentiM2-K
+        qudt:ucumCode         "cal_th/(s.cm2.K)"^^qudt:UCUMcs , "cal_th.s-1.cm-2.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D39" .
+
+unit:TON_LONG-PER-YD3
+        qudt:ucumCode  "[lton_av]/[cyd_i]"^^qudt:UCUMcs .
+
+unit:MegaV-A-HR  qudt:ucumCode  "MV.A.h"^^qudt:UCUMcs .
+
+unit:TONNE  qudt:ucumCode     "t"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "TN" .
+
+unit:PINT_US  qudt:ucumCode  "[pt_us]"^^qudt:UCUMcs .
+
+unit:DEG_C-CentiM  qudt:ucumCode  "Cel.cm"^^qudt:UCUMcs .
+
+unit:GM-PER-M  qudt:ucumCode  "g.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GF" .
+
+unit:PicoA  qudt:ucumCode     "pA"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C70" .
+
+unit:J-PER-KiloGM  qudt:ucumCode  "J/kg"^^qudt:UCUMcs , "J.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J2" .
+
+unit:MOL-PER-M2-SEC  qudt:ucumCode  "mol.m-2.s-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-KiloM2
+        qudt:ucumCode  "kg.km-2"^^qudt:UCUMcs .
+
+unit:C-PER-MilliM2  qudt:ucumCode  "C/mm2"^^qudt:UCUMcs , "C.mm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A35" .
+
+unit:BBL_US_PET-PER-SEC
+        qudt:ucumCode         "[bbl_us]/s"^^qudt:UCUMcs , "[bbl_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J62" .
+
+unit:MilliBQ-PER-M2-DAY
+        qudt:ucumCode  "mBq.m-2.d-1"^^qudt:UCUMcs .
+
+unit:MegaA  qudt:ucumCode     "MA"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H38" .
+
+unit:BU_US_DRY-PER-HR
+        qudt:ucumCode         "[bu_us]/h"^^qudt:UCUMcs , "[bu_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J69" .
+
+unit:PA-PER-HR  qudt:ucumCode  "Pa.h-1"^^qudt:UCUMcs .
+
+unit:MOL-PER-M2-SEC-M
+        qudt:ucumCode  "mol.m-2.s-1.m-1"^^qudt:UCUMcs .
+
+unit:NanoM2  qudt:ucumCode  "nm2"^^qudt:UCUMcs .
+
+unit:LB-PER-DAY  qudt:ucumCode  "[lb_av].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K66" .
+
+unit:KiloCAL-PER-GM  qudt:ucumCode  "kcal.g-1"^^qudt:UCUMcs .
+
+unit:BTU_TH-FT-PER-FT2-HR-DEG_F
+        qudt:ucumCode  "[Btu_IT]/([ft_i]2.h.[degF])"^^qudt:UCUMcs , "[Btu_IT].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs .
+
+unit:V-A-HR  qudt:ucumCode  "V.A.h"^^qudt:UCUMcs .
+
+unit:J-PER-T2  qudt:ucumCode  "J.T-2"^^qudt:UCUMcs .
+
+unit:M-PER-K  qudt:ucumCode   "m/K"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F52" .
+
+unit:OZ_PER-YD2  qudt:ucumCode  "[oz_av].[syd_i]-1"^^qudt:UCUMcs .
+
+unit:YoctoC  qudt:ucumCode  "yC"^^qudt:UCUMcs .
+
+unit:PicoGM-PER-L  qudt:ucumCode  "pg.L-1"^^qudt:UCUMcs .
+
+unit:ERG-PER-CentiM3  qudt:ucumCode  "erg/cm3"^^qudt:UCUMcs , "erg.cm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A60" .
+
+unit:GM-PER-CentiM3  qudt:ucumCode  "g/cm3"^^qudt:UCUMcs , "g.cm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "23" .
+
+unit:MicroFARAD-PER-KiloM
+        qudt:ucumCode         "uF.km-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H28" .
+
+unit:MilliGM-PER-L  qudt:ucumCode  "mg/L"^^qudt:UCUMcs , "mg.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M1" .
+
+unit:MOL-K  qudt:ucumCode  "mol.K"^^qudt:UCUMcs .
+
+unit:MilliGM  qudt:ucumCode   "mg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MGM" .
+
+unit:MO_MeanGREGORIAN
+        qudt:ucumCode  "mo_g"^^qudt:UCUMcs .
+
+unit:LB-IN2  qudt:ucumCode    "[lb_av].[sin_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F20" .
+
+unit:PPTH  qudt:ucumCode  "[ppth]"^^qudt:UCUMcs .
+
+unit:GI_UK-PER-MIN  qudt:ucumCode  "[gil_br].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K34" .
+
+unit:KiloP  qudt:ucumCode     "kgf"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B51" .
+
+unit:MilliM-PER-SEC  qudt:ucumCode  "mm.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C16" .
+
+unit:NanoGM-PER-MilliL
+        qudt:ucumCode  "ng.mL-1"^^qudt:UCUMcs .
+
+unit:GI_UK  qudt:ucumCode     "[gil_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GII" .
+
+unit:MicroGM-PER-GM  qudt:ucumCode  "ug.g-1"^^qudt:UCUMcs .
+
+unit:GI_US-PER-HR  qudt:ucumCode  "[gil_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K37" .
+
+unit:DeciM3-PER-MIN  qudt:ucumCode  "dm3/min3"^^qudt:UCUMcs , "dm3.min-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J92" .
+
+unit:KiloEV-PER-MicroM
+        qudt:ucumCode  "keV.um-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-HR  qudt:ucumCode  "kg/h"^^qudt:UCUMcs , "kg.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E93" .
+
+unit:MicroMOL-PER-M2-DAY
+        qudt:ucumCode  "umol/m2/d"^^qudt:UCUMcs , "umol.m-2.d-1"^^qudt:UCUMcs .
+
+unit:KiloGM_F  qudt:ucumCode  "kgf"^^qudt:UCUMcs .
+
+unit:GAL_US  qudt:ucumCode  "[gal_us]"^^qudt:UCUMcs .
+
+unit:TeraW  qudt:ucumCode     "TW"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D31" .
+
+unit:W-PER-M2-SR  qudt:ucumCode  "W.m-2.sr-1"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-M3  qudt:ucumCode  "mg/m3"^^qudt:UCUMcs , "mg.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GP" .
+
+unit:OZ-PER-HR  qudt:ucumCode  "[oz_av].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L34" .
+
+unit:BTU_TH-PER-LB  qudt:ucumCode  "[Btu_th]/[lb_av]"^^qudt:UCUMcs , "[Btu_th].[lb_av]-1"^^qudt:UCUMcs .
+
+unit:J-PER-SEC  qudt:ucumCode  "J.s-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-IN-PER-SEC-FT2-DEG_F
+        qudt:ucumCode         "[Btu_IT].[in_i]/(s.[ft_i]2.[degF])"^^qudt:UCUMcs , "[Btu_IT].[in_i].s-1.[ft_i]-2.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J42" .
+
+unit:FT2-HR-DEG_F  qudt:ucumCode  "[sft_i].h.[degF]"^^qudt:UCUMcs .
+
+unit:PINT  qudt:ucumCode  "[pt_br]"^^qudt:UCUMcs .
+
+unit:LB_F-PER-FT2  qudt:ucumCode  "[lbf_av].[sft_i]-1"^^qudt:UCUMcs .
+
+unit:KiloA-HR  qudt:ucumCode  "kA.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "TAH" .
+
+unit:MilliMOL-PER-MOL
+        qudt:ucumCode         "mmol.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C95" .
+
+unit:RAD  qudt:ucumCode       "rad"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C81" .
+
+unit:MilliT  qudt:ucumCode    "mT"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C29" .
+
+unit:GI_US-PER-SEC  qudt:ucumCode  "[gil_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K39" .
+
+unit:CentiM3-PER-SEC  qudt:ucumCode  "cm3/s"^^qudt:UCUMcs , "cm3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2J" .
+
+unit:MilliA-PER-IN  qudt:ucumCode  "mA.[in_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F08" .
+
+unit:V-PER-M  qudt:ucumCode   "V.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D50" .
+
+unit:PA-SEC  qudt:ucumCode    "Pa.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C65" .
+
+unit:KiloGM-PER-M-HR  qudt:ucumCode  "kg.m-1.h-1"^^qudt:UCUMcs .
+
+unit:MicroMOL-PER-M2  qudt:ucumCode  "umol/m2"^^qudt:UCUMcs , "umol.m-2"^^qudt:UCUMcs .
+
+unit:NanoMOL-PER-KiloGM
+        qudt:ucumCode  "nmol.kg-1"^^qudt:UCUMcs .
+
+unit:CD-PER-IN2  qudt:ucumCode  "cd/[in_i]2"^^qudt:UCUMcs , "cd.[in_i]-2"^^qudt:UCUMcs .
+
+unit:CentiM-PER-SEC2  qudt:ucumCode  "cm/s2"^^qudt:UCUMcs , "cm.s-2"^^qudt:UCUMcs .
+
+unit:ARE  qudt:ucumCode       "ar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "ARE" .
+
+unit:TON_F_US  qudt:ucumCode  "[stonf_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L94" .
+
+unit:MicroM2  qudt:ucumCode   "um2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H30" .
+
+unit:FT2-PER-HR  qudt:ucumCode  "[sft_i].h-1"^^qudt:UCUMcs .
+
+unit:J-PER-CentiM2-DAY
+        qudt:ucumCode  "J.cm-2.d-1"^^qudt:UCUMcs .
+
+unit:MilliIN  qudt:ucumCode   "m[in_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "77" .
+
+unit:LB-PER-IN  qudt:ucumCode  "[lb_av].[in_i]-1"^^qudt:UCUMcs .
+
+unit:CAL_TH-PER-MIN  qudt:ucumCode  "cal_th/min"^^qudt:UCUMcs , "cal_th.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J81" .
+
+unit:MegaPA-PER-K  qudt:ucumCode  "MPa.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F85" .
+
+unit:LB-PER-YD3  qudt:ucumCode  "[lb_av].[cyd_i]-1"^^qudt:UCUMcs .
+
+unit:PER-M  qudt:ucumCode  "m-1"^^qudt:UCUMcs , "/m"^^qudt:UCUMcs .
+
+unit:M-K-PER-W  qudt:ucumCode  "m.K.W-1"^^qudt:UCUMcs .
+
+unit:MilliL-PER-M2-DAY
+        qudt:ucumCode  "mL.m-2.d-1"^^qudt:UCUMcs .
+
+unit:THM_EEC  qudt:ucumCode  "100000.[Btu_IT]"^^qudt:UCUMcs .
+
+unit:KiloCAL-PER-CentiM2
+        qudt:ucumCode  "kcal.cm-2"^^qudt:UCUMcs .
+
+unit:GM_Carbon-PER-M2-DAY
+        qudt:ucumCode  "g.m-2.d-1{C}"^^qudt:UCUMcs .
+
+unit:KIP_F-PER-IN2  qudt:ucumCode  "k[lbf_av].[in_i]-2"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-M2-SEC
+        qudt:ucumCode  "mg.m-2.s-1"^^qudt:UCUMcs .
+
+unit:GI  qudt:ucumCode  "Gb"^^qudt:UCUMcs .
+
+unit:S-M2-PER-MOL  qudt:ucumCode  "S.m2.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D12" .
+
+unit:OZ-IN  qudt:ucumCode     "[oz_av].[in_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4Q" .
+
+unit:CentiM3-PER-HR  qudt:ucumCode  "cm3/h"^^qudt:UCUMcs , "cm3.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G48" .
+
+unit:HP_Electric  qudt:uneceCommonCode  "K43" .
+
+unit:PER-MIN  qudt:ucumCode  "min-1"^^qudt:UCUMcs , "/min"^^qudt:UCUMcs .
+
+unit:J-M-PER-MOL  qudt:ucumCode  "J.m.mol-1"^^qudt:UCUMcs .
+
+unit:LB-MOL-DEG_F  qudt:ucumCode  "[lb_av].mol.[degF]"^^qudt:UCUMcs .
+
+unit:RAD-M2-PER-MOL  qudt:ucumCode  "rad.m-2.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C82" .
+
+unit:BAR  qudt:ucumCode       "bar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "BAR" .
+
+unit:KiloN-M  qudt:ucumCode   "kN.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B48" .
+
+unit:C-M2-PER-V  qudt:ucumCode  "C.m2/V"^^qudt:UCUMcs , "C.m2.V-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A27" .
+
+unit:GM-PER-SEC  qudt:ucumCode  "g.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F29" .
+
+unit:THM_US  qudt:ucumCode  "100000.[Btu_59]"^^qudt:UCUMcs .
+
+unit:FT-LB_F-PER-MIN  qudt:ucumCode  "[ft_i].[lbf_av].min-1"^^qudt:UCUMcs .
+
+unit:TONNE-PER-SEC  qudt:ucumCode  "t.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L81" .
+
+unit:REV-PER-SEC  qudt:ucumCode  "{#}.s-1"^^qudt:UCUMcs .
+
+unit:LB_F-PER-IN2  qudt:ucumCode  "[lbf_av].[sin_i]-1"^^qudt:UCUMcs .
+
+unit:MicroV  qudt:ucumCode    "uV"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D82" .
+
+unit:PER-PSI  qudt:ucumCode   "[psi]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K93" .
+
+unit:DEG_F-PER-SEC2  qudt:ucumCode  "[degF]/s2"^^qudt:UCUMcs , "[degF].s-2"^^qudt:UCUMcs .
+
+unit:KiloCAL_IT  qudt:ucumCode  "kcal_IT"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E14" .
+
+unit:KiloV-A_Reactive-HR
+        qudt:ucumCode         "kV.A.h{reactive}"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K3" .
+
+unit:DEG_F-HR-FT2-PER-BTU_TH
+        qudt:ucumCode         "[degF]/(h.[ft_i]2.[Btu_th])"^^qudt:UCUMcs , "[degF].h-1.[ft_i]-2.[Btu_th]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J19" .
+
+unit:MilliPA  qudt:ucumCode   "mPa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "74" .
+
+unit:TeraHZ  qudt:ucumCode    "THz"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D29" .
+
+unit:MicroMOL-PER-MicroMOL-DAY
+        qudt:ucumCode  "umol/umol/d"^^qudt:UCUMcs , "umol.umol-1.d-1"^^qudt:UCUMcs .
+
+unit:MilliBQ-PER-L  qudt:ucumCode  "mBq.L-1"^^qudt:UCUMcs .
+
+unit:KiloPA-M2-PER-GM
+        qudt:ucumCode         "kPa.m2.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "33" .
+
+unit:MI-PER-MIN  qudt:ucumCode  "[mi_i]/min"^^qudt:UCUMcs , "[mi_i].min-1"^^qudt:UCUMcs .
+
+unit:Denier  qudt:ucumCode    "[den]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A49" .
+
+unit:POISE-PER-BAR  qudt:ucumCode  "P.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F06" .
+
+unit:BTU_IT-PER-LB-DEG_F
+        qudt:ucumCode  "[Btu_IT]/([lb_av].[degF])"^^qudt:UCUMcs , "[Btu_IT].[lb_av]-1.[degF]-1"^^qudt:UCUMcs .
+
+unit:MilliGAL-PER-MO  qudt:ucumCode  "mGal.mo-1"^^qudt:UCUMcs .
+
+unit:MegaV-A  qudt:ucumCode   "MV.A"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MVA" .
+
+unit:PER-H  qudt:ucumCode  "H-1"^^qudt:UCUMcs .
+
+unit:V-A_Reactive-HR  qudt:ucumCode  "V.A{reactive}.h"^^qudt:UCUMcs .
+
+unit:DEG_F-PER-HR  qudt:ucumCode  "[degF]/h"^^qudt:UCUMcs , "[degF].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J23" .
+
+unit:FARAD-PER-M  qudt:ucumCode  "F/m"^^qudt:UCUMcs , "F.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A69" .
+
+unit:MicroGM-PER-KiloGM
+        qudt:ucumCode         "ug/kg"^^qudt:UCUMcs , "ug.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J33" .
+
+unit:DEGREE_BAUME  qudt:uneceCommonCode
+                "J14" .
+
+unit:TON_Metric-PER-MIN
+        qudt:ucumCode         "t.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L78" .
+
+unit:MilliM3  qudt:ucumCode   "mm3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MMQ" .
+
+unit:KiloBYTE-PER-SEC
+        qudt:ucumCode  "kBy.s-1"^^qudt:UCUMcs .
+
+unit:NUM-PER-GM  qudt:ucumCode  "{#}.g-1"^^qudt:UCUMcs .
+
+unit:LB-PER-M3  qudt:ucumCode  "[lb_av].m-3"^^qudt:UCUMcs .
+
+unit:K-PER-SEC  qudt:ucumCode  "K/s"^^qudt:UCUMcs , "K.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F12" .
+
+unit:IN3-PER-HR  qudt:ucumCode  "[cin_i].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G56" .
+
+unit:DEG2  qudt:ucumCode  "deg2"^^qudt:UCUMcs .
+
+unit:OZ_F-IN  qudt:ucumCode  "[ozf_av].[in_i]"^^qudt:UCUMcs .
+
+unit:MilliJ  qudt:ucumCode    "mJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C15" .
+
+unit:C4-M4-PER-J3  qudt:ucumCode  "C4.m4/J3"^^qudt:UCUMcs , "C4.m4.J-3"^^qudt:UCUMcs .
+
+unit:KiloOHM  qudt:ucumCode   "kOhm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B49" .
+
+unit:PARSEC  qudt:ucumCode    "pc"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C63" .
+
+unit:SLUG-PER-SEC  qudt:uneceCommonCode
+                "L68" .
+
+unit:MicroGM-PER-M3  qudt:ucumCode  "ug/m3"^^qudt:UCUMcs , "ug.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GQ" .
+
+unit:QT_US-PER-DAY  qudt:ucumCode  "[qt_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K98" .
+
+unit:OZ_PER-FT2  qudt:ucumCode  "[oz_av].[sft_i]-1"^^qudt:UCUMcs .
+
+unit:J-PER-CentiM2  qudt:ucumCode  "J.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E43" .
+
+unit:M3-PER-MOL  qudt:ucumCode  "m3/mol"^^qudt:UCUMcs , "m3.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A40" .
+
+unit:PINT_UK-PER-SEC  qudt:ucumCode  "[pt_br].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L56" .
+
+unit:M2-SR  qudt:ucumCode  "m2.sr"^^qudt:UCUMcs .
+
+unit:BBL_UK_PET-PER-MIN
+        qudt:uneceCommonCode  "J58" .
+
+unit:PER-MicroMOL-L  qudt:ucumCode  "umol-1.L-1"^^qudt:UCUMcs .
+
+unit:KiloA  qudt:ucumCode     "kA"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B22" .
+
+unit:IN4  qudt:ucumCode       "[in_i]4"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D69" .
+
+unit:AttoJ  qudt:ucumCode     "aJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A13" .
+
+unit:DEG_C2-PER-SEC  qudt:ucumCode  "K2.s-1"^^qudt:UCUMcs .
+
+unit:DEG_C-PER-K  qudt:ucumCode  "Cel/K"^^qudt:UCUMcs , "Cel.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E98" .
+
+unit:M4  qudt:ucumCode  "m4"^^qudt:UCUMcs .
+
+unit:PER-M-NanoM  qudt:ucumCode  "m-1.nm-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-MIN  qudt:ucumCode  "[Btu_IT]/min"^^qudt:UCUMcs , "[Btu_IT].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J44" .
+
+unit:MilliL-PER-DAY  qudt:ucumCode  "mL.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G54" .
+
+unit:KiloGM-M2-PER-SEC
+        qudt:ucumCode         "kg.m2.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B33" .
+
+unit:BU_UK-PER-HR  qudt:uneceCommonCode
+                "J65" .
+
+unit:CAL_TH  qudt:ucumCode  "cal_th"^^qudt:UCUMcs .
+
+unit:PER-GigaEV2  qudt:ucumCode  "GeV-2"^^qudt:UCUMcs .
+
+unit:N-PER-CentiM2  qudt:ucumCode  "N.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E01" .
+
+unit:MilliC-PER-KiloGM
+        qudt:ucumCode         "mC.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C8" .
+
+unit:MicroM-PER-MilliL
+        qudt:ucumCode  "um2.mL-1"^^qudt:UCUMcs .
+
+unit:PA-L-PER-SEC  qudt:ucumCode  "Pa.L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F99" .
+
+unit:M2-PER-SR-J  qudt:ucumCode  "m2.sr-1.J-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D25" .
+
+unit:AttoFARAD  qudt:ucumCode  "aF"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H48" .
+
+unit:MilliA-PER-MilliM
+        qudt:ucumCode         "mA.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F76" .
+
+unit:KiloGM-PER-M-SEC2
+        qudt:ucumCode  "kg.m-1.s-2"^^qudt:UCUMcs .
+
+unit:A_Ab-PER-CentiM2
+        qudt:ucumCode  "Bi/cm2"^^qudt:UCUMcs , "Bi.cm-2"^^qudt:UCUMcs .
+
+unit:BTU_IT-IN-PER-FT2-SEC-DEG_F
+        qudt:ucumCode         "[Btu_IT].[in_i]/([ft_i]2.s.[degF])"^^qudt:UCUMcs , "[Btu_IT].[in_i].[ft_i]-2.s-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J42" .
+
+unit:MilliTORR  qudt:ucumCode  "mTorr"^^qudt:UCUMcs .
+
+unit:KiloL-PER-HR  qudt:ucumCode  "kL.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4X" .
+
+unit:PA-PER-K  qudt:ucumCode  "Pa.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C64" .
+
+unit:J-PER-T  qudt:ucumCode  "J.T-1"^^qudt:UCUMcs .
+
+unit:MI_N-PER-MIN  qudt:ucumCode  "[nmi_i]/min"^^qudt:UCUMcs , "[nmi_i].min-1"^^qudt:UCUMcs .
+
+unit:M2-PER-V-SEC  qudt:ucumCode  "m2.V-1.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D26" .
+
+unit:W  qudt:ucumCode  "W"^^qudt:UCUMcs .
+
+unit:A-PER-M  qudt:ucumCode   "A/m"^^qudt:UCUMcs , "A.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "AE" .
+
+unit:M2-PER-HZ  qudt:ucumCode  "m2.Hz-1"^^qudt:UCUMcs .
+
+unit:BQ-SEC-PER-M3  qudt:ucumCode  "Bq.s.m-3"^^qudt:UCUMcs .
+
+unit:PetaJ  qudt:ucumCode     "PJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C68" .
+
+unit:DEG_R-PER-SEC  qudt:ucumCode  "[degR]/s"^^qudt:UCUMcs , "[degR].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J30" .
+
+unit:LB_F-PER-FT  qudt:ucumCode  "[lbf_av].[ft_i]-1"^^qudt:UCUMcs .
+
+unit:MicroL  qudt:ucumCode    "uL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4G" .
+
+unit:TORR  qudt:ucumCode      "Torr"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "UA" .
+
+unit:PA-PER-SEC  qudt:ucumCode  "Pa/s"^^qudt:UCUMcs , "Pa.s-1"^^qudt:UCUMcs .
+
+unit:PicoFARAD-PER-M  qudt:ucumCode  "pF.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C72" .
+
+unit:KiloCAL-PER-MOL  qudt:ucumCode  "kcal.mol-1"^^qudt:UCUMcs .
+
+unit:FT2-PER-BTU_IT-IN
+        qudt:ucumCode  "[sft_i].[Btu_IT]-1.[in_i]-1"^^qudt:UCUMcs .
+
+unit:KiloMOL  qudt:ucumCode   "kmol"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B45" .
+
+unit:PK_UK  qudt:ucumCode     "[pk_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L43" .
+
+unit:DAY  qudt:ucumCode       "d"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DAY" .
+
+unit:CentiL  qudt:ucumCode    "cL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CLT" .
+
+unit:MOL-DEG_C  qudt:ucumCode  "mol.Cel"^^qudt:UCUMcs .
+
+unit:LB-PER-FT3  qudt:ucumCode  "[lb_av].[cft_i]-1"^^qudt:UCUMcs .
+
+unit:REV-PER-SEC2  qudt:ucumCode  "{#}.s-2"^^qudt:UCUMcs .
+
+unit:DEG_C-KiloGM-PER-M2
+        qudt:ucumCode  "Cel.kg.m-2"^^qudt:UCUMcs .
+
+unit:PK_US_DRY  qudt:ucumCode  "[pk_us]"^^qudt:UCUMcs .
+
+unit:TeraC  qudt:ucumCode  "TC"^^qudt:UCUMcs .
+
+unit:MicroH-PER-KiloOHM
+        qudt:ucumCode         "uH.kOhm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G98" .
+
+unit:GAL_UK-PER-DAY  qudt:ucumCode  "[gal_br].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K26" .
+
+unit:EV  qudt:ucumCode  "eV"^^qudt:UCUMcs .
+
+unit:CAL_TH-PER-GM-K  qudt:ucumCode  "cal_th/(g.K)"^^qudt:UCUMcs , "cal_th.g-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D37" .
+
+unit:OZ-PER-DAY  qudt:ucumCode  "[oz_av].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L33" .
+
+unit:W-PER-M3  qudt:ucumCode  "W.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H47" .
+
+unit:LB-PER-GAL_UK  qudt:ucumCode  "[lb_av].[gal_br]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K71" .
+
+unit:PER-KiloV-A-HR  qudt:ucumCode  "K-1.A-1.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M21" .
+
+unit:C-PER-KiloGM-SEC
+        qudt:ucumCode         "C/(kg.s)"^^qudt:UCUMcs , "C.kg-1.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A31" .
+
+unit:IN2-PER-SEC  qudt:ucumCode  "[sin_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G08" .
+
+unit:V-PER-MicroSEC  qudt:ucumCode  "V.us-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H24" .
+
+unit:MegaJ  qudt:ucumCode     "MJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "3B" .
+
+unit:GM-PER-KiloM  qudt:ucumCode  "g.km-1"^^qudt:UCUMcs .
+
+unit:KiloA-PER-M2  qudt:ucumCode  "kA.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B23" .
+
+unit:M2-PER-KiloGM  qudt:ucumCode  "m2.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D21" .
+
+unit:R  qudt:ucumCode         "R"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2C" .
+
+unit:V-SEC-PER-M  qudt:ucumCode  "V.s.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H45" .
+
+unit:DeciBAR  qudt:ucumCode  "dbar"^^qudt:UCUMcs .
+
+unit:MicroPOISE  qudt:ucumCode  "uP"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J32" .
+
+unit:DeciTON_Metric  qudt:ucumCode  "dt"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DTN" .
+
+unit:MicroG  qudt:ucumCode  "u[g]"^^qudt:UCUMcs .
+
+unit:CUP  qudt:ucumCode  "[cup_us]"^^qudt:UCUMcs .
+
+unit:PicoGM-PER-GM  qudt:ucumCode  "pg.g-1"^^qudt:UCUMcs .
+
+unit:PicoSEC  qudt:ucumCode   "ps"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H70" .
+
+unit:PicoW-PER-M2  qudt:ucumCode  "pW.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C76" .
+
+unit:MOL-PER-M2  qudt:ucumCode  "mol.m-2"^^qudt:UCUMcs .
+
+unit:MilliL-PER-L  qudt:ucumCode  "mL/L"^^qudt:UCUMcs , "mL.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L19" .
+
+unit:MOL-PER-M2-DAY  qudt:ucumCode  "mol.m-2.d-1"^^qudt:UCUMcs .
+
+unit:DeciM3-PER-MOL  qudt:ucumCode  "dm3/mol"^^qudt:UCUMcs , "dm3.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A37" .
+
+unit:MilliH-PER-OHM  qudt:ucumCode  "mH.Ohm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H06" .
+
+unit:M2-PER-J  qudt:ucumCode  "m2.J-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D20" .
+
+unit:MilliL-PER-CentiM2-MIN
+        qudt:ucumCode         "mL.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "35" .
+
+unit:N-PER-M2  qudt:ucumCode  "N.m-2"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-LB-MOL
+        qudt:ucumCode  "[Btu_IT]/([lb_av].mol)"^^qudt:UCUMcs , "[Btu_IT].[lb_av]-1.mol-1"^^qudt:UCUMcs .
+
+unit:KiloGM-CentiM2  qudt:ucumCode  "kg.cm2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F18" .
+
+unit:NUM-PER-M3  qudt:ucumCode  "{#}.m-3"^^qudt:UCUMcs .
+
+unit:TON_Metric-PER-M3
+        qudt:ucumCode         "t.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D41" .
+
+unit:MilliBAR-L-PER-SEC
+        qudt:ucumCode         "mbar.L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F95" .
+
+unit:GigaHZ-M  qudt:ucumCode  "GHz.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M18" .
+
+unit:DAY_Sidereal  qudt:ucumCode  "d"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DMT" .
+
+unit:DEGREE_BRIX  qudt:uneceCommonCode  "J18" .
+
+unit:KiloGM2-PER-SEC2
+        qudt:ucumCode  "kg2.s-2"^^qudt:UCUMcs .
+
+unit:MilliM-PER-DAY  qudt:ucumCode  "mm/d"^^qudt:UCUMcs , "mm.d-1"^^qudt:UCUMcs .
+
+unit:HectoPA-PER-HR  qudt:ucumCode  "hPa.h-1"^^qudt:UCUMcs .
+
+unit:NanoGM-PER-DAY  qudt:ucumCode  "ng.d-1"^^qudt:UCUMcs .
+
+unit:FT  qudt:ucumCode        "[ft_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FOT" .
+
+unit:IN-PER-DEG_F  qudt:ucumCode  "[in_i].[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K45" .
+
+unit:M2-PER-GM  qudt:ucumCode  "m2.g-1"^^qudt:UCUMcs .
+
+unit:HectoM  qudt:ucumCode    "hm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HMT" .
+
+unit:LB-PER-IN3  qudt:ucumCode  "[lb_av].[cin_i]-1"^^qudt:UCUMcs .
+
+unit:POISE  qudt:ucumCode     "P"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "89" .
+
+unit:KiloMOL-PER-M3  qudt:ucumCode  "kmol.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B46" .
+
+unit:M  qudt:ucumCode         "m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MTR" .
+
+unit:NUM-PER-HA  qudt:ucumCode  "{#}.har-1"^^qudt:UCUMcs .
+
+unit:TON_Metric-PER-HA
+        qudt:ucumCode  "t.har-1"^^qudt:UCUMcs .
+
+unit:LM-PER-W  qudt:ucumCode  "lm.W-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B61" .
+
+unit:BQ-PER-M2  qudt:ucumCode  "Bq/m2"^^qudt:UCUMcs , "Bq.m-2"^^qudt:UCUMcs .
+
+unit:YD3  qudt:ucumCode       "[yd_i]3"^^qudt:UCUMcs , "[cyd_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "YDQ" .
+
+unit:HZ  qudt:ucumCode        "Hz"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HTZ" .
+
+unit:GM-PER-HR  qudt:ucumCode  "g.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F27" .
+
+unit:HZ-PER-V  qudt:ucumCode  "Hz.V-1"^^qudt:UCUMcs .
+
+unit:GM-PER-CentiM2-YR
+        qudt:ucumCode  "g.cm-2.a-1"^^qudt:UCUMcs .
+
+unit:PERCENT  qudt:ucumCode   "%"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "P1" .
+
+unit:GigaJ  qudt:ucumCode     "GJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GV" .
+
+unit:MicroGM-PER-M2-DAY
+        qudt:ucumCode  "ug.m-2.d-1"^^qudt:UCUMcs .
+
+unit:GRAY-PER-SEC  qudt:ucumCode  "Gy.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A96" .
+
+unit:MilliM-PER-K  qudt:ucumCode  "mm.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F53" .
+
+unit:OZ-PER-YD3  qudt:ucumCode  "[oz_av].[cyd_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G32" .
+
+unit:Standard  qudt:ucumCode  "1980.[bf_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "WSD" .
+
+unit:OZ_VOL_UK-PER-MIN
+        qudt:ucumCode         "[foz_br].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J97" .
+
+unit:J-M2  qudt:ucumCode      "J.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D73" .
+
+unit:HR_Sidereal  qudt:ucumCode  "h"^^qudt:UCUMcs .
+
+unit:GI_US-PER-DAY  qudt:ucumCode  "[gil_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K36" .
+
+unit:CentiM3-PER-DAY  qudt:ucumCode  "cm3/d"^^qudt:UCUMcs , "cm3.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G47" .
+
+unit:LB-PER-FT-HR  qudt:ucumCode  "[lb_av].[ft_i]-1.h-1"^^qudt:UCUMcs .
+
+unit:KiloBIT-PER-SEC  qudt:ucumCode  "kbit.s-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C74" .
+
+unit:MicroM-PER-L-DAY
+        qudt:ucumCode  "um.L-1.d-1"^^qudt:UCUMcs .
+
+unit:V_Ab  qudt:ucumCode  "10.nV"^^qudt:UCUMcs .
+
+unit:DeciM  qudt:ucumCode     "dm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DMT" .
+
+unit:FT-LB_F-PER-HR  qudt:ucumCode  "[ft_i].[lbf_av].h-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-DeciM3
+        qudt:ucumCode         "kg.dm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B34" .
+
+unit:DeciM3-PER-HR  qudt:ucumCode  "dm3/h"^^qudt:UCUMcs , "dm3.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E92" .
+
+unit:OZ_PER-GAL  qudt:ucumCode  "[oz_av].[gal_br]-1"^^qudt:UCUMcs .
+
+unit:GigaEV  qudt:ucumCode  "GeV"^^qudt:UCUMcs .
+
+unit:M2-K  qudt:ucumCode  "m2.K"^^qudt:UCUMcs .
+
+unit:MicroGM-PER-MilliL
+        qudt:ucumCode  "ug.mL-1"^^qudt:UCUMcs .
+
+unit:PER-MOL  qudt:ucumCode  "mol-1"^^qudt:UCUMcs .
+
+unit:PicoW-PER-CentiM2-L
+        qudt:ucumCode  "pW.cm-2.L-1"^^qudt:UCUMcs .
+
+unit:GM-PER-L  qudt:ucumCode  "g.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GL" .
+
+unit:W-PER-KiloGM  qudt:ucumCode  "W/kg"^^qudt:UCUMcs , "W.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "WA" .
+
+unit:CentiM2-SEC  qudt:ucumCode  "cm2.s"^^qudt:UCUMcs .
+
+unit:NUM-PER-SEC  qudt:ucumCode  "{#}.s-1"^^qudt:UCUMcs .
+
+unit:BAR-M3-PER-SEC  qudt:ucumCode  "bar.m3/s"^^qudt:UCUMcs , "bar.m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F96" .
+
+unit:C-PER-MOL  qudt:ucumCode  "C/mol"^^qudt:UCUMcs , "C.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A32" .
+
+unit:DEG_C-PER-SEC  qudt:ucumCode  "Cel/s"^^qudt:UCUMcs , "Cel.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H14" .
+
+unit:H  qudt:ucumCode         "H"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "81" .
+
+unit:STR  qudt:ucumCode       "st"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G26" .
+
+unit:RAD-PER-SEC2  qudt:ucumCode  "rad/s2"^^qudt:UCUMcs , "rad.s-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2B" .
+
+unit:OZ_VOL_US-PER-HR
+        qudt:ucumCode         "[foz_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K10" .
+
+unit:C_Ab  qudt:ucumCode  "10.C"^^qudt:UCUMcs .
+
+unit:PA2-SEC  qudt:ucumCode  "Pa2.s"^^qudt:UCUMcs .
+
+unit:HP-PER-M  qudt:ucumCode  "[HP].m-1"^^qudt:UCUMcs .
+
+unit:MilliWB  qudt:ucumCode   "mWb"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C33" .
+
+unit:MilliV-PER-M  qudt:ucumCode  "mV.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C30" .
+
+unit:PA-PER-BAR  qudt:ucumCode  "Pa.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F07" .
+
+unit:GM-PER-CentiM2  qudt:ucumCode  "g/cm2"^^qudt:UCUMcs , "g.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "25" .
+
+unit:MilliGM-PER-M2-DAY
+        qudt:ucumCode  "mg.m-2.d-1"^^qudt:UCUMcs .
+
+unit:PER-GM  qudt:ucumCode  "g-1"^^qudt:UCUMcs .
+
+unit:ElementaryCharge
+        qudt:ucumCode  "[e]"^^qudt:UCUMcs .
+
+unit:GAL_UK-PER-HR  qudt:ucumCode  "[gal_br].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K27" .
+
+unit:MegaEV  qudt:ucumCode  "MeV"^^qudt:UCUMcs .
+
+unit:PERMITTIVITY_REL
+        qudt:ucumCode  "[eps_0]"^^qudt:UCUMcs .
+
+unit:NanoGM-PER-L  qudt:ucumCode  "ng.L-1"^^qudt:UCUMcs .
+
+unit:MI3  qudt:ucumCode  "[mi_i]3"^^qudt:UCUMcs .
+
+unit:PicoGM-PER-KiloGM
+        qudt:ucumCode  "pg.kg-1"^^qudt:UCUMcs .
+
+unit:LB_F-PER-IN  qudt:ucumCode  "[lbf_av].[in_i]-1"^^qudt:UCUMcs .
+
+unit:GM-PER-DAY  qudt:ucumCode  "g.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F26" .
+
+unit:TONNE-PER-DAY  qudt:ucumCode  "t.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L71" .
+
+unit:QT_UK-PER-SEC  qudt:ucumCode  "[qt_br].h-1.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K97" .
+
+unit:DecaM  qudt:ucumCode     "dam"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A45" .
+
+unit:MilliMOL-PER-M2-SEC
+        qudt:ucumCode  "mmol/m2/s1"^^qudt:UCUMcs , "mmol.m-2.s-1"^^qudt:UCUMcs .
+
+unit:LUX-HR  qudt:ucumCode    "lx.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B63" .
+
+unit:failures-in-time
+        qudt:ucumCode         "s-1{failures}"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FIT" .
+
+unit:MicroH-PER-OHM  qudt:ucumCode  "uH.Ohm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G99" .
+
+unit:BTU_TH-IN-PER-FT2-HR-DEG_F
+        qudt:ucumCode         "[Btu_th].[in_i]/([ft_i]2.h.[degF])"^^qudt:UCUMcs , "[Btu_th].[in_i].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J48" .
+
+unit:W-PER-M2-K4  qudt:ucumCode  "W.m-2.K-4"^^qudt:UCUMcs .
+
+unit:MilliARCSEC  qudt:ucumCode  "m\""^^qudt:UCUMcs .
+
+unit:SEC-PER-RAD-M3  qudt:ucumCode  "s."^^qudt:UCUMcs .
+
+unit:MilliGM-PER-M2  qudt:ucumCode  "mg/m2"^^qudt:UCUMcs , "mg.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GO" .
+
+unit:KiloGM_F-PER-M  qudt:ucumCode  "kgf.m"^^qudt:UCUMcs .
+
+unit:MO_MeanJulian  qudt:ucumCode  "mo_j"^^qudt:UCUMcs .
+
+unit:REV-PER-HR  qudt:ucumCode  "{#}.h-1"^^qudt:UCUMcs .
+
+unit:HectoC  qudt:ucumCode  "hC"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-CentiM3
+        qudt:ucumCode         "kg.cm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G31" .
+
+unit:GM  qudt:ucumCode        "g"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GRM" .
+
+unit:C  qudt:ucumCode         "C"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "COU" .
+
+unit:MilliA-HR  qudt:ucumCode  "mA.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E09" .
+
+unit:TON_SHORT-PER-YD3
+        qudt:ucumCode  "[ston_av].[cyd_i]-1"^^qudt:UCUMcs .
+
+unit:MilliS  qudt:ucumCode    "mS"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C27" .
+
+unit:GigaHZ  qudt:ucumCode    "GHz"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A86" .
+
+unit:HP  qudt:ucumCode  "[HP]"^^qudt:UCUMcs .
+
+unit:NUM-PER-YR  qudt:ucumCode  "{#}.a-1"^^qudt:UCUMcs .
+
+unit:KiloPA_A  qudt:ucumCode  "kPa{absolute}"^^qudt:UCUMcs .
+
+unit:MicroFARAD  qudt:ucumCode  "uF"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4O" .
+
+unit:IN-PER-SEC  qudt:ucumCode  "[in_i]/s"^^qudt:UCUMcs , "[in_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "IU" .
+
+unit:PINT_US-PER-HR  qudt:ucumCode  "[pt_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L58" .
+
+unit:NanoGM-PER-M3  qudt:ucumCode  "ng.m-3"^^qudt:UCUMcs .
+
+unit:DEGREE_TWADDELL  qudt:uneceCommonCode
+                "J31" .
+
+unit:GRAIN-PER-GAL_US
+        qudt:ucumCode         "[gr].[gal_us]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K41" .
+
+unit:ExaJ  qudt:ucumCode      "EJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A68" .
+
+unit:N-SEC-PER-M  qudt:ucumCode  "N.s.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C58" .
+
+unit:A-HR  qudt:ucumCode      "A.h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "AMH" .
+
+unit:KiloPA-PER-MilliM
+        qudt:ucumCode         "kPa.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "34" .
+
+unit:WB-PER-M  qudt:ucumCode  "Wb.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D59" .
+
+unit:V-A  qudt:ucumCode       "V.A"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D46" .
+
+unit:KiloJ  qudt:ucumCode     "kJ"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KJO" .
+
+unit:J-PER-M4  qudt:ucumCode  "J.m-4"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B14" .
+
+unit:ST  qudt:ucumCode        "St"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "91" .
+
+unit:SLUG-PER-DAY  qudt:uneceCommonCode
+                "L63" .
+
+unit:PPB  qudt:ucumCode  "[ppb]"^^qudt:UCUMcs .
+
+unit:KiloJ-PER-MOL  qudt:ucumCode  "kJ.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B44" .
+
+unit:BTU_TH-PER-HR  qudt:ucumCode  "[Btu_th]/h"^^qudt:UCUMcs , "[Btu_th].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J47" .
+
+unit:BIOT  qudt:ucumCode  "Bi"^^qudt:UCUMcs .
+
+unit:MilliL-PER-HR  qudt:ucumCode  "mL.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G55" .
+
+unit:KY  qudt:ucumCode  "Ky"^^qudt:UCUMcs .
+
+unit:KiloCAL_Mean  qudt:ucumCode  "kcal_m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K51" .
+
+unit:DeciC  qudt:ucumCode  "dC"^^qudt:UCUMcs .
+
+unit:BTU_TH-IN-PER-FT2-SEC-DEG_F
+        qudt:ucumCode  "[Btu_th].[in_i]/([ft_i]2.s.[degF])"^^qudt:UCUMcs , "[Btu_th].[in_i].[ft_i]-2.s-1.[degF]-1"^^qudt:UCUMcs .
+
+unit:PINT_UK-PER-DAY  qudt:ucumCode  "[pt_br].d"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L53" .
+
+unit:TSP  qudt:ucumCode       "[tsp_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G25" .
+
+unit:CAL_15_DEG_C  qudt:ucumCode  "cal_[15]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A1" .
+
+unit:MicroGM-PER-L-HR
+        qudt:ucumCode  "ug.L-1.h-1"^^qudt:UCUMcs .
+
+unit:MilliBQ-PER-GM  qudt:ucumCode  "mBq.g-1"^^qudt:UCUMcs .
+
+unit:Da  qudt:ucumCode  "u"^^qudt:UCUMcs .
+
+unit:BAR-L-PER-SEC  qudt:ucumCode  "bar.L/s"^^qudt:UCUMcs , "bar.L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F91" .
+
+unit:MegaHZ  qudt:ucumCode    "MHz"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MHZ" .
+
+unit:PER-L  qudt:ucumCode     "L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K63" .
+
+unit:BU_US_DRY-PER-MIN
+        qudt:ucumCode         "[bu_us]/min"^^qudt:UCUMcs , "[bu_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J70" .
+
+unit:KiloMOL-PER-MIN  qudt:ucumCode  "kmol.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K61" .
+
+unit:A-PER-M2-K2  qudt:ucumCode  "A/(m2.K)"^^qudt:UCUMcs , "A.m-2.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A6" .
+
+unit:M2-PER-HA  qudt:ucumCode  "m2.har-1"^^qudt:UCUMcs .
+
+unit:FT3  qudt:ucumCode       "[ft_i]3"^^qudt:UCUMcs , "[cft_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FTQ" .
+
+unit:YD  qudt:ucumCode        "[yd_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "YRD" .
+
+unit:MilliN  qudt:ucumCode    "mN"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C20" .
+
+unit:T-M  qudt:ucumCode  "T.m"^^qudt:UCUMcs .
+
+unit:M3-PER-SEC  qudt:ucumCode  "m3/s"^^qudt:UCUMcs , "m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MQS" .
+
+unit:YD-PER-DEG_F  qudt:ucumCode  "[yd_i].[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L98" .
+
+unit:TON_SHORT-PER-HR
+        qudt:ucumCode  "[ston_av].h-1"^^qudt:UCUMcs .
+
+unit:IN  qudt:ucumCode        "[in_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "INH" .
+
+unit:M2-HZ4  qudt:ucumCode  "m2.Hz4"^^qudt:UCUMcs .
+
+unit:W-PER-K  qudt:ucumCode   "W.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D52" .
+
+unit:N-M-PER-KiloGM  qudt:ucumCode  "N.m.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G19" .
+
+unit:GM_F-PER-CentiM2
+        qudt:ucumCode         "gf.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K31" .
+
+unit:KiloCAL_TH-PER-MIN
+        qudt:ucumCode         "kcal_th.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K54" .
+
+unit:MilLength  qudt:ucumCode  "[mil_i]"^^qudt:UCUMcs .
+
+unit:K2  qudt:ucumCode  "K2"^^qudt:UCUMcs .
+
+unit:PER-PA  qudt:ucumCode  "Pa-1"^^qudt:UCUMcs .
+
+unit:FT-PER-SEC2  qudt:ucumCode  "[ft_i]/s2"^^qudt:UCUMcs , "[ft_i].s-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A73" .
+
+unit:M-PER-SEC2  qudt:ucumCode  "m/s2"^^qudt:UCUMcs , "m.s-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MSK" .
+
+unit:BU_UK-PER-SEC  qudt:ucumCode  "[bu_br]/s"^^qudt:UCUMcs , "[bu_br].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J67" .
+
+unit:QT_US-PER-HR  qudt:ucumCode  "[qt_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K99" .
+
+unit:GigaBYTE  qudt:ucumCode  "GBy"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E34" .
+
+unit:NUM-PER-NanoL  qudt:ucumCode  "{#}.nL-1"^^qudt:UCUMcs .
+
+unit:DEG_F-PER-SEC  qudt:ucumCode  "[degF]/s"^^qudt:UCUMcs , "[degF].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J25" .
+
+unit:RAD-M2-PER-KiloGM
+        qudt:ucumCode         "rad.m2.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C83" .
+
+unit:L-PER-MIN  qudt:ucumCode  "L/min"^^qudt:UCUMcs , "L.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L2" .
+
+unit:RAD-PER-HR  qudt:ucumCode  "rad/h"^^qudt:UCUMcs , "rad.h-1"^^qudt:UCUMcs .
+
+unit:MilliMOL-PER-KiloGM
+        qudt:ucumCode         "mmol/kg"^^qudt:UCUMcs , "mmol.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D87" .
+
+unit:PebiBYTE  qudt:uneceCommonCode  "E60" .
+
+unit:BTU_TH-PER-MIN  qudt:ucumCode  "[Btu_th]/min"^^qudt:UCUMcs , "[Btu_th].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J51" .
+
+unit:DecaC  qudt:ucumCode  "daC"^^qudt:UCUMcs .
+
+unit:KiloLB_F-FT-PER-A
+        qudt:ucumCode         "[lbf_av].[ft_i].A-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F22" .
+
+unit:PER-M-K  qudt:ucumCode  "m-1.K-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-SEC-FT-DEG_R
+        qudt:ucumCode         "[Btu_IT]/(s.[ft_i].[degR])"^^qudt:UCUMcs , "[Btu_IT].s-1.[ft_i]-1.[degR]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A22" .
+
+unit:DYN-PER-CentiM2  qudt:ucumCode  "dyn/cm2"^^qudt:UCUMcs , "dyn.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D9" .
+
+unit:MilliBAR-PER-K  qudt:ucumCode  "mbar.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F84" .
+
+unit:W-PER-M-K  qudt:ucumCode  "W.m-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D53" .
+
+unit:PER-CentiM  qudt:ucumCode  "cm-1"^^qudt:UCUMcs , "/cm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E90" .
+
+unit:MegaEV-FemtoM  qudt:ucumCode  "MeV.fm"^^qudt:UCUMcs .
+
+unit:PER-M3  qudt:ucumCode  "m-3"^^qudt:UCUMcs , "/m3"^^qudt:UCUMcs .
+
+unit:PERCENT-PER-WK  qudt:ucumCode  "%.wk-1"^^qudt:UCUMcs .
+
+unit:MilliM2  qudt:ucumCode   "mm2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MMK" .
+
+unit:RAD-PER-SEC  qudt:ucumCode  "rad/s"^^qudt:UCUMcs , "rad.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2A" .
+
+unit:QT_US  qudt:ucumCode  "[qt_us]"^^qudt:UCUMcs .
+
+unit:PA  qudt:ucumCode        "Pa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "PAL" .
+
+unit:KiloJ-PER-K  qudt:ucumCode  "kJ/K"^^qudt:UCUMcs , "kJ.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B41" .
+
+unit:M-PER-YR  qudt:ucumCode  "m.a-1"^^qudt:UCUMcs .
+
+unit:LB_F-SEC-PER-FT2
+        qudt:ucumCode  "[lbf_av].s.[sft_i]-1"^^qudt:UCUMcs .
+
+unit:MicroC-PER-M3  qudt:ucumCode  "uC.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B87" .
+
+unit:N-M-PER-A  qudt:ucumCode  "N.m.A-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F90" .
+
+unit:CentiM-SEC-DEG_C
+        qudt:ucumCode  "cm.s/Cel"^^qudt:UCUMcs , "cm.s.Cel-1"^^qudt:UCUMcs .
+
+unit:C-PER-M3  qudt:ucumCode  "C/m3"^^qudt:UCUMcs , "C.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A29" .
+
+unit:KiloV-A_Reactive
+        qudt:ucumCode         "kV.A{reactive}"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KVR" .
+
+unit:MilliGAL  qudt:ucumCode  "mGal"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C11" .
+
+unit:MilliPA-SEC  qudt:ucumCode  "mPa.s"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C24" .
+
+unit:MegaV-A_Reactive-HR
+        qudt:ucumCode         "MV.A{reactive).h"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MAH" .
+
+unit:BTU_IT-IN-PER-FT2-HR-DEG_F
+        qudt:ucumCode         "[Btu_IT].[in_i]/([ft_i]2.h.[degF])"^^qudt:UCUMcs , "[Btu_IT].[in_i].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J41" .
+
+unit:C-PER-CentiM3  qudt:ucumCode  "C/cm3"^^qudt:UCUMcs , "C.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A28" .
+
+unit:DIOPTER  qudt:ucumCode  "[diop]"^^qudt:UCUMcs .
+
+unit:KiloCAL-PER-SEC  qudt:ucumCode  "kcal.s-1"^^qudt:UCUMcs .
+
+unit:PK_UK-PER-HR  qudt:ucumCode  "[pk_br].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L45" .
+
+unit:PK_US_DRY-PER-SEC
+        qudt:ucumCode         "[pk_us].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L51" .
+
+unit:LB-MOL  qudt:ucumCode    "[lb_av].mol"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "P44" .
+
+unit:BARN  qudt:ucumCode      "b"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A14" .
+
+unit:OZ_VOL_UK  qudt:ucumCode  "[foz_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "OZI" .
+
+unit:DYN  qudt:ucumCode       "dyn"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DU" .
+
+unit:IN3  qudt:ucumCode       "[in_i]3"^^qudt:UCUMcs , "[cin_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "INQ" .
+
+unit:DeciL-PER-GM  qudt:ucumCode  "dL/g"^^qudt:UCUMcs , "dL.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "22" .
+
+unit:BQ  qudt:ucumCode        "Bq"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "BQL" .
+
+unit:KiloSEC  qudt:ucumCode   "ks"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B52" .
+
+unit:FARAD_Ab  qudt:ucumCode  "GF"^^qudt:UCUMcs .
+
+unit:NanoMOL-PER-L-DAY
+        qudt:ucumCode  "nmol.L-1.d-1"^^qudt:UCUMcs .
+
+unit:PER-M3-SEC  qudt:ucumCode  "m-3.s-1"^^qudt:UCUMcs .
+
+unit:PK_US_DRY-PER-HR
+        qudt:ucumCode         "[pk_us].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L49" .
+
+unit:GM-PER-M2-DAY  qudt:ucumCode  "g.m-2.d-1"^^qudt:UCUMcs .
+
+unit:CAL_IT-PER-GM-K  qudt:ucumCode  "cal_IT/(g.K)"^^qudt:UCUMcs , "cal_IT.g-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D76" .
+
+unit:CentiM_H2O  qudt:ucumCode  "cm[H2O]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H78" .
+
+unit:HectoPA-PER-BAR  qudt:ucumCode  "hPa.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E99" .
+
+unit:PER-MilliM3  qudt:ucumCode  "mm-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L20" .
+
+unit:M3  qudt:ucumCode        "m3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MTQ" .
+
+unit:MegaGM  qudt:ucumCode    "Mg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2U" .
+
+unit:TON_SHIPPING_US  qudt:uneceCommonCode
+                "L86" .
+
+unit:PER-M2-SEC  qudt:ucumCode  "m-2.s-1"^^qudt:UCUMcs .
+
+unit:KiloBYTE  qudt:ucumCode  "kBy"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-FT2-HR-DEG_F
+        qudt:ucumCode  "[Btu_IT]/([ft_i]2.h.[degF])"^^qudt:UCUMcs , "[Btu_IT].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs .
+
+unit:BTU_IT-PER-HR-FT2-DEG_R
+        qudt:ucumCode         "[Btu_IT]/(h.[ft_i]2.[degR])"^^qudt:UCUMcs , "[Btu_IT].h-1.[ft_i]-2.[degR]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A23" .
+
+unit:DEGREE_OECHSLE  qudt:uneceCommonCode
+                "J27" .
+
+unit:LB_F-PER-IN2-SEC
+        qudt:ucumCode  "[lbf_av].[sin_i]-1.s-1"^^qudt:UCUMcs .
+
+unit:PSI-YD3-PER-SEC  qudt:ucumCode  "[psi].[cyd_i].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K90" .
+
+unit:KiloCi  qudt:ucumCode    "kCi"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2R" .
+
+unit:KiloTON_Metric  qudt:ucumCode  "kt"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KTN" .
+
+unit:KiloS-PER-M  qudt:ucumCode  "kS.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B54" .
+
+unit:HectoPA-M3-PER-SEC
+        qudt:ucumCode         "hPa.m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F94" .
+
+unit:DEG  qudt:ucumCode       "deg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DD" .
+
+unit:GI_UK-PER-SEC  qudt:ucumCode  "[gil_br].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K35" .
+
+unit:HA  qudt:ucumCode        "har"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HAR" .
+
+unit:MegaN  qudt:ucumCode     "MN"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B73" .
+
+unit:V  qudt:ucumCode         "V"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "VLT" .
+
+unit:K-PER-W  qudt:ucumCode   "K/W"^^qudt:UCUMcs , "K.W-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B21" .
+
+unit:BTU_IT-PER-LB_F-DEG_R
+        qudt:ucumCode         "[Btu_IT]/([lbf_av].[degR])"^^qudt:UCUMcs , "[Btu_IT].[lbf_av]-1.[degR]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A21" .
+
+unit:DeciM3-PER-SEC  qudt:ucumCode  "dm3/s"^^qudt:UCUMcs , "dm3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J93" .
+
+unit:M4-PER-SEC  qudt:ucumCode  "m4.s-1"^^qudt:UCUMcs .
+
+unit:MegaV-A_Reactive
+        qudt:ucumCode         "MV.A{reactive)"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MAR" .
+
+unit:NanoMOL-PER-MicroGM-HR
+        qudt:ucumCode  "nmol.ug-1.h-1"^^qudt:UCUMcs .
+
+unit:LB_F-SEC-PER-IN2
+        qudt:ucumCode  "[lbf_av].s.[sin_i]-1"^^qudt:UCUMcs .
+
+unit:PicoGM-PER-MilliL
+        qudt:ucumCode  "pg.mL-1"^^qudt:UCUMcs .
+
+unit:DEG_R  qudt:ucumCode     "[degR]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A48" .
+
+unit:M2-PER-N  qudt:ucumCode  "m2.N-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H59" .
+
+unit:CAL_TH-PER-GM  qudt:ucumCode  "cal_th/g"^^qudt:UCUMcs , "cal_th.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B36" .
+
+unit:MicroATM  qudt:ucumCode  "uatm"^^qudt:UCUMcs .
+
+unit:FT-LB_F-SEC  qudt:ucumCode  "[ft_i].[lbf_av].s"^^qudt:UCUMcs .
+
+unit:MegaJ-PER-K  qudt:ucumCode  "MJ.K-1"^^qudt:UCUMcs .
+
+unit:MIL_Circ  qudt:ucumCode  "[cml_i]"^^qudt:UCUMcs .
+
+unit:Platinum-OunceTroy
+        qudt:ucumCode  "[oz_tr]{Pt}"^^qudt:UCUMcs .
+
+unit:IN3-PER-MIN  qudt:ucumCode  "[in_i]3/min"^^qudt:UCUMcs , "[in_i]3.min-1"^^qudt:UCUMcs , "[cin_i]/min"^^qudt:UCUMcs , "[cin_i].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G57" .
+
+unit:LM  qudt:ucumCode        "lm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "LUM" .
+
+unit:LB-PER-FT2  qudt:ucumCode  "[lb_av].[ft_i]-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FP" .
+
+unit:M-PER-MIN  qudt:ucumCode  "m/min"^^qudt:UCUMcs , "m.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2X" .
+
+unit:MilliM3-PER-M3  qudt:ucumCode  "mm3.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L21" .
+
+unit:MicroW-PER-M2  qudt:ucumCode  "uW.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D85" .
+
+unit:MegaEV-PER-CentiM
+        qudt:ucumCode  "MeV.cm-1"^^qudt:UCUMcs .
+
+unit:W-PER-M2  qudt:ucumCode  "W/m2"^^qudt:UCUMcs , "W.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D54" .
+
+unit:PicoMOL-PER-L-HR
+        qudt:ucumCode  "pmol.L-1.h-1"^^qudt:UCUMcs .
+
+unit:PicoMOL-PER-M2-DAY
+        qudt:ucumCode  "pmol.m-2.d-1"^^qudt:UCUMcs .
+
+unit:FemtoM  qudt:ucumCode    "fm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A71" .
+
+unit:MO_Synodic  qudt:ucumCode  "mo_s"^^qudt:UCUMcs .
+
+unit:GigaPA  qudt:ucumCode    "GP"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A89" .
+
+unit:PicoMOL-PER-M3  qudt:ucumCode  "pmol.m-3"^^qudt:UCUMcs .
+
+unit:GAL_IMP  qudt:ucumCode  "[gal_br]"^^qudt:UCUMcs .
+
+unit:FARAD_Ab-PER-CentiM
+        qudt:ucumCode  "GF.cm-1"^^qudt:UCUMcs .
+
+unit:HectoGM  qudt:ucumCode   "hg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HGM" .
+
+unit:OERSTED-CentiM  qudt:ucumCode  "Oe.cm"^^qudt:UCUMcs .
+
+unit:KN-PER-SEC  qudt:ucumCode  "[kn_i]/s"^^qudt:UCUMcs , "[kn_i].s-1"^^qudt:UCUMcs .
+
+unit:V-A_Reactive  qudt:ucumCode  "V.A{reactive}"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D44" .
+
+unit:MOL-PER-GM-HR  qudt:ucumCode  "mol.g-1.h-1"^^qudt:UCUMcs .
+
+unit:KiloV-PER-M  qudt:ucumCode  "kV.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B55" .
+
+unit:J-PER-M3-K  qudt:ucumCode  "J.m-3.K-1"^^qudt:UCUMcs .
+
+unit:HP-PER-V  qudt:ucumCode  "[HP].V-1"^^qudt:UCUMcs .
+
+unit:CAL_TH-PER-SEC  qudt:ucumCode  "cal_th/s"^^qudt:UCUMcs , "cal_th.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J82" .
+
+unit:MilliL-PER-K  qudt:ucumCode  "mL.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G30" .
+
+unit:PSI-M3-PER-SEC  qudt:ucumCode  "[psi].m3.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K89" .
+
+unit:C2-M-PER-J  qudt:ucumCode  "C2.m/J"^^qudt:UCUMcs , "C2.m.J-1"^^qudt:UCUMcs .
+
+unit:V_Ab-SEC  qudt:ucumCode  "10.nV.s"^^qudt:UCUMcs .
+
+unit:GigaBQ  qudt:ucumCode    "GBq"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GBQ" .
+
+unit:MicroSV  qudt:ucumCode  "uSv"^^qudt:UCUMcs .
+
+unit:MegaS-PER-M  qudt:ucumCode  "MS.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B77" .
+
+unit:V-PER-IN  qudt:ucumCode  "V.[in_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H23" .
+
+unit:NanoA  qudt:ucumCode     "nA"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C39" .
+
+unit:DecaGM  qudt:ucumCode    "dag"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DJ" .
+
+unit:DEG-PER-MIN  qudt:ucumCode  "deg/min"^^qudt:UCUMcs , "deg.min-1"^^qudt:UCUMcs .
+
+unit:BBL_US-PER-MIN  qudt:ucumCode  "[bbl_us]/min"^^qudt:UCUMcs , "[bbl_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J63" .
+
+unit:OZ_VOL_US-PER-DAY
+        qudt:ucumCode         "[foz_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J99" .
+
+unit:PER-YR  qudt:ucumCode    "a-1"^^qudt:UCUMcs , "/a"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H09" .
+
+unit:MilliW-PER-CentiM2-MicroM-SR
+        qudt:ucumCode  "mW.cm-2.um-1.sr-1"^^qudt:UCUMcs .
+
+unit:MicroL-PER-L  qudt:ucumCode  "uL/L"^^qudt:UCUMcs , "uL.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J36" .
+
+unit:GI_US  qudt:ucumCode     "[gil_us]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GIA" .
+
+unit:TON_UK  qudt:ucumCode    "[lton_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "LTN" , "L84" .
+
+unit:FT3-PER-MIN-FT2  qudt:ucumCode  "[cft_i].min-1.[sft_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "36" .
+
+unit:KiloCAL_TH  qudt:ucumCode  "kcal_th"^^qudt:UCUMcs , "[Cal]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K53" .
+
+unit:NUM-PER-M2  qudt:ucumCode  "{#}.m-2"^^qudt:UCUMcs .
+
+unit:MilliS-PER-CentiM
+        qudt:ucumCode         "mS/cm"^^qudt:UCUMcs , "mS.cm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H61" .
+
+unit:MegaPA  qudt:ucumCode    "MPa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MPA" .
+
+unit:PER-SEC  qudt:ucumCode  "s-1"^^qudt:UCUMcs , "/s"^^qudt:UCUMcs .
+
+unit:EV-PER-K  qudt:ucumCode  "eV/K"^^qudt:UCUMcs , "eV.K-1"^^qudt:UCUMcs .
+
+unit:A_Ab  qudt:ucumCode  "Bi"^^qudt:UCUMcs .
+
+unit:N-SEC-PER-M3  qudt:ucumCode  "N.s.m-3"^^qudt:UCUMcs .
+
+unit:J-PER-GM  qudt:ucumCode  "J.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D95" .
+
+unit:MilliMOL-PER-M3-DAY
+        qudt:ucumCode  "mmol.m-3.d-1"^^qudt:UCUMcs .
+
+unit:FT-LB_F-PER-SEC  qudt:ucumCode  "[ft_i].[lbf_av].s-1"^^qudt:UCUMcs .
+
+unit:MegaHZ-PER-K  qudt:ucumCode  "MHz.K-1"^^qudt:UCUMcs .
+
+unit:KiloLB_F-FT-PER-LB
+        qudt:ucumCode         "[lbf_av].[ft_i].[lb_av]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G20" .
+
+unit:PSI-L-PER-SEC  qudt:ucumCode  "[psi].L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K88" .
+
+unit:M3-PER-KiloGM  qudt:ucumCode  "m3/kg"^^qudt:UCUMcs , "m3.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A39" .
+
+unit:TeraBYTE  qudt:ucumCode  "TBy"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E35" .
+
+unit:PCA  qudt:ucumCode       "[pca]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "R1" .
+
+unit:SLUG-PER-FT3  qudt:uneceCommonCode
+                "L65" .
+
+unit:RAD_R  qudt:ucumCode  "RAD"^^qudt:UCUMcs .
+
+unit:HectoL  qudt:ucumCode    "hL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HLT" .
+
+unit:GAL_US-PER-MIN  qudt:ucumCode  "[gal_us]/min"^^qudt:UCUMcs , "[gal_us].min-1"^^qudt:UCUMcs .
+
+unit:PER-ANGSTROM  qudt:ucumCode  "Ao-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C85" .
+
+unit:PER-M-SR  qudt:ucumCode  "m-1.sr-1"^^qudt:UCUMcs .
+
+unit:LB-PER-IN2  qudt:ucumCode  "[lb_av].[sin_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "80" .
+
+unit:KiloJ-PER-KiloGM
+        qudt:ucumCode         "kJ/kg"^^qudt:UCUMcs , "kJ.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B42" .
+
+unit:DEG-PER-M  qudt:ucumCode  "deg.m-1"^^qudt:UCUMcs .
+
+unit:QT_UK-PER-DAY  qudt:ucumCode  "[qt_br].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K94" .
+
+unit:L  qudt:ucumCode  "l"^^qudt:UCUMcs , "L"^^qudt:UCUMcs .
+
+unit:MilliMOL-PER-M2-DAY
+        qudt:ucumCode  "mmol.m-2.d-1"^^qudt:UCUMcs .
+
+unit:BU_UK  qudt:ucumCode     "[bu_br]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "BUI" .
+
+unit:MegaBQ  qudt:ucumCode    "MBq"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4N" .
+
+unit:W-PER-M2-M  qudt:ucumCode  "W.m-2.m-1"^^qudt:UCUMcs .
+
+unit:MegaJ-PER-M3  qudt:ucumCode  "MJ.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "JM" .
+
+unit:BTU_IT-PER-DEG_F
+        qudt:ucumCode  "[Btu_IT]/[degF]"^^qudt:UCUMcs , "[Btu_IT].[degF]-1"^^qudt:UCUMcs .
+
+unit:PT  qudt:ucumCode        "[pnt]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "N3" .
+
+unit:KiloGM-M2  qudt:ucumCode  "kg.m2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B32" .
+
+unit:K-PER-M  qudt:ucumCode  "K.m-1"^^qudt:UCUMcs .
+
+unit:YD2  qudt:ucumCode       "[yd_i]2"^^qudt:UCUMcs , "[syd_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "YDK" .
+
+unit:YR  qudt:ucumCode        "a"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "ANN" .
+
+unit:DeciS-PER-M  qudt:ucumCode  "dS/m"^^qudt:UCUMcs , "dS.m-1"^^qudt:UCUMcs .
+
+unit:MicroA  qudt:ucumCode    "uA"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B84" .
+
+unit:OHM_Ab  qudt:ucumCode  "nOhm"^^qudt:UCUMcs .
+
+unit:MegaBYTE  qudt:ucumCode  "MBy"^^qudt:UCUMcs .
+
+unit:ExaBYTE  qudt:ucumCode  "EBy"^^qudt:UCUMcs .
+
+unit:LB-IN  qudt:ucumCode     "[lb_av].[in_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "IA" .
+
+unit:KiloBAR  qudt:ucumCode   "kbar"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KBA" .
+
+unit:PHOT  qudt:ucumCode  "ph"^^qudt:UCUMcs .
+
+unit:NanoFARAD  qudt:ucumCode  "nF"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C41" .
+
+unit:M2-PER-SEC2  qudt:ucumCode  "m2.s-2"^^qudt:UCUMcs .
+
+unit:KiloS  qudt:ucumCode     "kS"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B53" .
+
+unit:TON_Metric-PER-SEC
+        qudt:ucumCode         "t.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L81" .
+
+unit:MicroMOL-PER-L  qudt:ucumCode  "umol/L"^^qudt:UCUMcs , "umol.L-1"^^qudt:UCUMcs .
+
+unit:MilliGM-PER-MIN  qudt:ucumCode  "mg/min"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F33" .
+
+unit:PER-PA-SEC  qudt:ucumCode  "Pa-1.s-1"^^qudt:UCUMcs .
+
+unit:PA-SEC-PER-M3  qudt:ucumCode  "Pa.s.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C66" .
+
+unit:DeciL  qudt:ucumCode     "dL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DLT" .
+
+unit:MicroM-PER-K  qudt:ucumCode  "um.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F50" .
+
+unit:MilliGRAY  qudt:ucumCode  "mGy"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C13" .
+
+unit:OZ_TROY  qudt:ucumCode  "[oz_tr]"^^qudt:UCUMcs .
+
+unit:MegaV-PER-M  qudt:ucumCode  "MV.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B79" .
+
+unit:PINT_US_DRY  qudt:ucumCode  "[dpt_us]"^^qudt:UCUMcs .
+
+unit:MegaA-PER-M2  qudt:ucumCode  "MA.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B66" .
+
+unit:HectoPA-PER-K  qudt:ucumCode  "hPa.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F82" .
+
+unit:HP_Brake  qudt:uneceCommonCode  "K42" .
+
+unit:FemtoC  qudt:ucumCode  "fC"^^qudt:UCUMcs .
+
+unit:MilliM2-PER-SEC  qudt:ucumCode  "mm2.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C17" .
+
+unit:BBL_UK_PET-PER-SEC
+        qudt:uneceCommonCode  "J61" .
+
+unit:GRAY  qudt:ucumCode      "Gy"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A95" .
+
+unit:BTU_IT-PER-SEC-FT2-DEG_R
+        qudt:ucumCode         "[Btu_IT]/(s.[ft_i]2.[degR])"^^qudt:UCUMcs , "[Btu_IT].s-1.[ft_i]-2.[degR]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A20" .
+
+unit:MilliM_HGA  qudt:ucumCode  "mm[Hg]{absolute}"^^qudt:UCUMcs .
+
+unit:DeciGM  qudt:ucumCode    "dg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DG" .
+
+unit:J-PER-MOL-K  qudt:ucumCode  "J.mol-1.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B16" .
+
+unit:G  qudt:ucumCode  "[g]"^^qudt:UCUMcs .
+
+unit:MicroM3-PER-M3  qudt:ucumCode  "um3.m-3"^^qudt:UCUMcs .
+
+unit:HectoPA  qudt:ucumCode   "hPa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A97" .
+
+unit:MegaJ-PER-KiloGM
+        qudt:ucumCode         "MJ.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "JK" .
+
+unit:MilliW  qudt:ucumCode  "mW"^^qudt:UCUMcs .
+
+unit:PERCENT-PER-DAY  qudt:ucumCode  "%.d-1"^^qudt:UCUMcs .
+
+unit:MOL-PER-L  qudt:ucumCode  "mol/L"^^qudt:UCUMcs , "mol.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C38" .
+
+unit:Gs  qudt:ucumCode  "G"^^qudt:UCUMcs .
+
+unit:KiloC-PER-M3  qudt:ucumCode  "kC.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B27" .
+
+unit:HZ-M  qudt:ucumCode      "Hz.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H34" .
+
+unit:BTU_IT-PER-SEC  qudt:ucumCode  "[Btu_IT]/s"^^qudt:UCUMcs , "[Btu_IT].s-1"^^qudt:UCUMcs .
+
+unit:MilliW-PER-M2-NanoM-SR
+        qudt:ucumCode  "mW.m-2.nm-1.sr-1"^^qudt:UCUMcs .
+
+unit:PER-WB  qudt:ucumCode  "Wb-1"^^qudt:UCUMcs .
+
+unit:L-PER-L  qudt:ucumCode   "L/L"^^qudt:UCUMcs , "L.L-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K62" .
+
+unit:DEGREE_BAUME_US_HEAVY
+        qudt:uneceCommonCode  "J15" .
+
+unit:N-M-SEC  qudt:ucumCode   "N.m.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C53" .
+
+unit:MicroMOL-PER-M2-SEC
+        qudt:ucumCode  "umol/m2/s"^^qudt:UCUMcs , "umol.m-2.s-1"^^qudt:UCUMcs .
+
+unit:L-PER-MOL  qudt:ucumCode  "L/mol"^^qudt:UCUMcs , "L.mol-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B58" .
+
+unit:DEG_C  qudt:ucumCode     "Cel"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CEL" .
+
+unit:N-PER-M  qudt:ucumCode   "N/m"^^qudt:UCUMcs , "N.m-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "4P" .
+
+unit:PA-SEC-PER-BAR  qudt:ucumCode  "Pa.s.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H07" .
+
+unit:KiloN  qudt:ucumCode     "kN"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B47" .
+
+unit:BAR-PER-BAR  qudt:ucumCode  "bar/bar"^^qudt:UCUMcs , "bar.bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J56" .
+
+unit:KiloGM-PER-MIN  qudt:ucumCode  "kg/min"^^qudt:UCUMcs , "kg.min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F31" .
+
+unit:M3-PER-DAY  qudt:ucumCode  "m3.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "G52" .
+
+unit:EV-SEC  qudt:ucumCode  "eV/s"^^qudt:UCUMcs , "eV.s-1"^^qudt:UCUMcs .
+
+unit:DecaPA  qudt:ucumCode    "daPa"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H75" .
+
+unit:M3-PER-C  qudt:ucumCode  "m3.C-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A38" .
+
+unit:MI2  qudt:ucumCode       "[smi_us]"^^qudt:UCUMcs , "[mi_us]2"^^qudt:UCUMcs , "[mi_i]2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MIK" .
+
+unit:LB-DEG_R  qudt:ucumCode  "[lb_av].[degR]"^^qudt:UCUMcs .
+
+unit:K-PA-PER-SEC  qudt:ucumCode  "K.Pa.s-1"^^qudt:UCUMcs .
+
+unit:Quarter_UK  qudt:ucumCode  "28.[lb_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "QTR" .
+
+unit:W-PER-M2-M-SR  qudt:ucumCode  "W.m-2.m-1.sr-1"^^qudt:UCUMcs .
+
+unit:V2-PER-K2  qudt:ucumCode  "V2.K-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D45" .
+
+unit:DEGREE_API  qudt:uneceCommonCode  "J13" .
+
+unit:DecaL  qudt:ucumCode     "daL"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A44" .
+
+unit:MicroN-M  qudt:ucumCode  "uN.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B93" .
+
+unit:DEG_C-PER-YR  qudt:ucumCode  "Cel.a-1"^^qudt:UCUMcs .
+
+unit:BU_UK-PER-DAY  qudt:ucumCode  "[bu_br]/d"^^qudt:UCUMcs , "[bu_br].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J64" .
+
+unit:CARAT  qudt:ucumCode     "[car_m]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CTM" .
+
+unit:WB  qudt:ucumCode        "Wb"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "WEB" .
+
+unit:SLUG-PER-HR  qudt:uneceCommonCode  "L66" .
+
+unit:V-PER-MilliM  qudt:ucumCode  "V.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D51" .
+
+unit:KiloCAL-PER-CentiM-SEC-DEG_C
+        qudt:ucumCode  "kcol.cm-1.s-1.Cel-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-CentiM2
+        qudt:ucumCode         "kg.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D5" .
+
+unit:B  qudt:ucumCode  "B"^^qudt:UCUMcs .
+
+unit:L-PER-HR  qudt:ucumCode  "L/h"^^qudt:UCUMcs , "L.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E32" .
+
+unit:S_Ab  qudt:ucumCode  "GS"^^qudt:UCUMcs .
+
+unit:DecaM3  qudt:ucumCode    "dam3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DMA" .
+
+unit:MilliR  qudt:ucumCode    "mR"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L31" , "2Y" .
+
+unit:LB-PER-GAL  qudt:ucumCode  "[lb_av].[gal_br]-1"^^qudt:UCUMcs .
+
+unit:V-PER-K  qudt:ucumCode   "V.K-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D48" .
+
+unit:HZ-PER-K  qudt:ucumCode  "Hz.K-1"^^qudt:UCUMcs .
+
+unit:M3-PER-KiloGM-SEC2
+        qudt:ucumCode  "m3/(kg.s2)"^^qudt:UCUMcs , "m3.kg-1.s-2"^^qudt:UCUMcs , "m3.(kg.s2)-1"^^qudt:UCUMcs .
+
+unit:KiloCAL-PER-GM-DEG_C
+        qudt:ucumCode  "cal.g-1.Cel-1"^^qudt:UCUMcs .
+
+unit:KiloM3-PER-SEC2  qudt:ucumCode  "km3/s2"^^qudt:UCUMcs , "km3.s-2"^^qudt:UCUMcs .
+
+unit:FATH  qudt:ucumCode  "[fth_i]"^^qudt:UCUMcs .
+
+unit:FT2-HR-DEG_F-PER-BTU_IT
+        qudt:ucumCode  "[sft_i].h.[degF].[Btu_IT]-1"^^qudt:UCUMcs .
+
+unit:KiloLB_F-PER-IN2
+        qudt:ucumCode         "k[lbf_av].[sin_i]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "84" .
+
+unit:MIN_Sidereal  qudt:ucumCode  "min"^^qudt:UCUMcs .
+
+unit:J-PER-M3  qudt:ucumCode  "J/m3"^^qudt:UCUMcs , "J.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B8" .
+
+unit:LB_F  qudt:ucumCode  "[lbf_av]"^^qudt:UCUMcs .
+
+unit:NanoT  qudt:ucumCode     "nT"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C48" .
+
+unit:MilliBQ-PER-KiloGM
+        qudt:ucumCode  "mBq.kg-1"^^qudt:UCUMcs .
+
+unit:DeciB  qudt:ucumCode     "dB"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2N" .
+
+unit:MicroOHM  qudt:ucumCode  "uOhm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B94" .
+
+unit:MilliN-M  qudt:ucumCode  "mN.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D83" .
+
+unit:PER-BAR  qudt:ucumCode   "bar-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F58" .
+
+unit:NanoGM-PER-MicroL
+        qudt:ucumCode  "ng.uL-1"^^qudt:UCUMcs .
+
+unit:PK_US_DRY-PER-DAY
+        qudt:ucumCode         "[pk_us].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L48" .
+
+unit:YottaC  qudt:ucumCode  "YC"^^qudt:UCUMcs .
+
+unit:W-M-PER-M2-SR  qudt:ucumCode  "W.m-2.m.sr-1"^^qudt:UCUMcs .
+
+unit:MegaYR  qudt:ucumCode  "Ma"^^qudt:UCUMcs .
+
+unit:PER-K  qudt:ucumCode  "K-1"^^qudt:UCUMcs .
+
+unit:MOL-PER-HR  qudt:ucumCode  "mol.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L23" .
+
+unit:YD3-PER-MIN  qudt:ucumCode  "[yd_i]3/min"^^qudt:UCUMcs , "[yd_i]3.min-1"^^qudt:UCUMcs , "[cyd_i]/min"^^qudt:UCUMcs , "[cyd_i].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M15" .
+
+unit:FT_US  qudt:ucumCode  "[ft_us]"^^qudt:UCUMcs .
+
+unit:PicoW  qudt:ucumCode     "pW"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C75" .
+
+unit:FT-LB_F-PER-FT2-SEC
+        qudt:ucumCode  "[ft_i].[lbf_av].[sft_i]-1.s-1"^^qudt:UCUMcs .
+
+unit:KiloEV  qudt:ucumCode  "keV"^^qudt:UCUMcs .
+
+unit:FT2  qudt:ucumCode       "[sft_i]"^^qudt:UCUMcs , "[ft_i]2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FTK" .
+
+unit:A-PER-M2  qudt:ucumCode  "A/m2"^^qudt:UCUMcs , "A.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A41" .
+
+unit:MilliM  qudt:ucumCode    "mm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MMT" .
+
+unit:MilliL-PER-CentiM2-SEC
+        qudt:ucumCode         "mL.cm-2.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "35" .
+
+unit:MegaW  qudt:ucumCode  "MW"^^qudt:UCUMcs .
+
+unit:BIT-PER-SEC  qudt:ucumCode  "bit/s"^^qudt:UCUMcs , "bit.s-1"^^qudt:UCUMcs , "Bd"^^qudt:UCUMcs .
+
+unit:BTU_TH-FT-PER-HR-FT2-DEG_F
+        qudt:ucumCode         "[Btu_th].[ft_i]/(h.[ft_i]2.[degF])"^^qudt:UCUMcs , "[Btu_th].[ft_i].h-1.[ft_i]-2.[degF]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J46" .
+
+unit:HectoPA-L-PER-SEC
+        qudt:ucumCode         "hPa.L.s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "F93" .
+
+unit:MicroMOL-PER-KiloGM
+        qudt:ucumCode  "umol/kg"^^qudt:UCUMcs , "umol.kg-1"^^qudt:UCUMcs .
+
+unit:M2-HZ3  qudt:ucumCode  "m2.Hz3"^^qudt:UCUMcs .
+
+unit:KiloGM_F-PER-CentiM2
+        qudt:ucumCode  "kgf.cm-2"^^qudt:UCUMcs .
+
+unit:MicroT  qudt:ucumCode    "uT"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D81" .
+
+unit:DEG_R-PER-HR  qudt:ucumCode  "[degR]/h"^^qudt:UCUMcs , "[degR].h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J28" .
+
+unit:N-PER-C  qudt:ucumCode  "N.C-1"^^qudt:UCUMcs .
+
+unit:GI_UK-PER-DAY  qudt:ucumCode  "[gil_br].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "K32" .
+
+unit:MilliM_H2O  qudt:ucumCode  "mm[H2O]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "HP" .
+
+unit:MilliOHM  qudt:ucumCode  "mOhm"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "E45" .
+
+unit:DeciM3  qudt:ucumCode    "dm3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "DMQ" .
+
+unit:DeciM3-PER-DAY  qudt:ucumCode  "dm3/d"^^qudt:UCUMcs , "dm3.d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J90" .
+
+unit:TON_US-PER-DAY  qudt:ucumCode  "[ston_av].d-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L88" .
+
+unit:CentiM-PER-HR  qudt:ucumCode  "cm/h"^^qudt:UCUMcs , "cm.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H49" .
+
+unit:PER-MilliSEC  qudt:ucumCode  "ms-1"^^qudt:UCUMcs .
+
+unit:W-PER-SR  qudt:ucumCode  "W.sr-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "D57" .
+
+unit:PA2-PER-SEC2  qudt:ucumCode  "Pa2.s-2"^^qudt:UCUMcs .
+
+unit:M-KiloGM  qudt:ucumCode  "m.kg"^^qudt:UCUMcs .
+
+unit:KiloM-PER-SEC  qudt:ucumCode  "km/s"^^qudt:UCUMcs , "km.s-1"^^qudt:UCUMcs .
+
+unit:PINT_US-PER-MIN  qudt:ucumCode  "[pt_us].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L59" .
+
+unit:M2-PER-HZ2  qudt:ucumCode  "m2.Hz-2"^^qudt:UCUMcs .
+
+unit:MicroMOL-PER-L-HR
+        qudt:ucumCode  "umol/L/h"^^qudt:UCUMcs , "umol.L-1.h-1"^^qudt:UCUMcs .
+
+unit:CWT_SHORT  qudt:ucumCode  "[scwt_av]"^^qudt:UCUMcs .
+
+unit:LB-PER-GAL_US  qudt:ucumCode  "[lb_av].[gal_us]-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "GE" .
+
+unit:PER-MILLE-PER-PSI
+        qudt:uneceCommonCode  "J12" .
+
+unit:A-PER-CentiM2  qudt:ucumCode  "A/cm2"^^qudt:UCUMcs , "A.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A4" .
+
+unit:PER-M2  qudt:ucumCode  "m-2"^^qudt:UCUMcs , "/m2"^^qudt:UCUMcs .
+
+unit:SAMPLE-PER-SEC  qudt:ucumCode  "s-1"^^qudt:UCUMcs .
+
+unit:NanoMOL-PER-CentiM3-HR
+        qudt:ucumCode  "nmol.cm-3.h-1"^^qudt:UCUMcs .
+
+unit:OZ_VOL_UK-PER-SEC
+        qudt:ucumCode         "[foz_br].s-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J98" .
+
+unit:N-M2-PER-KiloGM2
+        qudt:ucumCode         "N.m.kg-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C54" .
+
+unit:C-PER-KiloGM  qudt:ucumCode  "C/kg"^^qudt:UCUMcs , "C.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CKG" .
+
+unit:MicroC-PER-M2  qudt:ucumCode  "uC.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "B88" .
+
+unit:MilliH  qudt:ucumCode    "mH"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "C14" .
+
+unit:MicroMOL  qudt:ucumCode  "umol"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "FH" .
+
+unit:C-PER-M2  qudt:ucumCode  "C/m2"^^qudt:UCUMcs , "C.m-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A34" .
+
+unit:M3-PER-HR  qudt:ucumCode  "m3/h"^^qudt:UCUMcs , "m3.h-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MQH" .
+
+unit:KiloGM-PER-M3  qudt:ucumCode  "kg/m3"^^qudt:UCUMcs , "kg.m-3"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KMQ" .
+
+unit:K-SEC  qudt:ucumCode  "K.s"^^qudt:UCUMcs .
+
+unit:Hundredweight_UK
+        qudt:ucumCode         "[lcwt_av]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CWI" .
+
+unit:A-PER-MilliM  qudt:ucumCode  "A/mm"^^qudt:UCUMcs , "A.mm-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A3" .
+
+unit:C-PER-CentiM2  qudt:ucumCode  "C/cm2"^^qudt:UCUMcs , "C.cm-2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A33" .
+
+unit:FUR  qudt:ucumCode  "[fur_us]"^^qudt:UCUMcs .
+
+unit:CentiM-PER-KiloYR
+        qudt:ucumCode  "cm.ka-1"^^qudt:UCUMcs .
+
+unit:KiloGM-PER-M-SEC
+        qudt:ucumCode  "kg.m-1.s-1"^^qudt:UCUMcs .
+
+unit:CAL_TH-PER-G  qudt:ucumCode  "cal_th/g"^^qudt:UCUMcs , "cal_th.g-1"^^qudt:UCUMcs .
+
+unit:PK_UK-PER-MIN  qudt:ucumCode  "[pk_br].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "L46" .
+
+unit:MilliL-PER-KiloGM
+        qudt:ucumCode         "mL/kg"^^qudt:UCUMcs , "mL.kg-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KX" .
+
+unit:GigaW  qudt:ucumCode     "GW"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "A90" .
+
+unit:KiloHZ  qudt:ucumCode    "kHz"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KHZ" .
+
+unit:IN2  qudt:ucumCode       "[sin_i]"^^qudt:UCUMcs , "[in_i]2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "INK" .
+
+unit:MI_N  qudt:ucumCode      "[nmi_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "NMI" .
+
+unit:KIP_F  qudt:ucumCode  "k[lbf_av]"^^qudt:UCUMcs .
+
+unit:FT3-PER-MIN  qudt:ucumCode  "[ft_i]3/min"^^qudt:UCUMcs , "[ft_i]3.min-1"^^qudt:UCUMcs , "[cft_i]/min"^^qudt:UCUMcs , "[cft_i].min-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "2L" .
+
+unit:KN  qudt:ucumCode        "[kn_i]"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "KNT" .
+
+unit:MicroCi  qudt:ucumCode   "uCi"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "M5" .
+
+unit:W-HR-PER-M3  qudt:ucumCode  "W.h.m-3"^^qudt:UCUMcs .
+
+unit:M2  qudt:ucumCode        "m2"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "MTK" .
+
+unit:MilliMOL-PER-GM  qudt:ucumCode  "mmol.g-1"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "H68" .
+
+unit:NUM-PER-M  qudt:ucumCode  "{#}.m-1"^^qudt:UCUMcs .
+
+unit:CentiGM  qudt:ucumCode   "cg"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "CGM" .
+
+unit:KiloGM-PER-HA  qudt:ucumCode  "kg/har"^^qudt:UCUMcs , "kg.har-1"^^qudt:UCUMcs .
+
+unit:CentiN-M  qudt:ucumCode  "cN.m"^^qudt:UCUMcs ;
+        qudt:uneceCommonCode  "J72" .
+
+unit:EV-PER-T  qudt:ucumCode  "eV/T"^^qudt:UCUMcs , "eV.T-1"^^qudt:UCUMcs .
+
+unit:DEG_C-WK  qudt:ucumCode  "Cel.wk"^^qudt:UCUMcs .

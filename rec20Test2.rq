@@ -1,0 +1,12 @@
+#qudtTest1.rq
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gs1: <http://gs1.org/voc/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX rec20: <https://service.unece.org/trade/uncefact/vocabulary/rec20#>
+
+CONSTRUCT { ?i qudt:uneceCommonCode ?r . }  WHERE { ?i a <https://service.unece.org/trade/uncefact/vocabulary/uncefact#UNECERec20Code> . OPTIONAL {?i rdf:value ?r }  } ORDER BY ?i
+

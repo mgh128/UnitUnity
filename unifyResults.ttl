@@ -1,0 +1,4142 @@
+@prefix dc:           <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:      <http://purl.org/dc/terms/> .
+@prefix gs1:          <http://gs1.org/voc/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix qkdv:         <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt:         <http://qudt.org/schema/qudt/> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rec20:        <https://service.unece.org/trade/uncefact/vocabulary/rec20#> .
+@prefix skos:         <http://www.w3.org/2004/02/skos/core#> .
+@prefix sou:          <http://qudt.org/vocab/sou/> .
+@prefix unit:         <http://qudt.org/vocab/unit/> .
+@prefix vaem:         <http://www.linkedmodel.org/schema/vaem#> .
+@prefix voag:         <http://voag.linkedmodel.org/schema/voag#> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+
+rec20:microvolt_per_metre
+        owl:sameAs  unit:MicroV-PER-M .
+
+rec20:newton_per_metre
+        owl:sameAs  unit:N-PER-M .
+
+unit:PicoM  owl:sameAs  rec20:picometre .
+
+unit:BYTE  owl:sameAs  rec20:byte .
+
+rec20:gram_per_square_centimetre
+        owl:sameAs  unit:GM-PER-CentiM2 .
+
+rec20:erg  owl:sameAs  unit:ERG .
+
+unit:MegaPA-L-PER-SEC
+        owl:sameAs  rec20:megapascal_litre_per_second .
+
+unit:MilliMOL  owl:sameAs  rec20:millimole .
+
+rec20:gigawatt_hour  owl:sameAs  unit:GigaW-HR .
+
+rec20:kilomole_per_minute
+        owl:sameAs  unit:KiloMOL-PER-MIN .
+
+unit:PER-DAY  owl:sameAs  rec20:reciprocal_day .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound_degree_Rankine>
+        owl:sameAs  unit:BTU_IT-PER-LB_F-DEG_R .
+
+unit:MilliC  owl:sameAs  rec20:millicoulomb .
+
+rec20:millicurie  owl:sameAs  unit:MilliCi .
+
+unit:CentiST  owl:sameAs  rec20:centistokes .
+
+unit:PER-MO  owl:sameAs  rec20:reciprocal_month .
+
+unit:U  owl:sameAs  rec20:unified_atomic_mass_unit .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_micrometre_(square_micron)>
+        owl:sameAs  unit:MicroM2 .
+
+rec20:gram_per_cubic_metre
+        owl:sameAs  unit:GM-PER-M3 .
+
+unit:TON_US-PER-YD3  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US_short)_per_cubic_yard> .
+
+rec20:kiloampere_per_square_metre
+        owl:sameAs  unit:KiloA-PER-M2 .
+
+unit:CentiM3-PER-K  owl:sameAs  rec20:cubic_centimetre_per_kelvin .
+
+unit:NanoS-PER-CentiM
+        owl:sameAs  rec20:nanosiemens_per_centimetre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK)>
+        owl:sameAs  unit:QT_UK .
+
+unit:DRAM_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#dram_(UK)> .
+
+unit:MOL-PER-DeciM3  owl:sameAs  rec20:mole_per_cubic_decimetre .
+
+rec20:cubic_decimetre_per_minute
+        owl:sameAs  unit:DeciM3-PER-MIN .
+
+unit:MicroMHO  owl:sameAs  rec20:micromho .
+
+unit:GRAIN  owl:sameAs  rec20:grain .
+
+rec20:coulomb_per_mole
+        owl:sameAs  unit:C-PER-MOL .
+
+unit:CAL_TH-PER-CentiM-SEC-DEG_C
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_centimetre_second_degree_Celsius> .
+
+unit:MilliGM-PER-HR  owl:sameAs  rec20:milligram_per_hour .
+
+rec20:watt_per_metre_kelvin
+        owl:sameAs  unit:W-PER-M-K .
+
+rec20:tonne_per_day  owl:sameAs  unit:TON_Metric-PER-DAY , unit:TONNE-PER-DAY .
+
+rec20:light_year  owl:sameAs  unit:LY .
+
+rec20:hectopascal_litre_per_second
+        owl:sameAs  unit:HectoPA-L-PER-SEC .
+
+rec20:kilogram_per_cubic_metre
+        owl:sameAs  unit:KiloGM-PER-M3 .
+
+unit:MOL-PER-MIN  owl:sameAs  rec20:mole_per_minute .
+
+rec20:cubic_yard  owl:sameAs  unit:YD3 .
+
+rec20:ton_short_per_day
+        owl:sameAs  unit:TON_US-PER-DAY .
+
+unit:CentiM3-PER-M3  owl:sameAs  rec20:cubic_centimetre_per_cubic_metre .
+
+rec20:kilovolt_per_metre
+        owl:sameAs  unit:KiloV-PER-M .
+
+unit:OZ_PER-GAL_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_gallon_(UK)> .
+
+unit:MilliM-PER-YR  owl:sameAs  rec20:millimetre_per_year .
+
+unit:PSI-PER-PSI  owl:sameAs  rec20:psi_per_psi .
+
+rec20:millibar_cubic_metre_per_second
+        owl:sameAs  unit:BAR-M3-PER-SEC .
+
+unit:MilliC-PER-M3  owl:sameAs  rec20:millicoulomb_per_cubic_metre .
+
+rec20:newton_square_metre_per_ampere
+        owl:sameAs  unit:N-M2-PER-A .
+
+unit:BQ-PER-KiloGM  owl:sameAs  rec20:becquerel_per_kilogram .
+
+unit:MO  owl:sameAs  rec20:month .
+
+rec20:mole_per_kilogram
+        owl:sameAs  unit:MOL-PER-KiloGM .
+
+rec20:kilocoulomb_per_cubic_metre
+        owl:sameAs  unit:KiloC-PER-M3 .
+
+rec20:siemens  owl:sameAs  unit:S .
+
+rec20:milliwatt_per_square_metre
+        owl:sameAs  unit:MilliW-PER-M2 .
+
+rec20:kilogram_per_hour
+        owl:sameAs  unit:KiloGM-PER-HR .
+
+unit:WB-PER-MilliM  owl:sameAs  rec20:weber_per_millimetre .
+
+unit:MegaPA-M3-PER-SEC
+        owl:sameAs  rec20:megapascal_cubic_metre_per_second .
+
+unit:CD-PER-M2  owl:sameAs  rec20:candela_per_square_metre .
+
+rec20:parsec  owl:sameAs  unit:PARSEC .
+
+rec20:megapascal_per_kelvin
+        owl:sameAs  unit:MegaPA-PER-K .
+
+rec20:litre_per_kilogram
+        owl:sameAs  unit:L-PER-KiloGM .
+
+unit:TON_Metric-PER-DAY
+        owl:sameAs  rec20:tonne_per_day , unit:TONNE-PER-DAY .
+
+unit:S-PER-M  owl:sameAs  rec20:siemens_per_metre .
+
+unit:PicoH  owl:sameAs  rec20:picohenry .
+
+rec20:millilitre_per_hour
+        owl:sameAs  unit:MilliL-PER-HR .
+
+unit:J-PER-M  owl:sameAs  rec20:joule_per_metre .
+
+rec20:foot  owl:sameAs  unit:FT .
+
+unit:KiloGM-PER-MOL  owl:sameAs  rec20:kilogram_per_mole .
+
+rec20:tropical_year  owl:sameAs  unit:YR_TROPICAL .
+
+rec20:terawatt  owl:sameAs  unit:TeraW .
+
+unit:KiloGM  owl:sameAs  rec20:kilogram .
+
+rec20:pound_per_square_foot
+        owl:sameAs  unit:LB-PER-FT2 .
+
+unit:AC  owl:sameAs  rec20:acre .
+
+rec20:kelvin_per_minute
+        owl:sameAs  unit:K-PER-MIN .
+
+unit:PER-WK  owl:sameAs  rec20:reciprocal_week .
+
+unit:CAL_TH-PER-SEC-CentiM-K
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second_centimetre_kelvin> .
+
+unit:BBL_UK_PET-PER-DAY
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_day> .
+
+unit:GI_UK-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_hour> .
+
+unit:DYN-SEC-PER-CentiM
+        owl:sameAs  rec20:dyne_second_per_centimetre .
+
+unit:BTU_IT-PER-LB_F  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound> .
+
+unit:OERSTED  owl:sameAs  rec20:oersted .
+
+unit:MegaN-M  owl:sameAs  rec20:meganewton_metre .
+
+unit:SLUG  owl:sameAs  rec20:slug .
+
+unit:BU_US_DRY-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_second> .
+
+rec20:picoampere  owl:sameAs  unit:PicoA .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(thermochemical)>
+        owl:sameAs  unit:DEG_F-HR-FT2-PER-BTU_TH .
+
+rec20:hectare  owl:sameAs  unit:HA .
+
+rec20:kilogram_per_metre
+        owl:sameAs  unit:KiloGM-PER-M .
+
+unit:KiloMOL-PER-SEC  owl:sameAs  rec20:kilomole_per_second .
+
+unit:MIN_Angle  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_angle]> , unit:ARCMIN .
+
+unit:KiloW  owl:sameAs  rec20:kilowatt .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_day>
+        owl:sameAs  unit:GAL_UK-PER-DAY .
+
+rec20:picohenry  owl:sameAs  unit:PicoH .
+
+unit:OZ-PER-GAL_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_gallon_(US)> .
+
+rec20:foot_per_degree_Fahrenheit
+        owl:sameAs  unit:FT-PER-DEG_F .
+
+rec20:cubic_centimetre_per_day
+        owl:sameAs  unit:CentiM3-PER-DAY .
+
+unit:PER-YD3  owl:sameAs  rec20:reciprocal_cubic_yard .
+
+unit:KiloV-A  owl:sameAs  rec20:kilovolt_-_ampere .
+
+rec20:kiloohm  owl:sameAs  unit:KiloOHM .
+
+rec20:cubic_centimetre_per_minute
+        owl:sameAs  unit:CentiM3-PER-MIN .
+
+rec20:reciprocal_month
+        owl:sameAs  unit:PER-MO .
+
+rec20:litre_per_mole  owl:sameAs  unit:L-PER-MOL .
+
+rec20:cubic_decimetre_per_day
+        owl:sameAs  unit:DeciM3-PER-DAY .
+
+rec20:foot_per_second_squared
+        owl:sameAs  unit:FT-PER-SEC2 .
+
+unit:DYN-SEC-PER-CentiM3
+        owl:sameAs  rec20:dyne_second_per_cubic_centimetre .
+
+rec20:picosiemens_per_metre
+        owl:sameAs  unit:PicoS-PER-M .
+
+unit:DEG_F-PER-K  owl:sameAs  rec20:degree_Fahrenheit_per_kelvin .
+
+rec20:kilogram_per_square_metre
+        owl:sameAs  unit:KiloGM-PER-M2 .
+
+rec20:pound-force_foot_per_pound
+        owl:sameAs  unit:KiloLB_F-FT-PER-LB .
+
+unit:WK  owl:sameAs  rec20:week .
+
+unit:PicoC  owl:sameAs  rec20:picocoulomb .
+
+unit:KiloCAL_TH-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_second> .
+
+unit:KiloGM_F-PER-M2  owl:sameAs  rec20:kilogram-force_per_square_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_hour>
+        owl:sameAs  unit:GI_UK-PER-HR .
+
+rec20:picofarad  owl:sameAs  unit:PicoFARAD .
+
+rec20:millisiemens  owl:sameAs  unit:MilliS .
+
+rec20:centistokes  owl:sameAs  unit:CentiST .
+
+rec20:millivolt  owl:sameAs  unit:MilliV .
+
+unit:YR_TROPICAL  owl:sameAs  rec20:tropical_year .
+
+unit:MegaC  owl:sameAs  rec20:megacoulomb .
+
+unit:K  owl:sameAs  rec20:kelvin .
+
+unit:M2-PER-MOL  owl:sameAs  rec20:square_metre_per_mole .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_hour>
+        owl:sameAs  unit:PINT_UK-PER-HR .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_second_centimetre_kelvin>
+        owl:sameAs  unit:CAL_IT-PER-SEC-CentiM-K .
+
+rec20:volt_per_second
+        owl:sameAs  unit:V-PER-SEC .
+
+unit:N-CentiM  owl:sameAs  rec20:newton_centimetre .
+
+rec20:megacoulomb_per_square_metre
+        owl:sameAs  unit:MegaC-PER-M2 .
+
+rec20:newton_per_square_centimetre
+        owl:sameAs  unit:N-PER-CentiM2 .
+
+unit:L-PER-SEC  owl:sameAs  rec20:litre_per_second .
+
+unit:CentiM3  owl:sameAs  rec20:cubic_centimetre .
+
+unit:ANGSTROM  owl:sameAs  rec20:angstrom .
+
+unit:BTU_TH-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_second> .
+
+unit:YR_Common  owl:sameAs  rec20:common_year .
+
+unit:MilliMOL-PER-M3  owl:sameAs  rec20:reciprocal_cubic_metre .
+
+unit:MegaOHM  owl:sameAs  rec20:megaohm .
+
+rec20:astronomical_unit
+        owl:sameAs  unit:AU .
+
+unit:BBL_UK_PET  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)> .
+
+rec20:degree_Rankine_per_minute
+        owl:sameAs  unit:DEG_R-PER-MIN .
+
+unit:DEGREE_BAUME_US_LIGHT
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(US_light)> .
+
+unit:MilliW-PER-M2  owl:sameAs  rec20:milliwatt_per_square_metre .
+
+unit:M2-PER-SR  owl:sameAs  rec20:steradian , unit:SR .
+
+unit:N-SEC  owl:sameAs  rec20:newton_second .
+
+rec20:femtojoule  owl:sameAs  unit:FemtoJ .
+
+rec20:gram_per_cubic_decimetre
+        owl:sameAs  unit:GM-PER-DeciM3 .
+
+unit:KiloR  owl:sameAs  rec20:kiloroentgen .
+
+unit:NanoS-PER-M  owl:sameAs  rec20:nanosiemens_per_metre .
+
+unit:CD  owl:sameAs  rec20:candela .
+
+unit:GAUGE_FR  owl:sameAs  rec20:French_gauge .
+
+unit:MilliN-PER-M  owl:sameAs  rec20:millinewton_per_metre .
+
+unit:WB-M  owl:sameAs  rec20:weber_metre .
+
+rec20:kelvin_metre_per_watt
+        owl:sameAs  unit:K-M-PER-W .
+
+rec20:gigacoulomb_per_cubic_metre
+        owl:sameAs  unit:GigaC-PER-M3 .
+
+unit:N-PER-MilliM2  owl:sameAs  rec20:newton_per_square_millimetre .
+
+rec20:cubic_yard_per_hour
+        owl:sameAs  unit:YD3-PER-HR .
+
+rec20:slug_per_minute
+        owl:sameAs  unit:SLUG-PER-MIN .
+
+rec20:kilopascal_per_bar
+        owl:sameAs  unit:KiloPA-PER-BAR .
+
+unit:FT-PER-DEG_F  owl:sameAs  rec20:foot_per_degree_Fahrenheit .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_day>
+        owl:sameAs  unit:LB-PER-DAY .
+
+unit:TON_US-PER-HR  owl:sameAs  rec20:tonne_per_hour , <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US)_per_hour> .
+
+rec20:megapascal  owl:sameAs  unit:MegaPA .
+
+rec20:cubic_inch_per_second
+        owl:sameAs  unit:IN3-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram>
+        owl:sameAs  unit:CAL_TH-PER-GM .
+
+rec20:milligram_per_hour
+        owl:sameAs  unit:MilliGM-PER-HR .
+
+unit:MilliSV  owl:sameAs  rec20:millisievert .
+
+unit:MOL-PER-KiloGM  owl:sameAs  rec20:mole_per_kilogram .
+
+rec20:gigahertz_metre
+        owl:sameAs  unit:GigaHZ-M .
+
+unit:Stone_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#stone_(UK)> .
+
+rec20:microhenry_per_ohm
+        owl:sameAs  unit:MicroH-PER-OHM .
+
+rec20:microbecquerel  owl:sameAs  unit:MicroBQ .
+
+rec20:kilogram_metre_squared_per_second
+        owl:sameAs  unit:KiloGM-M2-PER-SEC .
+
+unit:MegaGM-PER-M3  owl:sameAs  rec20:megagram_per_cubic_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dram_(US)>
+        owl:sameAs  unit:DRAM_US .
+
+rec20:decare  owl:sameAs  unit:DecaARE .
+
+unit:MilliV  owl:sameAs  rec20:millivolt .
+
+unit:BIT  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_second> , unit:BBL_US-PER-MIN .
+
+rec20:kilogram_metre_squared
+        owl:sameAs  unit:KiloGM-M2 .
+
+unit:KiloC-PER-M2  owl:sameAs  rec20:kilocoulomb_per_square_metre .
+
+unit:L-PER-K  owl:sameAs  rec20:litre_per_kelvin .
+
+unit:FT-PER-MIN  owl:sameAs  rec20:foot_per_minute .
+
+unit:QT_US-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_minute> .
+
+unit:KiloPA  owl:sameAs  rec20:kilopascal .
+
+unit:KiloGM-PER-MilliM
+        owl:sameAs  rec20:kilogram_per_millimetre .
+
+rec20:hectometre  owl:sameAs  unit:HectoM .
+
+rec20:picosecond  owl:sameAs  unit:PicoSEC .
+
+unit:MicroS-PER-CentiM
+        owl:sameAs  rec20:microsiemens_per_centimetre .
+
+rec20:cubic_decametre
+        owl:sameAs  unit:DecaM3 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)>
+        owl:sameAs  unit:KiloCAL_TH .
+
+rec20:cubic_metre_per_cubic_metre
+        owl:sameAs  unit:M3-PER-M3 .
+
+rec20:pascal_second_per_bar
+        owl:sameAs  unit:PA-SEC-PER-BAR .
+
+rec20:ohm  owl:sameAs  unit:OHM .
+
+unit:GigaC-PER-M3  owl:sameAs  rec20:gigacoulomb_per_cubic_metre .
+
+unit:KiloBQ  owl:sameAs  rec20:kilobecquerel .
+
+rec20:microsiemens_per_centimetre
+        owl:sameAs  unit:MicroS-PER-CentiM .
+
+rec20:kilogram_per_square_centimetre
+        owl:sameAs  unit:KiloGM-PER-CentiM2 .
+
+rec20:joule_per_metre_to_the_fourth_power
+        owl:sameAs  unit:J-PER-M4 .
+
+unit:KiloPOND  owl:sameAs  rec20:kilopond , unit:KiloP .
+
+rec20:sidereal_year  owl:sameAs  unit:YR_Sidereal .
+
+unit:ATM  owl:sameAs  rec20:standard_atmosphere .
+
+rec20:byte  owl:sameAs  unit:BYTE .
+
+unit:MilliL-PER-MIN  owl:sameAs  rec20:millilitre_per_minute .
+
+unit:PINT_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)> .
+
+rec20:stokes  owl:sameAs  unit:ST .
+
+rec20:megapascal_litre_per_second
+        owl:sameAs  unit:MegaPA-L-PER-SEC .
+
+rec20:sievert  owl:sameAs  unit:SV .
+
+rec20:clo  owl:sameAs  unit:CLO .
+
+rec20:weber_per_metre
+        owl:sameAs  unit:WB-PER-M .
+
+rec20:square_metre_per_second
+        owl:sameAs  unit:M2-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_minute>
+        owl:sameAs  unit:BBL_UK_PET-PER-MIN .
+
+unit:BBL_US_PET-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_hour> , unit:BBL_US_PET-PER-SEC .
+
+rec20:cubic_millimetre
+        owl:sameAs  unit:MilliM3 .
+
+unit:A  owl:sameAs  rec20:ampere .
+
+unit:TON_Metric  owl:sameAs  rec20:tin , unit:TONNE .
+
+rec20:square_metre_per_joule
+        owl:sameAs  unit:M2-PER-J .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dram_(UK)>
+        owl:sameAs  unit:DRAM_UK .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_hour>
+        owl:sameAs  unit:KiloCAL_TH-PER-HR .
+
+unit:J-PER-KiloGM-K  owl:sameAs  rec20:joule_per_kilogram_kelvin .
+
+rec20:degree_Balling  owl:sameAs  unit:DEGREE_BALLING .
+
+rec20:gram_per_millimetre
+        owl:sameAs  unit:GM-PER-MilliM .
+
+unit:MilliPA-SEC-PER-BAR
+        owl:sameAs  rec20:millipascal_second_per_bar .
+
+rec20:henry_per_metre
+        owl:sameAs  unit:H-PER-M .
+
+unit:IN3-PER-SEC  owl:sameAs  rec20:cubic_inch_per_second .
+
+unit:ERG  owl:sameAs  rec20:erg .
+
+unit:ARCMIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_angle]> , unit:MIN_Angle .
+
+rec20:grain  owl:sameAs  unit:GRAIN .
+
+rec20:cubic_centimetre_per_hour
+        owl:sameAs  unit:CentiM3-PER-HR .
+
+unit:CentiM-PER-SEC  owl:sameAs  rec20:centimetre_per_second .
+
+unit:CAL_TH-PER-GM-DEG_C
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram_degree_Celsius> .
+
+unit:M-PER-SEC  owl:sameAs  rec20:metre_per_second .
+
+rec20:newton_metre_per_ampere
+        owl:sameAs  unit:N-M-PER-A .
+
+unit:KiloGM-MilliM2  owl:sameAs  rec20:kilogram_square_millimetre .
+
+unit:OZ_VOL_UK-PER-DAY
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_day> .
+
+unit:J-PER-M2  owl:sameAs  rec20:joule_per_square_metre .
+
+rec20:erg_per_centimetre
+        owl:sameAs  unit:ERG-PER-CentiM .
+
+unit:SR  owl:sameAs  rec20:steradian , unit:M2-PER-SR .
+
+rec20:joule_per_mole  owl:sameAs  unit:J-PER-MOL .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gram_per_metre_(gram_per_100_centimetres)>
+        owl:sameAs  unit:GM-PER-M .
+
+unit:IN-PER-SEC2  owl:sameAs  rec20:inch_per_second_squared .
+
+unit:PER-FT3  owl:sameAs  rec20:reciprocal_cubic_foot .
+
+rec20:coulomb_per_kilogram
+        owl:sameAs  unit:C-PER-KiloGM .
+
+rec20:kilopond  owl:sameAs  unit:KiloPOND , unit:KiloP .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_day>
+        owl:sameAs  unit:OZ_VOL_US-PER-DAY .
+
+unit:FT3-PER-DEG_F  owl:sameAs  rec20:cubic_foot_per_degree_Fahrenheit .
+
+rec20:radian_per_metre
+        owl:sameAs  unit:RAD-PER-M .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_minute>
+        owl:sameAs  unit:KiloCAL_TH-PER-MIN .
+
+unit:MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_time]> .
+
+rec20:milligram_per_cubic_metre
+        owl:sameAs  unit:MilliGM-PER-M3 .
+
+unit:LB_F-PER-IN2-DEG_F
+        owl:sameAs  rec20:pound-force_per_square_inch_degree_Fahrenheit .
+
+unit:NanoSEC  owl:sameAs  rec20:nanosecond .
+
+unit:GM-PER-M3  owl:sameAs  rec20:gram_per_cubic_metre .
+
+unit:GAL_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)> .
+
+unit:GAL_US-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US)_per_hour> .
+
+unit:CAL_MEAN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(mean)> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_hour>
+        owl:sameAs  unit:OZ_VOL_UK-PER-HR .
+
+rec20:megavolt_per_metre
+        owl:sameAs  unit:MegaV-PER-M .
+
+unit:A-SEC  owl:sameAs  rec20:ampere_second .
+
+rec20:cubic_centimetre_per_kelvin
+        owl:sameAs  unit:CentiM3-PER-K .
+
+unit:GAL_UK-PER-MIN  owl:sameAs  rec20:Imperial_gallon_per_minute .
+
+unit:MegaC-PER-M3  owl:sameAs  rec20:megacoulomb_per_cubic_metre .
+
+unit:GM-PER-MilliM  owl:sameAs  rec20:gram_per_millimetre .
+
+unit:KiloGM-PER-M  owl:sameAs  rec20:kilogram_per_metre .
+
+unit:OZ-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_minute> .
+
+unit:MicroSEC  owl:sameAs  rec20:microsecond .
+
+rec20:gigaohm  owl:sameAs  unit:GigaOHM .
+
+rec20:reciprocal_cubic_inch
+        owl:sameAs  unit:PER-IN3 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_weight_(UK)>
+        owl:sameAs  unit:Hundredweight_UK .
+
+unit:GAUSS  owl:sameAs  rec20:gauss .
+
+unit:ATM_T  owl:sameAs  rec20:technical_atmosphere .
+
+unit:DEG-PER-SEC  owl:sameAs  rec20:degree_per_second .
+
+unit:MilliL  owl:sameAs  rec20:millilitre .
+
+rec20:millisievert  owl:sameAs  unit:MilliSV .
+
+rec20:millilitre_per_cubic_metre
+        owl:sameAs  unit:MilliL-PER-M3 .
+
+rec20:inch_to_the_fourth_power
+        owl:sameAs  unit:IN4 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_day>
+        owl:sameAs  unit:QT_US-PER-DAY .
+
+unit:MegaV  owl:sameAs  rec20:megavolt .
+
+rec20:slug  owl:sameAs  unit:SLUG .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_second>
+        owl:sameAs  unit:OZ-PER-SEC .
+
+rec20:lux  owl:sameAs  unit:LUX .
+
+unit:DeciM3-PER-M3  owl:sameAs  rec20:cubic_decimetre_per_cubic_metre .
+
+rec20:gram_per_hour  owl:sameAs  unit:GM-PER-HR .
+
+rec20:volt_per_metre  owl:sameAs  unit:V-PER-M .
+
+unit:MicroS  owl:sameAs  rec20:microsiemens .
+
+rec20:cubic_metre_per_day
+        owl:sameAs  unit:M3-PER-DAY .
+
+unit:GM-PER-DeciM3  owl:sameAs  rec20:gram_per_cubic_decimetre .
+
+rec20:reciprocal_centimetre
+        owl:sameAs  unit:PER-CentiM .
+
+unit:J-M2-PER-KiloGM  owl:sameAs  rec20:joule_square_metre_per_kilogram .
+
+rec20:pennyweight  owl:sameAs  unit:Pennyweight .
+
+rec20:kilogram_square_millimetre
+        owl:sameAs  unit:KiloGM-MilliM2 .
+
+unit:KiloC  owl:sameAs  rec20:kilocoulomb .
+
+unit:PicoPA-PER-KiloM
+        owl:sameAs  rec20:picopascal_per_kilometre .
+
+rec20:kilocoulomb  owl:sameAs  unit:KiloC .
+
+rec20:volt_per_inch  owl:sameAs  unit:V-PER-IN .
+
+rec20:reciprocal_cubic_millimetre
+        owl:sameAs  unit:PER-MilliM3 .
+
+unit:DYN-PER-CentiM  owl:sameAs  rec20:dyne_per_centimetre .
+
+unit:ERG-PER-GM  owl:sameAs  rec20:erg_per_gram , unit:ERG-PER-G .
+
+unit:DEGREE_BALLING  owl:sameAs  rec20:degree_Balling .
+
+rec20:centimetre_per_second
+        owl:sameAs  unit:CentiM-PER-SEC .
+
+unit:GAL_US-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US_liquid)_per_second> .
+
+unit:DeciM2  owl:sameAs  rec20:square_decimetre .
+
+rec20:kilosecond  owl:sameAs  unit:KiloSEC .
+
+unit:KiloMOL-PER-HR  owl:sameAs  rec20:kilomole_per_hour .
+
+rec20:centipoise  owl:sameAs  unit:CentiPOISE .
+
+rec20:gram_per_second
+        owl:sameAs  unit:GM-PER-SEC .
+
+rec20:mol_per_kilogram_pascal
+        owl:sameAs  unit:MOL-PER-KiloGM-PA .
+
+unit:K-M-PER-W  owl:sameAs  rec20:kelvin_metre_per_watt .
+
+unit:MX  owl:sameAs  rec20:maxwell .
+
+unit:TeraJ  owl:sameAs  rec20:terajoule .
+
+rec20:bar_per_kelvin  owl:sameAs  unit:BAR-PER-K .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US_liquid)_per_second>
+        owl:sameAs  unit:GAL_US-PER-SEC .
+
+rec20:microgram_per_kilogram
+        owl:sameAs  unit:MicroGM-PER-KiloGM .
+
+unit:MilliSEC  owl:sameAs  rec20:millisecond .
+
+unit:IN_H2O  owl:sameAs  rec20:inch_of_water .
+
+unit:PER-IN3  owl:sameAs  rec20:reciprocal_cubic_inch .
+
+rec20:weber  owl:sameAs  unit:WB .
+
+rec20:foot_per_second
+        owl:sameAs  unit:FT-PER-SEC .
+
+unit:MilliM-PER-MIN  owl:sameAs  rec20:millimetre_per_minute .
+
+rec20:cubic_foot_per_hour
+        owl:sameAs  unit:FT3-PER-HR .
+
+unit:K-PER-HR  owl:sameAs  rec20:kelvin_per_hour .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_minute>
+        owl:sameAs  unit:GI_US-PER-MIN .
+
+rec20:radian_square_metre_per_kilogram
+        owl:sameAs  unit:RAD-M2-PER-KiloGM .
+
+unit:PA-PER-M  owl:sameAs  rec20:pascal_per_metre .
+
+unit:CentiM-PER-K  owl:sameAs  rec20:centimetre_per_kelvin .
+
+rec20:megavolt  owl:sameAs  unit:MegaV .
+
+rec20:megavolt_-_ampere
+        owl:sameAs  unit:MegaV-A .
+
+unit:KiloGM-PER-M2  owl:sameAs  rec20:kilogram_per_square_metre .
+
+rec20:year  owl:sameAs  unit:YR .
+
+unit:MilliGM-PER-SEC  owl:sameAs  rec20:milligram_per_second .
+
+unit:N-PER-MilliM  owl:sameAs  rec20:newton_per_millimetre .
+
+rec20:metre_per_second
+        owl:sameAs  unit:M-PER-SEC .
+
+unit:MicroN  owl:sameAs  rec20:micronewton .
+
+rec20:mho  owl:sameAs  unit:MHO .
+
+rec20:kiloweber_per_metre
+        owl:sameAs  unit:KiloWB-PER-M .
+
+rec20:picofarad_per_metre
+        owl:sameAs  unit:PicoFARAD-PER-M .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound_degree_Fahrenheit>
+        owl:sameAs  unit:BTU_IT-PER-LB_F-DEG_F .
+
+unit:KiloGM-PER-KiloGM
+        owl:sameAs  rec20:kilogram_per_kilogram_of_product .
+
+unit:M2-K-PER-W  owl:sameAs  rec20:square_metre_kelvin_per_watt .
+
+rec20:microfarad_per_kilometre
+        owl:sameAs  unit:MicroFARAD-PER-KiloM .
+
+rec20:milliweber  owl:sameAs  unit:MilliWB .
+
+unit:GI_US-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_minute> .
+
+unit:CentiM3-PER-MIN  owl:sameAs  rec20:cubic_centimetre_per_minute .
+
+unit:TONNE-PER-M3  owl:sameAs  rec20:tonne_per_cubic_metre , unit:TON_Metric-PER-M3 .
+
+unit:TON_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US)_or_short_ton_(UK/US)> .
+
+rec20:terajoule  owl:sameAs  unit:TeraJ .
+
+unit:PA-M3-PER-SEC  owl:sameAs  rec20:pascal_cubic_metre_per_second .
+
+rec20:megahertz_kilometre
+        owl:sameAs  unit:MegaHZ-M .
+
+unit:N-PER-CentiM  owl:sameAs  rec20:newton_per_centimetre .
+
+unit:MilliH-PER-KiloOHM
+        owl:sameAs  rec20:millihenry_per_kiloohm .
+
+unit:ROD  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#rod_[unit_of_distance]> .
+
+rec20:micropascal  owl:sameAs  unit:MicroPA .
+
+unit:PicoS-PER-M  owl:sameAs  rec20:picosiemens_per_metre .
+
+unit:BU_US_DRY-PER-DAY
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_day> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_minute>
+        owl:sameAs  unit:OZ_VOL_UK-PER-MIN .
+
+unit:MicroRAD  owl:sameAs  rec20:microradian .
+
+unit:M2-HR-DEG_C-PER-KiloCAL_IT
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#square_metre_hour_degree_Celsius_per_kilocalorie_(international_table)> .
+
+rec20:reciprocal_cubic_yard
+        owl:sameAs  unit:PER-YD3 .
+
+rec20:nanogram_per_kilogram
+        owl:sameAs  unit:NanoGM-PER-KiloGM .
+
+rec20:joule_per_kilogram_kelvin
+        owl:sameAs  unit:J-PER-KiloGM-K .
+
+rec20:erg_per_gram_second
+        owl:sameAs  unit:ERG-PER-GM-SEC .
+
+rec20:nautical_mile  owl:sameAs  unit:MI_N .
+
+unit:GRAD  owl:sameAs  rec20:gon , unit:GON .
+
+unit:GigaW-HR  owl:sameAs  rec20:gigawatt_hour .
+
+rec20:centilitre  owl:sameAs  unit:CentiL .
+
+rec20:pascal_per_kelvin
+        owl:sameAs  unit:PA-PER-K .
+
+rec20:tonne_per_second
+        owl:sameAs  unit:TON_Metric-PER-SEC , unit:TONNE-PER-SEC .
+
+rec20:megacoulomb  owl:sameAs  unit:MegaC .
+
+unit:MilliL-PER-M3  owl:sameAs  rec20:millilitre_per_cubic_metre .
+
+rec20:milligray  owl:sameAs  unit:MilliGRAY .
+
+unit:N-M  owl:sameAs  rec20:newton_metre .
+
+rec20:cubic_inch_per_minute
+        owl:sameAs  unit:IN3-PER-MIN .
+
+unit:ERG-PER-GM-SEC  owl:sameAs  rec20:erg_per_gram_second .
+
+rec20:gon  owl:sameAs  unit:GRAD , unit:GON .
+
+rec20:cubic_metre_per_minute
+        owl:sameAs  unit:M3-PER-MIN .
+
+unit:KiloGM-PER-SEC  owl:sameAs  rec20:kilogram_per_second .
+
+rec20:ampere_per_square_centimetre
+        owl:sameAs  unit:A-PER-CentiM2 .
+
+unit:T  owl:sameAs  rec20:tesla .
+
+unit:KiloGM-M-PER-SEC
+        owl:sameAs  rec20:kilogram_metre_per_second .
+
+unit:MegaL  owl:sameAs  rec20:megalitre .
+
+unit:BU_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US)> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_second>
+        owl:sameAs  unit:GAL_UK-PER-SEC .
+
+rec20:psi_litre_per_second
+        owl:sameAs  unit:PSI-L-PER-SEC .
+
+rec20:degree_API  owl:sameAs  unit:DEGREE_API .
+
+rec20:hertz_metre  owl:sameAs  unit:HZ-M .
+
+rec20:newton_second  owl:sameAs  unit:N-SEC .
+
+rec20:degree_Celsius_per_kelvin
+        owl:sameAs  unit:DEG_C-PER-K .
+
+rec20:decametre  owl:sameAs  unit:DecaM .
+
+unit:DPI  owl:sameAs  rec20:dots_per_inch .
+
+unit:GigaOHM  owl:sameAs  rec20:gigaohm .
+
+rec20:dyne  owl:sameAs  unit:DYN .
+
+rec20:mole_per_hour  owl:sameAs  unit:MOL-PER-HR .
+
+rec20:pound_inch_squared
+        owl:sameAs  unit:LB-IN2 .
+
+unit:PSI-IN3-PER-SEC  owl:sameAs  rec20:psi_cubic_inch_per_second .
+
+rec20:millilitre_per_kilogram
+        owl:sameAs  unit:MilliL-PER-KiloGM .
+
+unit:L-PER-DAY  owl:sameAs  rec20:litre_per_day .
+
+rec20:nanosiemens_per_metre
+        owl:sameAs  unit:NanoS-PER-M .
+
+rec20:lux_hour  owl:sameAs  unit:LUX-HR .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_pound_(cwt)_/_hundred_weight_(US)>
+        owl:sameAs  unit:Hundredweight_US .
+
+rec20:decinewton_metre
+        owl:sameAs  unit:DeciN-M .
+
+unit:MilliC-PER-M2  owl:sameAs  rec20:millicoulomb_per_square_metre .
+
+unit:GM-PER-MIN  owl:sameAs  rec20:gram_per_minute .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_second>
+        owl:sameAs  unit:PINT_US-PER-SEC .
+
+unit:TONNE-PER-MIN  owl:sameAs  rec20:tonne_per_minute , unit:TON_Metric-PER-MIN .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(US_light)>
+        owl:sameAs  unit:DEGREE_BAUME_US_LIGHT .
+
+unit:MilliRAD  owl:sameAs  rec20:milliradian .
+
+rec20:yard_per_degree_Fahrenheit
+        owl:sameAs  unit:YD-PER-DEG_F .
+
+rec20:square_metre  owl:sameAs  unit:M2 .
+
+rec20:picowatt_per_square_metre
+        owl:sameAs  unit:PicoW-PER-M2 .
+
+rec20:cubic_yard_per_day
+        owl:sameAs  unit:YD3-PER-DAY .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dry_barrel_(US)>
+        owl:sameAs  unit:BBL_US_DRY .
+
+unit:BFT  owl:sameAs  rec20:Beaufort .
+
+unit:MicroGM-PER-L  owl:sameAs  rec20:microgram_per_litre .
+
+rec20:decapascal  owl:sameAs  unit:DecaPA .
+
+unit:OZ_VOL_UK-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_hour> .
+
+unit:KiloGM_F-M-PER-CentiM2
+        owl:sameAs  rec20:kilogram-force_metre_per_square_centimetre .
+
+rec20:milliampere  owl:sameAs  unit:MilliA .
+
+unit:ERG-PER-SEC  owl:sameAs  rec20:erg_per_second .
+
+unit:HectoBAR  owl:sameAs  rec20:hectobar .
+
+unit:KiloHZ-M  owl:sameAs  rec20:kilohertz_metre .
+
+rec20:decigram  owl:sameAs  unit:DeciGM .
+
+unit:OHM  owl:sameAs  rec20:ohm .
+
+unit:S-PER-CentiM  owl:sameAs  rec20:siemens_per_centimetre .
+
+unit:PicoFARAD  owl:sameAs  rec20:picofarad .
+
+unit:MicroBAR  owl:sameAs  rec20:microbar .
+
+unit:FT2-PER-SEC  owl:sameAs  rec20:square_foot_per_second .
+
+unit:MicroGM  owl:sameAs  rec20:microgram .
+
+unit:M2-PER-SEC  owl:sameAs  rec20:square_metre_per_second .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_second>
+        owl:sameAs  unit:BU_US_DRY-PER-SEC .
+
+rec20:mole  owl:sameAs  unit:MOL .
+
+unit:GM-PER-KiloGM  owl:sameAs  rec20:gram_per_kilogram .
+
+unit:MilliCi  owl:sameAs  rec20:millicurie .
+
+unit:KiloGM_F-M  owl:sameAs  rec20:kilogram-force_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#fluid_ounce_(UK)>
+        owl:sameAs  unit:OZ_VOL_UK .
+
+unit:TeraOHM  owl:sameAs  rec20:teraohm .
+
+rec20:pound_per_square_inch_absolute
+        owl:sameAs  unit:LB-PER-IN2 .
+
+unit:OZ_VOL_US-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_second> .
+
+unit:DEG_F-HR-FT2-PER-BTU_IT
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(international_table)> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_day>
+        owl:sameAs  unit:GI_UK-PER-DAY .
+
+rec20:cubic_yard_per_second
+        owl:sameAs  unit:YD3-PER-SEC .
+
+rec20:gram_per_millilitre
+        owl:sameAs  unit:GM-PER-MilliL .
+
+unit:CLO  owl:sameAs  rec20:clo .
+
+rec20:newton_per_square_millimetre
+        owl:sameAs  unit:N-PER-MilliM2 .
+
+unit:BTU_IT-IN-PER-HR-FT2-DEG_F
+        owl:sameAs  unit:BTU_IT-IN-PER-FT2-HR-DEG_F .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#teaspoon_(US)>
+        owl:sameAs  unit:TSP .
+
+rec20:inch_of_mercury
+        owl:sameAs  unit:IN_HG .
+
+unit:MilliMOL-PER-L  owl:sameAs  rec20:millimole_per_litre .
+
+unit:KiloGM-PER-KiloMOL
+        owl:sameAs  rec20:kilogram_per_kilomol .
+
+rec20:square_metre_per_volt_second
+        owl:sameAs  unit:M2-PER-V-SEC .
+
+unit:MilliBAR-PER-BAR
+        owl:sameAs  rec20:millibar_per_bar .
+
+unit:TON_UK-PER-DAY  owl:sameAs  rec20:ton_long_per_day .
+
+unit:YD3-PER-SEC  owl:sameAs  rec20:cubic_yard_per_second .
+
+unit:K-PER-MIN  owl:sameAs  rec20:kelvin_per_minute .
+
+unit:KiloV  owl:sameAs  rec20:kilovolt .
+
+rec20:bar_litre_per_second
+        owl:sameAs  unit:BAR-L-PER-SEC .
+
+rec20:mole_per_second
+        owl:sameAs  unit:MOL-PER-SEC .
+
+unit:CH  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#Gunter's_chain> .
+
+unit:SLUG-PER-MIN  owl:sameAs  rec20:slug_per_minute .
+
+unit:M3-PER-K  owl:sameAs  rec20:cubic_metre_per_kelvin .
+
+unit:CentiPOISE-PER-BAR
+        owl:sameAs  rec20:centipoise_per_bar .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_day>
+        owl:sameAs  unit:GI_US-PER-DAY .
+
+unit:FT3-PER-HR  owl:sameAs  rec20:cubic_foot_per_hour .
+
+rec20:kilojoule_per_kilogram_kelvin
+        owl:sameAs  unit:KiloJ-PER-KiloGM-K .
+
+rec20:milliroentgen  owl:sameAs  unit:MilliR .
+
+unit:PINT_UK-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_minute> .
+
+rec20:electronvolt_per_metre
+        owl:sameAs  unit:EV-PER-M .
+
+rec20:millimetre_per_hour
+        owl:sameAs  unit:MilliM-PER-HR .
+
+rec20:tex  owl:sameAs  unit:TEX .
+
+rec20:coulomb_metre_squared_per_volt
+        owl:sameAs  unit:C-M2-PER-V .
+
+unit:MilliBAR  owl:sameAs  rec20:millibar .
+
+rec20:kilogram-force_metre_per_square_centimetre
+        owl:sameAs  unit:KiloGM_F-M-PER-CentiM2 .
+
+unit:PINT_UK-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_hour> .
+
+rec20:millivolt_per_minute
+        owl:sameAs  unit:MilliV-PER-MIN .
+
+unit:DecaARE  owl:sameAs  rec20:decare .
+
+unit:C-PER-MilliM3  owl:sameAs  rec20:coulomb_per_cubic_millimetre .
+
+rec20:tesla  owl:sameAs  unit:T .
+
+rec20:hectopascal  owl:sameAs  unit:HectoPA .
+
+rec20:pascal_litre_per_second
+        owl:sameAs  unit:PA-L-PER-SEC .
+
+unit:KiloPA-PER-K  owl:sameAs  rec20:kilopascal_per_kelvin .
+
+unit:J  owl:sameAs  rec20:joule .
+
+unit:W-PER-M2-K  owl:sameAs  rec20:watt_per_square_metre_kelvin .
+
+rec20:millicoulomb_per_kilogram
+        owl:sameAs  unit:MilliC-PER-KiloGM .
+
+unit:K-PER-K  owl:sameAs  rec20:kelvin_per_kelvin .
+
+unit:BTU_IT-PER-LB_F-DEG_F
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound_degree_Fahrenheit> .
+
+rec20:millimole_per_litre
+        owl:sameAs  unit:MilliMOL-PER-L .
+
+unit:MegaBIT-PER-SEC  owl:sameAs  rec20:megabit_per_second .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second_square_centimetre_kelvin>
+        owl:sameAs  unit:CAL_TH-PER-SEC-CentiM2-K .
+
+unit:CentiM2  owl:sameAs  rec20:square_centimetre .
+
+rec20:week  owl:sameAs  unit:WK .
+
+rec20:petajoule  owl:sameAs  unit:PetaJ .
+
+rec20:microsiemens  owl:sameAs  unit:MicroS .
+
+unit:H-PER-OHM  owl:sameAs  rec20:henry_per_ohm .
+
+unit:AttoJ-SEC  owl:sameAs  rec20:joule_second , unit:J-SEC .
+
+rec20:ampere  owl:sameAs  unit:A .
+
+unit:MilliFARAD  owl:sameAs  rec20:millifarad .
+
+unit:MOL  owl:sameAs  rec20:mole .
+
+unit:MilliGM-PER-M  owl:sameAs  rec20:milligram_per_metre .
+
+unit:DEG_F  owl:sameAs  rec20:degree_Fahrenheit .
+
+unit:PINT_US-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_second> .
+
+unit:LUX  owl:sameAs  rec20:lux .
+
+unit:CUP_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#cup_[unit_of_volume]> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_foot_degree_Rankine>
+        owl:sameAs  unit:BTU_IT-PER-SEC-FT-DEG_R .
+
+rec20:kilogram_per_millimetre
+        owl:sameAs  unit:KiloGM-PER-MilliM .
+
+rec20:volt_per_kelvin
+        owl:sameAs  unit:V-PER-K .
+
+unit:RAD-PER-M  owl:sameAs  rec20:radian_per_metre .
+
+unit:DEG_R-PER-MIN  owl:sameAs  rec20:degree_Rankine_per_minute .
+
+rec20:kilogram_per_cubic_decimetre
+        owl:sameAs  unit:KiloGM-PER-DeciM3 .
+
+unit:ERG-PER-G  owl:sameAs  rec20:erg_per_gram , unit:ERG-PER-GM .
+
+rec20:millitesla  owl:sameAs  unit:MilliT .
+
+unit:HP_Metric  owl:sameAs  rec20:metric_horse_power .
+
+rec20:millisecond  owl:sameAs  unit:MilliSEC .
+
+unit:H-PER-KiloOHM  owl:sameAs  rec20:henry_per_kiloohm .
+
+unit:PER-CentiM3  owl:sameAs  rec20:reciprocal_cubic_centimetre .
+
+rec20:millimetre_per_kelvin
+        owl:sameAs  unit:MilliM-PER-K .
+
+rec20:joule  owl:sameAs  unit:J .
+
+unit:PK_UK-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_second> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_second>
+        owl:sameAs  unit:BU_UK-PER-SEC .
+
+unit:MicroPA  owl:sameAs  rec20:micropascal .
+
+unit:MI-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#mile_per_hour_(statute_mile)> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram>
+        owl:sameAs  unit:CAL_IT-PER-GM .
+
+unit:DeciN-M  owl:sameAs  rec20:decinewton_metre .
+
+unit:TON_UK-PER-YD3  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK_long)_per_cubic_yard> .
+
+unit:FARAD  owl:sameAs  rec20:farad .
+
+rec20:watt_second  owl:sameAs  unit:W-SEC .
+
+unit:KiloV-A-HR  owl:sameAs  rec20:kilovolt_ampere_hour .
+
+unit:FT3-PER-SEC  owl:sameAs  rec20:cubic_foot_per_second .
+
+rec20:foot_per_minute
+        owl:sameAs  unit:FT-PER-MIN .
+
+unit:HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(boiler)> , unit:HP_Brake .
+
+rec20:kilonewton  owl:sameAs  unit:KiloN .
+
+unit:QT_UK-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_hour> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_per_gallon_(US)>
+        owl:sameAs  unit:LB-PER-GAL_US .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK_long)_per_cubic_yard>
+        owl:sameAs  unit:TON_UK-PER-YD3 .
+
+rec20:kilojoule_per_kilogram
+        owl:sameAs  unit:KiloJ-PER-KiloGM .
+
+rec20:millipascal_second_per_bar
+        owl:sameAs  unit:MilliPA-SEC-PER-BAR .
+
+rec20:kilojoule_per_kelvin
+        owl:sameAs  unit:KiloJ-PER-K .
+
+rec20:cubic_millimetre_per_cubic_metre
+        owl:sameAs  unit:MilliM3-PER-M3 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_hour>
+        owl:sameAs  unit:BTU_TH-PER-HR .
+
+unit:FT-PER-HR  owl:sameAs  rec20:foot_per_hour .
+
+unit:TeraW-HR  owl:sameAs  rec20:terawatt_hour .
+
+unit:MicroBQ  owl:sameAs  rec20:microbecquerel .
+
+rec20:kilovolt_-_ampere
+        owl:sameAs  unit:KiloV-A .
+
+unit:KiloL  owl:sameAs  rec20:kilolitre .
+
+rec20:ounce_inch  owl:sameAs  unit:OZ-IN .
+
+unit:BBL_US-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)_per_day> .
+
+unit:FT_H2O  owl:sameAs  rec20:foot_of_water .
+
+unit:SV  owl:sameAs  rec20:sievert .
+
+unit:Pennyweight  owl:sameAs  rec20:pennyweight .
+
+rec20:kilobit_per_second
+        owl:sameAs  unit:KiloBIT-PER-SEC .
+
+unit:MegaHZ-M  owl:sameAs  rec20:megahertz_kilometre .
+
+rec20:gigahertz  owl:sameAs  unit:GigaHZ .
+
+unit:TBSP  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#tablespoon_(US)> .
+
+unit:KiloMOL-PER-KiloGM
+        owl:sameAs  rec20:kilomole_per_kilogram .
+
+rec20:kilomole_per_kilogram
+        owl:sameAs  unit:KiloMOL-PER-KiloGM .
+
+unit:MHO  owl:sameAs  rec20:mho .
+
+unit:DEGREE_PLATO  owl:sameAs  rec20:degree_Plato .
+
+unit:NanoW  owl:sameAs  rec20:nanowatt .
+
+rec20:millipascal_second
+        owl:sameAs  unit:MilliPA-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram_kelvin>
+        owl:sameAs  unit:CAL_IT-PER-GM-K .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)_per_hour_metre_degree_Celsius>
+        owl:sameAs  unit:KiloCAL_IT-PER-HR-M-DEG_C .
+
+rec20:reciprocal_angstrom
+        owl:sameAs  unit:PER-ANGSTROM .
+
+unit:KiloLB_F-PER-FT  owl:sameAs  rec20:pound-force_per_foot .
+
+rec20:millimole_per_kilogram
+        owl:sameAs  unit:MilliMOL-PER-KiloGM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US)>
+        owl:sameAs  unit:BU_US .
+
+unit:GM-MilliM  owl:sameAs  rec20:gram_millimetre .
+
+unit:LB-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_second> .
+
+rec20:cubic_decimetre
+        owl:sameAs  unit:DeciM3 .
+
+rec20:poise  owl:sameAs  unit:POISE .
+
+rec20:kilohertz_metre
+        owl:sameAs  unit:KiloHZ-M .
+
+unit:MOL-PER-SEC  owl:sameAs  rec20:mole_per_second .
+
+unit:J-PER-MOL  owl:sameAs  rec20:joule_per_mole .
+
+unit:PH  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_day> , unit:PINT_UK-PER-DAY .
+
+unit:KiloM-PER-HR  owl:sameAs  rec20:kilometre_per_hour .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_minute>
+        owl:sameAs  unit:PINT_UK-PER-MIN .
+
+rec20:milligal  owl:sameAs  unit:MilliGAL .
+
+unit:MicroH-PER-M  owl:sameAs  rec20:microhenry_per_metre .
+
+unit:Hundredweight_US
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_pound_(cwt)_/_hundred_weight_(US)> .
+
+rec20:decitonne  owl:sameAs  unit:DeciTON_Metric .
+
+unit:CentiM3-PER-MOL  owl:sameAs  rec20:cubic_centimetre_per_mole .
+
+unit:GON  owl:sameAs  rec20:gon , unit:GRAD .
+
+unit:FT_HG  owl:sameAs  rec20:foot_of_mercury .
+
+rec20:cubic_decimetre_per_hour
+        owl:sameAs  unit:DeciM3-PER-HR .
+
+rec20:decalitre  owl:sameAs  unit:DecaL .
+
+rec20:picometre  owl:sameAs  unit:PicoM .
+
+unit:MicroW  owl:sameAs  rec20:microwatt .
+
+rec20:acre  owl:sameAs  unit:AC .
+
+unit:AU  owl:sameAs  rec20:astronomical_unit .
+
+unit:BTU_TH-PER-LB-DEG_F
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_pound_degree_Fahrenheit> .
+
+unit:LM-SEC  owl:sameAs  rec20:lumen_second .
+
+rec20:litre_per_litre
+        owl:sameAs  unit:L-PER-L .
+
+unit:BBL_US_DRY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#dry_barrel_(US)> .
+
+unit:MilliGM-PER-DAY  owl:sameAs  rec20:milligram_per_day .
+
+unit:SLUG-PER-FT-SEC  owl:sameAs  rec20:slug_per_foot_second .
+
+unit:ERG-PER-CentiM2-SEC
+        owl:sameAs  rec20:erg_per_square_centimetre_second .
+
+rec20:kilogram-force_metre_per_second
+        owl:sameAs  unit:KiloGM_F-M-PER-SEC .
+
+unit:V-PER-SEC  owl:sameAs  rec20:volt_per_second .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)_per_day>
+        owl:sameAs  unit:BBL_US-PER-DAY .
+
+unit:LY  owl:sameAs  rec20:light_year .
+
+unit:GM-PER-M2  owl:sameAs  rec20:gram_per_square_metre .
+
+rec20:hectobar  owl:sameAs  unit:HectoBAR .
+
+unit:CAL_IT-PER-GM-DEG_C
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram_degree_Celsius> .
+
+unit:DEG_C-PER-HR  owl:sameAs  rec20:degree_Celsius_per_hour .
+
+unit:KiloJ-PER-KiloGM-K
+        owl:sameAs  rec20:kilojoule_per_kilogram_kelvin .
+
+unit:MilliBAR-M3-PER-SEC
+        owl:sameAs  rec20:bar_cubic_metre_per_second .
+
+unit:MegaC-PER-M2  owl:sameAs  rec20:megacoulomb_per_square_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)>
+        owl:sameAs  unit:BU_UK .
+
+unit:GM-PER-MilliL  owl:sameAs  rec20:gram_per_millilitre .
+
+unit:KiloGM-PER-L  owl:sameAs  rec20:kilogram_per_litre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_day>
+        owl:sameAs  unit:QT_UK-PER-DAY .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram_degree_Celsius>
+        owl:sameAs  unit:CAL_IT-PER-GM-DEG_C .
+
+unit:FARAD-PER-KiloM  owl:sameAs  rec20:farad_per_kilometre .
+
+rec20:becquerel_per_kilogram
+        owl:sameAs  unit:BQ-PER-KiloGM .
+
+rec20:kilobar  owl:sameAs  unit:KiloBAR .
+
+rec20:watt_per_kilogram
+        owl:sameAs  unit:W-PER-KiloGM .
+
+unit:MilliM4  owl:sameAs  rec20:millimetre_to_the_fourth_power .
+
+unit:KiloCAL_TH-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_hour> .
+
+rec20:cubic_centimetre_per_mole
+        owl:sameAs  unit:CentiM3-PER-MOL .
+
+unit:CAL_IT-PER-SEC-CentiM-K
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_second_centimetre_kelvin> .
+
+rec20:kilomole_per_cubic_metre
+        owl:sameAs  unit:KiloMOL-PER-M3 .
+
+unit:W-SEC  owl:sameAs  rec20:watt_second .
+
+rec20:reciprocal_mole
+        owl:sameAs  unit:MilliMOL-PER-MOL .
+
+unit:MilliGM-PER-CentiM2
+        owl:sameAs  rec20:milligram_per_square_centimetre .
+
+unit:KiloPA-PER-BAR  owl:sameAs  rec20:kilopascal_per_bar .
+
+rec20:degree_Celsius  owl:sameAs  unit:DEG_C .
+
+unit:KiloA-PER-M  owl:sameAs  rec20:kiloampere_per_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_minute>
+        owl:sameAs  unit:BU_US_DRY-PER-MIN .
+
+unit:DRAM_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#dram_(US)> .
+
+unit:MOL-PER-KiloGM-PA
+        owl:sameAs  rec20:mol_per_kilogram_pascal .
+
+rec20:ampere_per_centimetre
+        owl:sameAs  unit:A-PER-CentiM .
+
+rec20:stere  owl:sameAs  unit:STR .
+
+rec20:megasiemens_per_metre
+        owl:sameAs  unit:MegaS-PER-M .
+
+unit:M-K  owl:sameAs  rec20:metre_kelvin .
+
+rec20:erg_per_gram  owl:sameAs  unit:ERG-PER-GM , unit:ERG-PER-G .
+
+unit:N-PER-A  owl:sameAs  rec20:newton_per_ampere .
+
+unit:GM-PER-MOL  owl:sameAs  rec20:gram_per_mole .
+
+rec20:knot  owl:sameAs  unit:KN .
+
+rec20:kilolitre  owl:sameAs  unit:KiloL .
+
+unit:KiloGM-PER-DAY  owl:sameAs  rec20:kilogram_per_day .
+
+unit:IN_HG  owl:sameAs  rec20:inch_of_mercury .
+
+unit:V-PER-CentiM  owl:sameAs  rec20:volt_per_centimetre .
+
+rec20:exajoule  owl:sameAs  unit:ExaJ .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)>
+        owl:sameAs  unit:BBL_US , unit:BBL .
+
+unit:DEG_C-PER-MIN  owl:sameAs  rec20:degree_Celsius_per_minute .
+
+rec20:milligram_per_minute
+        owl:sameAs  unit:MilliGM-PER-MIN .
+
+unit:KiloGM_F-M-PER-SEC
+        owl:sameAs  rec20:kilogram-force_metre_per_second .
+
+rec20:oersted  owl:sameAs  unit:OERSTED .
+
+unit:NanoM  owl:sameAs  rec20:nanometre .
+
+rec20:degree_Fahrenheit_per_minute
+        owl:sameAs  unit:DEG_F-PER-MIN .
+
+unit:KiloCAL_IT-PER-HR-M-DEG_C
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)_per_hour_metre_degree_Celsius> .
+
+unit:OZ_VOL_US-PER-MIN
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_minute> .
+
+unit:NanoGM-PER-KiloGM
+        owl:sameAs  rec20:nanogram_per_kilogram .
+
+unit:L-PER-KiloGM  owl:sameAs  rec20:litre_per_kilogram .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_mile_(statute_mile)>
+        owl:sameAs  unit:MI2 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)>
+        owl:sameAs  unit:PK_UK .
+
+rec20:inch_per_second_squared
+        owl:sameAs  unit:IN-PER-SEC2 .
+
+rec20:dyne_per_centimetre
+        owl:sameAs  unit:DYN-PER-CentiM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(boiler)>
+        owl:sameAs  unit:HR , unit:HP_Brake .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram_kelvin>
+        owl:sameAs  unit:CAL_TH-PER-GM-K .
+
+rec20:nanosecond  owl:sameAs  unit:NanoSEC .
+
+unit:H-PER-M  owl:sameAs  rec20:henry_per_metre .
+
+rec20:gigawatt  owl:sameAs  unit:GigaW .
+
+rec20:millimetre_to_the_fourth_power
+        owl:sameAs  unit:MilliM4 .
+
+rec20:centimetre_per_kelvin
+        owl:sameAs  unit:CentiM-PER-K .
+
+rec20:litre_per_hour  owl:sameAs  unit:L-PER-HR .
+
+rec20:millilitre  owl:sameAs  unit:MilliL .
+
+rec20:degree_Rankine_per_hour
+        owl:sameAs  unit:DEG_R-PER-HR .
+
+rec20:kilogram_per_kilomol
+        owl:sameAs  unit:KiloGM-PER-KiloMOL .
+
+rec20:pascal_second  owl:sameAs  unit:PA-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_hour>
+        owl:sameAs  unit:OZ_VOL_US-PER-HR .
+
+unit:TEX  owl:sameAs  rec20:tex .
+
+unit:BTU_MEAN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(mean)> .
+
+rec20:millibar_litre_per_second
+        owl:sameAs  unit:MilliBAR-L-PER-SEC .
+
+rec20:decilitre_per_gram
+        owl:sameAs  unit:DeciL-PER-GM .
+
+rec20:ampere_per_square_millimetre
+        owl:sameAs  unit:A-PER-MilliM2 .
+
+unit:NanoFARAD-PER-M  owl:sameAs  rec20:nanofarad_per_metre .
+
+unit:QT_UK-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_minute> .
+
+rec20:degree_Rankine_per_second
+        owl:sameAs  unit:DEG_R-PER-SEC .
+
+unit:MilliV-PER-MIN  owl:sameAs  rec20:millivolt_per_minute .
+
+rec20:are  owl:sameAs  unit:ARE .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_day>
+        owl:sameAs  unit:PINT_UK-PER-DAY , unit:PH .
+
+unit:MicroM  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#micrometre_(micron)> .
+
+unit:BBL_UK_PET-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_hour> .
+
+unit:BBL  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)> , unit:BBL_US .
+
+rec20:square_centimetre
+        owl:sameAs  unit:CentiM2 .
+
+rec20:inch_per_degree_Fahrenheit
+        owl:sameAs  unit:IN-PER-DEG_F .
+
+rec20:psi_cubic_metre_per_second
+        owl:sameAs  unit:PSI-M3-PER-SEC .
+
+unit:KiloWB-PER-M  owl:sameAs  rec20:kiloweber_per_metre .
+
+unit:C-M  owl:sameAs  rec20:coulomb_metre .
+
+rec20:kilonewton_metre
+        owl:sameAs  unit:KiloN-M .
+
+unit:NanoH  owl:sameAs  rec20:nanohenry .
+
+unit:CentiM_HG  owl:sameAs  rec20:centimetre_of_mercury .
+
+rec20:megagram_per_cubic_metre
+        owl:sameAs  unit:MegaGM-PER-M3 .
+
+rec20:metre_per_kelvin
+        owl:sameAs  unit:M-PER-K .
+
+unit:CentiM  owl:sameAs  rec20:centimetre .
+
+rec20:litre_per_kelvin
+        owl:sameAs  unit:L-PER-K .
+
+unit:BAR-PER-K  owl:sameAs  rec20:bar_per_kelvin .
+
+rec20:microlitre_per_litre
+        owl:sameAs  unit:MicroL-PER-L .
+
+rec20:square_metre_per_kilogram
+        owl:sameAs  unit:M2-PER-KiloGM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_minute>
+        owl:sameAs  unit:CAL_TH-PER-MIN .
+
+rec20:volt  owl:sameAs  unit:V .
+
+rec20:watt_per_steradian
+        owl:sameAs  unit:W-PER-SR .
+
+rec20:newton_per_ampere
+        owl:sameAs  unit:N-PER-A .
+
+unit:YD3-PER-DAY  owl:sameAs  rec20:cubic_yard_per_day .
+
+unit:FT-PER-SEC  owl:sameAs  rec20:foot_per_second .
+
+unit:A-M2  owl:sameAs  rec20:ampere_square_metre .
+
+rec20:kilogram_per_square_metre_second
+        owl:sameAs  unit:KiloGM-PER-SEC-M2 .
+
+unit:QT_US-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_second> .
+
+rec20:microgram_per_cubic_metre
+        owl:sameAs  unit:MicroGM-PER-M3 .
+
+unit:MicroFARAD-PER-M
+        owl:sameAs  rec20:microfarad_per_metre .
+
+rec20:megalitre  owl:sameAs  unit:MegaL .
+
+rec20:metre_kelvin  owl:sameAs  unit:M-K .
+
+rec20:farad  owl:sameAs  unit:FARAD .
+
+rec20:pascal_second_per_metre
+        owl:sameAs  unit:PA-SEC-PER-M .
+
+rec20:coulomb_per_square_centimetre
+        owl:sameAs  unit:C-PER-CentiM2 .
+
+unit:QT_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK)> .
+
+rec20:kilovolt_ampere_reactive_hour
+        owl:sameAs  unit:KiloV-A_Reactive-HR .
+
+unit:MilliA  owl:sameAs  rec20:milliampere .
+
+unit:S  owl:sameAs  rec20:siemens .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_minute>
+        owl:sameAs  unit:BU_UK-PER-MIN .
+
+unit:KiloGM-PER-SEC-M2
+        owl:sameAs  rec20:kilogram_per_square_metre_second .
+
+unit:MilliR_man  owl:sameAs  rec20:milliroentgen_aequivalent_men , unit:MilliR .
+
+rec20:millihenry  owl:sameAs  unit:MilliH .
+
+unit:YR_Sidereal  owl:sameAs  rec20:sidereal_year .
+
+unit:MilliGM-PER-GM  owl:sameAs  rec20:milligram_per_gram .
+
+unit:MicroH  owl:sameAs  rec20:microhenry .
+
+unit:MicroS-PER-M  owl:sameAs  rec20:microsiemens_per_metre .
+
+unit:MOL-PER-M3  owl:sameAs  rec20:mole_per_cubic_metre .
+
+unit:KAT  owl:sameAs  rec20:katal .
+
+unit:CAL_IT-PER-GM  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram> .
+
+rec20:bar_per_bar  owl:sameAs  unit:BAR-PER-BAR .
+
+unit:MilliL-PER-SEC  owl:sameAs  rec20:millilitre_per_second .
+
+unit:PA-SEC-PER-M  owl:sameAs  rec20:pascal_second_per_metre .
+
+unit:NanoH-PER-M  owl:sameAs  rec20:nanohenry_per_metre .
+
+rec20:square_foot  owl:sameAs  unit:FT2 .
+
+unit:YD3-PER-HR  owl:sameAs  rec20:cubic_yard_per_hour .
+
+unit:J-SEC  owl:sameAs  rec20:joule_second , unit:AttoJ-SEC .
+
+unit:NanoC  owl:sameAs  rec20:nanocoulomb .
+
+unit:M3-PER-MIN  owl:sameAs  rec20:cubic_metre_per_minute .
+
+rec20:meganewton_metre
+        owl:sameAs  unit:MegaN-M .
+
+unit:CAL_IT-PER-SEC-CentiM2-K
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_second_square_centimetre_kelvin> .
+
+rec20:kilogram-force_per_square_metre
+        owl:sameAs  unit:KiloGM_F-PER-M2 .
+
+rec20:reciprocal_kilovolt_-_ampere_reciprocal_hour
+        owl:sameAs  unit:PER-KiloV-A-HR .
+
+rec20:millifarad  owl:sameAs  unit:MilliFARAD .
+
+rec20:millimetre_per_year
+        owl:sameAs  unit:MilliM-PER-YR .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_minute>
+        owl:sameAs  unit:BTU_IT-PER-MIN .
+
+unit:OZ-FT  owl:sameAs  rec20:ounce_foot .
+
+rec20:erg_per_square_centimetre_second
+        owl:sameAs  unit:ERG-PER-CentiM2-SEC .
+
+unit:EV-PER-M  owl:sameAs  rec20:electronvolt_per_metre .
+
+unit:A-PER-CentiM  owl:sameAs  rec20:ampere_per_centimetre .
+
+unit:BBL_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)> , unit:BBL .
+
+unit:PINT_US-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_day> .
+
+unit:N-M2-PER-A  owl:sameAs  rec20:newton_square_metre_per_ampere .
+
+unit:YD3-PER-DEG_F  owl:sameAs  rec20:cubic_yard_per_degree_Fahrenheit .
+
+unit:ARCSEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_angle]> .
+
+unit:NP  owl:sameAs  rec20:neper .
+
+unit:BU_UK-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_minute> .
+
+rec20:terawatt_hour  owl:sameAs  unit:TeraW-HR .
+
+unit:MegaPA-PER-BAR  owl:sameAs  rec20:megapascal_per_bar .
+
+unit:DEG_F-PER-MIN  owl:sameAs  rec20:degree_Fahrenheit_per_minute .
+
+rec20:millilitre_per_day
+        owl:sameAs  unit:MilliL-PER-DAY .
+
+unit:FemtoJ  owl:sameAs  rec20:femtojoule .
+
+unit:ERG-PER-CentiM  owl:sameAs  rec20:erg_per_centimetre .
+
+rec20:millicoulomb_per_square_metre
+        owl:sameAs  unit:MilliC-PER-M2 .
+
+rec20:microcurie  owl:sameAs  unit:MicroCi .
+
+rec20:nanocoulomb  owl:sameAs  unit:NanoC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_day>
+        owl:sameAs  unit:PINT_US-PER-DAY .
+
+unit:J-PER-K  owl:sameAs  rec20:joule_per_kelvin .
+
+unit:KiloGM_F-PER-MilliM2
+        owl:sameAs  rec20:kilogram-force_per_square_millimetre .
+
+unit:LB-FT2  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_square_foot> .
+
+rec20:dyne_centimetre
+        owl:sameAs  unit:DYN-CentiM .
+
+unit:N  owl:sameAs  rec20:newton .
+
+unit:KiloGAUSS  owl:sameAs  rec20:kilogauss .
+
+unit:BQ-PER-M3  owl:sameAs  rec20:becquerel_per_cubic_metre .
+
+rec20:ampere_per_metre
+        owl:sameAs  unit:A-PER-M .
+
+rec20:standard_atmosphere
+        owl:sameAs  unit:ATM .
+
+rec20:coulomb  owl:sameAs  unit:C .
+
+unit:MegaJ-PER-SEC  owl:sameAs  rec20:megajoule_per_second .
+
+rec20:newton_metre  owl:sameAs  unit:N-M .
+
+rec20:cubic_foot  owl:sameAs  unit:FT3 .
+
+unit:MicroC  owl:sameAs  rec20:microcoulomb .
+
+unit:SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_time]> .
+
+unit:OHM-M  owl:sameAs  rec20:ohm_metre .
+
+rec20:microsecond  owl:sameAs  unit:MicroSEC .
+
+unit:PK_UK-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_day> .
+
+rec20:tonne_per_hour  owl:sameAs  unit:TON_US-PER-HR .
+
+rec20:milligram_per_day
+        owl:sameAs  unit:MilliGM-PER-DAY .
+
+unit:CentiPOISE  owl:sameAs  rec20:centipoise .
+
+rec20:square_metre_kelvin_per_watt
+        owl:sameAs  unit:M2-K-PER-W .
+
+unit:FT3-PER-DAY  owl:sameAs  rec20:cubic_foot_per_day .
+
+unit:GAL_UK-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_second> .
+
+rec20:joule_per_square_metre
+        owl:sameAs  unit:J-PER-M2 .
+
+rec20:ton_long_per_day
+        owl:sameAs  unit:TON_UK-PER-DAY .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_second>
+        owl:sameAs  unit:KiloCAL_TH-PER-SEC .
+
+unit:OZ-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_second> .
+
+unit:MicroV-PER-M  owl:sameAs  rec20:microvolt_per_metre .
+
+rec20:gram_per_square_metre
+        owl:sameAs  unit:GM-PER-M2 .
+
+unit:MilliM-PER-HR  owl:sameAs  rec20:millimetre_per_hour .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(international_table)>
+        owl:sameAs  unit:DEG_F-HR-FT2-PER-BTU_IT .
+
+rec20:dyne_second_per_cubic_centimetre
+        owl:sameAs  unit:DYN-SEC-PER-CentiM3 .
+
+unit:DYN-CentiM  owl:sameAs  rec20:dyne_centimetre .
+
+rec20:kilovar  owl:sameAs  unit:KiloV-A_Reactive .
+
+unit:M3-PER-M3  owl:sameAs  rec20:cubic_metre_per_cubic_metre .
+
+unit:PetaBYTE  owl:sameAs  rec20:petabyte .
+
+unit:Ci  owl:sameAs  rec20:curie .
+
+rec20:kilohertz  owl:sameAs  unit:KiloHZ .
+
+rec20:nanosiemens_per_centimetre
+        owl:sameAs  unit:NanoS-PER-CentiM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_day>
+        owl:sameAs  unit:BBL_UK_PET-PER-DAY .
+
+rec20:gram  owl:sameAs  unit:GM .
+
+unit:A-PER-MilliM2  owl:sameAs  rec20:ampere_per_square_millimetre .
+
+unit:PK_US_DRY-PER-MIN
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_minute> .
+
+unit:CAL_TH-PER-SEC-CentiM2-K
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second_square_centimetre_kelvin> .
+
+rec20:neper  owl:sameAs  unit:NP .
+
+unit:TONNE  owl:sameAs  rec20:tin , unit:TON_Metric .
+
+rec20:volt_squared_per_kelvin_squared
+        owl:sameAs  unit:V2-PER-K2 .
+
+rec20:meganewton  owl:sameAs  unit:MegaN .
+
+unit:GM-PER-M  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gram_per_metre_(gram_per_100_centimetres)> .
+
+unit:PicoA  owl:sameAs  rec20:picoampere .
+
+unit:J-PER-KiloGM  owl:sameAs  rec20:joule_per_kilogram .
+
+rec20:kilometre_per_hour
+        owl:sameAs  unit:KiloM-PER-HR .
+
+rec20:megapascal_cubic_metre_per_second
+        owl:sameAs  unit:MegaPA-M3-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_angle]>
+        owl:sameAs  unit:MIN_Angle , unit:ARCMIN .
+
+rec20:kilogram-force_metre
+        owl:sameAs  unit:KiloGM_F-M .
+
+unit:C-PER-MilliM2  owl:sameAs  rec20:coulomb_per_square_millimetre .
+
+unit:BBL_US_PET-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_hour> , unit:BBL_US_PET-PER-HR .
+
+rec20:ohm_metre  owl:sameAs  unit:OHM-M .
+
+rec20:metric_carat  owl:sameAs  unit:CARAT .
+
+unit:MegaA  owl:sameAs  rec20:megaampere .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(origin_scale)>
+        owl:sameAs  unit:DEGREE_BAUME .
+
+unit:BU_US_DRY-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_hour> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_minute>
+        owl:sameAs  unit:BTU_TH-PER-MIN .
+
+unit:LB-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_day> .
+
+rec20:nanohenry_per_metre
+        owl:sameAs  unit:NanoH-PER-M .
+
+rec20:microvolt  owl:sameAs  unit:MicroV .
+
+rec20:millipascal  owl:sameAs  unit:MilliPA .
+
+unit:M-PER-K  owl:sameAs  rec20:metre_per_kelvin .
+
+unit:ERG-PER-CentiM3  owl:sameAs  rec20:erg_per_cubic_centimetre .
+
+unit:GM-PER-CentiM3  owl:sameAs  rec20:gram_per_cubic_centimetre .
+
+unit:MicroFARAD-PER-KiloM
+        owl:sameAs  rec20:microfarad_per_kilometre .
+
+rec20:day  owl:sameAs  unit:DAY .
+
+rec20:siemens_per_centimetre
+        owl:sameAs  unit:S-PER-CentiM .
+
+rec20:millicoulomb  owl:sameAs  unit:MilliC .
+
+unit:MilliGM-PER-L  owl:sameAs  rec20:milligram_per_litre .
+
+unit:MilliGM  owl:sameAs  rec20:milligram .
+
+unit:LB-IN2  owl:sameAs  rec20:pound_inch_squared .
+
+unit:GI_UK-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_minute> .
+
+rec20:coulomb_per_square_metre
+        owl:sameAs  unit:C-PER-M2 .
+
+rec20:petabyte  owl:sameAs  unit:PetaBYTE .
+
+unit:KiloP  owl:sameAs  rec20:kilopond , unit:KiloPOND .
+
+unit:MilliM-PER-SEC  owl:sameAs  rec20:millimetre_per_second .
+
+rec20:reciprocal_psi  owl:sameAs  unit:PER-PSI .
+
+rec20:becquerel_per_cubic_metre
+        owl:sameAs  unit:BQ-PER-M3 .
+
+rec20:microohm  owl:sameAs  unit:MicroOHM .
+
+unit:GI_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)> .
+
+unit:GI_US-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_hour> .
+
+rec20:cubic_centimetre_per_cubic_metre
+        owl:sameAs  unit:CentiM3-PER-M3 .
+
+unit:DeciM3-PER-MIN  owl:sameAs  rec20:cubic_decimetre_per_minute .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#tablespoon_(US)>
+        owl:sameAs  unit:TBSP .
+
+rec20:pascal_per_metre
+        owl:sameAs  unit:PA-PER-M .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_hour>
+        owl:sameAs  unit:BU_UK-PER-HR .
+
+unit:KiloGM-PER-HR  owl:sameAs  rec20:kilogram_per_hour .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK)_or_long_ton_(US)>
+        owl:sameAs  unit:TON_UK .
+
+rec20:kilopascal_per_kelvin
+        owl:sameAs  unit:KiloPA-PER-K .
+
+unit:TeraW  owl:sameAs  rec20:terawatt .
+
+rec20:joule_second  owl:sameAs  unit:J-SEC , unit:AttoJ-SEC .
+
+unit:MilliGM-PER-M3  owl:sameAs  rec20:milligram_per_cubic_metre .
+
+unit:OZ-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_hour> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_second>
+        owl:sameAs  unit:GI_US-PER-SEC .
+
+rec20:micrometre_per_kelvin
+        owl:sameAs  unit:MicroM-PER-K .
+
+rec20:decagram  owl:sameAs  unit:DecaGM .
+
+unit:BTU_IT-IN-PER-SEC-FT2-DEG_F
+        owl:sameAs  unit:BTU_IT-IN-PER-FT2-SEC-DEG_F .
+
+rec20:milliroentgen_aequivalent_men
+        owl:sameAs  unit:MilliR_man , unit:MilliR .
+
+rec20:dyne_second_per_centimetre
+        owl:sameAs  unit:DYN-SEC-PER-CentiM .
+
+unit:KiloA-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kiloampere_hour_(thousand_ampere_hour)> .
+
+unit:MilliMOL-PER-MOL
+        owl:sameAs  rec20:reciprocal_mole .
+
+unit:RAD  owl:sameAs  rec20:radian .
+
+unit:MilliT  owl:sameAs  rec20:millitesla .
+
+unit:GI_US-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_second> .
+
+unit:CentiM3-PER-SEC  owl:sameAs  rec20:cubic_centimetre_per_second .
+
+rec20:hectogram  owl:sameAs  unit:HectoGM .
+
+rec20:megahertz  owl:sameAs  unit:MegaHZ .
+
+unit:MilliA-PER-IN  owl:sameAs  rec20:milliampere_per_inch .
+
+unit:V-PER-M  owl:sameAs  rec20:volt_per_metre .
+
+rec20:milligram_per_litre
+        owl:sameAs  unit:MilliGM-PER-L .
+
+rec20:litre_per_day  owl:sameAs  unit:L-PER-DAY .
+
+unit:PA-SEC  owl:sameAs  rec20:pascal_second .
+
+rec20:slug_per_foot_second
+        owl:sameAs  unit:SLUG-PER-FT-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_gallon_(US)>
+        owl:sameAs  unit:OZ-PER-GAL_US .
+
+rec20:unified_atomic_mass_unit
+        owl:sameAs  unit:U .
+
+rec20:candela  owl:sameAs  unit:CD .
+
+rec20:milliohm  owl:sameAs  unit:MilliOHM .
+
+unit:ARE  owl:sameAs  rec20:are .
+
+unit:TON_F_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton-force_(US_short)> .
+
+unit:MicroM2  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#square_micrometre_(square_micron)> .
+
+rec20:kilopascal_square_metre_per_gram
+        owl:sameAs  unit:KiloPA-M2-PER-GM .
+
+rec20:cubic_inch  owl:sameAs  unit:IN3 .
+
+rec20:coulomb_per_cubic_centimetre
+        owl:sameAs  unit:C-PER-CentiM3 .
+
+rec20:var  owl:sameAs  unit:V-A_Reactive .
+
+unit:MilliIN  owl:sameAs  rec20:milli-inch .
+
+rec20:gram_per_kilogram
+        owl:sameAs  unit:GM-PER-KiloGM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_second>
+        owl:sameAs  unit:OZ_VOL_UK-PER-SEC .
+
+rec20:cubic_metre_per_kilogram
+        owl:sameAs  unit:M3-PER-KiloGM .
+
+unit:CAL_TH-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_minute> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_hour>
+        owl:sameAs  unit:GI_US-PER-HR .
+
+rec20:pascal  owl:sameAs  unit:PA .
+
+unit:MegaPA-PER-K  owl:sameAs  rec20:megapascal_per_kelvin .
+
+rec20:cubic_metre_per_mole
+        owl:sameAs  unit:M3-PER-MOL .
+
+rec20:ampere_square_metre
+        owl:sameAs  unit:A-M2 .
+
+rec20:gram_millimetre
+        owl:sameAs  unit:GM-MilliM .
+
+rec20:cubic_metre_per_second
+        owl:sameAs  unit:M3-PER-SEC .
+
+rec20:centimetre_per_hour
+        owl:sameAs  unit:CentiM-PER-HR .
+
+rec20:centimetre  owl:sameAs  unit:CentiM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_second>
+        owl:sameAs  unit:OZ_VOL_US-PER-SEC .
+
+rec20:kilopascal_per_millimetre
+        owl:sameAs  unit:KiloPA-PER-MilliM .
+
+unit:S-M2-PER-MOL  owl:sameAs  rec20:siemens_square_metre_per_mole .
+
+rec20:kilogram_per_day
+        owl:sameAs  unit:KiloGM-PER-DAY .
+
+unit:OZ-IN  owl:sameAs  rec20:ounce_inch .
+
+unit:CentiM3-PER-HR  owl:sameAs  rec20:cubic_centimetre_per_hour .
+
+rec20:gram-force_per_square_centimetre
+        owl:sameAs  unit:GM_F-PER-CentiM2 .
+
+unit:HP_Electric  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(electric)> .
+
+rec20:microcoulomb_per_cubic_metre
+        owl:sameAs  unit:MicroC-PER-M3 .
+
+rec20:microgram  owl:sameAs  unit:MicroGM .
+
+rec20:degree_per_second
+        owl:sameAs  unit:DEG-PER-SEC .
+
+rec20:kilomole_per_hour
+        owl:sameAs  unit:KiloMOL-PER-HR .
+
+rec20:farad_per_metre
+        owl:sameAs  unit:FARAD-PER-M .
+
+unit:RAD-M2-PER-MOL  owl:sameAs  rec20:radian_square_metre_per_mole .
+
+rec20:conventional_millimetre_of_water
+        owl:sameAs  unit:MilliM_H2O .
+
+unit:BAR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bar_[unit_of_pressure]> .
+
+rec20:ampere_per_millimetre
+        owl:sameAs  unit:A-PER-MilliM .
+
+unit:KiloN-M  owl:sameAs  rec20:kilonewton_metre .
+
+unit:C-M2-PER-V  owl:sameAs  rec20:coulomb_metre_squared_per_volt .
+
+unit:GM-PER-SEC  owl:sameAs  rec20:gram_per_second .
+
+rec20:milliampere_hour
+        owl:sameAs  unit:MilliA-HR .
+
+unit:TONNE-PER-SEC  owl:sameAs  rec20:tonne_per_second , unit:TON_Metric-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_second_square_centimetre_kelvin>
+        owl:sameAs  unit:CAL_IT-PER-SEC-CentiM2-K .
+
+unit:MicroV  owl:sameAs  rec20:microvolt .
+
+rec20:milligram_per_gram
+        owl:sameAs  unit:MilliGM-PER-GM .
+
+unit:PER-PSI  owl:sameAs  rec20:reciprocal_psi .
+
+rec20:dots_per_inch  owl:sameAs  unit:DPI .
+
+unit:KiloCAL_IT  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)> .
+
+unit:KiloV-A_Reactive-HR
+        owl:sameAs  rec20:kilovolt_ampere_reactive_hour .
+
+rec20:watt_per_square_metre_kelvin
+        owl:sameAs  unit:W-PER-M2-K .
+
+rec20:siemens_per_metre
+        owl:sameAs  unit:S-PER-M .
+
+unit:DEG_F-HR-FT2-PER-BTU_TH
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(thermochemical)> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_gallon_(UK)>
+        owl:sameAs  unit:OZ_PER-GAL_UK .
+
+unit:MilliPA  owl:sameAs  rec20:millipascal .
+
+unit:TeraHZ  owl:sameAs  rec20:terahertz .
+
+rec20:square_foot_per_second
+        owl:sameAs  unit:FT2-PER-SEC .
+
+rec20:psi_per_psi  owl:sameAs  unit:PSI-PER-PSI .
+
+rec20:nanotesla  owl:sameAs  unit:NanoT .
+
+rec20:inch  owl:sameAs  unit:IN .
+
+rec20:degree_Plato  owl:sameAs  unit:DEGREE_PLATO .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_second>
+        owl:sameAs  unit:BIT , unit:BBL_US-PER-MIN .
+
+unit:KiloPA-M2-PER-GM
+        owl:sameAs  rec20:kilopascal_square_metre_per_gram .
+
+unit:Denier  owl:sameAs  rec20:denier_A49 .
+
+unit:POISE-PER-BAR  owl:sameAs  rec20:poise_per_bar .
+
+unit:MegaV-A  owl:sameAs  rec20:megavolt_-_ampere .
+
+rec20:megaohm  owl:sameAs  unit:MegaOHM .
+
+rec20:decilitre  owl:sameAs  unit:DeciL .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)>
+        owl:sameAs  unit:KiloCAL_IT .
+
+rec20:erg_per_cubic_centimetre
+        owl:sameAs  unit:ERG-PER-CentiM3 .
+
+unit:DEG_F-PER-HR  owl:sameAs  rec20:degree_Fahrenheit_per_hour .
+
+unit:FARAD-PER-M  owl:sameAs  rec20:farad_per_metre .
+
+unit:MicroGM-PER-KiloGM
+        owl:sameAs  rec20:microgram_per_kilogram .
+
+unit:DEGREE_BAUME  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(origin_scale)> .
+
+unit:TON_Metric-PER-MIN
+        owl:sameAs  rec20:tonne_per_minute , unit:TONNE-PER-MIN .
+
+rec20:microradian  owl:sameAs  unit:MicroRAD .
+
+unit:MilliM3  owl:sameAs  rec20:cubic_millimetre .
+
+unit:K-PER-SEC  owl:sameAs  rec20:kelvin_per_second .
+
+unit:IN3-PER-HR  owl:sameAs  rec20:cubic_inch_per_hour .
+
+rec20:cubic_decimetre_per_mole
+        owl:sameAs  unit:DeciM3-PER-MOL .
+
+unit:MilliJ  owl:sameAs  rec20:millijoule .
+
+unit:KiloOHM  owl:sameAs  rec20:kiloohm .
+
+unit:PARSEC  owl:sameAs  rec20:parsec .
+
+unit:SLUG-PER-SEC  owl:sameAs  rec20:slug_per_second .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_second>
+        owl:sameAs  unit:QT_UK-PER-SEC .
+
+rec20:micromho  owl:sameAs  unit:MicroMHO .
+
+unit:MicroGM-PER-M3  owl:sameAs  rec20:microgram_per_cubic_metre .
+
+unit:QT_US-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_day> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram_degree_Celsius>
+        owl:sameAs  unit:CAL_TH-PER-GM-DEG_C .
+
+unit:J-PER-CentiM2  owl:sameAs  rec20:joule_per_square_centimetre .
+
+rec20:radian_per_second
+        owl:sameAs  unit:RAD-PER-SEC .
+
+unit:M3-PER-MOL  owl:sameAs  rec20:cubic_metre_per_mole .
+
+rec20:nanowatt  owl:sameAs  unit:NanoW .
+
+unit:PINT_UK-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_second> .
+
+rec20:picocoulomb  owl:sameAs  unit:PicoC .
+
+rec20:square_millimetre
+        owl:sameAs  unit:MilliM2 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)>
+        owl:sameAs  unit:GI_US .
+
+unit:BBL_UK_PET-PER-MIN
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_minute> .
+
+unit:KiloA  owl:sameAs  rec20:kiloampere .
+
+unit:IN4  owl:sameAs  rec20:inch_to_the_fourth_power .
+
+rec20:kelvin_per_kelvin
+        owl:sameAs  unit:K-PER-K .
+
+unit:AttoJ  owl:sameAs  rec20:attojoule .
+
+rec20:common_year  owl:sameAs  unit:YR_Common .
+
+rec20:micronewton_metre
+        owl:sameAs  unit:MicroN-M .
+
+unit:DEG_C-PER-K  owl:sameAs  rec20:degree_Celsius_per_kelvin .
+
+unit:BTU_IT-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_minute> .
+
+rec20:newton_per_centimetre
+        owl:sameAs  unit:N-PER-CentiM .
+
+rec20:lumen_per_watt  owl:sameAs  unit:LM-PER-W .
+
+unit:MilliL-PER-DAY  owl:sameAs  rec20:millilitre_per_day .
+
+rec20:cubic_inch_per_hour
+        owl:sameAs  unit:IN3-PER-HR .
+
+unit:KiloGM-M2-PER-SEC
+        owl:sameAs  rec20:kilogram_metre_squared_per_second .
+
+unit:BU_UK-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_hour> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_day>
+        owl:sameAs  unit:BU_UK-PER-DAY .
+
+unit:N-PER-CentiM2  owl:sameAs  rec20:newton_per_square_centimetre .
+
+rec20:gram_per_day  owl:sameAs  unit:GM-PER-DAY .
+
+unit:MilliC-PER-KiloGM
+        owl:sameAs  rec20:millicoulomb_per_kilogram .
+
+unit:PA-L-PER-SEC  owl:sameAs  rec20:pascal_litre_per_second .
+
+unit:M2-PER-SR-J  owl:sameAs  rec20:square_metre_per_steradian_joule .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_[unit_of_angle]>
+        owl:sameAs  unit:DEG .
+
+rec20:micronewton  owl:sameAs  unit:MicroN .
+
+rec20:angstrom  owl:sameAs  unit:ANGSTROM .
+
+unit:AttoFARAD  owl:sameAs  rec20:attofarad .
+
+rec20:kilotonne  owl:sameAs  unit:KiloTON_Metric .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_minute>
+        owl:sameAs  unit:GI_UK-PER-MIN .
+
+unit:MilliA-PER-MilliM
+        owl:sameAs  rec20:milliampere_per_millimetre .
+
+rec20:coulomb_per_square_millimetre
+        owl:sameAs  unit:C-PER-MilliM2 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US)_per_hour>
+        owl:sameAs  unit:TON_US-PER-HR .
+
+unit:BTU_IT-IN-PER-FT2-SEC-DEG_F
+        owl:sameAs  unit:BTU_IT-IN-PER-SEC-FT2-DEG_F .
+
+unit:KiloL-PER-HR  owl:sameAs  rec20:kilolitre_per_hour .
+
+unit:PA-PER-K  owl:sameAs  rec20:pascal_per_kelvin .
+
+unit:M2-PER-V-SEC  owl:sameAs  rec20:square_metre_per_volt_second .
+
+rec20:psi_cubic_yard_per_second
+        owl:sameAs  unit:PSI-YD3-PER-SEC .
+
+unit:A-PER-M  owl:sameAs  rec20:ampere_per_metre .
+
+rec20:centipoise_per_bar
+        owl:sameAs  unit:CentiPOISE-PER-BAR .
+
+unit:PetaJ  owl:sameAs  rec20:petajoule .
+
+unit:DEG_R-PER-SEC  owl:sameAs  rec20:degree_Rankine_per_second .
+
+unit:MicroL  owl:sameAs  rec20:microlitre .
+
+unit:TORR  owl:sameAs  rec20:torr .
+
+rec20:millihenry_per_kiloohm
+        owl:sameAs  unit:MilliH-PER-KiloOHM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(electric)>
+        owl:sameAs  unit:HP_Electric .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US)_or_short_ton_(UK/US)>
+        owl:sameAs  unit:TON_US .
+
+rec20:microfarad_per_metre
+        owl:sameAs  unit:MicroFARAD-PER-M .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)>
+        owl:sameAs  unit:GI_UK .
+
+rec20:yard  owl:sameAs  unit:YD .
+
+unit:PicoFARAD-PER-M  owl:sameAs  rec20:picofarad_per_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_second>
+        owl:sameAs  unit:PK_UK-PER-SEC .
+
+unit:KiloMOL  owl:sameAs  rec20:kilomole .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_day>
+        owl:sameAs  unit:PK_UK-PER-DAY .
+
+unit:PK_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)> .
+
+unit:DAY  owl:sameAs  rec20:day .
+
+rec20:mole_per_cubic_decimetre
+        owl:sameAs  unit:MOL-PER-DeciM3 .
+
+unit:CentiL  owl:sameAs  rec20:centilitre .
+
+rec20:millimole_per_gram
+        owl:sameAs  unit:MilliMOL-PER-GM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_centimetre_second_degree_Celsius>
+        owl:sameAs  unit:CAL_TH-PER-CentiM-SEC-DEG_C .
+
+unit:MicroH-PER-KiloOHM
+        owl:sameAs  rec20:microhenry_per_kiloohm .
+
+rec20:ampere_per_square_metre_kelvin_squared
+        owl:sameAs  unit:A-PER-M2-K2 .
+
+unit:GAL_UK-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_day> .
+
+unit:CAL_TH-PER-GM-K  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram_kelvin> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_time]>
+        owl:sameAs  unit:MIN .
+
+unit:OZ-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_day> .
+
+rec20:square_metre_per_mole
+        owl:sameAs  unit:M2-PER-MOL .
+
+unit:LB-PER-GAL_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_gallon_(UK)> .
+
+unit:W-PER-M3  owl:sameAs  rec20:watt_per_cubic_metre .
+
+unit:PER-KiloV-A-HR  owl:sameAs  rec20:reciprocal_kilovolt_-_ampere_reciprocal_hour .
+
+unit:C-PER-KiloGM-SEC
+        owl:sameAs  rec20:coulomb_per_kilogram_second .
+
+unit:IN2-PER-SEC  owl:sameAs  rec20:square_inch_per_second .
+
+unit:V-PER-MicroSEC  owl:sameAs  rec20:volt_per_microsecond .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quarter_(UK)>
+        owl:sameAs  unit:Quarter_UK .
+
+unit:MegaJ  owl:sameAs  rec20:megajoule .
+
+unit:KiloA-PER-M2  owl:sameAs  rec20:kiloampere_per_square_metre .
+
+unit:M2-PER-KiloGM  owl:sameAs  rec20:square_metre_per_kilogram .
+
+rec20:cubic_foot_per_minute
+        owl:sameAs  unit:FT3-PER-MIN .
+
+unit:R  owl:sameAs  rec20:roentgen .
+
+unit:V-SEC-PER-M  owl:sameAs  rec20:volt_second_per_metre .
+
+rec20:mole_per_litre  owl:sameAs  unit:MOL-PER-L .
+
+unit:MicroPOISE  owl:sameAs  rec20:micropoise .
+
+unit:DeciTON_Metric  owl:sameAs  rec20:decitonne .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(mean)>
+        owl:sameAs  unit:CAL_MEAN .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cup_[unit_of_volume]>
+        owl:sameAs  unit:CUP_US .
+
+rec20:milligram_per_square_centimetre
+        owl:sameAs  unit:MilliGM-PER-CentiM2 .
+
+unit:PicoSEC  owl:sameAs  rec20:picosecond .
+
+unit:PicoW-PER-M2  owl:sameAs  rec20:picowatt_per_square_metre .
+
+rec20:roentgen  owl:sameAs  unit:R .
+
+rec20:kilopound-force_per_square_inch
+        owl:sameAs  unit:KiloLB_F-PER-IN2 .
+
+unit:MilliL-PER-L  owl:sameAs  rec20:millilitre_per_litre .
+
+unit:DeciM3-PER-MOL  owl:sameAs  rec20:cubic_decimetre_per_mole .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_pound_(pound_inch)>
+        owl:sameAs  unit:LB-IN .
+
+rec20:millibar_per_bar
+        owl:sameAs  unit:MilliBAR-PER-BAR .
+
+unit:MilliH-PER-OHM  owl:sameAs  rec20:millihenry_per_ohm .
+
+unit:M2-PER-J  owl:sameAs  rec20:square_metre_per_joule .
+
+rec20:millimetre_per_second
+        owl:sameAs  unit:MilliM-PER-SEC .
+
+rec20:millilitre_per_second
+        owl:sameAs  unit:MilliL-PER-SEC .
+
+unit:MilliL-PER-CentiM2-MIN
+        owl:sameAs  rec20:millilitre_per_square_centimetre_second , unit:MilliL-PER-CentiM2-SEC .
+
+rec20:reciprocal_cubic_foot
+        owl:sameAs  unit:PER-FT3 .
+
+unit:KiloGM-CentiM2  owl:sameAs  rec20:kilogram_square_centimetre .
+
+rec20:slug_per_hour  owl:sameAs  unit:SLUG-PER-HR .
+
+unit:TON_Metric-PER-M3
+        owl:sameAs  rec20:tonne_per_cubic_metre , unit:TONNE-PER-M3 .
+
+unit:MilliBAR-L-PER-SEC
+        owl:sameAs  rec20:millibar_litre_per_second .
+
+unit:GigaHZ-M  owl:sameAs  rec20:gigahertz_metre .
+
+rec20:millilitre_per_square_centimetre_second
+        owl:sameAs  unit:MilliL-PER-CentiM2-SEC , unit:MilliL-PER-CentiM2-MIN .
+
+unit:DAY_Sidereal  owl:sameAs  rec20:decimetre , unit:DeciM .
+
+unit:DEGREE_BRIX  owl:sameAs  rec20:degree_Brix .
+
+rec20:kilogram-force_per_square_millimetre
+        owl:sameAs  unit:KiloGM_F-PER-MilliM2 .
+
+rec20:newton_centimetre
+        owl:sameAs  unit:N-CentiM .
+
+rec20:cubic_foot_per_day
+        owl:sameAs  unit:FT3-PER-DAY .
+
+rec20:degree_Celsius_per_hour
+        owl:sameAs  unit:DEG_C-PER-HR .
+
+unit:FT  owl:sameAs  rec20:foot .
+
+unit:IN-PER-DEG_F  owl:sameAs  rec20:inch_per_degree_Fahrenheit .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_second>
+        owl:sameAs  unit:PINT_UK-PER-SEC .
+
+rec20:watt_per_kelvin
+        owl:sameAs  unit:W-PER-K .
+
+unit:HectoM  owl:sameAs  rec20:hectometre .
+
+rec20:coulomb_metre  owl:sameAs  unit:C-M .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_second>
+        owl:sameAs  unit:QT_US-PER-SEC .
+
+rec20:centimetre_of_mercury
+        owl:sameAs  unit:CentiM_HG .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(US_heavy)>
+        owl:sameAs  unit:DEGREE_BAUME_US_HEAVY .
+
+unit:POISE  owl:sameAs  rec20:poise .
+
+unit:KiloMOL-PER-M3  owl:sameAs  rec20:kilomole_per_cubic_metre .
+
+unit:M  owl:sameAs  rec20:metre .
+
+unit:LM-PER-W  owl:sameAs  rec20:lumen_per_watt .
+
+rec20:milligram_per_square_metre
+        owl:sameAs  unit:MilliGM-PER-M2 .
+
+unit:YD3  owl:sameAs  rec20:cubic_yard .
+
+rec20:kiloroentgen  owl:sameAs  unit:KiloR .
+
+unit:HZ  owl:sameAs  rec20:hertz .
+
+rec20:degree_Twaddell
+        owl:sameAs  unit:DEGREE_TWADDELL .
+
+rec20:kilovolt_ampere_hour
+        owl:sameAs  unit:KiloV-A-HR .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_minute>
+        owl:sameAs  unit:OZ_VOL_US-PER-MIN .
+
+rec20:microcoulomb_per_square_metre
+        owl:sameAs  unit:MicroC-PER-M2 .
+
+rec20:lumen  owl:sameAs  unit:LM .
+
+unit:GM-PER-HR  owl:sameAs  rec20:gram_per_hour .
+
+rec20:megajoule_per_second
+        owl:sameAs  unit:MegaJ-PER-SEC .
+
+rec20:newton_metre_second
+        owl:sameAs  unit:N-M-SEC .
+
+unit:PERCENT  owl:sameAs  rec20:percent .
+
+unit:GigaJ  owl:sameAs  rec20:gigajoule .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton-force_(US_short)>
+        owl:sameAs  unit:TON_F_US .
+
+unit:GRAY-PER-SEC  owl:sameAs  rec20:gray_per_second .
+
+rec20:foot_of_mercury
+        owl:sameAs  unit:FT_HG .
+
+unit:MilliM-PER-K  owl:sameAs  rec20:millimetre_per_kelvin .
+
+unit:OZ-PER-YD3  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_cubic_yard> .
+
+unit:Standard  owl:sameAs  rec20:standard .
+
+unit:OZ_VOL_UK-PER-MIN
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_minute> .
+
+rec20:kilovolt  owl:sameAs  unit:KiloV .
+
+unit:J-M2  owl:sameAs  rec20:joule_square_metre .
+
+unit:GI_US-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_day> .
+
+unit:CentiM3-PER-DAY  owl:sameAs  rec20:cubic_centimetre_per_day .
+
+unit:KiloBIT-PER-SEC  owl:sameAs  rec20:kilobit_per_second .
+
+rec20:kiloampere  owl:sameAs  unit:KiloA .
+
+unit:DeciM  owl:sameAs  rec20:decimetre , unit:DAY_Sidereal .
+
+unit:KiloGM-PER-DeciM3
+        owl:sameAs  rec20:kilogram_per_cubic_decimetre .
+
+unit:DeciM3-PER-HR  owl:sameAs  rec20:cubic_decimetre_per_hour .
+
+rec20:millihenry_per_ohm
+        owl:sameAs  unit:MilliH-PER-OHM .
+
+rec20:kelvin_per_hour
+        owl:sameAs  unit:K-PER-HR .
+
+unit:GM-PER-L  owl:sameAs  rec20:gram_per_litre .
+
+unit:W-PER-KiloGM  owl:sameAs  rec20:watt_per_kilogram .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_second>
+        owl:sameAs  unit:PK_US_DRY-PER-SEC .
+
+rec20:milligram  owl:sameAs  unit:MilliGM .
+
+unit:BAR-M3-PER-SEC  owl:sameAs  rec20:millibar_cubic_metre_per_second .
+
+unit:C-PER-MOL  owl:sameAs  rec20:coulomb_per_mole .
+
+rec20:metre_per_second_squared
+        owl:sameAs  unit:M-PER-SEC2 .
+
+rec20:degree_Celsius_per_minute
+        owl:sameAs  unit:DEG_C-PER-MIN .
+
+rec20:nanohenry  owl:sameAs  unit:NanoH .
+
+unit:DEG_C-PER-SEC  owl:sameAs  rec20:degree_Celsius_per_second .
+
+unit:H  owl:sameAs  rec20:henry .
+
+unit:STR  owl:sameAs  rec20:stere .
+
+unit:RAD-PER-SEC2  owl:sameAs  rec20:radian_per_second_squared .
+
+unit:OZ_VOL_US-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_hour> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_time]>
+        owl:sameAs  unit:SEC .
+
+rec20:kilolitre_per_hour
+        owl:sameAs  unit:KiloL-PER-HR .
+
+unit:MilliWB  owl:sameAs  rec20:milliweber .
+
+rec20:metre  owl:sameAs  unit:M .
+
+rec20:square_inch_per_second
+        owl:sameAs  unit:IN2-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_minute>
+        owl:sameAs  unit:QT_UK-PER-MIN .
+
+rec20:milligram_per_second
+        owl:sameAs  unit:MilliGM-PER-SEC .
+
+unit:MilliV-PER-M  owl:sameAs  rec20:millivolt_per_metre .
+
+unit:PA-PER-BAR  owl:sameAs  rec20:pascal_per_bar .
+
+unit:GM-PER-CentiM2  owl:sameAs  rec20:gram_per_square_centimetre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)>
+        owl:sameAs  unit:PINT_UK .
+
+rec20:degree_Fahrenheit_per_second
+        owl:sameAs  unit:DEG_F-PER-SEC .
+
+rec20:kilogram_per_kilogram_of_product
+        owl:sameAs  unit:KiloGM-PER-KiloGM .
+
+rec20:pica  owl:sameAs  unit:PCA .
+
+unit:GAL_UK-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_hour> .
+
+rec20:nanofarad  owl:sameAs  unit:NanoFARAD .
+
+rec20:square_metre_per_newton
+        owl:sameAs  unit:M2-PER-N .
+
+rec20:coulomb_per_cubic_millimetre
+        owl:sameAs  unit:C-PER-MilliM3 .
+
+rec20:kilocoulomb_per_square_metre
+        owl:sameAs  unit:KiloC-PER-M2 .
+
+unit:GM-PER-DAY  owl:sameAs  rec20:gram_per_day .
+
+rec20:millicoulomb_per_cubic_metre
+        owl:sameAs  unit:MilliC-PER-M3 .
+
+rec20:microcoulomb  owl:sameAs  unit:MicroC .
+
+rec20:kilogram_per_mole
+        owl:sameAs  unit:KiloGM-PER-MOL .
+
+unit:TONNE-PER-DAY  owl:sameAs  rec20:tonne_per_day , unit:TON_Metric-PER-DAY .
+
+unit:QT_UK-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_second> .
+
+unit:DecaM  owl:sameAs  rec20:decametre .
+
+unit:LUX-HR  owl:sameAs  rec20:lux_hour .
+
+unit:MicroH-PER-OHM  owl:sameAs  rec20:microhenry_per_ohm .
+
+unit:failures-in-time
+        owl:sameAs  rec20:failures_in_time .
+
+rec20:gray_per_second
+        owl:sameAs  unit:GRAY-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_day>
+        owl:sameAs  unit:BU_US_DRY-PER-DAY .
+
+rec20:microgram_per_litre
+        owl:sameAs  unit:MicroGM-PER-L .
+
+rec20:gigajoule  owl:sameAs  unit:GigaJ .
+
+unit:MilliGM-PER-M2  owl:sameAs  rec20:milligram_per_square_metre .
+
+rec20:millimetre  owl:sameAs  unit:MilliM .
+
+unit:KiloGM-PER-CentiM3
+        owl:sameAs  rec20:kilogram_per_cubic_centimetre .
+
+unit:GM  owl:sameAs  rec20:gram .
+
+unit:C  owl:sameAs  rec20:coulomb .
+
+unit:MilliA-HR  owl:sameAs  rec20:milliampere_hour .
+
+rec20:megaampere_per_square_metre
+        owl:sameAs  unit:MegaA-PER-M2 .
+
+rec20:degree_Fahrenheit_per_hour
+        owl:sameAs  unit:DEG_F-PER-HR .
+
+rec20:torr  owl:sameAs  unit:TORR .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_cubic_yard>
+        owl:sameAs  unit:OZ-PER-YD3 .
+
+unit:MilliS  owl:sameAs  rec20:millisiemens .
+
+unit:GigaHZ  owl:sameAs  rec20:gigahertz .
+
+unit:MicroFARAD  owl:sameAs  rec20:microfarad .
+
+unit:IN-PER-SEC  owl:sameAs  rec20:inch_per_second .
+
+unit:PINT_US-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_hour> .
+
+unit:DEGREE_TWADDELL  owl:sameAs  rec20:degree_Twaddell .
+
+unit:GRAIN-PER-GAL_US
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#grain_per_gallon_(US)> .
+
+unit:ExaJ  owl:sameAs  rec20:exajoule .
+
+unit:N-SEC-PER-M  owl:sameAs  rec20:newton_second_per_metre .
+
+unit:A-HR  owl:sameAs  rec20:ampere_hour .
+
+unit:KiloPA-PER-MilliM
+        owl:sameAs  rec20:kilopascal_per_millimetre .
+
+rec20:coulomb_per_kilogram_second
+        owl:sameAs  unit:C-PER-KiloGM-SEC .
+
+rec20:kilogram  owl:sameAs  unit:KiloGM .
+
+unit:WB-PER-M  owl:sameAs  rec20:weber_per_metre .
+
+unit:J-PER-M4  owl:sameAs  rec20:joule_per_metre_to_the_fourth_power .
+
+unit:KiloJ  owl:sameAs  rec20:kilojoule .
+
+unit:V-A  owl:sameAs  rec20:volt_-_ampere .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)>
+        owl:sameAs  unit:GAL_UK .
+
+rec20:hectopascal_per_bar
+        owl:sameAs  unit:HectoPA-PER-BAR .
+
+rec20:kilogram_per_litre
+        owl:sameAs  unit:KiloGM-PER-L .
+
+unit:ST  owl:sameAs  rec20:stokes .
+
+rec20:joule_square_metre_per_kilogram
+        owl:sameAs  unit:J-M2-PER-KiloGM .
+
+unit:SLUG-PER-DAY  owl:sameAs  rec20:slug_per_day .
+
+unit:KiloJ-PER-MOL  owl:sameAs  rec20:kilojoule_per_mole .
+
+unit:BTU_TH-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_hour> .
+
+unit:MilliL-PER-HR  owl:sameAs  rec20:millilitre_per_hour .
+
+unit:KiloCAL_Mean  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(mean)> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second>
+        owl:sameAs  unit:CAL_TH-PER-SEC .
+
+rec20:foot_per_hour  owl:sameAs  unit:FT-PER-HR .
+
+rec20:microtesla  owl:sameAs  unit:MicroT .
+
+rec20:teraohm  owl:sameAs  unit:TeraOHM .
+
+unit:PINT_UK-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_day> , unit:PH .
+
+unit:TSP  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#teaspoon_(US)> .
+
+unit:CAL_15_DEG_C  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#15_°C_calorie> .
+
+rec20:megacoulomb_per_cubic_metre
+        owl:sameAs  unit:MegaC-PER-M3 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_minute>
+        owl:sameAs  unit:PK_UK-PER-MIN .
+
+unit:BAR-L-PER-SEC  owl:sameAs  rec20:bar_litre_per_second .
+
+rec20:milliampere_per_millimetre
+        owl:sameAs  unit:MilliA-PER-MilliM .
+
+unit:MegaHZ  owl:sameAs  rec20:megahertz .
+
+unit:PER-L  owl:sameAs  rec20:reciprocal_litre .
+
+unit:BU_US_DRY-PER-MIN
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_minute> .
+
+unit:KiloMOL-PER-MIN  owl:sameAs  rec20:kilomole_per_minute .
+
+unit:A-PER-M2-K2  owl:sameAs  rec20:ampere_per_square_metre_kelvin_squared .
+
+rec20:reciprocal_cubic_metre
+        owl:sameAs  unit:MilliMOL-PER-M3 .
+
+rec20:microwatt_per_square_metre
+        owl:sameAs  unit:MicroW-PER-M2 .
+
+unit:FT3  owl:sameAs  rec20:cubic_foot .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_hour>
+        owl:sameAs  unit:PK_US_DRY-PER-HR .
+
+rec20:kilosiemens  owl:sameAs  unit:KiloS .
+
+unit:MilliN  owl:sameAs  rec20:millinewton .
+
+unit:YD  owl:sameAs  rec20:yard .
+
+unit:M3-PER-SEC  owl:sameAs  rec20:cubic_metre_per_second .
+
+rec20:henry_per_ohm  owl:sameAs  unit:H-PER-OHM .
+
+rec20:pascal_second_per_cubic_metre
+        owl:sameAs  unit:PA-SEC-PER-M3 .
+
+unit:YD-PER-DEG_F  owl:sameAs  rec20:yard_per_degree_Fahrenheit .
+
+rec20:litre_per_second
+        owl:sameAs  unit:L-PER-SEC .
+
+rec20:cubic_metre_per_kelvin
+        owl:sameAs  unit:M3-PER-K .
+
+unit:IN  owl:sameAs  rec20:inch .
+
+rec20:microhenry_per_metre
+        owl:sameAs  unit:MicroH-PER-M .
+
+unit:N-M-PER-KiloGM  owl:sameAs  rec20:newton_metre_per_kilogram .
+
+unit:W-PER-K  owl:sameAs  rec20:watt_per_kelvin .
+
+unit:GM_F-PER-CentiM2
+        owl:sameAs  rec20:gram-force_per_square_centimetre .
+
+unit:KiloCAL_TH-PER-MIN
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_minute> .
+
+rec20:degree_Oechsle  owl:sameAs  unit:DEGREE_OECHSLE .
+
+rec20:henry_per_kiloohm
+        owl:sameAs  unit:H-PER-KiloOHM .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_hour_square_foot_degree_Rankine>
+        owl:sameAs  unit:BTU_IT-PER-HR-FT2-DEG_R .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#mile_per_hour_(statute_mile)>
+        owl:sameAs  unit:MI-PER-HR .
+
+unit:FT-PER-SEC2  owl:sameAs  rec20:foot_per_second_squared .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)>
+        owl:sameAs  unit:BBL_UK_PET .
+
+unit:M-PER-SEC2  owl:sameAs  rec20:metre_per_second_squared .
+
+unit:BU_UK-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_second> .
+
+unit:QT_US-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_hour> .
+
+unit:GigaBYTE  owl:sameAs  rec20:gigabyte .
+
+unit:DEG_F-PER-SEC  owl:sameAs  rec20:degree_Fahrenheit_per_second .
+
+rec20:radian_per_second_squared
+        owl:sameAs  unit:RAD-PER-SEC2 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_hour>
+        owl:sameAs  unit:OZ-PER-HR .
+
+rec20:micromole  owl:sameAs  unit:MicroMOL .
+
+rec20:gigabecquerel  owl:sameAs  unit:GigaBQ .
+
+rec20:standard  owl:sameAs  unit:Standard .
+
+rec20:microsiemens_per_metre
+        owl:sameAs  unit:MicroS-PER-M .
+
+rec20:volt_per_centimetre
+        owl:sameAs  unit:V-PER-CentiM .
+
+unit:RAD-M2-PER-KiloGM
+        owl:sameAs  rec20:radian_square_metre_per_kilogram .
+
+rec20:newton_metre_per_kilogram
+        owl:sameAs  unit:N-M-PER-KiloGM .
+
+unit:L-PER-MIN  owl:sameAs  rec20:litre_per_minute .
+
+rec20:newton_per_millimetre
+        owl:sameAs  unit:N-PER-MilliM .
+
+unit:MilliMOL-PER-KiloGM
+        owl:sameAs  rec20:millimole_per_kilogram .
+
+unit:PebiBYTE  owl:sameAs  rec20:pebibyte .
+
+unit:BTU_TH-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_minute> .
+
+rec20:millimetre_per_minute
+        owl:sameAs  unit:MilliM-PER-MIN .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_hour>
+        owl:sameAs  unit:QT_US-PER-HR .
+
+rec20:millilitre_per_minute
+        owl:sameAs  unit:MilliL-PER-MIN .
+
+unit:KiloLB_F-FT-PER-A
+        owl:sameAs  rec20:pound-force_foot_per_ampere .
+
+rec20:denier_A49  owl:sameAs  unit:Denier .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_square_foot>
+        owl:sameAs  unit:LB-FT2 .
+
+unit:BTU_IT-PER-SEC-FT-DEG_R
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_foot_degree_Rankine> .
+
+unit:DYN-PER-CentiM2  owl:sameAs  rec20:dyne_per_square_centimetre .
+
+unit:MilliBAR-PER-K  owl:sameAs  rec20:millibar_per_kelvin .
+
+rec20:inch_per_second
+        owl:sameAs  unit:IN-PER-SEC .
+
+rec20:gigapascal  owl:sameAs  unit:GigaPA .
+
+rec20:millinewton_metre
+        owl:sameAs  unit:MilliN-M .
+
+unit:W-PER-M-K  owl:sameAs  rec20:watt_per_metre_kelvin .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_hour>
+        owl:sameAs  unit:PINT_US-PER-HR .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_hour>
+        owl:sameAs  unit:PK_UK-PER-HR .
+
+rec20:megapascal_per_bar
+        owl:sameAs  unit:MegaPA-PER-BAR .
+
+unit:PER-CentiM  owl:sameAs  rec20:reciprocal_centimetre .
+
+unit:MilliM2  owl:sameAs  rec20:square_millimetre .
+
+unit:PA  owl:sameAs  rec20:pascal .
+
+rec20:degree_Brix  owl:sameAs  unit:DEGREE_BRIX .
+
+unit:RAD-PER-SEC  owl:sameAs  rec20:radian_per_second .
+
+unit:KiloJ-PER-K  owl:sameAs  rec20:kilojoule_per_kelvin .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_hour>
+        owl:sameAs  unit:QT_UK-PER-HR .
+
+unit:MicroC-PER-M3  owl:sameAs  rec20:microcoulomb_per_cubic_metre .
+
+unit:N-M-PER-A  owl:sameAs  rec20:newton_metre_per_ampere .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#15_°C_calorie>
+        owl:sameAs  unit:CAL_15_DEG_C .
+
+rec20:centigram  owl:sameAs  unit:CentiGM .
+
+unit:C-PER-M3  owl:sameAs  rec20:coulomb_per_cubic_metre .
+
+unit:KiloV-A_Reactive
+        owl:sameAs  rec20:kilovar .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US_shipping)>
+        owl:sameAs  unit:TON_SHIPPING_US .
+
+unit:MilliGAL  owl:sameAs  rec20:milligal .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_minute>
+        owl:sameAs  unit:QT_US-PER-MIN .
+
+unit:MilliPA-SEC  owl:sameAs  rec20:millipascal_second .
+
+unit:MegaV-A_Reactive-HR
+        owl:sameAs  rec20:megavolt_ampere_reactive_hour .
+
+unit:BTU_IT-IN-PER-FT2-HR-DEG_F
+        owl:sameAs  unit:BTU_IT-IN-PER-HR-FT2-DEG_F .
+
+unit:C-PER-CentiM3  owl:sameAs  rec20:coulomb_per_cubic_centimetre .
+
+rec20:newton_second_per_metre
+        owl:sameAs  unit:N-SEC-PER-M .
+
+rec20:slug_per_day  owl:sameAs  unit:SLUG-PER-DAY .
+
+rec20:ampere_hour  owl:sameAs  unit:A-HR .
+
+rec20:gigabyte  owl:sameAs  unit:GigaBYTE .
+
+unit:PK_UK-PER-HR  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_hour> .
+
+rec20:hectolitre  owl:sameAs  unit:HectoL .
+
+unit:PK_US_DRY-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_second> .
+
+unit:LB-MOL  owl:sameAs  rec20:pound_mole .
+
+unit:BARN  owl:sameAs  rec20:barn .
+
+unit:OZ_VOL_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#fluid_ounce_(UK)> .
+
+rec20:pascal_per_bar  owl:sameAs  unit:PA-PER-BAR .
+
+rec20:gram_per_cubic_centimetre
+        owl:sameAs  unit:GM-PER-CentiM3 .
+
+unit:DYN  owl:sameAs  rec20:dyne .
+
+unit:IN3  owl:sameAs  rec20:cubic_inch .
+
+unit:DeciL-PER-GM  owl:sameAs  rec20:decilitre_per_gram .
+
+rec20:Beaufort  owl:sameAs  unit:BFT .
+
+unit:BQ  owl:sameAs  rec20:becquerel .
+
+unit:KiloSEC  owl:sameAs  rec20:kilosecond .
+
+rec20:pebibyte  owl:sameAs  unit:PebiBYTE .
+
+rec20:joule_per_mole_kelvin
+        owl:sameAs  unit:J-PER-MOL-K .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_day>
+        owl:sameAs  unit:OZ_VOL_UK-PER-DAY .
+
+unit:PK_US_DRY-PER-HR
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_hour> .
+
+unit:CAL_IT-PER-GM-K  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram_kelvin> .
+
+rec20:micropoise  owl:sameAs  unit:MicroPOISE .
+
+unit:CentiM_H2O  owl:sameAs  rec20:conventional_centimetre_of_water .
+
+unit:HectoPA-PER-BAR  owl:sameAs  rec20:hectopascal_per_bar .
+
+rec20:pound-force_per_foot
+        owl:sameAs  unit:KiloLB_F-PER-FT .
+
+unit:PER-MilliM3  owl:sameAs  rec20:reciprocal_cubic_millimetre .
+
+unit:M3  owl:sameAs  rec20:cubic_metre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_day>
+        owl:sameAs  unit:PK_US_DRY-PER-DAY .
+
+unit:MegaGM  owl:sameAs  rec20:megagram .
+
+unit:TON_SHIPPING_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US_shipping)> .
+
+rec20:cubic_foot_per_minute_per_square_foot
+        owl:sameAs  unit:FT3-PER-MIN-FT2 .
+
+unit:BTU_IT-PER-HR-FT2-DEG_R
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_hour_square_foot_degree_Rankine> .
+
+unit:DEGREE_OECHSLE  owl:sameAs  rec20:degree_Oechsle .
+
+rec20:microwatt  owl:sameAs  unit:MicroW .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US_short)_per_cubic_yard>
+        owl:sameAs  unit:TON_US-PER-YD3 .
+
+rec20:microbar  owl:sameAs  unit:MicroBAR .
+
+rec20:joule_per_kelvin
+        owl:sameAs  unit:J-PER-K .
+
+unit:PSI-YD3-PER-SEC  owl:sameAs  rec20:psi_cubic_yard_per_second .
+
+unit:KiloCi  owl:sameAs  rec20:kilocurie .
+
+unit:KiloTON_Metric  owl:sameAs  rec20:kilotonne .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#stone_(UK)>
+        owl:sameAs  unit:Stone_UK .
+
+unit:KiloS-PER-M  owl:sameAs  rec20:kilosiemens_per_metre .
+
+rec20:kilogram_per_second
+        owl:sameAs  unit:KiloGM-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_second>
+        owl:sameAs  unit:BTU_TH-PER-SEC .
+
+unit:HectoPA-M3-PER-SEC
+        owl:sameAs  rec20:hectopascal_cubic_metre_per_second .
+
+unit:DEG  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_[unit_of_angle]> .
+
+unit:GI_UK-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_second> .
+
+rec20:megagram  owl:sameAs  unit:MegaGM .
+
+rec20:becquerel  owl:sameAs  unit:BQ .
+
+rec20:ounce_foot  owl:sameAs  unit:OZ-FT .
+
+unit:HA  owl:sameAs  rec20:hectare .
+
+unit:MegaN  owl:sameAs  rec20:meganewton .
+
+unit:V  owl:sameAs  rec20:volt .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_minute>
+        owl:sameAs  unit:PK_US_DRY-PER-MIN .
+
+unit:K-PER-W  owl:sameAs  rec20:kelvin_per_watt .
+
+rec20:tin  owl:sameAs  unit:TON_Metric , unit:TONNE .
+
+unit:DeciM3-PER-SEC  owl:sameAs  rec20:cubic_decimetre_per_second .
+
+unit:BTU_IT-PER-LB_F-DEG_R
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound_degree_Rankine> .
+
+unit:MegaV-A_Reactive
+        owl:sameAs  rec20:megavar .
+
+rec20:megavolt_ampere_reactive_hour
+        owl:sameAs  unit:MegaV-A_Reactive-HR .
+
+rec20:terahertz  owl:sameAs  unit:TeraHZ .
+
+rec20:millivolt_per_metre
+        owl:sameAs  unit:MilliV-PER-M .
+
+rec20:conventional_centimetre_of_water
+        owl:sameAs  unit:CentiM_H2O .
+
+rec20:erg_per_second  owl:sameAs  unit:ERG-PER-SEC .
+
+unit:DEG_R  owl:sameAs  rec20:degree_Rankine .
+
+rec20:hectopascal_per_kelvin
+        owl:sameAs  unit:HectoPA-PER-K .
+
+rec20:milli-inch  owl:sameAs  unit:MilliIN .
+
+unit:M2-PER-N  owl:sameAs  rec20:square_metre_per_newton .
+
+unit:CAL_TH-PER-GM  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram> .
+
+rec20:steradian  owl:sameAs  unit:SR , unit:M2-PER-SR .
+
+unit:IN3-PER-MIN  owl:sameAs  rec20:cubic_inch_per_minute .
+
+unit:LM  owl:sameAs  rec20:lumen .
+
+rec20:square_decimetre
+        owl:sameAs  unit:DeciM2 .
+
+rec20:cubic_foot_per_degree_Fahrenheit
+        owl:sameAs  unit:FT3-PER-DEG_F .
+
+unit:LB-PER-FT2  owl:sameAs  rec20:pound_per_square_foot .
+
+rec20:millibar  owl:sameAs  unit:MilliBAR .
+
+unit:M-PER-MIN  owl:sameAs  rec20:metre_per_minute .
+
+unit:MilliM3-PER-M3  owl:sameAs  rec20:cubic_millimetre_per_cubic_metre .
+
+unit:MicroW-PER-M2  owl:sameAs  rec20:microwatt_per_square_metre .
+
+rec20:microlitre  owl:sameAs  unit:MicroL .
+
+rec20:joule_per_kilogram
+        owl:sameAs  unit:J-PER-KiloGM .
+
+rec20:millibar_per_kelvin
+        owl:sameAs  unit:MilliBAR-PER-K .
+
+rec20:failures_in_time
+        owl:sameAs  unit:failures-in-time .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US)_per_hour>
+        owl:sameAs  unit:GAL_US-PER-HR .
+
+unit:W-PER-M2  owl:sameAs  rec20:watt_per_square_metre .
+
+rec20:siemens_square_metre_per_mole
+        owl:sameAs  unit:S-M2-PER-MOL .
+
+unit:FemtoM  owl:sameAs  rec20:femtometre .
+
+rec20:gauss  owl:sameAs  unit:GAUSS .
+
+rec20:kelvin_per_watt
+        owl:sameAs  unit:K-PER-W .
+
+rec20:milliampere_per_inch
+        owl:sameAs  unit:MilliA-PER-IN .
+
+unit:GigaPA  owl:sameAs  rec20:gigapascal .
+
+rec20:French_gauge  owl:sameAs  unit:GAUGE_FR .
+
+rec20:gram_per_mole  owl:sameAs  unit:GM-PER-MOL .
+
+unit:HectoGM  owl:sameAs  rec20:hectogram .
+
+rec20:kilogauss  owl:sameAs  unit:KiloGAUSS .
+
+rec20:metric_horse_power
+        owl:sameAs  unit:HP_Metric .
+
+unit:V-A_Reactive  owl:sameAs  rec20:var .
+
+rec20:kilosiemens_per_metre
+        owl:sameAs  unit:KiloS-PER-M .
+
+rec20:decibel  owl:sameAs  unit:DeciB .
+
+rec20:watt_per_square_metre
+        owl:sameAs  unit:W-PER-M2 .
+
+rec20:kilogram_per_cubic_centimetre
+        owl:sameAs  unit:KiloGM-PER-CentiM3 .
+
+unit:KiloV-PER-M  owl:sameAs  rec20:kilovolt_per_metre .
+
+rec20:milligram_per_metre
+        owl:sameAs  unit:MilliGM-PER-M .
+
+unit:CAL_TH-PER-SEC  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second> .
+
+unit:MilliL-PER-K  owl:sameAs  rec20:millilitre_per_kelvin .
+
+unit:PSI-M3-PER-SEC  owl:sameAs  rec20:psi_cubic_metre_per_second .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_minute>
+        owl:sameAs  unit:OZ-PER-MIN .
+
+rec20:megaampere  owl:sameAs  unit:MegaA .
+
+unit:GigaBQ  owl:sameAs  rec20:gigabecquerel .
+
+rec20:megajoule_per_kilogram
+        owl:sameAs  unit:MegaJ-PER-KiloGM .
+
+rec20:bar_cubic_metre_per_second
+        owl:sameAs  unit:MilliBAR-M3-PER-SEC .
+
+unit:MegaS-PER-M  owl:sameAs  rec20:megasiemens_per_metre .
+
+unit:V-PER-IN  owl:sameAs  rec20:volt_per_inch .
+
+rec20:milliradian  owl:sameAs  unit:MilliRAD .
+
+unit:NanoA  owl:sameAs  rec20:nanoampere .
+
+unit:DecaGM  owl:sameAs  rec20:decagram .
+
+rec20:volt_per_microsecond
+        owl:sameAs  unit:V-PER-MicroSEC .
+
+unit:BBL_US-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_second> , unit:BIT .
+
+unit:OZ_VOL_US-PER-DAY
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_day> .
+
+unit:PER-YR  owl:sameAs  rec20:reciprocal_year .
+
+unit:MicroL-PER-L  owl:sameAs  rec20:microlitre_per_litre .
+
+unit:GI_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)> .
+
+rec20:henry  owl:sameAs  unit:H .
+
+unit:TON_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK)_or_long_ton_(US)> , <https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK_shipping)> .
+
+unit:FT3-PER-MIN-FT2  owl:sameAs  rec20:cubic_foot_per_minute_per_square_foot .
+
+unit:KiloCAL_TH  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)> .
+
+rec20:inch_of_water  owl:sameAs  unit:IN_H2O .
+
+rec20:megajoule_per_cubic_metre
+        owl:sameAs  unit:MegaJ-PER-M3 .
+
+unit:MilliS-PER-CentiM
+        owl:sameAs  rec20:millisiemens_per_centimetre .
+
+unit:MegaPA  owl:sameAs  rec20:megapascal .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_second>
+        owl:sameAs  unit:LB-PER-SEC .
+
+rec20:radian_square_metre_per_mole
+        owl:sameAs  unit:RAD-M2-PER-MOL .
+
+rec20:gram_per_minute
+        owl:sameAs  unit:GM-PER-MIN .
+
+unit:J-PER-GM  owl:sameAs  rec20:joule_per_gram .
+
+rec20:attojoule  owl:sameAs  unit:AttoJ .
+
+rec20:volt_second_per_metre
+        owl:sameAs  unit:V-SEC-PER-M .
+
+rec20:millilitre_per_kelvin
+        owl:sameAs  unit:MilliL-PER-K .
+
+unit:KiloLB_F-FT-PER-LB
+        owl:sameAs  rec20:pound-force_foot_per_pound .
+
+unit:PSI-L-PER-SEC  owl:sameAs  rec20:psi_litre_per_second .
+
+unit:M3-PER-KiloGM  owl:sameAs  rec20:cubic_metre_per_kilogram .
+
+unit:TeraBYTE  owl:sameAs  rec20:terabyte .
+
+rec20:cubic_metre_per_hour
+        owl:sameAs  unit:M3-PER-HR .
+
+unit:PCA  owl:sameAs  rec20:pica .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_hour>
+        owl:sameAs  unit:BBL_UK_PET-PER-HR .
+
+unit:SLUG-PER-FT3  owl:sameAs  rec20:slug_per_cubic_foot .
+
+unit:HectoL  owl:sameAs  rec20:hectolitre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kiloampere_hour_(thousand_ampere_hour)>
+        owl:sameAs  unit:KiloA-HR .
+
+unit:PER-ANGSTROM  owl:sameAs  rec20:reciprocal_angstrom .
+
+unit:LB-PER-IN2  owl:sameAs  rec20:pound_per_square_inch_absolute .
+
+unit:KiloJ-PER-KiloGM
+        owl:sameAs  rec20:kilojoule_per_kilogram .
+
+rec20:kilojoule  owl:sameAs  unit:KiloJ .
+
+unit:QT_UK-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_day> .
+
+unit:BU_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)> .
+
+unit:MegaBQ  owl:sameAs  rec20:megabecquerel .
+
+unit:MegaJ-PER-M3  owl:sameAs  rec20:megajoule_per_cubic_metre .
+
+rec20:microhenry  owl:sameAs  unit:MicroH .
+
+unit:PT  owl:sameAs  rec20:print_point .
+
+unit:KiloGM-M2  owl:sameAs  rec20:kilogram_metre_squared .
+
+rec20:millilitre_per_litre
+        owl:sameAs  unit:MilliL-PER-L .
+
+unit:YD2  owl:sameAs  rec20:square_yard .
+
+unit:YR  owl:sameAs  rec20:year .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second_centimetre_kelvin>
+        owl:sameAs  unit:CAL_TH-PER-SEC-CentiM-K .
+
+rec20:kilobecquerel  owl:sameAs  unit:KiloBQ .
+
+rec20:gram_per_litre  owl:sameAs  unit:GM-PER-L .
+
+unit:MicroA  owl:sameAs  rec20:microampere .
+
+rec20:reciprocal_year
+        owl:sameAs  unit:PER-YR .
+
+rec20:ampere_per_square_metre
+        owl:sameAs  unit:A-PER-M2 .
+
+unit:LB-IN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_pound_(pound_inch)> .
+
+rec20:millinewton  owl:sameAs  unit:MilliN .
+
+rec20:metre_per_minute
+        owl:sameAs  unit:M-PER-MIN .
+
+unit:KiloBAR  owl:sameAs  rec20:kilobar .
+
+rec20:litre_per_minute
+        owl:sameAs  unit:L-PER-MIN .
+
+unit:NanoFARAD  owl:sameAs  rec20:nanofarad .
+
+unit:KiloS  owl:sameAs  rec20:kilosiemens .
+
+rec20:pound-force_per_square_inch_degree_Fahrenheit
+        owl:sameAs  unit:LB_F-PER-IN2-DEG_F .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK_shipping)>
+        owl:sameAs  unit:TON_UK .
+
+rec20:poise_per_bar  owl:sameAs  unit:POISE-PER-BAR .
+
+rec20:picopascal_per_kilometre
+        owl:sameAs  unit:PicoPA-PER-KiloM .
+
+rec20:millijoule  owl:sameAs  unit:MilliJ .
+
+unit:TON_Metric-PER-SEC
+        owl:sameAs  rec20:tonne_per_second , unit:TONNE-PER-SEC .
+
+rec20:microfarad  owl:sameAs  unit:MicroFARAD .
+
+rec20:slug_per_cubic_foot
+        owl:sameAs  unit:SLUG-PER-FT3 .
+
+rec20:pound-force_foot_per_ampere
+        owl:sameAs  unit:KiloLB_F-FT-PER-A .
+
+rec20:cubic_decimetre_per_cubic_metre
+        owl:sameAs  unit:DeciM3-PER-M3 .
+
+unit:MilliGM-PER-MIN  owl:sameAs  rec20:milligram_per_minute .
+
+unit:PA-SEC-PER-M3  owl:sameAs  rec20:pascal_second_per_cubic_metre .
+
+unit:DeciL  owl:sameAs  rec20:decilitre .
+
+unit:MicroM-PER-K  owl:sameAs  rec20:micrometre_per_kelvin .
+
+unit:MilliGRAY  owl:sameAs  rec20:milligray .
+
+unit:MegaV-PER-M  owl:sameAs  rec20:megavolt_per_metre .
+
+rec20:terabyte  owl:sameAs  unit:TeraBYTE .
+
+unit:MegaA-PER-M2  owl:sameAs  rec20:megaampere_per_square_metre .
+
+unit:HectoPA-PER-K  owl:sameAs  rec20:hectopascal_per_kelvin .
+
+rec20:reciprocal_bar  owl:sameAs  unit:PER-BAR .
+
+rec20:psi_cubic_inch_per_second
+        owl:sameAs  unit:PSI-IN3-PER-SEC .
+
+rec20:decimetre  owl:sameAs  unit:DeciM , unit:DAY_Sidereal .
+
+rec20:kilomole_per_second
+        owl:sameAs  unit:KiloMOL-PER-SEC .
+
+rec20:nanoampere  owl:sameAs  unit:NanoA .
+
+unit:HP_Brake  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(boiler)> , unit:HR .
+
+rec20:weber_metre  owl:sameAs  unit:WB-M .
+
+rec20:coulomb_per_cubic_metre
+        owl:sameAs  unit:C-PER-M3 .
+
+unit:MilliM2-PER-SEC  owl:sameAs  rec20:millimetre_squared_per_second .
+
+rec20:radian  owl:sameAs  unit:RAD .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gunter's_chain>
+        owl:sameAs  unit:CH .
+
+unit:BBL_UK_PET-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_second> .
+
+unit:BTU_IT-PER-SEC-FT2-DEG_R
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_square_foot_degree_Rankine> .
+
+unit:GRAY  owl:sameAs  rec20:gray .
+
+unit:DeciGM  owl:sameAs  rec20:decigram .
+
+rec20:joule_per_cubic_metre
+        owl:sameAs  unit:J-PER-M3 .
+
+rec20:cubic_decimetre_per_second
+        owl:sameAs  unit:DeciM3-PER-SEC .
+
+rec20:watt_per_cubic_metre
+        owl:sameAs  unit:W-PER-M3 .
+
+rec20:newton_metre_squared_per_kilogram_squared
+        owl:sameAs  unit:N-M2-PER-KiloGM2 .
+
+unit:J-PER-MOL-K  owl:sameAs  rec20:joule_per_mole_kelvin .
+
+unit:HectoPA  owl:sameAs  rec20:hectopascal .
+
+unit:MegaJ-PER-KiloGM
+        owl:sameAs  rec20:megajoule_per_kilogram .
+
+rec20:tonne_per_minute
+        owl:sameAs  unit:TON_Metric-PER-MIN , unit:TONNE-PER-MIN .
+
+unit:MOL-PER-L  owl:sameAs  rec20:mole_per_litre .
+
+unit:KiloC-PER-M3  owl:sameAs  rec20:kilocoulomb_per_cubic_metre .
+
+rec20:barn  owl:sameAs  unit:BARN .
+
+unit:HZ-M  owl:sameAs  rec20:hertz_metre .
+
+rec20:millinewton_per_metre
+        owl:sameAs  unit:MilliN-PER-M .
+
+rec20:nanofarad_per_metre
+        owl:sameAs  unit:NanoFARAD-PER-M .
+
+unit:L-PER-L  owl:sameAs  rec20:litre_per_litre .
+
+unit:DEGREE_BAUME_US_HEAVY
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(US_heavy)> .
+
+unit:N-M-SEC  owl:sameAs  rec20:newton_metre_second .
+
+rec20:millimole  owl:sameAs  unit:MilliMOL .
+
+rec20:maxwell  owl:sameAs  unit:MX .
+
+rec20:ampere_second  owl:sameAs  unit:A-SEC .
+
+unit:L-PER-MOL  owl:sameAs  rec20:litre_per_mole .
+
+rec20:square_metre_per_steradian_joule
+        owl:sameAs  unit:M2-PER-SR-J .
+
+unit:DEG_C  owl:sameAs  rec20:degree_Celsius .
+
+unit:N-PER-M  owl:sameAs  rec20:newton_per_metre .
+
+unit:PA-SEC-PER-BAR  owl:sameAs  rec20:pascal_second_per_bar .
+
+unit:KiloN  owl:sameAs  rec20:kilonewton .
+
+unit:BAR-PER-BAR  owl:sameAs  rec20:bar_per_bar .
+
+unit:KiloGM-PER-MIN  owl:sameAs  rec20:kilogram_per_minute .
+
+unit:M3-PER-DAY  owl:sameAs  rec20:cubic_metre_per_day .
+
+unit:DecaPA  owl:sameAs  rec20:decapascal .
+
+unit:M3-PER-C  owl:sameAs  rec20:cubic_metre_per_coulomb .
+
+rec20:megajoule  owl:sameAs  unit:MegaJ .
+
+unit:MI2  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#square_mile_(statute_mile)> .
+
+rec20:hertz  owl:sameAs  unit:HZ .
+
+unit:Quarter_UK  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#quarter_(UK)> .
+
+unit:V2-PER-K2  owl:sameAs  rec20:volt_squared_per_kelvin_squared .
+
+unit:DEGREE_API  owl:sameAs  rec20:degree_API .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_metre_hour_degree_Celsius_per_kilocalorie_(international_table)>
+        owl:sameAs  unit:M2-HR-DEG_C-PER-KiloCAL_IT .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#micrometre_(micron)>
+        owl:sameAs  unit:MicroM .
+
+unit:DecaL  owl:sameAs  rec20:decalitre .
+
+rec20:mole_per_cubic_metre
+        owl:sameAs  unit:MOL-PER-M3 .
+
+rec20:reciprocal_litre
+        owl:sameAs  unit:PER-L .
+
+unit:MicroN-M  owl:sameAs  rec20:micronewton_metre .
+
+rec20:degree_Fahrenheit_per_kelvin
+        owl:sameAs  unit:DEG_F-PER-K .
+
+rec20:joule_square_metre
+        owl:sameAs  unit:J-M2 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_second>
+        owl:sameAs  unit:GI_UK-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_gallon_(UK)>
+        owl:sameAs  unit:LB-PER-GAL_UK .
+
+unit:BU_UK-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_day> .
+
+rec20:newton  owl:sameAs  unit:N .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_minute>
+        owl:sameAs  unit:PINT_US-PER-MIN .
+
+rec20:femtometre  owl:sameAs  unit:FemtoM .
+
+unit:CARAT  owl:sameAs  rec20:metric_carat .
+
+unit:WB  owl:sameAs  rec20:weber .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(mean)>
+        owl:sameAs  unit:BTU_MEAN .
+
+unit:SLUG-PER-HR  owl:sameAs  rec20:slug_per_hour .
+
+unit:V-PER-MilliM  owl:sameAs  rec20:volt_per_millimetre .
+
+unit:KiloGM-PER-CentiM2
+        owl:sameAs  rec20:kilogram_per_square_centimetre .
+
+rec20:farad_per_kilometre
+        owl:sameAs  unit:FARAD-PER-KiloM .
+
+unit:L-PER-HR  owl:sameAs  rec20:litre_per_hour .
+
+rec20:kilopascal  owl:sameAs  unit:KiloPA .
+
+rec20:kelvin_per_second
+        owl:sameAs  unit:K-PER-SEC .
+
+rec20:dyne_per_square_centimetre
+        owl:sameAs  unit:DYN-PER-CentiM2 .
+
+rec20:Imperial_gallon_per_minute
+        owl:sameAs  unit:GAL_UK-PER-MIN .
+
+rec20:katal  owl:sameAs  unit:KAT .
+
+unit:DecaM3  owl:sameAs  rec20:cubic_decametre .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_hour>
+        owl:sameAs  unit:GAL_UK-PER-HR .
+
+unit:MilliR  owl:sameAs  rec20:milliroentgen_aequivalent_men , unit:MilliR_man , rec20:milliroentgen .
+
+rec20:joule_per_gram  owl:sameAs  unit:J-PER-GM .
+
+rec20:kilogram_per_minute
+        owl:sameAs  unit:KiloGM-PER-MIN .
+
+unit:V-PER-K  owl:sameAs  rec20:volt_per_kelvin .
+
+rec20:degree_Fahrenheit
+        owl:sameAs  unit:DEG_F .
+
+rec20:cubic_yard_per_minute
+        owl:sameAs  unit:YD3-PER-MIN .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#rod_[unit_of_distance]>
+        owl:sameAs  unit:ROD .
+
+unit:KiloLB_F-PER-IN2
+        owl:sameAs  rec20:kilopound-force_per_square_inch .
+
+unit:J-PER-M3  owl:sameAs  rec20:joule_per_cubic_metre .
+
+rec20:cubic_centimetre_per_second
+        owl:sameAs  unit:CentiM3-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(mean)>
+        owl:sameAs  unit:KiloCAL_Mean .
+
+rec20:volt_per_millimetre
+        owl:sameAs  unit:V-PER-MilliM .
+
+unit:NanoT  owl:sameAs  rec20:nanotesla .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_pound_degree_Fahrenheit>
+        owl:sameAs  unit:BTU_TH-PER-LB-DEG_F .
+
+unit:DeciB  owl:sameAs  rec20:decibel .
+
+unit:MicroOHM  owl:sameAs  rec20:microohm .
+
+unit:MilliN-M  owl:sameAs  rec20:millinewton_metre .
+
+unit:PER-BAR  owl:sameAs  rec20:reciprocal_bar .
+
+rec20:mole_per_minute
+        owl:sameAs  unit:MOL-PER-MIN .
+
+unit:PK_US_DRY-PER-DAY
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_day> .
+
+rec20:lumen_second  owl:sameAs  unit:LM-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound>
+        owl:sameAs  unit:BTU_IT-PER-LB_F .
+
+rec20:centinewton_metre
+        owl:sameAs  unit:CentiN-M .
+
+rec20:candela_per_square_metre
+        owl:sameAs  unit:CD-PER-M2 .
+
+rec20:kilomole  owl:sameAs  unit:KiloMOL .
+
+rec20:picowatt  owl:sameAs  unit:PicoW .
+
+unit:MOL-PER-HR  owl:sameAs  rec20:mole_per_hour .
+
+rec20:square_inch  owl:sameAs  unit:IN2 .
+
+unit:YD3-PER-MIN  owl:sameAs  rec20:cubic_yard_per_minute .
+
+rec20:pound_mole  owl:sameAs  unit:LB-MOL .
+
+rec20:hectopascal_cubic_metre_per_second
+        owl:sameAs  unit:HectoPA-M3-PER-SEC .
+
+rec20:cubic_foot_per_second
+        owl:sameAs  unit:FT3-PER-SEC .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_hour>
+        owl:sameAs  unit:BBL_US_PET-PER-SEC , unit:BBL_US_PET-PER-HR .
+
+unit:PicoW  owl:sameAs  rec20:picowatt .
+
+rec20:degree_Rankine  owl:sameAs  unit:DEG_R .
+
+rec20:cubic_metre_per_coulomb
+        owl:sameAs  unit:M3-PER-C .
+
+rec20:cubic_centimetre
+        owl:sameAs  unit:CentiM3 .
+
+unit:FT2  owl:sameAs  rec20:square_foot .
+
+rec20:joule_per_metre
+        owl:sameAs  unit:J-PER-M .
+
+unit:A-PER-M2  owl:sameAs  rec20:ampere_per_square_metre .
+
+unit:MilliM  owl:sameAs  rec20:millimetre .
+
+unit:MilliL-PER-CentiM2-SEC
+        owl:sameAs  rec20:millilitre_per_square_centimetre_second , unit:MilliL-PER-CentiM2-MIN .
+
+rec20:reciprocal_day  owl:sameAs  unit:PER-DAY .
+
+unit:HectoPA-L-PER-SEC
+        owl:sameAs  rec20:hectopascal_litre_per_second .
+
+rec20:millimetre_squared_per_second
+        owl:sameAs  unit:MilliM2-PER-SEC .
+
+rec20:reciprocal_week
+        owl:sameAs  unit:PER-WK .
+
+unit:MicroT  owl:sameAs  rec20:microtesla .
+
+rec20:month  owl:sameAs  unit:MO .
+
+unit:DEG_R-PER-HR  owl:sameAs  rec20:degree_Rankine_per_hour .
+
+rec20:microampere  owl:sameAs  unit:MicroA .
+
+unit:GI_UK-PER-DAY  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_day> .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_angle]>
+        owl:sameAs  unit:ARCSEC .
+
+rec20:slug_per_second
+        owl:sameAs  unit:SLUG-PER-SEC .
+
+unit:MilliM_H2O  owl:sameAs  rec20:conventional_millimetre_of_water .
+
+rec20:millisiemens_per_centimetre
+        owl:sameAs  unit:MilliS-PER-CentiM .
+
+unit:MilliOHM  owl:sameAs  rec20:milliohm .
+
+rec20:per_mille_per_psi
+        owl:sameAs  unit:PER-MILLE-PER-PSI .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bar_[unit_of_pressure]>
+        owl:sameAs  unit:BAR .
+
+rec20:microhenry_per_kiloohm
+        owl:sameAs  unit:MicroH-PER-KiloOHM .
+
+rec20:joule_per_square_centimetre
+        owl:sameAs  unit:J-PER-CentiM2 .
+
+unit:DeciM3  owl:sameAs  rec20:cubic_decimetre .
+
+rec20:kiloampere_per_metre
+        owl:sameAs  unit:KiloA-PER-M .
+
+unit:DeciM3-PER-DAY  owl:sameAs  rec20:cubic_decimetre_per_day .
+
+unit:TON_US-PER-DAY  owl:sameAs  rec20:ton_short_per_day .
+
+unit:CentiM-PER-HR  owl:sameAs  rec20:centimetre_per_hour .
+
+unit:W-PER-SR  owl:sameAs  rec20:watt_per_steradian .
+
+rec20:megavar  owl:sameAs  unit:MegaV-A_Reactive .
+
+rec20:nanometre  owl:sameAs  unit:NanoM .
+
+unit:PINT_US-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_minute> .
+
+rec20:kilogram_metre_per_second
+        owl:sameAs  unit:KiloGM-M-PER-SEC .
+
+rec20:attofarad  owl:sameAs  unit:AttoFARAD .
+
+unit:LB-PER-GAL_US  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_per_gallon_(US)> .
+
+unit:PER-MILLE-PER-PSI
+        owl:sameAs  rec20:per_mille_per_psi .
+
+unit:A-PER-CentiM2  owl:sameAs  rec20:ampere_per_square_centimetre .
+
+rec20:megabecquerel  owl:sameAs  unit:MegaBQ .
+
+rec20:cubic_metre  owl:sameAs  unit:M3 .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_square_foot_degree_Rankine>
+        owl:sameAs  unit:BTU_IT-PER-SEC-FT2-DEG_R .
+
+rec20:kilowatt  owl:sameAs  unit:KiloW .
+
+unit:OZ_VOL_UK-PER-SEC
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_second> .
+
+unit:N-M2-PER-KiloGM2
+        owl:sameAs  rec20:newton_metre_squared_per_kilogram_squared .
+
+unit:C-PER-KiloGM  owl:sameAs  rec20:coulomb_per_kilogram .
+
+unit:MicroC-PER-M2  owl:sameAs  rec20:microcoulomb_per_square_metre .
+
+unit:MilliH  owl:sameAs  rec20:millihenry .
+
+unit:MicroMOL  owl:sameAs  rec20:micromole .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_day>
+        owl:sameAs  unit:OZ-PER-DAY .
+
+unit:C-PER-M2  owl:sameAs  rec20:coulomb_per_square_metre .
+
+unit:M3-PER-HR  owl:sameAs  rec20:cubic_metre_per_hour .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#grain_per_gallon_(US)>
+        owl:sameAs  unit:GRAIN-PER-GAL_US .
+
+unit:KiloGM-PER-M3  owl:sameAs  rec20:kilogram_per_cubic_metre .
+
+rec20:pascal_cubic_metre_per_second
+        owl:sameAs  unit:PA-M3-PER-SEC .
+
+unit:Hundredweight_UK
+        owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_weight_(UK)> .
+
+unit:A-PER-MilliM  owl:sameAs  rec20:ampere_per_millimetre .
+
+unit:C-PER-CentiM2  owl:sameAs  rec20:coulomb_per_square_centimetre .
+
+rec20:kilogram_square_centimetre
+        owl:sameAs  unit:KiloGM-CentiM2 .
+
+unit:PK_UK-PER-MIN  owl:sameAs  <https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_minute> .
+
+unit:MilliL-PER-KiloGM
+        owl:sameAs  rec20:millilitre_per_kilogram .
+
+unit:GigaW  owl:sameAs  rec20:gigawatt .
+
+rec20:curie  owl:sameAs  unit:Ci .
+
+unit:KiloHZ  owl:sameAs  rec20:kilohertz .
+
+unit:IN2  owl:sameAs  rec20:square_inch .
+
+unit:MI_N  owl:sameAs  rec20:nautical_mile .
+
+unit:FT3-PER-MIN  owl:sameAs  rec20:cubic_foot_per_minute .
+
+unit:KN  owl:sameAs  rec20:knot .
+
+rec20:percent  owl:sameAs  unit:PERCENT .
+
+rec20:reciprocal_cubic_centimetre
+        owl:sameAs  unit:PER-CentiM3 .
+
+rec20:print_point  owl:sameAs  unit:PT .
+
+unit:MicroCi  owl:sameAs  rec20:microcurie .
+
+rec20:kilocurie  owl:sameAs  unit:KiloCi .
+
+rec20:technical_atmosphere
+        owl:sameAs  unit:ATM_T .
+
+unit:M2  owl:sameAs  rec20:square_metre .
+
+unit:MilliMOL-PER-GM  owl:sameAs  rec20:millimole_per_gram .
+
+rec20:kelvin  owl:sameAs  unit:K .
+
+unit:CentiGM  owl:sameAs  rec20:centigram .
+
+rec20:square_yard  owl:sameAs  unit:YD2 .
+
+unit:CentiN-M  owl:sameAs  rec20:centinewton_metre .
+
+rec20:megabit_per_second
+        owl:sameAs  unit:MegaBIT-PER-SEC .
+
+rec20:kilojoule_per_mole
+        owl:sameAs  unit:KiloJ-PER-MOL .
+
+rec20:volt_-_ampere  owl:sameAs  unit:V-A .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_second>
+        owl:sameAs  unit:BBL_UK_PET-PER-SEC .
+
+rec20:gray  owl:sameAs  unit:GRAY .
+
+rec20:weber_per_millimetre
+        owl:sameAs  unit:WB-PER-MilliM .
+
+rec20:foot_of_water  owl:sameAs  unit:FT_H2O .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_hour>
+        owl:sameAs  unit:BU_US_DRY-PER-HR .
+
+rec20:cubic_yard_per_degree_Fahrenheit
+        owl:sameAs  unit:YD3-PER-DEG_F .
+
+rec20:tonne_per_cubic_metre
+        owl:sameAs  unit:TON_Metric-PER-M3 , unit:TONNE-PER-M3 .
+
+rec20:degree_Celsius_per_second
+        owl:sameAs  unit:DEG_C-PER-SEC .

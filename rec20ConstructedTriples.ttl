@@ -1,0 +1,5877 @@
+@prefix gs1:   <http://gs1.org/voc/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix qudt:  <http://qudt.org/schema/qudt/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rec20: <https://service.unece.org/trade/uncefact/vocabulary/rec20#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+rec20:percent_per_degree_Celsius
+        qudt:uneceCommonCode  "M25" .
+
+rec20:ozone_depletion_equivalent
+        qudt:uneceCommonCode  "ODE" .
+
+rec20:microvolt_per_metre
+        qudt:uneceCommonCode  "C3" .
+
+rec20:newton_per_metre
+        qudt:uneceCommonCode  "4P" .
+
+rec20:alcoholic_strength_by_volume
+        qudt:uneceCommonCode  "ASU" .
+
+rec20:gram_per_square_centimetre
+        qudt:uneceCommonCode  "25" .
+
+rec20:erg  qudt:uneceCommonCode  "A57" .
+
+rec20:ton_of_steam_per_hour
+        qudt:uneceCommonCode  "TSH" .
+
+rec20:milliard  qudt:uneceCommonCode  "MLD" .
+
+rec20:kilowatt_hour_per_hour
+        qudt:uneceCommonCode  "D03" .
+
+rec20:gigawatt_hour  qudt:uneceCommonCode
+                "GWH" .
+
+rec20:kilomole_per_minute
+        qudt:uneceCommonCode  "K61" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound_degree_Rankine>
+        qudt:uneceCommonCode  "A21" .
+
+rec20:truckload  qudt:uneceCommonCode  "TC" .
+
+rec20:part_per_thousand
+        qudt:uneceCommonCode  "NX" .
+
+rec20:millicurie  qudt:uneceCommonCode  "MCU" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_micrometre_(square_micron)>
+        qudt:uneceCommonCode  "H30" .
+
+rec20:gram_per_cubic_metre
+        qudt:uneceCommonCode  "A93" .
+
+rec20:watt_per_metre_degree_Celsius
+        qudt:uneceCommonCode  "N80" .
+
+rec20:reciprocal_metre_squared_reciprocal_second
+        qudt:uneceCommonCode  "B81" .
+
+rec20:kiloampere_per_square_metre
+        qudt:uneceCommonCode  "B23" .
+
+rec20:kilomole_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "K59" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK)>
+        qudt:uneceCommonCode  "QTI" .
+
+rec20:nanogray_per_hour
+        qudt:uneceCommonCode  "P64" .
+
+rec20:cubic_decimetre_per_minute
+        qudt:uneceCommonCode  "J92" .
+
+rec20:bit_per_second  qudt:uneceCommonCode
+                "B10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#perm_(0_ºC)>
+        qudt:uneceCommonCode  "P91" .
+
+rec20:reciprocal_megakelvin_or_megakelvin_to_the_power_minus_one
+        qudt:uneceCommonCode  "M20" .
+
+rec20:conference_point
+        qudt:uneceCommonCode  "Z6" .
+
+rec20:hour  qudt:uneceCommonCode  "HUR" .
+
+rec20:gigabit  qudt:uneceCommonCode  "B68" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#tonne_(metric_ton)>
+        qudt:uneceCommonCode  "TNE" .
+
+rec20:picolitre  qudt:uneceCommonCode  "Q33" .
+
+rec20:coulomb_per_mole
+        qudt:uneceCommonCode  "A32" .
+
+rec20:rem  qudt:uneceCommonCode  "D91" .
+
+rec20:electronvolt_square_metre_per_kilogram
+        qudt:uneceCommonCode  "A56" .
+
+rec20:mebibyte  qudt:uneceCommonCode  "E63" .
+
+rec20:watt_per_metre_kelvin
+        qudt:uneceCommonCode  "D53" .
+
+rec20:tonne_per_day  qudt:uneceCommonCode
+                "L71" .
+
+rec20:light_year  qudt:uneceCommonCode  "B57" .
+
+rec20:terabit_per_second
+        qudt:uneceCommonCode  "E84" .
+
+rec20:hectopascal_litre_per_second
+        qudt:uneceCommonCode  "F93" .
+
+rec20:bale  qudt:uneceCommonCode  "BL" .
+
+rec20:kibibit  qudt:uneceCommonCode  "C21" .
+
+rec20:kilogram_per_cubic_metre
+        qudt:uneceCommonCode  "KMQ" .
+
+rec20:pound_mole_per_pound
+        qudt:uneceCommonCode  "P48" .
+
+rec20:cubic_yard  qudt:uneceCommonCode  "YDQ" .
+
+rec20:Square_Metre_Week
+        qudt:uneceCommonCode  "MKW" .
+
+rec20:ton_short_per_day
+        qudt:uneceCommonCode  "L88" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#part_per_billion_(US)>
+        qudt:uneceCommonCode  "61" .
+
+rec20:ampere_minute  qudt:uneceCommonCode
+                "N95" .
+
+rec20:kilovolt_per_metre
+        qudt:uneceCommonCode  "B55" .
+
+rec20:degree_Fahrenheit_per_bar
+        qudt:uneceCommonCode  "J21" .
+
+rec20:millibar_cubic_metre_per_second
+        qudt:uneceCommonCode  "F96" .
+
+rec20:gigaohm_per_metre
+        qudt:uneceCommonCode  "M26" .
+
+rec20:newton_square_metre_per_ampere
+        qudt:uneceCommonCode  "P49" .
+
+rec20:reciprocal_pascal_or_pascal_to_the_power_minus_one
+        qudt:uneceCommonCode  "C96" .
+
+rec20:kilogram_per_metre_second
+        qudt:uneceCommonCode  "N37" .
+
+rec20:mole_per_kilogram
+        qudt:uneceCommonCode  "C19" .
+
+rec20:carrying_capacity_in_metric_ton
+        qudt:uneceCommonCode  "CCT" .
+
+rec20:kilocoulomb_per_cubic_metre
+        qudt:uneceCommonCode  "B27" .
+
+rec20:standard_atmosphere_per_metre
+        qudt:uneceCommonCode  "P83" .
+
+rec20:revolutions_per_minute
+        qudt:uneceCommonCode  "RPM" .
+
+rec20:milliwatt_per_square_metre
+        qudt:uneceCommonCode  "C32" .
+
+rec20:kilogram_per_hour
+        qudt:uneceCommonCode  "E93" .
+
+rec20:siemens  qudt:uneceCommonCode  "SIE" .
+
+rec20:percent_per_hundred
+        qudt:uneceCommonCode  "H93" .
+
+rec20:tank_truck  qudt:uneceCommonCode  "19" .
+
+rec20:hartley  qudt:uneceCommonCode  "Q15" .
+
+rec20:megapascal_per_kelvin
+        qudt:uneceCommonCode  "F85" .
+
+rec20:Decibel_watt  qudt:uneceCommonCode
+                "DBW" .
+
+rec20:litre_per_second_kelvin
+        qudt:uneceCommonCode  "G68" .
+
+rec20:litre_per_kilogram
+        qudt:uneceCommonCode  "H83" .
+
+rec20:parsec  qudt:uneceCommonCode  "C63" .
+
+rec20:kilogram_per_minute_kelvin
+        qudt:uneceCommonCode  "F41" .
+
+rec20:millilitre_per_hour
+        qudt:uneceCommonCode  "G55" .
+
+rec20:microsievert_per_minute
+        qudt:uneceCommonCode  "P76" .
+
+rec20:telecommunication_line_in_service_average
+        qudt:uneceCommonCode  "UB" .
+
+rec20:overtime_hour  qudt:uneceCommonCode
+                "OT" .
+
+rec20:round  qudt:uneceCommonCode  "D65" .
+
+rec20:percent_per_thousand
+        qudt:uneceCommonCode  "H94" .
+
+rec20:international_sugar_degree
+        qudt:uneceCommonCode  "ISD" .
+
+rec20:cassette  qudt:uneceCommonCode  "D66" .
+
+rec20:thousand_cubic_foot
+        qudt:uneceCommonCode  "FC" .
+
+rec20:foot  qudt:uneceCommonCode  "FOT" .
+
+rec20:kip_per_square_inch
+        qudt:uneceCommonCode  "N20" .
+
+rec20:tropical_year  qudt:uneceCommonCode
+                "D42" .
+
+rec20:terawatt  qudt:uneceCommonCode  "D31" .
+
+rec20:pound_per_square_foot
+        qudt:uneceCommonCode  "FP" .
+
+rec20:pound_mole_per_minute
+        qudt:uneceCommonCode  "P46" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quad_(1015_BtuIT)>
+        qudt:uneceCommonCode  "N70" .
+
+rec20:kelvin_per_minute
+        qudt:uneceCommonCode  "F11" .
+
+rec20:kilovolt_ampere_reactive_demand
+        qudt:uneceCommonCode  "K2" .
+
+rec20:room  qudt:uneceCommonCode  "ROM" .
+
+rec20:jumbo  qudt:uneceCommonCode  "JB" .
+
+rec20:brush  qudt:uneceCommonCode  "BH" .
+
+rec20:six_pack  qudt:uneceCommonCode  "P6" .
+
+rec20:picoampere  qudt:uneceCommonCode  "C70" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(thermochemical)>
+        qudt:uneceCommonCode  "J19" .
+
+rec20:hectare  qudt:uneceCommonCode  "HAR" .
+
+rec20:percent_per_month
+        qudt:uneceCommonCode  "H71" .
+
+rec20:kilogram_per_metre
+        qudt:uneceCommonCode  "KL" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_hour>
+        qudt:uneceCommonCode  "2I" .
+
+rec20:cask  qudt:uneceCommonCode  "Z3" .
+
+rec20:milliohm_per_metre
+        qudt:uneceCommonCode  "F54" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_day>
+        qudt:uneceCommonCode  "K26" .
+
+rec20:watt_hour  qudt:uneceCommonCode  "WHR" .
+
+rec20:picohenry  qudt:uneceCommonCode  "C73" .
+
+rec20:foot_per_degree_Fahrenheit
+        qudt:uneceCommonCode  "K13" .
+
+rec20:cubic_centimetre_per_day
+        qudt:uneceCommonCode  "G47" .
+
+rec20:kiloohm  qudt:uneceCommonCode  "B49" .
+
+rec20:cubic_centimetre_per_minute
+        qudt:uneceCommonCode  "G49" .
+
+rec20:reciprocal_month
+        qudt:uneceCommonCode  "H11" .
+
+rec20:Metre_Month  qudt:uneceCommonCode
+                "MRM" .
+
+rec20:kilogram_dry_weight
+        qudt:uneceCommonCode  "MND" .
+
+rec20:kilogram_centimetre_per_second
+        qudt:uneceCommonCode  "M98" .
+
+rec20:litre_per_mole  qudt:uneceCommonCode
+                "B58" .
+
+rec20:cubic_decimetre_per_day
+        qudt:uneceCommonCode  "J90" .
+
+rec20:foot_per_second_squared
+        qudt:uneceCommonCode  "A73" .
+
+rec20:picosiemens_per_metre
+        qudt:uneceCommonCode  "L42" .
+
+rec20:alcoholic_strength_by_mass
+        qudt:uneceCommonCode  "ASM" .
+
+rec20:cubic_centimetre_per_day_kelvin
+        qudt:uneceCommonCode  "G61" .
+
+rec20:train  qudt:uneceCommonCode  "NN" .
+
+rec20:erg_square_centimetre
+        qudt:uneceCommonCode  "A66" .
+
+rec20:kilogram_per_square_metre
+        qudt:uneceCommonCode  "28" .
+
+rec20:pound-force_foot_per_pound
+        qudt:uneceCommonCode  "G20" .
+
+rec20:cubic_metre_per_second_bar
+        qudt:uneceCommonCode  "G89" .
+
+rec20:poise_per_pascal
+        qudt:uneceCommonCode  "N35" .
+
+rec20:picofarad  qudt:uneceCommonCode  "4T" .
+
+rec20:kilogram_metre  qudt:uneceCommonCode
+                "M94" .
+
+rec20:percent_per_kelvin
+        qudt:uneceCommonCode  "H25" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_hour>
+        qudt:uneceCommonCode  "K33" .
+
+rec20:litre_per_second_bar
+        qudt:uneceCommonCode  "G85" .
+
+rec20:international_candle
+        qudt:uneceCommonCode  "P36" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US)_per_day>
+        qudt:uneceCommonCode  "GB" .
+
+rec20:millisiemens  qudt:uneceCommonCode
+                "C27" .
+
+rec20:centistokes  qudt:uneceCommonCode
+                "4C" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)_per_gram_kelvin>
+        qudt:uneceCommonCode  "N65" .
+
+rec20:thousand_sheet  qudt:uneceCommonCode
+                "TW" .
+
+rec20:skid  qudt:uneceCommonCode  "SV" .
+
+rec20:millivolt  qudt:uneceCommonCode  "2Z" .
+
+rec20:kilogram_of_uranium
+        qudt:uneceCommonCode  "KUR" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_hour>
+        qudt:uneceCommonCode  "L54" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_second_centimetre_kelvin>
+        qudt:uneceCommonCode  "D71" .
+
+rec20:person  qudt:uneceCommonCode  "IE" .
+
+rec20:panel  qudt:uneceCommonCode  "OA" .
+
+rec20:volt_per_second
+        qudt:uneceCommonCode  "H46" .
+
+rec20:megacoulomb_per_square_metre
+        qudt:uneceCommonCode  "B70" .
+
+rec20:kilogram_per_air_dry_metric_ton
+        qudt:uneceCommonCode  "32" .
+
+rec20:newton_per_square_centimetre
+        qudt:uneceCommonCode  "E01" .
+
+rec20:fibre_per_cubic_centimetre_of_air
+        qudt:uneceCommonCode  "F9" .
+
+rec20:tonne_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "L76" .
+
+rec20:milligram_per_minute_kelvin
+        qudt:uneceCommonCode  "F45" .
+
+rec20:astronomical_unit
+        qudt:uneceCommonCode  "A12" .
+
+rec20:degree_Rankine_per_minute
+        qudt:uneceCommonCode  "J29" .
+
+rec20:square_kilometre
+        qudt:uneceCommonCode  "KMK" .
+
+rec20:cubic_hectometre
+        qudt:uneceCommonCode  "H19" .
+
+rec20:service_unit  qudt:uneceCommonCode
+                "E48" .
+
+rec20:femtojoule  qudt:uneceCommonCode  "A70" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_electric_current>
+        qudt:uneceCommonCode  "A78" .
+
+rec20:gram_per_cubic_decimetre
+        qudt:uneceCommonCode  "F23" .
+
+rec20:metre_per_second_kelvin
+        qudt:uneceCommonCode  "L12" .
+
+rec20:digit  qudt:uneceCommonCode  "B19" .
+
+rec20:rod  qudt:uneceCommonCode  "RD" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_per_British_thermal_unit_(thermochemical)>
+        qudt:uneceCommonCode  "N85" .
+
+rec20:kelvin_metre_per_watt
+        qudt:uneceCommonCode  "H35" .
+
+rec20:gigacoulomb_per_cubic_metre
+        qudt:uneceCommonCode  "A84" .
+
+rec20:kilogram_per_cubic_centimetre_kelvin
+        qudt:uneceCommonCode  "G38" .
+
+rec20:millimetre_per_second_squared
+        qudt:uneceCommonCode  "M41" .
+
+rec20:ton_mile  qudt:uneceCommonCode  "1J" .
+
+rec20:cap  qudt:uneceCommonCode  "4B" .
+
+rec20:cubic_yard_per_hour
+        qudt:uneceCommonCode  "M13" .
+
+rec20:data_record  qudt:uneceCommonCode
+                "DQ" .
+
+rec20:metre_per_bar  qudt:uneceCommonCode
+                "G05" .
+
+rec20:milligram_per_day_kelvin
+        qudt:uneceCommonCode  "F43" .
+
+rec20:wrap  qudt:uneceCommonCode  "WR" .
+
+rec20:slug_per_minute
+        qudt:uneceCommonCode  "L67" .
+
+rec20:mole_per_cubic_metre_bar
+        qudt:uneceCommonCode  "L29" .
+
+rec20:kilopascal_per_bar
+        qudt:uneceCommonCode  "F03" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_day>
+        qudt:uneceCommonCode  "K66" .
+
+rec20:gross_barrel  qudt:uneceCommonCode
+                "GD" .
+
+rec20:cubic_inch_per_second
+        qudt:uneceCommonCode  "G58" .
+
+rec20:megapascal  qudt:uneceCommonCode  "MPA" .
+
+rec20:magnetic_tape  qudt:uneceCommonCode
+                "M0" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram>
+        qudt:uneceCommonCode  "B36" .
+
+rec20:reciprocal_volt
+        qudt:uneceCommonCode  "P96" .
+
+rec20:milligram_per_hour
+        qudt:uneceCommonCode  "4M" .
+
+rec20:cubic_metre_per_minute_kelvin
+        qudt:uneceCommonCode  "G71" .
+
+rec20:gigahertz_metre
+        qudt:uneceCommonCode  "M18" .
+
+rec20:billet  qudt:uneceCommonCode  "B5" .
+
+rec20:kilojoule_per_second
+        qudt:uneceCommonCode  "P18" .
+
+rec20:microhenry_per_ohm
+        qudt:uneceCommonCode  "G99" .
+
+rec20:microbecquerel  qudt:uneceCommonCode
+                "H08" .
+
+rec20:kilogram_metre_squared_per_second
+        qudt:uneceCommonCode  "B33" .
+
+rec20:pascal_second_per_litre
+        qudt:uneceCommonCode  "M32" .
+
+rec20:cubic_metre_per_bar
+        qudt:uneceCommonCode  "G96" .
+
+rec20:hundred_kilogram
+        qudt:uneceCommonCode  "HK" .
+
+rec20:pound-force_inch_per_inch
+        qudt:uneceCommonCode  "P90" .
+
+rec20:furlong  qudt:uneceCommonCode  "M50" .
+
+rec20:square_roofing  qudt:uneceCommonCode
+                "SQR" .
+
+rec20:pebibit_per_metre
+        qudt:uneceCommonCode  "E80" .
+
+rec20:megaohm_metre  qudt:uneceCommonCode
+                "B76" .
+
+rec20:cubic_centimetre_per_minute_bar
+        qudt:uneceCommonCode  "G80" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dram_(US)>
+        qudt:uneceCommonCode  "DRA" .
+
+rec20:decare  qudt:uneceCommonCode  "DAA" .
+
+rec20:megaohm_kilometre
+        qudt:uneceCommonCode  "H88" .
+
+rec20:megawatt_hour_per_hour
+        qudt:uneceCommonCode  "E07" .
+
+rec20:microfiche_sheet
+        qudt:uneceCommonCode  "G7" .
+
+rec20:kilogram_metre_squared
+        qudt:uneceCommonCode  "B32" .
+
+rec20:kilolux  qudt:uneceCommonCode  "KLX" .
+
+rec20:percent_per_degree
+        qudt:uneceCommonCode  "H90" .
+
+rec20:treatment  qudt:uneceCommonCode  "U1" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_cubic_inch_degree_Fahrenheit>
+        qudt:uneceCommonCode  "K75" .
+
+rec20:kilogram_of_nitrogen
+        qudt:uneceCommonCode  "KNI" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_square_foot_second>
+        qudt:uneceCommonCode  "N54" .
+
+rec20:dry_ton  qudt:uneceCommonCode  "DT" .
+
+rec20:quarter_kilogram
+        qudt:uneceCommonCode  "QK" .
+
+rec20:shipment  qudt:uneceCommonCode  "SX" .
+
+rec20:hectometre  qudt:uneceCommonCode  "HMT" .
+
+rec20:picosecond  qudt:uneceCommonCode  "H70" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#centimetre_of_water_(4_ºC)>
+        qudt:uneceCommonCode  "N14" .
+
+rec20:cubic_decametre
+        qudt:uneceCommonCode  "DMA" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)>
+        qudt:uneceCommonCode  "K53" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#half_page_–_electronic>
+        qudt:uneceCommonCode  "H1" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#drachm_(UK)>
+        qudt:uneceCommonCode  "DRM" .
+
+rec20:sitas  qudt:uneceCommonCode  "56" .
+
+rec20:cubic_metre_per_cubic_metre
+        qudt:uneceCommonCode  "H60" .
+
+rec20:seismic_line  qudt:uneceCommonCode
+                "5Q" .
+
+rec20:thousand_square_inch
+        qudt:uneceCommonCode  "TI" .
+
+rec20:kelvin_per_pascal
+        qudt:uneceCommonCode  "N79" .
+
+rec20:milligram_per_square_inch
+        qudt:uneceCommonCode  "MK" .
+
+rec20:skein  qudt:uneceCommonCode  "SW" .
+
+rec20:shelf_package  qudt:uneceCommonCode
+                "SP" .
+
+rec20:pascal_second_per_bar
+        qudt:uneceCommonCode  "H07" .
+
+rec20:ohm  qudt:uneceCommonCode  "OHM" .
+
+rec20:monetary_value  qudt:uneceCommonCode
+                "M4" .
+
+rec20:kilopound-force
+        qudt:uneceCommonCode  "M75" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dry_gallon_(US)>
+        qudt:uneceCommonCode  "GLD" .
+
+rec20:microsiemens_per_centimetre
+        qudt:uneceCommonCode  "G42" .
+
+rec20:pail  qudt:uneceCommonCode  "PL" .
+
+rec20:square_metre_per_cubic_metre
+        qudt:uneceCommonCode  "Q36" .
+
+rec20:kilogram_per_square_centimetre
+        qudt:uneceCommonCode  "D5" .
+
+rec20:joule_per_metre_to_the_fourth_power
+        qudt:uneceCommonCode  "B14" .
+
+rec20:sidereal_year  qudt:uneceCommonCode
+                "L96" .
+
+rec20:thousand_metre  qudt:uneceCommonCode
+                "MQ" .
+
+rec20:tebibit_per_cubic_metre
+        qudt:uneceCommonCode  "E86" .
+
+rec20:byte  qudt:uneceCommonCode  "AD" .
+
+rec20:cubic_centimetre_per_hour_kelvin
+        qudt:uneceCommonCode  "G62" .
+
+rec20:telecommunication_line_in_service
+        qudt:uneceCommonCode  "T0" .
+
+rec20:stokes  qudt:uneceCommonCode  "91" .
+
+rec20:megapascal_litre_per_second
+        qudt:uneceCommonCode  "F97" .
+
+rec20:mebibit  qudt:uneceCommonCode  "D11" .
+
+rec20:ohm_per_metre  qudt:uneceCommonCode
+                "H26" .
+
+rec20:sievert  qudt:uneceCommonCode  "D13" .
+
+rec20:clo  qudt:uneceCommonCode  "J83" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cord_(128_ft3)>
+        qudt:uneceCommonCode  "M68" .
+
+rec20:weber_per_metre
+        qudt:uneceCommonCode  "D59" .
+
+rec20:square_metre_per_second
+        qudt:uneceCommonCode  "S4" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_minute>
+        qudt:uneceCommonCode  "J58" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(20_ºC)>
+        qudt:uneceCommonCode  "N69" .
+
+rec20:kilowatt_per_square_metre_kelvin
+        qudt:uneceCommonCode  "N78" .
+
+rec20:use  qudt:uneceCommonCode  "E55" .
+
+rec20:cubic_millimetre
+        qudt:uneceCommonCode  "MMQ" .
+
+rec20:volt_per_bar  qudt:uneceCommonCode
+                "G60" .
+
+rec20:square_metre_per_joule
+        qudt:uneceCommonCode  "D20" .
+
+rec20:ring  qudt:uneceCommonCode  "RG" .
+
+rec20:gigabit_per_second
+        qudt:uneceCommonCode  "B80" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dram_(UK)>
+        qudt:uneceCommonCode  "DRI" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_hour>
+        qudt:uneceCommonCode  "E15" .
+
+rec20:degree_Balling  qudt:uneceCommonCode
+                "J17" .
+
+rec20:shares  qudt:uneceCommonCode  "E21" .
+
+rec20:number_of_parcels
+        qudt:uneceCommonCode  "NPL" .
+
+rec20:gram_per_millimetre
+        qudt:uneceCommonCode  "H76" .
+
+rec20:henry_per_metre
+        qudt:uneceCommonCode  "A98" .
+
+rec20:part_per_million
+        qudt:uneceCommonCode  "59" .
+
+rec20:gross_yard  qudt:uneceCommonCode  "GY" .
+
+rec20:grain  qudt:uneceCommonCode  "GRN" .
+
+rec20:cubic_centimetre_per_hour
+        qudt:uneceCommonCode  "G48" .
+
+rec20:total_car_mile  qudt:uneceCommonCode
+                "1M" .
+
+rec20:litre_per_minute_bar
+        qudt:uneceCommonCode  "G84" .
+
+rec20:newton_metre_per_ampere
+        qudt:uneceCommonCode  "F90" .
+
+rec20:Standard_cubic_metre_per_day
+        qudt:uneceCommonCode  "Q37" .
+
+rec20:bunk  qudt:uneceCommonCode  "B2" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_per_British_thermal_unit_(international_table)>
+        qudt:uneceCommonCode  "N84" .
+
+rec20:bel  qudt:uneceCommonCode  "M72" .
+
+rec20:ODS_Grams  qudt:uneceCommonCode  "ODG" .
+
+rec20:joule_per_second
+        qudt:uneceCommonCode  "P14" .
+
+rec20:dyne_metre  qudt:uneceCommonCode  "M97" .
+
+rec20:erg_per_centimetre
+        qudt:uneceCommonCode  "A58" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_of_mercury_(60_ºF)>
+        qudt:uneceCommonCode  "N17" .
+
+rec20:joule_per_mole  qudt:uneceCommonCode
+                "B15" .
+
+rec20:tenth_hour  qudt:uneceCommonCode  "UE" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_electric_charge>
+        qudt:uneceCommonCode  "A79" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gram_per_metre_(gram_per_100_centimetres)>
+        qudt:uneceCommonCode  "GF" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)>
+        qudt:uneceCommonCode  "BTU" .
+
+rec20:drum  qudt:uneceCommonCode  "DR" .
+
+rec20:coulomb_per_kilogram
+        qudt:uneceCommonCode  "CKG" .
+
+rec20:cubic_kilometre
+        qudt:uneceCommonCode  "H20" .
+
+rec20:kilopond  qudt:uneceCommonCode  "B51" .
+
+rec20:thousand_kilogram
+        qudt:uneceCommonCode  "TV" .
+
+rec20:slipsheet  qudt:uneceCommonCode  "SL" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_day>
+        qudt:uneceCommonCode  "J99" .
+
+rec20:radian_per_metre
+        qudt:uneceCommonCode  "C84" .
+
+rec20:milliohm_metre  qudt:uneceCommonCode
+                "C23" .
+
+rec20:accounting_unit
+        qudt:uneceCommonCode  "E50" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_minute>
+        qudt:uneceCommonCode  "K54" .
+
+rec20:litre_per_hour_bar
+        qudt:uneceCommonCode  "G83" .
+
+rec20:square_centimetre_per_gram
+        qudt:uneceCommonCode  "H15" .
+
+rec20:thousand_cubic_metre
+        qudt:uneceCommonCode  "R9" .
+
+rec20:milligram_per_cubic_metre
+        qudt:uneceCommonCode  "GP" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_hour>
+        qudt:uneceCommonCode  "J96" .
+
+rec20:jug  qudt:uneceCommonCode  "JG" .
+
+rec20:ten_square_foot
+        qudt:uneceCommonCode  "TR" .
+
+rec20:megavolt_per_metre
+        qudt:uneceCommonCode  "B79" .
+
+rec20:outfit  qudt:uneceCommonCode  "11" .
+
+rec20:carset  qudt:uneceCommonCode  "C2" .
+
+rec20:Cubic_Metre_Month
+        qudt:uneceCommonCode  "MQM" .
+
+rec20:hundred_board_foot
+        qudt:uneceCommonCode  "BP" .
+
+rec20:cubic_centimetre_per_kelvin
+        qudt:uneceCommonCode  "G27" .
+
+rec20:square_foot_per_hour
+        qudt:uneceCommonCode  "M79" .
+
+rec20:gram_per_cubic_centimetre_kelvin
+        qudt:uneceCommonCode  "G33" .
+
+rec20:linear_yard_per_pound
+        qudt:uneceCommonCode  "LX" .
+
+rec20:gram_of_fissile_isotope
+        qudt:uneceCommonCode  "GFI" .
+
+rec20:volt_DC  qudt:uneceCommonCode  "2H" .
+
+rec20:picosiemens  qudt:uneceCommonCode
+                "N92" .
+
+rec20:kilogram_per_metre_minute
+        qudt:uneceCommonCode  "N38" .
+
+rec20:Piece_Week  qudt:uneceCommonCode  "HWE" .
+
+rec20:gigaohm  qudt:uneceCommonCode  "A87" .
+
+rec20:reciprocal_cubic_inch
+        qudt:uneceCommonCode  "K49" .
+
+rec20:large_spray  qudt:uneceCommonCode
+                "LJ" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_weight_(UK)>
+        qudt:uneceCommonCode  "CWI" .
+
+rec20:millilitre_per_minute_kelvin
+        qudt:uneceCommonCode  "G75" .
+
+rec20:gram_per_minute_kelvin
+        qudt:uneceCommonCode  "F37" .
+
+rec20:inch_poundal  qudt:uneceCommonCode
+                "N47" .
+
+rec20:millisievert  qudt:uneceCommonCode
+                "C28" .
+
+rec20:millilitre_per_cubic_metre
+        qudt:uneceCommonCode  "H65" .
+
+rec20:inch_to_the_fourth_power
+        qudt:uneceCommonCode  "D69" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_day>
+        qudt:uneceCommonCode  "K98" .
+
+rec20:pound_per_thousand
+        qudt:uneceCommonCode  "5F" .
+
+rec20:slug  qudt:uneceCommonCode  "F13" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_second>
+        qudt:uneceCommonCode  "L36" .
+
+rec20:lux  qudt:uneceCommonCode  "LUX" .
+
+rec20:gram_per_hour  qudt:uneceCommonCode
+                "F27" .
+
+rec20:envelope  qudt:uneceCommonCode  "EV" .
+
+rec20:volt_per_metre  qudt:uneceCommonCode
+                "D50" .
+
+rec20:Normalised_cubic_metre
+        qudt:uneceCommonCode  "NM3" .
+
+rec20:cubic_metre_per_day
+        qudt:uneceCommonCode  "G52" .
+
+rec20:microgram_per_cubic_metre_bar
+        qudt:uneceCommonCode  "J35" .
+
+rec20:reciprocal_centimetre
+        qudt:uneceCommonCode  "E90" .
+
+rec20:pennyweight  qudt:uneceCommonCode
+                "DWT" .
+
+rec20:kilogram_square_millimetre
+        qudt:uneceCommonCode  "F19" .
+
+rec20:number_of_rolls
+        qudt:uneceCommonCode  "NRL" .
+
+rec20:volt_per_inch  qudt:uneceCommonCode
+                "H23" .
+
+rec20:kilocoulomb  qudt:uneceCommonCode
+                "B26" .
+
+rec20:cylinder  qudt:uneceCommonCode  "CY" .
+
+rec20:reciprocal_cubic_millimetre
+        qudt:uneceCommonCode  "L20" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_dry_(US)>
+        qudt:uneceCommonCode  "PY" .
+
+rec20:centimetre_per_second
+        qudt:uneceCommonCode  "2M" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cental_(UK)>
+        qudt:uneceCommonCode  "CNT" .
+
+rec20:kilosecond  qudt:uneceCommonCode  "B52" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ohm_per_mile_(statute_mile)>
+        qudt:uneceCommonCode  "F55" .
+
+rec20:square_rod  qudt:uneceCommonCode  "SN" .
+
+rec20:total_car_count
+        qudt:uneceCommonCode  "1L" .
+
+rec20:centipoise  qudt:uneceCommonCode  "C7" .
+
+rec20:Nephelometric_turbidity_unit
+        qudt:uneceCommonCode  "NTU" .
+
+rec20:gram_per_second
+        qudt:uneceCommonCode  "F29" .
+
+rec20:metre_per_hour  qudt:uneceCommonCode
+                "M60" .
+
+rec20:pound_per_inch_of_length
+        qudt:uneceCommonCode  "PO" .
+
+rec20:mol_per_kilogram_pascal
+        qudt:uneceCommonCode  "P51" .
+
+rec20:packet  qudt:uneceCommonCode  "PA" .
+
+rec20:stick_cigarette
+        qudt:uneceCommonCode  "STK" .
+
+rec20:square_centimetre_per_steradian_erg
+        qudt:uneceCommonCode  "D17" .
+
+rec20:barrel_imperial
+        qudt:uneceCommonCode  "B4" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_hour_degree_Fahrenheit>
+        qudt:uneceCommonCode  "K73" .
+
+rec20:bar_per_kelvin  qudt:uneceCommonCode
+                "F81" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US_liquid)_per_second>
+        qudt:uneceCommonCode  "K30" .
+
+rec20:microgram_per_kilogram
+        qudt:uneceCommonCode  "J33" .
+
+rec20:weber  qudt:uneceCommonCode  "WEB" .
+
+rec20:foot_per_second
+        qudt:uneceCommonCode  "FS" .
+
+rec20:gram_per_square_millimetre
+        qudt:uneceCommonCode  "N24" .
+
+rec20:cubic_foot_per_hour
+        qudt:uneceCommonCode  "2K" .
+
+rec20:number_of_pairs
+        qudt:uneceCommonCode  "NPR" .
+
+rec20:tonne_per_hour_kelvin
+        qudt:uneceCommonCode  "L74" .
+
+rec20:erg_per_second_square_centimetre
+        qudt:uneceCommonCode  "A64" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_degree_Fahrenheit>
+        qudt:uneceCommonCode  "N61" .
+
+rec20:nanogray_per_minute
+        qudt:uneceCommonCode  "P60" .
+
+rec20:radian_square_metre_per_kilogram
+        qudt:uneceCommonCode  "C83" .
+
+rec20:kilowatt_demand
+        qudt:uneceCommonCode  "K1" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_minute>
+        qudt:uneceCommonCode  "K38" .
+
+rec20:US_gallon_per_minute
+        qudt:uneceCommonCode  "G2" .
+
+rec20:kiloweber  qudt:uneceCommonCode  "P11" .
+
+rec20:litre_per_day_bar
+        qudt:uneceCommonCode  "G82" .
+
+rec20:dozen  qudt:uneceCommonCode  "DZN" .
+
+rec20:manmonth  qudt:uneceCommonCode  "3C" .
+
+rec20:standard_acceleration_of_free_fall
+        qudt:uneceCommonCode  "K40" .
+
+rec20:megavolt  qudt:uneceCommonCode  "B78" .
+
+rec20:cubic_foot_per_psi
+        qudt:uneceCommonCode  "K23" .
+
+rec20:megavolt_-_ampere
+        qudt:uneceCommonCode  "MVA" .
+
+rec20:year  qudt:uneceCommonCode  "ANN" .
+
+rec20:eight_pack  qudt:uneceCommonCode  "P8" .
+
+rec20:ton_assay  qudt:uneceCommonCode  "M85" .
+
+rec20:metre_per_second
+        qudt:uneceCommonCode  "MTS" .
+
+rec20:kilogram_per_metre_hour
+        qudt:uneceCommonCode  "N40" .
+
+rec20:kilogram_per_cubic_centimetre_bar
+        qudt:uneceCommonCode  "G16" .
+
+rec20:mho  qudt:uneceCommonCode  "NQ" .
+
+rec20:kiloweber_per_metre
+        qudt:uneceCommonCode  "B56" .
+
+rec20:picofarad_per_metre
+        qudt:uneceCommonCode  "C72" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound_degree_Fahrenheit>
+        qudt:uneceCommonCode  "J43" .
+
+rec20:two_pack  qudt:uneceCommonCode  "OP" .
+
+rec20:cheval_vapeur  qudt:uneceCommonCode
+                "A25" .
+
+rec20:hundred_sheet  qudt:uneceCommonCode
+                "HI" .
+
+rec20:square_metre_per_litre
+        qudt:uneceCommonCode  "E31" .
+
+rec20:horse_power_day_per_air_dry_metric_ton
+        qudt:uneceCommonCode  "30" .
+
+rec20:microfarad_per_kilometre
+        qudt:uneceCommonCode  "H28" .
+
+rec20:standard_advertising_unit
+        qudt:uneceCommonCode  "S8" .
+
+rec20:milliweber  qudt:uneceCommonCode  "C33" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_dry_(UK)>
+        qudt:uneceCommonCode  "PZ" .
+
+rec20:wine_gallon  qudt:uneceCommonCode
+                "WG" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_hour_psi>
+        qudt:uneceCommonCode  "K74" .
+
+rec20:kilogram_of_potassium_oxide
+        qudt:uneceCommonCode  "KPO" .
+
+rec20:terajoule  qudt:uneceCommonCode  "D30" .
+
+rec20:pound-force_per_square_inch
+        qudt:uneceCommonCode  "PS" .
+
+rec20:sievert_per_hour
+        qudt:uneceCommonCode  "P70" .
+
+rec20:megahertz_kilometre
+        qudt:uneceCommonCode  "H39" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#mile_(statute_mile)_per_second_squared>
+        qudt:uneceCommonCode  "M42" .
+
+rec20:percent_volume  qudt:uneceCommonCode
+                "VP" .
+
+rec20:micropascal  qudt:uneceCommonCode
+                "B96" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_minute>
+        qudt:uneceCommonCode  "J97" .
+
+rec20:reciprocal_cubic_yard
+        qudt:uneceCommonCode  "M10" .
+
+rec20:number_of_bobbins
+        qudt:uneceCommonCode  "NBB" .
+
+rec20:nanogram_per_kilogram
+        qudt:uneceCommonCode  "L32" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(60_ºF)>
+        qudt:uneceCommonCode  "N68" .
+
+rec20:erg_per_gram_second
+        qudt:uneceCommonCode  "A62" .
+
+rec20:joule_per_kilogram_kelvin
+        qudt:uneceCommonCode  "B11" .
+
+rec20:coil  qudt:uneceCommonCode  "CL" .
+
+rec20:nautical_mile  qudt:uneceCommonCode
+                "NMI" .
+
+rec20:bin  qudt:uneceCommonCode  "2W" .
+
+rec20:reciprocal_electron_volt_per_cubic_metre
+        qudt:uneceCommonCode  "C88" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_magnetization>
+        qudt:uneceCommonCode  "A83" .
+
+rec20:microohm_metre  qudt:uneceCommonCode
+                "B95" .
+
+rec20:centilitre  qudt:uneceCommonCode  "CLT" .
+
+rec20:pascal_per_kelvin
+        qudt:uneceCommonCode  "C64" .
+
+rec20:tonne_per_second
+        qudt:uneceCommonCode  "L81" .
+
+rec20:pound_net  qudt:uneceCommonCode  "PN" .
+
+rec20:megacoulomb  qudt:uneceCommonCode
+                "D77" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#fluid_ounce_(US)>
+        qudt:uneceCommonCode  "OZA" .
+
+rec20:foot_pound-force_per_second
+        qudt:uneceCommonCode  "A74" .
+
+rec20:ten_kg_drum  qudt:uneceCommonCode
+                "97" .
+
+rec20:milligray  qudt:uneceCommonCode  "C13" .
+
+rec20:cubic_inch_per_minute
+        qudt:uneceCommonCode  "G57" .
+
+rec20:gon  qudt:uneceCommonCode  "A91" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#fuel_usage_gallon_(US)>
+        qudt:uneceCommonCode  "1G" .
+
+rec20:cubic_metre_per_minute
+        qudt:uneceCommonCode  "G53" .
+
+rec20:ampere_per_square_centimetre
+        qudt:uneceCommonCode  "A4" .
+
+rec20:ream_metric_measure
+        qudt:uneceCommonCode  "RN" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_second>
+        qudt:uneceCommonCode  "K28" .
+
+rec20:psi_litre_per_second
+        qudt:uneceCommonCode  "K88" .
+
+rec20:degree_API  qudt:uneceCommonCode  "J13" .
+
+rec20:tebibit_per_metre
+        qudt:uneceCommonCode  "E85" .
+
+rec20:hertz_metre  qudt:uneceCommonCode
+                "H34" .
+
+rec20:phon  qudt:uneceCommonCode  "C69" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_cubic_foot_degree_Fahrenheit>
+        qudt:uneceCommonCode  "K69" .
+
+rec20:newton_second  qudt:uneceCommonCode
+                "C57" .
+
+rec20:degree_Celsius_per_kelvin
+        qudt:uneceCommonCode  "E98" .
+
+rec20:kilogram_metre_per_second_squared
+        qudt:uneceCommonCode  "M77" .
+
+rec20:decametre  qudt:uneceCommonCode  "A45" .
+
+rec20:lactic_dry_material_percentage
+        qudt:uneceCommonCode  "KLK" .
+
+rec20:trailer  qudt:uneceCommonCode  "E3" .
+
+rec20:rate  qudt:uneceCommonCode  "A9" .
+
+rec20:tebibit_per_square_metre
+        qudt:uneceCommonCode  "E87" .
+
+rec20:book  qudt:uneceCommonCode  "D63" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#mile_(statute_mile)>
+        qudt:uneceCommonCode  "SMI" .
+
+rec20:kilogram_per_kilometre
+        qudt:uneceCommonCode  "M31" .
+
+rec20:milligray_per_second
+        qudt:uneceCommonCode  "P54" .
+
+rec20:gross_kilogram  qudt:uneceCommonCode
+                "E4" .
+
+rec20:dyne  qudt:uneceCommonCode  "DU" .
+
+rec20:percent_per_metre
+        qudt:uneceCommonCode  "H99" .
+
+rec20:mole_per_hour  qudt:uneceCommonCode
+                "L23" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_square_foot_minute>
+        qudt:uneceCommonCode  "N52" .
+
+rec20:pound_inch_squared
+        qudt:uneceCommonCode  "F20" .
+
+rec20:millilitre_per_kilogram
+        qudt:uneceCommonCode  "KX" .
+
+rec20:dyne_second_per_centimetre_to_the_fifth_power
+        qudt:uneceCommonCode  "A52" .
+
+rec20:nanosiemens_per_metre
+        qudt:uneceCommonCode  "G45" .
+
+rec20:lux_hour  qudt:uneceCommonCode  "B63" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_pound_(cwt)_/_hundred_weight_(US)>
+        qudt:uneceCommonCode  "CWA" .
+
+rec20:reciprocal_inch
+        qudt:uneceCommonCode  "Q24" .
+
+rec20:technical_atmosphere_per_metre
+        qudt:uneceCommonCode  "P84" .
+
+rec20:decinewton_metre
+        qudt:uneceCommonCode  "DN" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_second>
+        qudt:uneceCommonCode  "L60" .
+
+rec20:millilitre_per_day_kelvin
+        qudt:uneceCommonCode  "G73" .
+
+rec20:container  qudt:uneceCommonCode  "CH" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(US_light)>
+        qudt:uneceCommonCode  "J16" .
+
+rec20:kilocandela  qudt:uneceCommonCode
+                "P33" .
+
+rec20:reciprocal_second_per_metre_squared
+        qudt:uneceCommonCode  "C99" .
+
+rec20:yard_per_degree_Fahrenheit
+        qudt:uneceCommonCode  "L98" .
+
+rec20:square_metre  qudt:uneceCommonCode
+                "MTK" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)>
+        qudt:uneceCommonCode  "D70" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dry_barrel_(US)>
+        qudt:uneceCommonCode  "BLD" .
+
+rec20:cubic_yard_per_day
+        qudt:uneceCommonCode  "M12" .
+
+rec20:thousand_litre  qudt:uneceCommonCode
+                "D40" .
+
+rec20:decapascal  qudt:uneceCommonCode  "H75" .
+
+rec20:picowatt_per_square_metre
+        qudt:uneceCommonCode  "C76" .
+
+rec20:column_inch  qudt:uneceCommonCode
+                "II" .
+
+rec20:milliampere  qudt:uneceCommonCode
+                "4K" .
+
+rec20:revolution  qudt:uneceCommonCode  "M44" .
+
+rec20:pound_per_piece_of_product
+        qudt:uneceCommonCode  "3G" .
+
+rec20:kilogram_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "G40" .
+
+rec20:decigram  qudt:uneceCommonCode  "DG" .
+
+rec20:portion  qudt:uneceCommonCode  "PTN" .
+
+rec20:octet  qudt:uneceCommonCode  "Q12" .
+
+rec20:gibibit_per_cubic_metre
+        qudt:uneceCommonCode  "E71" .
+
+rec20:number_of_screens
+        qudt:uneceCommonCode  "NJ" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_square_foot_hour>
+        qudt:uneceCommonCode  "N50" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_second>
+        qudt:uneceCommonCode  "J71" .
+
+rec20:hundred_cubic_metre
+        qudt:uneceCommonCode  "FF" .
+
+rec20:coil_group  qudt:uneceCommonCode  "C9" .
+
+rec20:mole  qudt:uneceCommonCode  "C34" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#fluid_ounce_(UK)>
+        qudt:uneceCommonCode  "OZI" .
+
+rec20:thousand_cubic_foot_per_day
+        qudt:uneceCommonCode  "F1" .
+
+rec20:fivehundred_kg_bulk_bag
+        qudt:uneceCommonCode  "44" .
+
+rec20:hundred_metre  qudt:uneceCommonCode
+                "JPS" .
+
+rec20:pound_per_square_inch_absolute
+        qudt:uneceCommonCode  "80" .
+
+rec20:pound-force_foot_per_inch
+        qudt:uneceCommonCode  "P89" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_day>
+        qudt:uneceCommonCode  "K32" .
+
+rec20:gram_per_minute_bar
+        qudt:uneceCommonCode  "F64" .
+
+rec20:cubic_yard_per_second
+        qudt:uneceCommonCode  "M16" .
+
+rec20:dozen_pair  qudt:uneceCommonCode  "DPR" .
+
+rec20:gram_per_millilitre
+        qudt:uneceCommonCode  "GJ" .
+
+rec20:newton_per_square_millimetre
+        qudt:uneceCommonCode  "C56" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#teaspoon_(US)>
+        qudt:uneceCommonCode  "G25" .
+
+rec20:natural_unit_of_information_per_second
+        qudt:uneceCommonCode  "Q19" .
+
+rec20:inch_of_mercury
+        qudt:uneceCommonCode  "F79" .
+
+rec20:kilogram_per_square_metre_pascal_second
+        qudt:uneceCommonCode  "Q28" .
+
+rec20:reciprocal_square_metre
+        qudt:uneceCommonCode  "C93" .
+
+rec20:micro-inch  qudt:uneceCommonCode  "M7" .
+
+rec20:square_metre_per_volt_second
+        qudt:uneceCommonCode  "D26" .
+
+rec20:cubic_foot_per_pound
+        qudt:uneceCommonCode  "N29" .
+
+rec20:ampere_per_pascal
+        qudt:uneceCommonCode  "N93" .
+
+rec20:caboose_mile  qudt:uneceCommonCode
+                "1H" .
+
+rec20:curie_per_kilogram
+        qudt:uneceCommonCode  "A42" .
+
+rec20:pound_per_inch_of_width
+        qudt:uneceCommonCode  "PW" .
+
+rec20:bar_litre_per_second
+        qudt:uneceCommonCode  "F91" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon(US)_per_thousand>
+        qudt:uneceCommonCode  "5C" .
+
+rec20:mole_per_second
+        qudt:uneceCommonCode  "E95" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#foot_(U.S._survey)>
+        qudt:uneceCommonCode  "M51" .
+
+rec20:Hefner-Kerze  qudt:uneceCommonCode
+                "P35" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_day>
+        qudt:uneceCommonCode  "K36" .
+
+rec20:kilogram_per_second_pascal
+        qudt:uneceCommonCode  "M87" .
+
+rec20:joule_per_minute
+        qudt:uneceCommonCode  "P15" .
+
+rec20:kilojoule_per_kilogram_kelvin
+        qudt:uneceCommonCode  "B43" .
+
+rec20:milliroentgen  qudt:uneceCommonCode
+                "2Y" .
+
+rec20:joule_per_day  qudt:uneceCommonCode
+                "P17" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_hour_square_foot_degree_Fahrenheit>
+        qudt:uneceCommonCode  "N74" .
+
+rec20:electronvolt_per_metre
+        qudt:uneceCommonCode  "A54" .
+
+rec20:millimetre_per_hour
+        qudt:uneceCommonCode  "H67" .
+
+rec20:tex  qudt:uneceCommonCode  "D34" .
+
+rec20:centimetre_per_second_kelvin
+        qudt:uneceCommonCode  "J84" .
+
+rec20:coulomb_metre_squared_per_volt
+        qudt:uneceCommonCode  "A27" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_[unit_of_angle]_per_second_squared>
+        qudt:uneceCommonCode  "M45" .
+
+rec20:percent_per_one_hundred_thousand
+        qudt:uneceCommonCode  "H92" .
+
+rec20:kilogram-force_metre_per_square_centimetre
+        qudt:uneceCommonCode  "E44" .
+
+rec20:kilogram_of_hydrogen_peroxide
+        qudt:uneceCommonCode  "KHY" .
+
+rec20:field  qudt:uneceCommonCode  "FB" .
+
+rec20:mole_per_litre_bar
+        qudt:uneceCommonCode  "L27" .
+
+rec20:millilitre_per_minute_bar
+        qudt:uneceCommonCode  "G92" .
+
+rec20:poundal  qudt:uneceCommonCode  "M76" .
+
+rec20:quarter_hour  qudt:uneceCommonCode
+                "QH" .
+
+rec20:millivolt_per_minute
+        qudt:uneceCommonCode  "H62" .
+
+rec20:empty_car  qudt:uneceCommonCode  "1E" .
+
+rec20:tesla  qudt:uneceCommonCode  "D33" .
+
+rec20:gram_per_cubic_decimetre_bar
+        qudt:uneceCommonCode  "G12" .
+
+rec20:hectopascal  qudt:uneceCommonCode
+                "A97" .
+
+rec20:pascal_litre_per_second
+        qudt:uneceCommonCode  "F99" .
+
+rec20:bobbin  qudt:uneceCommonCode  "4A" .
+
+rec20:kit  qudt:uneceCommonCode  "KT" .
+
+rec20:square_metre_per_second_pascal
+        qudt:uneceCommonCode  "M82" .
+
+rec20:millicoulomb_per_kilogram
+        qudt:uneceCommonCode  "C8" .
+
+rec20:megawatt_per_hertz
+        qudt:uneceCommonCode  "E08" .
+
+rec20:foot_per_second_psi
+        qudt:uneceCommonCode  "K19" .
+
+rec20:millimole_per_litre
+        qudt:uneceCommonCode  "M33" .
+
+rec20:pound-force_second_per_square_foot
+        qudt:uneceCommonCode  "K91" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second_square_centimetre_kelvin>
+        qudt:uneceCommonCode  "D39" .
+
+rec20:kilotesla  qudt:uneceCommonCode  "P13" .
+
+rec20:week  qudt:uneceCommonCode  "WEE" .
+
+rec20:stilb  qudt:uneceCommonCode  "P31" .
+
+rec20:natural_unit_of_information
+        qudt:uneceCommonCode  "Q16" .
+
+rec20:petajoule  qudt:uneceCommonCode  "C68" .
+
+rec20:microsiemens  qudt:uneceCommonCode
+                "B99" .
+
+rec20:yard_per_second_squared
+        qudt:uneceCommonCode  "M40" .
+
+rec20:ampere  qudt:uneceCommonCode  "AMP" .
+
+rec20:cubic_metre_per_pascal
+        qudt:uneceCommonCode  "M71" .
+
+rec20:pebibit_per_cubic_metre
+        qudt:uneceCommonCode  "E82" .
+
+rec20:insurance_policy
+        qudt:uneceCommonCode  "IP" .
+
+rec20:percent_per_bar
+        qudt:uneceCommonCode  "H96" .
+
+rec20:case  qudt:uneceCommonCode  "CS" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_foot_degree_Rankine>
+        qudt:uneceCommonCode  "A22" .
+
+rec20:kilogram_per_millimetre
+        qudt:uneceCommonCode  "KW" .
+
+rec20:hundred_international_unit
+        qudt:uneceCommonCode  "HIU" .
+
+rec20:volt_per_kelvin
+        qudt:uneceCommonCode  "D48" .
+
+rec20:volt_AC  qudt:uneceCommonCode  "2G" .
+
+rec20:standard_kilolitre
+        qudt:uneceCommonCode  "DMO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_degree_Rankine>
+        qudt:uneceCommonCode  "N63" .
+
+rec20:kilogram_per_cubic_decimetre
+        qudt:uneceCommonCode  "B34" .
+
+rec20:kilowatt_year  qudt:uneceCommonCode
+                "KWY" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#tray_/_tray_pack>
+        qudt:uneceCommonCode  "PU" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cubic_mile_(UK_statute)>
+        qudt:uneceCommonCode  "M69" .
+
+rec20:pound_per_foot_hour
+        qudt:uneceCommonCode  "K67" .
+
+rec20:kilogram_decimal
+        qudt:uneceCommonCode  "KD" .
+
+rec20:millitesla  qudt:uneceCommonCode  "C29" .
+
+rec20:ping  qudt:uneceCommonCode  "E19" .
+
+rec20:barge  qudt:uneceCommonCode  "NB" .
+
+rec20:gram_per_centimetre_second
+        qudt:uneceCommonCode  "N41" .
+
+rec20:millisecond  qudt:uneceCommonCode
+                "C26" .
+
+rec20:theoretical_pound
+        qudt:uneceCommonCode  "24" .
+
+rec20:ampere_square_metre_per_joule_second
+        qudt:uneceCommonCode  "A10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_square_foot_degree_Fahrenheit>
+        qudt:uneceCommonCode  "N76" .
+
+rec20:kilomole_per_cubic_metre_bar
+        qudt:uneceCommonCode  "K60" .
+
+rec20:millimetre_per_kelvin
+        qudt:uneceCommonCode  "F53" .
+
+rec20:joule  qudt:uneceCommonCode  "JOU" .
+
+rec20:second_per_cubic_metre
+        qudt:uneceCommonCode  "D93" .
+
+rec20:transdermal_patch
+        qudt:uneceCommonCode  "FG" .
+
+rec20:directory_book  qudt:uneceCommonCode
+                "DY" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_second>
+        qudt:uneceCommonCode  "J67" .
+
+rec20:microsievert_per_hour
+        qudt:uneceCommonCode  "P72" .
+
+rec20:pound-force_per_inch
+        qudt:uneceCommonCode  "F48" .
+
+rec20:catch_weight  qudt:uneceCommonCode
+                "31" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram>
+        qudt:uneceCommonCode  "D75" .
+
+rec20:watt_second  qudt:uneceCommonCode
+                "J55" .
+
+rec20:octet_per_second
+        qudt:uneceCommonCode  "Q13" .
+
+rec20:fibre_metre  qudt:uneceCommonCode
+                "FBM" .
+
+rec20:barn_per_electronvolt
+        qudt:uneceCommonCode  "A15" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilovolt_ampere_(reactive)>
+        qudt:uneceCommonCode  "K5" .
+
+rec20:number_of_packs
+        qudt:uneceCommonCode  "NMP" .
+
+rec20:trip  qudt:uneceCommonCode  "E54" .
+
+rec20:milliampere_per_pound-force_per_square_inch
+        qudt:uneceCommonCode  "F57" .
+
+rec20:foot_per_minute
+        qudt:uneceCommonCode  "FR" .
+
+rec20:hundred_lb_drum
+        qudt:uneceCommonCode  "17" .
+
+rec20:millilitre_of_water
+        qudt:uneceCommonCode  "WW" .
+
+rec20:kilonewton  qudt:uneceCommonCode  "B47" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_per_gallon_(US)>
+        qudt:uneceCommonCode  "GE" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK_long)_per_cubic_yard>
+        qudt:uneceCommonCode  "L92" .
+
+rec20:kilojoule_per_kilogram
+        qudt:uneceCommonCode  "B42" .
+
+rec20:piece  qudt:uneceCommonCode  "H87" .
+
+rec20:millipascal_second_per_bar
+        qudt:uneceCommonCode  "L16" .
+
+rec20:machine_per_unit
+        qudt:uneceCommonCode  "MA" .
+
+rec20:kilojoule_per_kelvin
+        qudt:uneceCommonCode  "B41" .
+
+rec20:cubic_millimetre_per_cubic_metre
+        qudt:uneceCommonCode  "L21" .
+
+rec20:ODS_Milligrams  qudt:uneceCommonCode
+                "ODM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_hour>
+        qudt:uneceCommonCode  "J47" .
+
+rec20:gross_ton  qudt:uneceCommonCode  "GT" .
+
+rec20:number_of_jewels
+        qudt:uneceCommonCode  "JWL" .
+
+rec20:fixed_rate  qudt:uneceCommonCode  "1I" .
+
+rec20:weber_to_the_power_minus_one
+        qudt:uneceCommonCode  "Q23" .
+
+rec20:second_per_radian_cubic_metre
+        qudt:uneceCommonCode  "Q22" .
+
+rec20:chest  qudt:uneceCommonCode  "Z2" .
+
+rec20:kilocharacter  qudt:uneceCommonCode
+                "KB" .
+
+rec20:kilovolt_-_ampere
+        qudt:uneceCommonCode  "KVA" .
+
+rec20:super_bulk_bag  qudt:uneceCommonCode
+                "43" .
+
+rec20:page  qudt:uneceCommonCode  "ZP" .
+
+rec20:ounce_inch  qudt:uneceCommonCode  "4Q" .
+
+rec20:kilobit_per_second
+        qudt:uneceCommonCode  "C74" .
+
+rec20:cake  qudt:uneceCommonCode  "KA" .
+
+rec20:gigahertz  qudt:uneceCommonCode  "A86" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second>
+        qudt:uneceCommonCode  "J45" .
+
+rec20:cubic_metre_per_second_pascal
+        qudt:uneceCommonCode  "N45" .
+
+rec20:kilomole_per_kilogram
+        qudt:uneceCommonCode  "P47" .
+
+rec20:page_-_electronic
+        qudt:uneceCommonCode  "P0" .
+
+rec20:megabyte_per_second
+        qudt:uneceCommonCode  "P95" .
+
+rec20:exbibit_per_square_metre
+        qudt:uneceCommonCode  "E66" .
+
+rec20:millipascal_second
+        qudt:uneceCommonCode  "C24" .
+
+rec20:million_international_unit
+        qudt:uneceCommonCode  "MIU" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram_kelvin>
+        qudt:uneceCommonCode  "D76" .
+
+rec20:watt_per_pound  qudt:uneceCommonCode
+                "72" .
+
+rec20:thousand_board_foot
+        qudt:uneceCommonCode  "MBF" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)_per_hour_metre_degree_Celsius>
+        qudt:uneceCommonCode  "K52" .
+
+rec20:reciprocal_angstrom
+        qudt:uneceCommonCode  "C85" .
+
+rec20:millimole_per_kilogram
+        qudt:uneceCommonCode  "D87" .
+
+rec20:foot_per_thousand
+        qudt:uneceCommonCode  "E33" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US)>
+        qudt:uneceCommonCode  "BUA" .
+
+rec20:mebibit_per_cubic_metre
+        qudt:uneceCommonCode  "E77" .
+
+rec20:pound_per_pound
+        qudt:uneceCommonCode  "M91" .
+
+rec20:milligram_per_hour_kelvin
+        qudt:uneceCommonCode  "F44" .
+
+rec20:hundred_leave  qudt:uneceCommonCode
+                "CLF" .
+
+rec20:millilitre_per_square_centimetre_minute
+        qudt:uneceCommonCode  "M22" .
+
+rec20:kilogram_per_litre_bar
+        qudt:uneceCommonCode  "G17" .
+
+rec20:kilojoule_per_hour
+        qudt:uneceCommonCode  "P20" .
+
+rec20:cubic_decimetre
+        qudt:uneceCommonCode  "DMQ" .
+
+rec20:poise  qudt:uneceCommonCode  "89" .
+
+rec20:kilohertz_metre
+        qudt:uneceCommonCode  "M17" .
+
+rec20:milliampere_per_litre_minute
+        qudt:uneceCommonCode  "G59" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_per_square_foot_per_0,01inch>
+        qudt:uneceCommonCode  "38" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_minute>
+        qudt:uneceCommonCode  "L55" .
+
+rec20:metre_to_the_fourth_power
+        qudt:uneceCommonCode  "B83" .
+
+rec20:milligal  qudt:uneceCommonCode  "C11" .
+
+rec20:kilowatt_per_metre_degree_Celsius
+        qudt:uneceCommonCode  "N82" .
+
+rec20:pound_per_cubic_inch
+        qudt:uneceCommonCode  "LA" .
+
+rec20:foot_pound-force_per_minute
+        qudt:uneceCommonCode  "K16" .
+
+rec20:ohm_per_kilometre
+        qudt:uneceCommonCode  "F56" .
+
+rec20:metric_long_ton
+        qudt:uneceCommonCode  "E5" .
+
+rec20:decitonne  qudt:uneceCommonCode  "DTN" .
+
+rec20:gram_per_millilitre_kelvin
+        qudt:uneceCommonCode  "G37" .
+
+rec20:kilometre_per_second_squared
+        qudt:uneceCommonCode  "M38" .
+
+rec20:working_month  qudt:uneceCommonCode
+                "WM" .
+
+rec20:wet_ton  qudt:uneceCommonCode  "WE" .
+
+rec20:millilitre_per_hour_bar
+        qudt:uneceCommonCode  "G91" .
+
+rec20:cubic_decimetre_per_hour
+        qudt:uneceCommonCode  "E92" .
+
+rec20:barn_per_steradian_electronvolt
+        qudt:uneceCommonCode  "A16" .
+
+rec20:decalitre  qudt:uneceCommonCode  "A44" .
+
+rec20:litre_per_minute_kelvin
+        qudt:uneceCommonCode  "G67" .
+
+rec20:picometre  qudt:uneceCommonCode  "C52" .
+
+rec20:acre  qudt:uneceCommonCode  "ACR" .
+
+rec20:dry_pound  qudt:uneceCommonCode  "DB" .
+
+rec20:tonne_per_cubic_metre_bar
+        qudt:uneceCommonCode  "L77" .
+
+rec20:lumen_per_square_foot
+        qudt:uneceCommonCode  "P25" .
+
+rec20:litre_per_litre
+        qudt:uneceCommonCode  "K62" .
+
+rec20:kibibit_per_metre
+        qudt:uneceCommonCode  "E72" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#twenty_thousand_gallon_(US)_tankcar>
+        qudt:uneceCommonCode  "95" .
+
+rec20:sack  qudt:uneceCommonCode  "SA" .
+
+rec20:Cubic_Metre_Week
+        qudt:uneceCommonCode  "MQW" .
+
+rec20:kilogram-force  qudt:uneceCommonCode
+                "B37" .
+
+rec20:cover  qudt:uneceCommonCode  "CV" .
+
+rec20:kilogram-force_metre_per_second
+        qudt:uneceCommonCode  "B39" .
+
+rec20:milliampere_per_bar
+        qudt:uneceCommonCode  "F59" .
+
+rec20:megagram_per_hour
+        qudt:uneceCommonCode  "2V" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)_per_day>
+        qudt:uneceCommonCode  "B1" .
+
+rec20:hectobar  qudt:uneceCommonCode  "HBA" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_degree_Rankine>
+        qudt:uneceCommonCode  "N62" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_cubic_foot>
+        qudt:uneceCommonCode  "N58" .
+
+rec20:pound-force_per_yard
+        qudt:uneceCommonCode  "N33" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)>
+        qudt:uneceCommonCode  "BUI" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cubic_metre_(net)>
+        qudt:uneceCommonCode  "D90" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_day>
+        qudt:uneceCommonCode  "K94" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_gram_degree_Celsius>
+        qudt:uneceCommonCode  "J76" .
+
+rec20:becquerel_per_kilogram
+        qudt:uneceCommonCode  "A18" .
+
+rec20:kilobar  qudt:uneceCommonCode  "KBA" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#mile_(based_on_U.S._survey_foot)>
+        qudt:uneceCommonCode  "M52" .
+
+rec20:watt_per_kilogram
+        qudt:uneceCommonCode  "WA" .
+
+rec20:count_per_minute
+        qudt:uneceCommonCode  "5K" .
+
+rec20:net_kilogram  qudt:uneceCommonCode
+                "58" .
+
+rec20:cubic_centimetre_per_mole
+        qudt:uneceCommonCode  "A36" .
+
+rec20:pound_mole_per_second
+        qudt:uneceCommonCode  "P45" .
+
+rec20:kilomole_per_cubic_metre
+        qudt:uneceCommonCode  "B46" .
+
+rec20:reciprocal_mole
+        qudt:uneceCommonCode  "C95" .
+
+rec20:linear_centimetre
+        qudt:uneceCommonCode  "LC" .
+
+rec20:batting_pound  qudt:uneceCommonCode
+                "B3" .
+
+rec20:degree_Celsius  qudt:uneceCommonCode
+                "CEL" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_minute>
+        qudt:uneceCommonCode  "J70" .
+
+rec20:ampere_per_centimetre
+        qudt:uneceCommonCode  "A2" .
+
+rec20:stere  qudt:uneceCommonCode  "G26" .
+
+rec20:international_unit_per_gram
+        qudt:uneceCommonCode  "IUG" .
+
+rec20:one_per_one  qudt:uneceCommonCode
+                "Q26" .
+
+rec20:roll_metric_measure
+        qudt:uneceCommonCode  "RK" .
+
+rec20:kilogram_per_day_kelvin
+        qudt:uneceCommonCode  "F39" .
+
+rec20:megasiemens_per_metre
+        qudt:uneceCommonCode  "B77" .
+
+rec20:erg_per_gram  qudt:uneceCommonCode
+                "A61" .
+
+rec20:test  qudt:uneceCommonCode  "E53" .
+
+rec20:poundal_second_per_square_inch
+        qudt:uneceCommonCode  "N42" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_minute_psi>
+        qudt:uneceCommonCode  "K80" .
+
+rec20:knot  qudt:uneceCommonCode  "KNT" .
+
+rec20:exajoule  qudt:uneceCommonCode  "A68" .
+
+rec20:kilolitre  qudt:uneceCommonCode  "K6" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)>
+        qudt:uneceCommonCode  "BLL" .
+
+rec20:milligram_per_minute
+        qudt:uneceCommonCode  "F33" .
+
+rec20:kilobyte  qudt:uneceCommonCode  "2P" .
+
+rec20:millilitre_per_bar
+        qudt:uneceCommonCode  "G97" .
+
+rec20:oersted  qudt:uneceCommonCode  "66" .
+
+rec20:degree_Fahrenheit_per_minute
+        qudt:uneceCommonCode  "J24" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_mile_(statute_mile)>
+        qudt:uneceCommonCode  "MIK" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)>
+        qudt:uneceCommonCode  "L43" .
+
+rec20:fifty_lb_bag  qudt:uneceCommonCode
+                "47" .
+
+rec20:sandwich  qudt:uneceCommonCode  "D7" .
+
+rec20:inch_per_second_squared
+        qudt:uneceCommonCode  "IV" .
+
+rec20:tonne_per_day_kelvin
+        qudt:uneceCommonCode  "L72" .
+
+rec20:dyne_per_centimetre
+        qudt:uneceCommonCode  "DX" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(boiler)>
+        qudt:uneceCommonCode  "K42" .
+
+rec20:rad  qudt:uneceCommonCode  "C80" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram_kelvin>
+        qudt:uneceCommonCode  "D37" .
+
+rec20:nanosecond  qudt:uneceCommonCode  "C47" .
+
+rec20:hundred_fifteen_kg_drum
+        qudt:uneceCommonCode  "16" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quarter_(of_a_year)>
+        qudt:uneceCommonCode  "QAN" .
+
+rec20:gigawatt  qudt:uneceCommonCode  "A90" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_pound_degree_Rankine>
+        qudt:uneceCommonCode  "N64" .
+
+rec20:hundred_yard  qudt:uneceCommonCode
+                "HY" .
+
+rec20:nanosievert_per_hour
+        qudt:uneceCommonCode  "P73" .
+
+rec20:millimetre_to_the_fourth_power
+        qudt:uneceCommonCode  "G77" .
+
+rec20:centimetre_per_kelvin
+        qudt:uneceCommonCode  "F51" .
+
+rec20:litre_per_hour  qudt:uneceCommonCode
+                "E32" .
+
+rec20:exbibyte  qudt:uneceCommonCode  "E59" .
+
+rec20:millilitre  qudt:uneceCommonCode  "MLT" .
+
+rec20:degree_Rankine_per_hour
+        qudt:uneceCommonCode  "J28" .
+
+rec20:pascal_second  qudt:uneceCommonCode
+                "C65" .
+
+rec20:kilogram_per_kilomol
+        qudt:uneceCommonCode  "F24" .
+
+rec20:milligram_per_bar
+        qudt:uneceCommonCode  "F75" .
+
+rec20:roll  qudt:uneceCommonCode  "RO" .
+
+rec20:millipascal_per_metre
+        qudt:uneceCommonCode  "P80" .
+
+rec20:joint  qudt:uneceCommonCode  "JO" .
+
+rec20:inch_per_psi  qudt:uneceCommonCode
+                "K46" .
+
+rec20:board  qudt:uneceCommonCode  "BD" .
+
+rec20:ampere_tum_per_centimetre
+        qudt:uneceCommonCode  "73" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_hour>
+        qudt:uneceCommonCode  "K10" .
+
+rec20:pound_per_cubic_yard
+        qudt:uneceCommonCode  "K84" .
+
+rec20:gram_per_kelvin
+        qudt:uneceCommonCode  "F14" .
+
+rec20:decilitre_per_gram
+        qudt:uneceCommonCode  "22" .
+
+rec20:millibar_litre_per_second
+        qudt:uneceCommonCode  "F95" .
+
+rec20:ampere_per_square_millimetre
+        qudt:uneceCommonCode  "A7" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_cubic_foot>
+        qudt:uneceCommonCode  "N59" .
+
+rec20:weight_per_square_inch
+        qudt:uneceCommonCode  "WI" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#acre-foot_(based_on_U.S._survey_foot)>
+        qudt:uneceCommonCode  "M67" .
+
+rec20:kilogram_of_imported_meat_less_offal
+        qudt:uneceCommonCode  "TMS" .
+
+rec20:degree_Rankine_per_second
+        qudt:uneceCommonCode  "J30" .
+
+rec20:hundredth_of_a_carat
+        qudt:uneceCommonCode  "HE" .
+
+rec20:gram_including_inner_packaging
+        qudt:uneceCommonCode  "GIP" .
+
+rec20:reciprocal_second_per_steradian
+        qudt:uneceCommonCode  "D1" .
+
+rec20:are  qudt:uneceCommonCode  "ARE" .
+
+rec20:footcandle  qudt:uneceCommonCode  "P27" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_day>
+        qudt:uneceCommonCode  "L53" .
+
+rec20:average_minute_per_call
+        qudt:uneceCommonCode  "AI" .
+
+rec20:square_centimetre
+        qudt:uneceCommonCode  "CMK" .
+
+rec20:reciprocal_joule
+        qudt:uneceCommonCode  "N91" .
+
+rec20:linear_metre  qudt:uneceCommonCode
+                "LM" .
+
+rec20:gram_per_millilitre_bar
+        qudt:uneceCommonCode  "G15" .
+
+rec20:inch_per_degree_Fahrenheit
+        qudt:uneceCommonCode  "K45" .
+
+rec20:psi_cubic_metre_per_second
+        qudt:uneceCommonCode  "K89" .
+
+rec20:heat_lot  qudt:uneceCommonCode  "08" .
+
+rec20:pound-force_foot
+        qudt:uneceCommonCode  "M92" .
+
+rec20:decade  qudt:uneceCommonCode  "DEC" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_electric_potential>
+        qudt:uneceCommonCode  "A82" .
+
+rec20:hogshead  qudt:uneceCommonCode  "Z4" .
+
+rec20:page_-_hardcopy
+        qudt:uneceCommonCode  "QB" .
+
+rec20:metre_per_degree_Celcius_metre
+        qudt:uneceCommonCode  "N83" .
+
+rec20:kilogram_per_minute_bar
+        qudt:uneceCommonCode  "F68" .
+
+rec20:kilonewton_metre
+        qudt:uneceCommonCode  "B48" .
+
+rec20:pound_per_hour  qudt:uneceCommonCode
+                "4U" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pH_(potential_of_Hydrogen)>
+        qudt:uneceCommonCode  "Q30" .
+
+rec20:newton_metre_per_metre
+        qudt:uneceCommonCode  "Q27" .
+
+rec20:megagram_per_cubic_metre
+        qudt:uneceCommonCode  "B72" .
+
+rec20:metre_per_kelvin
+        qudt:uneceCommonCode  "F52" .
+
+rec20:nine_pack  qudt:uneceCommonCode  "P9" .
+
+rec20:litre_per_kelvin
+        qudt:uneceCommonCode  "G28" .
+
+rec20:microlitre_per_litre
+        qudt:uneceCommonCode  "J36" .
+
+rec20:quarter_mile  qudt:uneceCommonCode
+                "1X" .
+
+rec20:square_metre_per_kilogram
+        qudt:uneceCommonCode  "D21" .
+
+rec20:zone  qudt:uneceCommonCode  "E57" .
+
+rec20:kilohenry  qudt:uneceCommonCode  "P24" .
+
+rec20:cubic_centimetre_per_minute_kelvin
+        qudt:uneceCommonCode  "G63" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_minute>
+        qudt:uneceCommonCode  "J81" .
+
+rec20:volt  qudt:uneceCommonCode  "VLT" .
+
+rec20:Normalized_cubic_metre_per_day
+        qudt:uneceCommonCode  "Q39" .
+
+rec20:watt_per_steradian
+        qudt:uneceCommonCode  "D57" .
+
+rec20:newton_per_ampere
+        qudt:uneceCommonCode  "H40" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pen_gram_(protein)>
+        qudt:uneceCommonCode  "D23" .
+
+rec20:kilogram_per_square_metre_second
+        qudt:uneceCommonCode  "H56" .
+
+rec20:Metre_Day  qudt:uneceCommonCode  "MRD" .
+
+rec20:microgram_per_cubic_metre
+        qudt:uneceCommonCode  "GQ" .
+
+rec20:meal  qudt:uneceCommonCode  "Q3" .
+
+rec20:net_barrel  qudt:uneceCommonCode  "ND" .
+
+rec20:tonne_per_minute_bar
+        qudt:uneceCommonCode  "L80" .
+
+rec20:poundal_per_square_foot
+        qudt:uneceCommonCode  "N21" .
+
+rec20:TEU  qudt:uneceCommonCode  "E22" .
+
+rec20:megalitre  qudt:uneceCommonCode  "MAL" .
+
+rec20:metre_kelvin  qudt:uneceCommonCode
+                "D18" .
+
+rec20:farad  qudt:uneceCommonCode  "FAR" .
+
+rec20:pascal_second_per_metre
+        qudt:uneceCommonCode  "C67" .
+
+rec20:coulomb_per_square_centimetre
+        qudt:uneceCommonCode  "A33" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#tonne_of_substance_90_%_dry>
+        qudt:uneceCommonCode  "TSD" .
+
+rec20:kilovolt_ampere_reactive_hour
+        qudt:uneceCommonCode  "K3" .
+
+rec20:mesh  qudt:uneceCommonCode  "57" .
+
+rec20:megabit  qudt:uneceCommonCode  "D36" .
+
+rec20:megawatts_per_minute
+        qudt:uneceCommonCode  "Q35" .
+
+rec20:poundal_foot  qudt:uneceCommonCode
+                "M95" .
+
+rec20:well  qudt:uneceCommonCode  "E56" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#trillion_(EUR)>
+        qudt:uneceCommonCode  "TRL" .
+
+rec20:usage_per_telecommunication_line_average
+        qudt:uneceCommonCode  "UF" .
+
+rec20:kilofarad  qudt:uneceCommonCode  "N90" .
+
+rec20:linear_foot  qudt:uneceCommonCode
+                "LF" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_minute>
+        qudt:uneceCommonCode  "J66" .
+
+rec20:straw  qudt:uneceCommonCode  "STW" .
+
+rec20:kilogram_of_choline_chloride
+        qudt:uneceCommonCode  "KCC" .
+
+rec20:millihenry  qudt:uneceCommonCode  "C14" .
+
+rec20:mole_per_kilogram_bar
+        qudt:uneceCommonCode  "L25" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#net_gallon_(us)>
+        qudt:uneceCommonCode  "NG" .
+
+rec20:bel_per_metre  qudt:uneceCommonCode
+                "P43" .
+
+rec20:brake_horse_power
+        qudt:uneceCommonCode  "BHP" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_square_foot_second>
+        qudt:uneceCommonCode  "N53" .
+
+rec20:rack  qudt:uneceCommonCode  "RA" .
+
+rec20:tonne_per_kelvin
+        qudt:uneceCommonCode  "L69" .
+
+rec20:bar_per_bar  qudt:uneceCommonCode
+                "J56" .
+
+rec20:calorie_per_cubic_centimetre
+        qudt:uneceCommonCode  "92" .
+
+rec20:freight_ton  qudt:uneceCommonCode
+                "A75" .
+
+rec20:car_mile  qudt:uneceCommonCode  "1A" .
+
+rec20:mil  qudt:uneceCommonCode  "M43" .
+
+rec20:gram_dry_weight
+        qudt:uneceCommonCode  "GDW" .
+
+rec20:thousand_cubic_metre_per_day
+        qudt:uneceCommonCode  "TQD" .
+
+rec20:pound_per_foot  qudt:uneceCommonCode
+                "P2" .
+
+rec20:square_foot  qudt:uneceCommonCode
+                "FTK" .
+
+rec20:shake  qudt:uneceCommonCode  "M56" .
+
+rec20:ton_short_per_degree_Fahrenheit
+        qudt:uneceCommonCode  "L87" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_pound>
+        qudt:uneceCommonCode  "N73" .
+
+rec20:meganewton_metre
+        qudt:uneceCommonCode  "B74" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dry_quart_(US)>
+        qudt:uneceCommonCode  "QTD" .
+
+rec20:fathom  qudt:uneceCommonCode  "AK" .
+
+rec20:kilogram-force_per_square_metre
+        qudt:uneceCommonCode  "B40" .
+
+rec20:reciprocal_kilovolt_-_ampere_reciprocal_hour
+        qudt:uneceCommonCode  "M21" .
+
+rec20:millifarad  qudt:uneceCommonCode  "C10" .
+
+rec20:stokes_per_pascal
+        qudt:uneceCommonCode  "M80" .
+
+rec20:sixty_fourths_of_an_inch
+        qudt:uneceCommonCode  "S5" .
+
+rec20:millimetre_per_year
+        qudt:uneceCommonCode  "H66" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(39_ºF)>
+        qudt:uneceCommonCode  "N66" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_minute>
+        qudt:uneceCommonCode  "J44" .
+
+rec20:watt_per_steradian_square_metre
+        qudt:uneceCommonCode  "D58" .
+
+rec20:erg_per_square_centimetre_second
+        qudt:uneceCommonCode  "A65" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#chain_(based_on_U.S._survey_foot)>
+        qudt:uneceCommonCode  "M49" .
+
+rec20:gram_per_100_gram
+        qudt:uneceCommonCode  "GC" .
+
+rec20:reciprocal_second_per_cubic_metre
+        qudt:uneceCommonCode  "C98" .
+
+rec20:pond  qudt:uneceCommonCode  "M78" .
+
+rec20:gibibit_per_square_metre
+        qudt:uneceCommonCode  "E70" .
+
+rec20:erlang  qudt:uneceCommonCode  "Q11" .
+
+rec20:litre_per_bar  qudt:uneceCommonCode
+                "G95" .
+
+rec20:gigabyte_per_second
+        qudt:uneceCommonCode  "E68" .
+
+rec20:ampere_per_kilogram
+        qudt:uneceCommonCode  "H31" .
+
+rec20:pound-force  qudt:uneceCommonCode
+                "C78" .
+
+rec20:cord  qudt:uneceCommonCode  "WCD" .
+
+rec20:watt_square_metre
+        qudt:uneceCommonCode  "Q21" .
+
+rec20:millilitre_per_day
+        qudt:uneceCommonCode  "G54" .
+
+rec20:terawatt_hour  qudt:uneceCommonCode
+                "D32" .
+
+rec20:volt_per_litre_minute
+        qudt:uneceCommonCode  "F87" .
+
+rec20:millicoulomb_per_square_metre
+        qudt:uneceCommonCode  "D89" .
+
+rec20:milligray_per_hour
+        qudt:uneceCommonCode  "P62" .
+
+rec20:nanosievert_per_second
+        qudt:uneceCommonCode  "P68" .
+
+rec20:microcurie  qudt:uneceCommonCode  "M5" .
+
+rec20:nanocoulomb  qudt:uneceCommonCode
+                "C40" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_day>
+        qudt:uneceCommonCode  "L57" .
+
+rec20:job  qudt:uneceCommonCode  "E51" .
+
+rec20:dyne_centimetre
+        qudt:uneceCommonCode  "J94" .
+
+rec20:standard_atmosphere
+        qudt:uneceCommonCode  "ATM" .
+
+rec20:ampere_per_metre
+        qudt:uneceCommonCode  "AE" .
+
+rec20:kilopascal_per_metre
+        qudt:uneceCommonCode  "P81" .
+
+rec20:coulomb  qudt:uneceCommonCode  "COU" .
+
+rec20:connector  qudt:uneceCommonCode  "CK" .
+
+rec20:theoretical_ton
+        qudt:uneceCommonCode  "27" .
+
+rec20:square_centimetre_per_erg
+        qudt:uneceCommonCode  "D16" .
+
+rec20:newton_metre  qudt:uneceCommonCode
+                "NU" .
+
+rec20:cubic_foot  qudt:uneceCommonCode  "FTQ" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)>
+        qudt:uneceCommonCode  "D35" .
+
+rec20:block  qudt:uneceCommonCode  "D64" .
+
+rec20:mol_per_cubic_metre_pascal
+        qudt:uneceCommonCode  "P52" .
+
+rec20:message  qudt:uneceCommonCode  "NF" .
+
+rec20:microsecond  qudt:uneceCommonCode
+                "B98" .
+
+rec20:tonne_per_hour  qudt:uneceCommonCode
+                "E18" .
+
+rec20:run_foot  qudt:uneceCommonCode  "E52" .
+
+rec20:milligram_per_day
+        qudt:uneceCommonCode  "F32" .
+
+rec20:kilogram_per_kelvin
+        qudt:uneceCommonCode  "F15" .
+
+rec20:total_acid_number
+        qudt:uneceCommonCode  "TAN" .
+
+rec20:byte_per_second
+        qudt:uneceCommonCode  "P93" .
+
+rec20:square_metre_kelvin_per_watt
+        qudt:uneceCommonCode  "D19" .
+
+rec20:roentgen_per_second
+        qudt:uneceCommonCode  "D6" .
+
+rec20:jar  qudt:uneceCommonCode  "JR" .
+
+rec20:count_per_centimetre
+        qudt:uneceCommonCode  "IT" .
+
+rec20:joule_per_square_metre
+        qudt:uneceCommonCode  "B13" .
+
+rec20:gross_gallon  qudt:uneceCommonCode
+                "GN" .
+
+rec20:ton_long_per_day
+        qudt:uneceCommonCode  "L85" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(thermochemical)_per_second>
+        qudt:uneceCommonCode  "K55" .
+
+rec20:Normalized_cubic_metre_per_hour
+        qudt:uneceCommonCode  "Q40" .
+
+rec20:newspage_agate_line
+        qudt:uneceCommonCode  "Z8" .
+
+rec20:octave  qudt:uneceCommonCode  "C59" .
+
+rec20:gram_per_square_metre
+        qudt:uneceCommonCode  "GM" .
+
+rec20:keg  qudt:uneceCommonCode  "KG" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(international_table)>
+        qudt:uneceCommonCode  "J22" .
+
+rec20:dyne_second_per_cubic_centimetre
+        qudt:uneceCommonCode  "A50" .
+
+rec20:watt_per_square_centimetre
+        qudt:uneceCommonCode  "N48" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#half_pint_(US)>
+        qudt:uneceCommonCode  "PV" .
+
+rec20:mebibit_per_square_metre
+        qudt:uneceCommonCode  "E76" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_electric_polarization>
+        qudt:uneceCommonCode  "A81" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#liquid_quart_(US)>
+        qudt:uneceCommonCode  "QTL" .
+
+rec20:kilovar  qudt:uneceCommonCode  "KVR" .
+
+rec20:number_of_articles
+        qudt:uneceCommonCode  "NAR" .
+
+rec20:joule_per_hour  qudt:uneceCommonCode
+                "P16" .
+
+rec20:kilogram_per_bar
+        qudt:uneceCommonCode  "H53" .
+
+rec20:band  qudt:uneceCommonCode  "D92" .
+
+rec20:kilohertz  qudt:uneceCommonCode  "KHZ" .
+
+rec20:nanosiemens_per_centimetre
+        qudt:uneceCommonCode  "G44" .
+
+rec20:section  qudt:uneceCommonCode  "SE" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_day>
+        qudt:uneceCommonCode  "J59" .
+
+rec20:gram  qudt:uneceCommonCode  "GRM" .
+
+rec20:rem_per_second  qudt:uneceCommonCode
+                "P69" .
+
+rec20:forty_foot_container
+        qudt:uneceCommonCode  "21" .
+
+rec20:volt_-_ampere_per_kilogram
+        qudt:uneceCommonCode  "VA" .
+
+rec20:neper  qudt:uneceCommonCode  "C50" .
+
+rec20:kilogram-force_per_square_centimetre
+        qudt:uneceCommonCode  "E42" .
+
+rec20:kilogram_including_container
+        qudt:uneceCommonCode  "KIC" .
+
+rec20:megabecquerel_per_kilogram
+        qudt:uneceCommonCode  "B67" .
+
+rec20:volt_squared_per_kelvin_squared
+        qudt:uneceCommonCode  "D45" .
+
+rec20:meganewton  qudt:uneceCommonCode  "B73" .
+
+rec20:kilometre_per_hour
+        qudt:uneceCommonCode  "KMH" .
+
+rec20:impression  qudt:uneceCommonCode  "IM" .
+
+rec20:megapascal_cubic_metre_per_second
+        qudt:uneceCommonCode  "F98" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_angle]>
+        qudt:uneceCommonCode  "D61" .
+
+rec20:thousand  qudt:uneceCommonCode  "MIL" .
+
+rec20:kilogram-force_metre
+        qudt:uneceCommonCode  "B38" .
+
+rec20:bulk_car_load  qudt:uneceCommonCode
+                "48" .
+
+rec20:millilitre_per_day_bar
+        qudt:uneceCommonCode  "G90" .
+
+rec20:ohm_metre  qudt:uneceCommonCode  "C61" .
+
+rec20:metric_carat  qudt:uneceCommonCode
+                "CTM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(origin_scale)>
+        qudt:uneceCommonCode  "J14" .
+
+rec20:yard_per_second
+        qudt:uneceCommonCode  "M64" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#dry_pint_(US)>
+        qudt:uneceCommonCode  "PTD" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_minute>
+        qudt:uneceCommonCode  "J51" .
+
+rec20:millisievert_per_minute
+        qudt:uneceCommonCode  "P75" .
+
+rec20:Joule_per_normalised_cubic_metre
+        qudt:uneceCommonCode  "Q41" .
+
+rec20:reciprocal_degree_Fahrenheit
+        qudt:uneceCommonCode  "J26" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#centimetre_of_mercury_(0_ºC)>
+        qudt:uneceCommonCode  "N13" .
+
+rec20:nanohenry_per_metre
+        qudt:uneceCommonCode  "C44" .
+
+rec20:gilbert  qudt:uneceCommonCode  "N97" .
+
+rec20:microvolt  qudt:uneceCommonCode  "D82" .
+
+rec20:torr_per_metre  qudt:uneceCommonCode
+                "P85" .
+
+rec20:millipascal  qudt:uneceCommonCode
+                "74" .
+
+rec20:gross_register_ton
+        qudt:uneceCommonCode  "GRT" .
+
+rec20:metre_per_volt_second
+        qudt:uneceCommonCode  "H58" .
+
+rec20:reel  qudt:uneceCommonCode  "RL" .
+
+rec20:one  qudt:uneceCommonCode  "C62" .
+
+rec20:siemens_per_centimetre
+        qudt:uneceCommonCode  "H43" .
+
+rec20:day  qudt:uneceCommonCode  "DAY" .
+
+rec20:milligram_per_square_foot_per_side
+        qudt:uneceCommonCode  "MF" .
+
+rec20:millicoulomb  qudt:uneceCommonCode
+                "D86" .
+
+rec20:cubic_metre_per_second_square_metre
+        qudt:uneceCommonCode  "P87" .
+
+rec20:coulomb_per_square_metre
+        qudt:uneceCommonCode  "A34" .
+
+rec20:petabyte  qudt:uneceCommonCode  "E36" .
+
+rec20:reciprocal_psi  qudt:uneceCommonCode
+                "K93" .
+
+rec20:becquerel_per_cubic_metre
+        qudt:uneceCommonCode  "A19" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#hundred_foot_(linear)>
+        qudt:uneceCommonCode  "HL" .
+
+rec20:microohm  qudt:uneceCommonCode  "B94" .
+
+rec20:pound  qudt:uneceCommonCode  "LBR" .
+
+rec20:cubic_centimetre_per_cubic_metre
+        qudt:uneceCommonCode  "J87" .
+
+rec20:pound_equivalent
+        qudt:uneceCommonCode  "PE" .
+
+rec20:can  qudt:uneceCommonCode  "CA" .
+
+rec20:call  qudt:uneceCommonCode  "C0" .
+
+rec20:test_specific_scale
+        qudt:uneceCommonCode  "69" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#tablespoon_(US)>
+        qudt:uneceCommonCode  "G24" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_hour>
+        qudt:uneceCommonCode  "J65" .
+
+rec20:megawatt  qudt:uneceCommonCode  "MAW" .
+
+rec20:pascal_per_metre
+        qudt:uneceCommonCode  "H42" .
+
+rec20:mutually_defined
+        qudt:uneceCommonCode  "ZZ" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK)_or_long_ton_(US)>
+        qudt:uneceCommonCode  "LTN" .
+
+rec20:kilopascal_per_kelvin
+        qudt:uneceCommonCode  "F83" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#troy_pound_(US)>
+        qudt:uneceCommonCode  "LBT" .
+
+rec20:each_per_month  qudt:uneceCommonCode
+                "EC" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pallet/unit_load>
+        qudt:uneceCommonCode  "D97" .
+
+rec20:joule_second  qudt:uneceCommonCode
+                "B18" .
+
+rec20:second_per_cubic_metre_radian
+        qudt:uneceCommonCode  "D94" .
+
+rec20:nanogray_per_second
+        qudt:uneceCommonCode  "P56" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_second>
+        qudt:uneceCommonCode  "K39" .
+
+rec20:micrometre_per_kelvin
+        qudt:uneceCommonCode  "F50" .
+
+rec20:million_unit  qudt:uneceCommonCode
+                "UM" .
+
+rec20:thousand_impression
+        qudt:uneceCommonCode  "T7" .
+
+rec20:decagram  qudt:uneceCommonCode  "DJ" .
+
+rec20:mebibit_per_metre
+        qudt:uneceCommonCode  "E75" .
+
+rec20:milliroentgen_aequivalent_men
+        qudt:uneceCommonCode  "L31" .
+
+rec20:cup  qudt:uneceCommonCode  "CU" .
+
+rec20:dyne_second_per_centimetre
+        qudt:uneceCommonCode  "A51" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#therm_(U.S.)>
+        qudt:uneceCommonCode  "N72" .
+
+rec20:ODS_Kilograms  qudt:uneceCommonCode
+                "ODK" .
+
+rec20:milligram_per_cubic_metre_bar
+        qudt:uneceCommonCode  "L18" .
+
+rec20:bolt  qudt:uneceCommonCode  "BT" .
+
+rec20:train_mile  qudt:uneceCommonCode  "1F" .
+
+rec20:number_of_international_units
+        qudt:uneceCommonCode  "NIU" .
+
+rec20:hectogram  qudt:uneceCommonCode  "HGM" .
+
+rec20:stage  qudt:uneceCommonCode  "5H" .
+
+rec20:megahertz  qudt:uneceCommonCode  "MHZ" .
+
+rec20:kilobaud  qudt:uneceCommonCode  "K50" .
+
+rec20:milligram_per_litre
+        qudt:uneceCommonCode  "M1" .
+
+rec20:litre_per_day  qudt:uneceCommonCode
+                "LD" .
+
+rec20:gray_per_hour  qudt:uneceCommonCode
+                "P61" .
+
+rec20:slug_per_foot_second
+        qudt:uneceCommonCode  "L64" .
+
+rec20:hundred_kilogram_dry_weight
+        qudt:uneceCommonCode  "HDW" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_gallon_(US)>
+        qudt:uneceCommonCode  "L38" .
+
+rec20:kibibit_per_cubic_metre
+        qudt:uneceCommonCode  "E74" .
+
+rec20:watt_per_metre  qudt:uneceCommonCode
+                "H74" .
+
+rec20:unified_atomic_mass_unit
+        qudt:uneceCommonCode  "D43" .
+
+rec20:cell  qudt:uneceCommonCode  "C6" .
+
+rec20:telecommunication_port
+        qudt:uneceCommonCode  "UC" .
+
+rec20:kelvin_per_bar  qudt:uneceCommonCode
+                "F61" .
+
+rec20:gram_per_bar  qudt:uneceCommonCode
+                "F74" .
+
+rec20:candela  qudt:uneceCommonCode  "CDL" .
+
+rec20:kilogram_per_piece_of_product
+        qudt:uneceCommonCode  "3I" .
+
+rec20:milliohm  qudt:uneceCommonCode  "E45" .
+
+rec20:sheet_metric_measure
+        qudt:uneceCommonCode  "SS" .
+
+rec20:pitch  qudt:uneceCommonCode  "PI" .
+
+rec20:american_wire_gauge
+        qudt:uneceCommonCode  "AWG" .
+
+rec20:microgram_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "J34" .
+
+rec20:basket  qudt:uneceCommonCode  "BK" .
+
+rec20:water_horse_power
+        qudt:uneceCommonCode  "F80" .
+
+rec20:kilopascal_square_metre_per_gram
+        qudt:uneceCommonCode  "33" .
+
+rec20:cubic_inch  qudt:uneceCommonCode  "INQ" .
+
+rec20:coulomb_per_cubic_centimetre
+        qudt:uneceCommonCode  "A28" .
+
+rec20:gallon_per_thousand_cubic_foot
+        qudt:uneceCommonCode  "GW" .
+
+rec20:var  qudt:uneceCommonCode  "D44" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_second_per_British_thermal_unit_(thermochemical)>
+        qudt:uneceCommonCode  "N87" .
+
+rec20:mass_pound  qudt:uneceCommonCode  "D98" .
+
+rec20:gram_per_kilogram
+        qudt:uneceCommonCode  "GK" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_second>
+        qudt:uneceCommonCode  "J98" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_of_water_(60_ºF)>
+        qudt:uneceCommonCode  "N19" .
+
+rec20:rhe  qudt:uneceCommonCode  "P88" .
+
+rec20:cubic_metre_per_kilogram
+        qudt:uneceCommonCode  "A39" .
+
+rec20:page_-_facsimile
+        qudt:uneceCommonCode  "QA" .
+
+rec20:eleven_pack  qudt:uneceCommonCode
+                "EP" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)_per_hour>
+        qudt:uneceCommonCode  "K37" .
+
+rec20:pascal  qudt:uneceCommonCode  "PAL" .
+
+rec20:thousand_pound_gross
+        qudt:uneceCommonCode  "T1" .
+
+rec20:kilobyte_per_second
+        qudt:uneceCommonCode  "P94" .
+
+rec20:cubic_metre_per_mole
+        qudt:uneceCommonCode  "A40" .
+
+rec20:bulk_pack  qudt:uneceCommonCode  "AB" .
+
+rec20:inch_per_minute_IL
+        qudt:uneceCommonCode  "IL" .
+
+rec20:ampere_square_metre
+        qudt:uneceCommonCode  "A5" .
+
+rec20:hank  qudt:uneceCommonCode  "HA" .
+
+rec20:gram_millimetre
+        qudt:uneceCommonCode  "H84" .
+
+rec20:joule_per_tesla
+        qudt:uneceCommonCode  "Q10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_minute>
+        qudt:uneceCommonCode  "K78" .
+
+rec20:pound_per_air_dry_metric_ton
+        qudt:uneceCommonCode  "NY" .
+
+rec20:percent_per_inch
+        qudt:uneceCommonCode  "H98" .
+
+rec20:cubic_metre_per_second
+        qudt:uneceCommonCode  "MQS" .
+
+rec20:poise_per_kelvin
+        qudt:uneceCommonCode  "F86" .
+
+rec20:proof_litre  qudt:uneceCommonCode
+                "PFL" .
+
+rec20:locomotive_count
+        qudt:uneceCommonCode  "1C" .
+
+rec20:centimetre_per_hour
+        qudt:uneceCommonCode  "H49" .
+
+rec20:centimetre  qudt:uneceCommonCode  "CMT" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_second>
+        qudt:uneceCommonCode  "K12" .
+
+rec20:exbibit_per_metre
+        qudt:uneceCommonCode  "E65" .
+
+rec20:kilopascal_per_millimetre
+        qudt:uneceCommonCode  "34" .
+
+rec20:square_metre_per_second_bar
+        qudt:uneceCommonCode  "G41" .
+
+rec20:kilogram_per_day
+        qudt:uneceCommonCode  "F30" .
+
+rec20:gram-force_per_square_centimetre
+        qudt:uneceCommonCode  "K31" .
+
+rec20:percent_per_ten_thousand
+        qudt:uneceCommonCode  "H91" .
+
+rec20:cubic_metre_per_day_kelvin
+        qudt:uneceCommonCode  "G69" .
+
+rec20:microcoulomb_per_cubic_metre
+        qudt:uneceCommonCode  "B87" .
+
+rec20:microgram  qudt:uneceCommonCode  "MC" .
+
+rec20:degree_per_second
+        qudt:uneceCommonCode  "E96" .
+
+rec20:kilomole_per_hour
+        qudt:uneceCommonCode  "K58" .
+
+rec20:farad_per_metre
+        qudt:uneceCommonCode  "A69" .
+
+rec20:litre_per_day_kelvin
+        qudt:uneceCommonCode  "G65" .
+
+rec20:conventional_millimetre_of_water
+        qudt:uneceCommonCode  "HP" .
+
+rec20:kiloohm_metre  qudt:uneceCommonCode
+                "B50" .
+
+rec20:ampere_per_millimetre
+        qudt:uneceCommonCode  "A3" .
+
+rec20:seven_pack  qudt:uneceCommonCode  "P7" .
+
+rec20:milliampere_hour
+        qudt:uneceCommonCode  "E09" .
+
+rec20:thousand_linear_inch
+        qudt:uneceCommonCode  "T8" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(international_table)_per_second_square_centimetre_kelvin>
+        qudt:uneceCommonCode  "D72" .
+
+rec20:ounce_per_square_yard
+        qudt:uneceCommonCode  "ON" .
+
+rec20:milligram_per_gram
+        qudt:uneceCommonCode  "H64" .
+
+rec20:dots_per_inch  qudt:uneceCommonCode
+                "E39" .
+
+rec20:Kilowatt_hour_per_normalized_cubic_metre
+        qudt:uneceCommonCode  "KWN" .
+
+rec20:watt_per_square_metre_kelvin
+        qudt:uneceCommonCode  "D55" .
+
+rec20:watt_per_square_metre_kelvin_to_the_fourth_power
+        qudt:uneceCommonCode  "D56" .
+
+rec20:siemens_per_metre
+        qudt:uneceCommonCode  "D10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_gallon_(UK)>
+        qudt:uneceCommonCode  "L37" .
+
+rec20:pound_percentage
+        qudt:uneceCommonCode  "PM" .
+
+rec20:denier_M83  qudt:uneceCommonCode  "M83" .
+
+rec20:cubic_inch_per_pound
+        qudt:uneceCommonCode  "N30" .
+
+rec20:labour_hour  qudt:uneceCommonCode
+                "LH" .
+
+rec20:square_foot_per_second
+        qudt:uneceCommonCode  "S3" .
+
+rec20:thousand_linear_metre
+        qudt:uneceCommonCode  "TT" .
+
+rec20:psi_per_psi  qudt:uneceCommonCode
+                "L52" .
+
+rec20:newton_metre_per_square_metre
+        qudt:uneceCommonCode  "M34" .
+
+rec20:gram_per_cubic_decimetre_kelvin
+        qudt:uneceCommonCode  "G34" .
+
+rec20:gram_per_cubic_metre_bar
+        qudt:uneceCommonCode  "G14" .
+
+rec20:cubic_centimetre_per_day_bar
+        qudt:uneceCommonCode  "G78" .
+
+rec20:nanotesla  qudt:uneceCommonCode  "C48" .
+
+rec20:inch  qudt:uneceCommonCode  "INH" .
+
+rec20:millicandela  qudt:uneceCommonCode
+                "P34" .
+
+rec20:degree_Plato  qudt:uneceCommonCode
+                "PLA" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_second>
+        qudt:uneceCommonCode  "J63" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilogram_of_sodium_hydroxide_(caustic_soda)>
+        qudt:uneceCommonCode  "KSH" .
+
+rec20:franklin  qudt:uneceCommonCode  "N94" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilogram_of_phosphorus_pentoxide_(phosphoric_anhydride)>
+        qudt:uneceCommonCode  "KPP" .
+
+rec20:flake_ton  qudt:uneceCommonCode  "FL" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#lot_[unit_of_procurement]>
+        qudt:uneceCommonCode  "LO" .
+
+rec20:erg_square_centimetre_per_gram
+        qudt:uneceCommonCode  "A67" .
+
+rec20:hundred  qudt:uneceCommonCode  "CEN" .
+
+rec20:decilitre  qudt:uneceCommonCode  "DLT" .
+
+rec20:megaohm  qudt:uneceCommonCode  "B75" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(international_table)>
+        qudt:uneceCommonCode  "E14" .
+
+rec20:mile_per_minute
+        qudt:uneceCommonCode  "M57" .
+
+rec20:ton_short_per_psi
+        qudt:uneceCommonCode  "L91" .
+
+rec20:erg_per_cubic_centimetre
+        qudt:uneceCommonCode  "A60" .
+
+rec20:beam  qudt:uneceCommonCode  "D79" .
+
+rec20:sleeve  qudt:uneceCommonCode  "D99" .
+
+rec20:each  qudt:uneceCommonCode  "EA" .
+
+rec20:syringe  qudt:uneceCommonCode  "SYR" .
+
+rec20:reciprocal_minute
+        qudt:uneceCommonCode  "C94" .
+
+rec20:microradian  qudt:uneceCommonCode
+                "B97" .
+
+rec20:length  qudt:uneceCommonCode  "LN" .
+
+rec20:million  qudt:uneceCommonCode  "MIO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bar_[unit_of_packaging]>
+        qudt:uneceCommonCode  "BR" .
+
+rec20:wet_pound  qudt:uneceCommonCode  "WB" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_second_per_British_thermal_unit_(international_table)>
+        qudt:uneceCommonCode  "N86" .
+
+rec20:cubic_decimetre_per_mole
+        qudt:uneceCommonCode  "A37" .
+
+rec20:kilopacket  qudt:uneceCommonCode  "KF" .
+
+rec20:small_spray  qudt:uneceCommonCode
+                "06" .
+
+rec20:megapixel  qudt:uneceCommonCode  "E38" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_second>
+        qudt:uneceCommonCode  "K97" .
+
+rec20:micromho  qudt:uneceCommonCode  "NR" .
+
+rec20:nanosievert_per_minute
+        qudt:uneceCommonCode  "P77" .
+
+rec20:message_hour  qudt:uneceCommonCode
+                "NH" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_gram_degree_Celsius>
+        qudt:uneceCommonCode  "J79" .
+
+rec20:revenue_ton_mile
+        qudt:uneceCommonCode  "RT" .
+
+rec20:radian_per_second
+        qudt:uneceCommonCode  "2A" .
+
+rec20:teeth_per_inch  qudt:uneceCommonCode
+                "TPI" .
+
+rec20:millimetre_per_bar
+        qudt:uneceCommonCode  "G06" .
+
+rec20:nanowatt  qudt:uneceCommonCode  "C49" .
+
+rec20:picocoulomb  qudt:uneceCommonCode
+                "C71" .
+
+rec20:square_millimetre
+        qudt:uneceCommonCode  "MMK" .
+
+rec20:aluminium_pound_only
+        qudt:uneceCommonCode  "AP" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(US)>
+        qudt:uneceCommonCode  "GIA" .
+
+rec20:cubic_metre_per_minute_bar
+        qudt:uneceCommonCode  "G88" .
+
+rec20:kilojoule_per_day
+        qudt:uneceCommonCode  "P21" .
+
+rec20:session  qudt:uneceCommonCode  "S6" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_square_foot>
+        qudt:uneceCommonCode  "P37" .
+
+rec20:ball  qudt:uneceCommonCode  "AA" .
+
+rec20:kelvin_per_kelvin
+        qudt:uneceCommonCode  "F02" .
+
+rec20:mole_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "L28" .
+
+rec20:millipascal_second_per_kelvin
+        qudt:uneceCommonCode  "L15" .
+
+rec20:common_year  qudt:uneceCommonCode
+                "L95" .
+
+rec20:micronewton_metre
+        qudt:uneceCommonCode  "B93" .
+
+rec20:decibel_per_kilometre
+        qudt:uneceCommonCode  "H51" .
+
+rec20:tonne_per_minute_kelvin
+        qudt:uneceCommonCode  "L79" .
+
+rec20:cubic_centimetre_per_second_bar
+        qudt:uneceCommonCode  "G81" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_degree_Fahrenheit>
+        qudt:uneceCommonCode  "N60" .
+
+rec20:newton_per_centimetre
+        qudt:uneceCommonCode  "M23" .
+
+rec20:litre_per_hour_kelvin
+        qudt:uneceCommonCode  "G66" .
+
+rec20:cubic_inch_per_hour
+        qudt:uneceCommonCode  "G56" .
+
+rec20:lumen_per_watt  qudt:uneceCommonCode
+                "B61" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(UK)_per_day>
+        qudt:uneceCommonCode  "J64" .
+
+rec20:gram_per_day  qudt:uneceCommonCode
+                "F26" .
+
+rec20:femtolitre  qudt:uneceCommonCode  "Q32" .
+
+rec20:mille  qudt:uneceCommonCode  "E12" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_[unit_of_angle]>
+        qudt:uneceCommonCode  "DD" .
+
+rec20:megabaud  qudt:uneceCommonCode  "J54" .
+
+rec20:angstrom  qudt:uneceCommonCode  "A11" .
+
+rec20:micronewton  qudt:uneceCommonCode
+                "B92" .
+
+rec20:terabit  qudt:uneceCommonCode  "E83" .
+
+rec20:air_dry_metric_ton
+        qudt:uneceCommonCode  "MD" .
+
+rec20:kilotonne  qudt:uneceCommonCode  "KTN" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_minute>
+        qudt:uneceCommonCode  "K34" .
+
+rec20:electronic_mail_box
+        qudt:uneceCommonCode  "EB" .
+
+rec20:pack  qudt:uneceCommonCode  "PK" .
+
+rec20:coulomb_per_square_millimetre
+        qudt:uneceCommonCode  "A35" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US)_per_hour>
+        qudt:uneceCommonCode  "4W" .
+
+rec20:proof_gallon  qudt:uneceCommonCode
+                "PGL" .
+
+rec20:Square_Metre_Day
+        qudt:uneceCommonCode  "MKD" .
+
+rec20:degree_Celsius_per_bar
+        qudt:uneceCommonCode  "F60" .
+
+rec20:pound_per_thousand_square_foot
+        qudt:uneceCommonCode  "29" .
+
+rec20:plate  qudt:uneceCommonCode  "PG" .
+
+rec20:thousand_square_foot
+        qudt:uneceCommonCode  "TS" .
+
+rec20:thousand_linear_yard
+        qudt:uneceCommonCode  "D14" .
+
+rec20:kilogram_per_millimetre_width
+        qudt:uneceCommonCode  "KI" .
+
+rec20:psi_cubic_yard_per_second
+        qudt:uneceCommonCode  "K90" .
+
+rec20:square_decametre
+        qudt:uneceCommonCode  "H16" .
+
+rec20:centipoise_per_bar
+        qudt:uneceCommonCode  "J74" .
+
+rec20:hydraulic_horse_power
+        qudt:uneceCommonCode  "5J" .
+
+rec20:decibel_per_metre
+        qudt:uneceCommonCode  "H52" .
+
+rec20:deal  qudt:uneceCommonCode  "DE" .
+
+rec20:millihenry_per_kiloohm
+        qudt:uneceCommonCode  "H05" .
+
+rec20:yard_per_minute
+        qudt:uneceCommonCode  "M65" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#horsepower_(electric)>
+        qudt:uneceCommonCode  "K43" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US)_or_short_ton_(UK/US)>
+        qudt:uneceCommonCode  "STN" .
+
+rec20:microfarad_per_metre
+        qudt:uneceCommonCode  "B89" .
+
+rec20:Piece_Month  qudt:uneceCommonCode
+                "HMO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)>
+        qudt:uneceCommonCode  "GII" .
+
+rec20:sievert_per_second
+        qudt:uneceCommonCode  "P65" .
+
+rec20:million_particle_per_cubic_foot
+        qudt:uneceCommonCode  "FD" .
+
+rec20:carload  qudt:uneceCommonCode  "C4" .
+
+rec20:deadweight_tonnage
+        qudt:uneceCommonCode  "A43" .
+
+rec20:yard  qudt:uneceCommonCode  "YRD" .
+
+rec20:milligram_per_second_bar
+        qudt:uneceCommonCode  "F73" .
+
+rec20:caboose_count  qudt:uneceCommonCode
+                "1D" .
+
+rec20:cartridge  qudt:uneceCommonCode  "CQ" .
+
+rec20:pound_per_square_yard
+        qudt:uneceCommonCode  "N25" .
+
+rec20:foot_pound-force_per_hour
+        qudt:uneceCommonCode  "K15" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_second>
+        qudt:uneceCommonCode  "L47" .
+
+rec20:metre_per_second_pascal
+        qudt:uneceCommonCode  "M59" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_day>
+        qudt:uneceCommonCode  "L44" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#foot_of_water_(39.2_ºF)>
+        qudt:uneceCommonCode  "N15" .
+
+rec20:thousand_bag  qudt:uneceCommonCode
+                "T4" .
+
+rec20:foot_poundal  qudt:uneceCommonCode
+                "N46" .
+
+rec20:mole_per_cubic_decimetre
+        qudt:uneceCommonCode  "C35" .
+
+rec20:millimole_per_gram
+        qudt:uneceCommonCode  "H68" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_centimetre_second_degree_Celsius>
+        qudt:uneceCommonCode  "J78" .
+
+rec20:peck  qudt:uneceCommonCode  "G23" .
+
+rec20:threehundred_kg_bulk_bag
+        qudt:uneceCommonCode  "45" .
+
+rec20:ampere_per_square_metre_kelvin_squared
+        qudt:uneceCommonCode  "A6" .
+
+rec20:kilowatt_per_metre_kelvin
+        qudt:uneceCommonCode  "N81" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_square_centimetre_second>
+        qudt:uneceCommonCode  "N57" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#minute_[unit_of_time]>
+        qudt:uneceCommonCode  "MIN" .
+
+rec20:square_metre_per_mole
+        qudt:uneceCommonCode  "D22" .
+
+rec20:poundal_per_inch
+        qudt:uneceCommonCode  "N32" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_cubic_inch_psi>
+        qudt:uneceCommonCode  "K76" .
+
+rec20:seismic_level  qudt:uneceCommonCode
+                "5P" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_dry)>
+        qudt:uneceCommonCode  "L61" .
+
+rec20:Square_Metre_Month
+        qudt:uneceCommonCode  "MKM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#decade_(logarithmic)>
+        qudt:uneceCommonCode  "P41" .
+
+rec20:tablet  qudt:uneceCommonCode  "U2" .
+
+rec20:foot_pound-force
+        qudt:uneceCommonCode  "85" .
+
+rec20:pascal_second_per_kelvin
+        qudt:uneceCommonCode  "F77" .
+
+rec20:ten_day  qudt:uneceCommonCode  "DAD" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_psi>
+        qudt:uneceCommonCode  "K77" .
+
+rec20:second_per_kilogramm
+        qudt:uneceCommonCode  "Q20" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quarter_(UK)>
+        qudt:uneceCommonCode  "QTR" .
+
+rec20:pound_per_square_inch_gauge
+        qudt:uneceCommonCode  "64" .
+
+rec20:cubic_foot_per_minute
+        qudt:uneceCommonCode  "2L" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_of_mercury_(32_ºF)>
+        qudt:uneceCommonCode  "N16" .
+
+rec20:pound_per_ream  qudt:uneceCommonCode
+                "RP" .
+
+rec20:mole_per_litre  qudt:uneceCommonCode
+                "C38" .
+
+rec20:picovolt  qudt:uneceCommonCode  "N99" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(mean)>
+        qudt:uneceCommonCode  "J75" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#cup_[unit_of_volume]>
+        qudt:uneceCommonCode  "G21" .
+
+rec20:milligram_per_square_centimetre
+        qudt:uneceCommonCode  "H63" .
+
+rec20:tonne_per_year  qudt:uneceCommonCode
+                "M89" .
+
+rec20:yard_per_hour  qudt:uneceCommonCode
+                "M66" .
+
+rec20:tote  qudt:uneceCommonCode  "TE" .
+
+rec20:roentgen  qudt:uneceCommonCode  "2C" .
+
+rec20:kilopound-force_per_square_inch
+        qudt:uneceCommonCode  "84" .
+
+rec20:gram_per_hour_kelvin
+        qudt:uneceCommonCode  "F36" .
+
+rec20:car_count  qudt:uneceCommonCode  "1B" .
+
+rec20:number_of_lines
+        qudt:uneceCommonCode  "N2" .
+
+rec20:displacement_tonnage
+        qudt:uneceCommonCode  "DPT" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_pound_(pound_inch)>
+        qudt:uneceCommonCode  "IA" .
+
+rec20:gram_per_hour_bar
+        qudt:uneceCommonCode  "F63" .
+
+rec20:millibar_per_bar
+        qudt:uneceCommonCode  "F04" .
+
+rec20:cubic_metre_per_hour_bar
+        qudt:uneceCommonCode  "G87" .
+
+rec20:millimetre_per_second
+        qudt:uneceCommonCode  "C16" .
+
+rec20:half_hour  qudt:uneceCommonCode  "HT" .
+
+rec20:scruple  qudt:uneceCommonCode  "SCR" .
+
+rec20:millilitre_per_second
+        qudt:uneceCommonCode  "40" .
+
+rec20:half_dozen  qudt:uneceCommonCode  "HD" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US)_per_minute>
+        qudt:uneceCommonCode  "5A" .
+
+rec20:sheet  qudt:uneceCommonCode  "ST" .
+
+rec20:reciprocal_cubic_foot
+        qudt:uneceCommonCode  "K20" .
+
+rec20:kilometre_KTM  qudt:uneceCommonCode
+                "KTM" .
+
+rec20:capsule  qudt:uneceCommonCode  "AV" .
+
+rec20:kilogram_per_hour_kelvin
+        qudt:uneceCommonCode  "F40" .
+
+rec20:slug_per_hour  qudt:uneceCommonCode
+                "L66" .
+
+rec20:net_register_ton
+        qudt:uneceCommonCode  "NTT" .
+
+rec20:centimetre_per_second_squared
+        qudt:uneceCommonCode  "M39" .
+
+rec20:millilitre_per_square_centimetre_second
+        qudt:uneceCommonCode  "35" .
+
+rec20:gram_per_litre_kelvin
+        qudt:uneceCommonCode  "G35" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#half_year_(6_months)>
+        qudt:uneceCommonCode  "SAN" .
+
+rec20:nanolitre  qudt:uneceCommonCode  "Q34" .
+
+rec20:kilogram-force_per_square_millimetre
+        qudt:uneceCommonCode  "E41" .
+
+rec20:thousand_square_centimetre
+        qudt:uneceCommonCode  "TJ" .
+
+rec20:Piece_Day  qudt:uneceCommonCode  "HAD" .
+
+rec20:newton_centimetre
+        qudt:uneceCommonCode  "F88" .
+
+rec20:millisievert_per_hour
+        qudt:uneceCommonCode  "P71" .
+
+rec20:cubic_foot_per_day
+        qudt:uneceCommonCode  "K22" .
+
+rec20:degree_Celsius_per_hour
+        qudt:uneceCommonCode  "H12" .
+
+rec20:ampoule  qudt:uneceCommonCode  "AM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)_per_second>
+        qudt:uneceCommonCode  "L56" .
+
+rec20:watt_per_kelvin
+        qudt:uneceCommonCode  "D52" .
+
+rec20:coulomb_metre  qudt:uneceCommonCode
+                "A26" .
+
+rec20:gram_per_day_kelvin
+        qudt:uneceCommonCode  "F35" .
+
+rec20:bottle  qudt:uneceCommonCode  "BO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_second>
+        qudt:uneceCommonCode  "L11" .
+
+rec20:hundred_boxes  qudt:uneceCommonCode
+                "HBX" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#liquid_pint_(US)>
+        qudt:uneceCommonCode  "PTL" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Baume_(US_heavy)>
+        qudt:uneceCommonCode  "J15" .
+
+rec20:centimetre_of_mercury
+        qudt:uneceCommonCode  "J89" .
+
+rec20:additional_minute
+        qudt:uneceCommonCode  "AH" .
+
+rec20:lug  qudt:uneceCommonCode  "Z5" .
+
+rec20:milligram_per_square_metre
+        qudt:uneceCommonCode  "GO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_second_square_foot_degree_Fahrenheit>
+        qudt:uneceCommonCode  "N77" .
+
+rec20:kiloroentgen  qudt:uneceCommonCode
+                "KR" .
+
+rec20:degree_Twaddell
+        qudt:uneceCommonCode  "J31" .
+
+rec20:suppository  qudt:uneceCommonCode
+                "AR" .
+
+rec20:kilovolt_ampere_hour
+        qudt:uneceCommonCode  "C79" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(US_fluid)_per_minute>
+        qudt:uneceCommonCode  "K11" .
+
+rec20:lumen  qudt:uneceCommonCode  "LUM" .
+
+rec20:microcoulomb_per_square_metre
+        qudt:uneceCommonCode  "B88" .
+
+rec20:8-part_cloud_cover
+        qudt:uneceCommonCode  "A59" .
+
+rec20:megajoule_per_second
+        qudt:uneceCommonCode  "D78" .
+
+rec20:newton_metre_second
+        qudt:uneceCommonCode  "C53" .
+
+rec20:cubic_centimetre_per_second_kelvin
+        qudt:uneceCommonCode  "G64" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_cubic_inch>
+        qudt:uneceCommonCode  "L39" .
+
+rec20:pascal_to_the_power_sum_of_stoichiometric_numbers
+        qudt:uneceCommonCode  "P98" .
+
+rec20:bun  qudt:uneceCommonCode  "B6" .
+
+rec20:kilogram_drained_net_weight
+        qudt:uneceCommonCode  "KDW" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US)>
+        qudt:uneceCommonCode  "PT" .
+
+rec20:inch_per_minute_M63
+        qudt:uneceCommonCode  "M63" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton-force_(US_short)>
+        qudt:uneceCommonCode  "L94" .
+
+rec20:foot_of_mercury
+        qudt:uneceCommonCode  "K25" .
+
+rec20:gibibit_per_metre
+        qudt:uneceCommonCode  "E69" .
+
+rec20:activity  qudt:uneceCommonCode  "ACT" .
+
+rec20:actual_ton  qudt:uneceCommonCode  "26" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_square_foot_hour>
+        qudt:uneceCommonCode  "N51" .
+
+rec20:kilovolt  qudt:uneceCommonCode  "KVT" .
+
+rec20:net_litre  qudt:uneceCommonCode  "NE" .
+
+rec20:ton_short_per_hour_degree_Fahrenheit
+        qudt:uneceCommonCode  "L89" .
+
+rec20:pound_per_foot_minute
+        qudt:uneceCommonCode  "N43" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#half_gallon_(US)>
+        qudt:uneceCommonCode  "GH" .
+
+rec20:car  qudt:uneceCommonCode  "NC" .
+
+rec20:kilowatt_hour  qudt:uneceCommonCode
+                "KWH" .
+
+rec20:kiloampere  qudt:uneceCommonCode  "B22" .
+
+rec20:bit_per_cubic_metre
+        qudt:uneceCommonCode  "F01" .
+
+rec20:millimetre_per_degree_Celcius_metre
+        qudt:uneceCommonCode  "E97" .
+
+rec20:gigacalorie  qudt:uneceCommonCode
+                "E11" .
+
+rec20:shannon_per_second
+        qudt:uneceCommonCode  "Q17" .
+
+rec20:reciprocal_cubic_metre_per_second
+        qudt:uneceCommonCode  "C87" .
+
+rec20:millihenry_per_ohm
+        qudt:uneceCommonCode  "H06" .
+
+rec20:milligram_per_minute_bar
+        qudt:uneceCommonCode  "F72" .
+
+rec20:kelvin_per_hour
+        qudt:uneceCommonCode  "F10" .
+
+rec20:pfund  qudt:uneceCommonCode  "M86" .
+
+rec20:bag  qudt:uneceCommonCode  "BG" .
+
+rec20:coulomb_per_metre
+        qudt:uneceCommonCode  "P10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_second>
+        qudt:uneceCommonCode  "L51" .
+
+rec20:tank_cylindrical
+        qudt:uneceCommonCode  "TY" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#billion_(EUR)>
+        qudt:uneceCommonCode  "BIL" .
+
+rec20:milligram  qudt:uneceCommonCode  "MGM" .
+
+rec20:powder_filled_vial
+        qudt:uneceCommonCode  "AW" .
+
+rec20:metre_per_second_squared
+        qudt:uneceCommonCode  "MSK" .
+
+rec20:degree_Celsius_per_minute
+        qudt:uneceCommonCode  "H13" .
+
+rec20:nanohenry  qudt:uneceCommonCode  "C43" .
+
+rec20:nil  qudt:uneceCommonCode  "NIL" .
+
+rec20:Metre_Week  qudt:uneceCommonCode  "MRW" .
+
+rec20:kilogram_per_litre_kelvin
+        qudt:uneceCommonCode  "G39" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_time]>
+        qudt:uneceCommonCode  "SEC" .
+
+rec20:kilolitre_per_hour
+        qudt:uneceCommonCode  "4X" .
+
+rec20:pound-force_per_square_foot
+        qudt:uneceCommonCode  "K85" .
+
+rec20:cycle  qudt:uneceCommonCode  "B7" .
+
+rec20:metre  qudt:uneceCommonCode  "MTR" .
+
+rec20:reciprocal_hour
+        qudt:uneceCommonCode  "H10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pallet_(lift)>
+        qudt:uneceCommonCode  "PF" .
+
+rec20:square_inch_per_second
+        qudt:uneceCommonCode  "G08" .
+
+rec20:milligram_per_second
+        qudt:uneceCommonCode  "F34" .
+
+rec20:vial  qudt:uneceCommonCode  "VI" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_minute>
+        qudt:uneceCommonCode  "K96" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(UK)>
+        qudt:uneceCommonCode  "PTI" .
+
+rec20:degree_Fahrenheit_per_second
+        qudt:uneceCommonCode  "J25" .
+
+rec20:footlambert  qudt:uneceCommonCode
+                "P29" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_square_inch_second>
+        qudt:uneceCommonCode  "N55" .
+
+rec20:kilogram_per_kilogram_of_product
+        qudt:uneceCommonCode  "3H" .
+
+rec20:volt_square_inch_per_pound-force
+        qudt:uneceCommonCode  "H22" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US)>
+        qudt:uneceCommonCode  "GLL" .
+
+rec20:pica  qudt:uneceCommonCode  "R1" .
+
+rec20:bit_per_metre  qudt:uneceCommonCode
+                "E88" .
+
+rec20:bundle  qudt:uneceCommonCode  "BE" .
+
+rec20:hundred_square_foot
+        qudt:uneceCommonCode  "HS" .
+
+rec20:hundred_linear_yard
+        qudt:uneceCommonCode  "YL" .
+
+rec20:nanofarad  qudt:uneceCommonCode  "C41" .
+
+rec20:tenth_minute  qudt:uneceCommonCode
+                "UD" .
+
+rec20:calorie  qudt:uneceCommonCode  "R4" .
+
+rec20:load  qudt:uneceCommonCode  "NL" .
+
+rec20:square_metre_per_newton
+        qudt:uneceCommonCode  "H59" .
+
+rec20:coulomb_per_cubic_millimetre
+        qudt:uneceCommonCode  "A30" .
+
+rec20:kilocoulomb_per_square_metre
+        qudt:uneceCommonCode  "B28" .
+
+rec20:kilogram_per_mole
+        qudt:uneceCommonCode  "D74" .
+
+rec20:microcoulomb  qudt:uneceCommonCode
+                "B86" .
+
+rec20:millicoulomb_per_cubic_metre
+        qudt:uneceCommonCode  "D88" .
+
+rec20:batch  qudt:uneceCommonCode  "5B" .
+
+rec20:ten_pack  qudt:uneceCommonCode  "TP" .
+
+rec20:kilometre_per_second
+        qudt:uneceCommonCode  "M62" .
+
+rec20:hectolitre_of_pure_alcohol
+        qudt:uneceCommonCode  "HPA" .
+
+rec20:locomotive_mile
+        qudt:uneceCommonCode  "1K" .
+
+rec20:revolution_per_minute
+        qudt:uneceCommonCode  "M46" .
+
+rec20:gray_per_second
+        qudt:uneceCommonCode  "A96" .
+
+rec20:base_box  qudt:uneceCommonCode  "BB" .
+
+rec20:therm  qudt:uneceCommonCode  "TD" .
+
+rec20:metric_ton_lubricating_oil
+        qudt:uneceCommonCode  "LUB" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_day>
+        qudt:uneceCommonCode  "J68" .
+
+rec20:kilopound_per_hour
+        qudt:uneceCommonCode  "M90" .
+
+rec20:syphon  qudt:uneceCommonCode  "D28" .
+
+rec20:conventional_millimetre_of_mercury
+        qudt:uneceCommonCode  "HN" .
+
+rec20:reciprocal_square_inch
+        qudt:uneceCommonCode  "P78" .
+
+rec20:microgram_per_litre
+        qudt:uneceCommonCode  "H29" .
+
+rec20:gigajoule  qudt:uneceCommonCode  "GV" .
+
+rec20:square_metre_per_steradian
+        qudt:uneceCommonCode  "D24" .
+
+rec20:newton_second_per_square_metre
+        qudt:uneceCommonCode  "N36" .
+
+rec20:millimetre  qudt:uneceCommonCode  "MMT" .
+
+rec20:exbibit_per_cubic_metre
+        qudt:uneceCommonCode  "E67" .
+
+rec20:blank  qudt:uneceCommonCode  "H21" .
+
+rec20:visit  qudt:uneceCommonCode  "VS" .
+
+rec20:ten_square_yard
+        qudt:uneceCommonCode  "TF" .
+
+rec20:gibibit  qudt:uneceCommonCode  "B30" .
+
+rec20:thousand_foot  qudt:uneceCommonCode
+                "TQ" .
+
+rec20:torr  qudt:uneceCommonCode  "UA" .
+
+rec20:megaohm_per_kilometre
+        qudt:uneceCommonCode  "H36" .
+
+rec20:megaampere_per_square_metre
+        qudt:uneceCommonCode  "B66" .
+
+rec20:degree_Fahrenheit_per_hour
+        qudt:uneceCommonCode  "J23" .
+
+rec20:ten_yard  qudt:uneceCommonCode  "YT" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_cubic_yard>
+        qudt:uneceCommonCode  "G32" .
+
+rec20:milligram_per_day_bar
+        qudt:uneceCommonCode  "F70" .
+
+rec20:Standard_cubic_metre
+        qudt:uneceCommonCode  "SM3" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#actual/360>
+        qudt:uneceCommonCode  "M37" .
+
+rec20:kilogram_named_substance
+        qudt:uneceCommonCode  "KNS" .
+
+rec20:hundred_kilogram_net_mass
+        qudt:uneceCommonCode  "HKM" .
+
+rec20:gage_system  qudt:uneceCommonCode
+                "GZ" .
+
+rec20:newton_per_square_metre
+        qudt:uneceCommonCode  "C55" .
+
+rec20:watt  qudt:uneceCommonCode  "WTT" .
+
+rec20:nanoohm_metre  qudt:uneceCommonCode
+                "C46" .
+
+rec20:page_per_inch  qudt:uneceCommonCode
+                "PQ" .
+
+rec20:number_of_parts
+        qudt:uneceCommonCode  "NPT" .
+
+rec20:coulomb_per_kilogram_second
+        qudt:uneceCommonCode  "A31" .
+
+rec20:kilogram  qudt:uneceCommonCode  "KGM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)>
+        qudt:uneceCommonCode  "GLI" .
+
+rec20:lactose_excess_percentage
+        qudt:uneceCommonCode  "LAC" .
+
+rec20:kilogram_per_litre
+        qudt:uneceCommonCode  "B35" .
+
+rec20:hectopascal_per_bar
+        qudt:uneceCommonCode  "E99" .
+
+rec20:joule_square_metre_per_kilogram
+        qudt:uneceCommonCode  "B20" .
+
+rec20:three_pack  qudt:uneceCommonCode  "P3" .
+
+rec20:pound_foot_per_second
+        qudt:uneceCommonCode  "N10" .
+
+rec20:kilogram_per_second_kelvin
+        qudt:uneceCommonCode  "F42" .
+
+rec20:crate  qudt:uneceCommonCode  "CR" .
+
+rec20:kilogram_per_cubic_decimetre_kelvin
+        qudt:uneceCommonCode  "H54" .
+
+rec20:sievert_per_minute
+        qudt:uneceCommonCode  "P74" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second>
+        qudt:uneceCommonCode  "J82" .
+
+rec20:foot_per_hour  qudt:uneceCommonCode
+                "K14" .
+
+rec20:teraohm  qudt:uneceCommonCode  "H44" .
+
+rec20:microtesla  qudt:uneceCommonCode  "D81" .
+
+rec20:tebibyte  qudt:uneceCommonCode  "E61" .
+
+rec20:gigaelectronvolt
+        qudt:uneceCommonCode  "A85" .
+
+rec20:leaf  qudt:uneceCommonCode  "LEF" .
+
+rec20:megacoulomb_per_cubic_metre
+        qudt:uneceCommonCode  "B69" .
+
+rec20:cubic_metre_per_hour_kelvin
+        qudt:uneceCommonCode  "G70" .
+
+rec20:thousand_piece  qudt:uneceCommonCode
+                "T3" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_minute>
+        qudt:uneceCommonCode  "L46" .
+
+rec20:assembly  qudt:uneceCommonCode  "AY" .
+
+rec20:board_foot  qudt:uneceCommonCode  "BFT" .
+
+rec20:gram_per_second_bar
+        qudt:uneceCommonCode  "F65" .
+
+rec20:shot  qudt:uneceCommonCode  "14" .
+
+rec20:milliampere_per_millimetre
+        qudt:uneceCommonCode  "F76" .
+
+rec20:degree_per_metre
+        qudt:uneceCommonCode  "H27" .
+
+rec20:part_per_hundred_thousand
+        qudt:uneceCommonCode  "E40" .
+
+rec20:tonne_per_hour_bar
+        qudt:uneceCommonCode  "L75" .
+
+rec20:pair_inch  qudt:uneceCommonCode  "PB" .
+
+rec20:reciprocal_cubic_metre
+        qudt:uneceCommonCode  "C86" .
+
+rec20:newton_metre_per_radian
+        qudt:uneceCommonCode  "M93" .
+
+rec20:megametre  qudt:uneceCommonCode  "MAM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_square_centimetre_minute>
+        qudt:uneceCommonCode  "N56" .
+
+rec20:square_metre_per_second_kelvin
+        qudt:uneceCommonCode  "G09" .
+
+rec20:microwatt_per_square_metre
+        qudt:uneceCommonCode  "D85" .
+
+rec20:hectopascal_per_metre
+        qudt:uneceCommonCode  "P82" .
+
+rec20:Formazin_nephelometric_unit
+        qudt:uneceCommonCode  "FNU" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_displacement>
+        qudt:uneceCommonCode  "A77" .
+
+rec20:tenth_cubic_foot
+        qudt:uneceCommonCode  "TA" .
+
+rec20:great_gross  qudt:uneceCommonCode
+                "GGR" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_hour>
+        qudt:uneceCommonCode  "L49" .
+
+rec20:kilosiemens  qudt:uneceCommonCode
+                "B53" .
+
+rec20:henry_per_ohm  qudt:uneceCommonCode
+                "H04" .
+
+rec20:twenty_pack  qudt:uneceCommonCode
+                "4E" .
+
+rec20:pascal_second_per_cubic_metre
+        qudt:uneceCommonCode  "C66" .
+
+rec20:litre_per_second
+        qudt:uneceCommonCode  "G51" .
+
+rec20:run  qudt:uneceCommonCode  "RU" .
+
+rec20:cubic_metre_per_kelvin
+        qudt:uneceCommonCode  "G29" .
+
+rec20:calorie_per_gram
+        qudt:uneceCommonCode  "93" .
+
+rec20:group  qudt:uneceCommonCode  "10" .
+
+rec20:million_BTUs  qudt:uneceCommonCode
+                "BZ" .
+
+rec20:microhenry_per_metre
+        qudt:uneceCommonCode  "B91" .
+
+rec20:shipping_ton  qudt:uneceCommonCode
+                "SHT" .
+
+rec20:shannon  qudt:uneceCommonCode  "Q14" .
+
+rec20:inch_per_year  qudt:uneceCommonCode
+                "M61" .
+
+rec20:metre_per_second_bar
+        qudt:uneceCommonCode  "L13" .
+
+rec20:degree_Oechsle  qudt:uneceCommonCode
+                "J27" .
+
+rec20:henry_per_kiloohm
+        qudt:uneceCommonCode  "H03" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_hour_square_foot_degree_Rankine>
+        qudt:uneceCommonCode  "A23" .
+
+rec20:cone  qudt:uneceCommonCode  "CJ" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)>
+        qudt:uneceCommonCode  "J57" .
+
+rec20:dozen_roll  qudt:uneceCommonCode  "DRL" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#mile_per_hour_(statute_mile)>
+        qudt:uneceCommonCode  "HM" .
+
+rec20:base_weight  qudt:uneceCommonCode
+                "BW" .
+
+rec20:foot_per_second_degree_Fahrenheit
+        qudt:uneceCommonCode  "K18" .
+
+rec20:net_imperial_gallon
+        qudt:uneceCommonCode  "NI" .
+
+rec20:radian_per_second_squared
+        qudt:uneceCommonCode  "2B" .
+
+rec20:pound_per_pound_of_product
+        qudt:uneceCommonCode  "3E" .
+
+rec20:millilitre_per_second_bar
+        qudt:uneceCommonCode  "G93" .
+
+rec20:metric_ton_including_inner_packaging
+        qudt:uneceCommonCode  "TIP" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_hour>
+        qudt:uneceCommonCode  "L34" .
+
+rec20:micromole  qudt:uneceCommonCode  "FH" .
+
+rec20:gigabecquerel  qudt:uneceCommonCode
+                "GBQ" .
+
+rec20:standard  qudt:uneceCommonCode  "WSD" .
+
+rec20:microsiemens_per_metre
+        qudt:uneceCommonCode  "G43" .
+
+rec20:volt_per_centimetre
+        qudt:uneceCommonCode  "D47" .
+
+rec20:Btu_per_cubic_foot
+        qudt:uneceCommonCode  "B0" .
+
+rec20:pound_gage  qudt:uneceCommonCode  "C77" .
+
+rec20:newton_metre_per_kilogram
+        qudt:uneceCommonCode  "G19" .
+
+rec20:Saybold_universal_second
+        qudt:uneceCommonCode  "90" .
+
+rec20:quire  qudt:uneceCommonCode  "QR" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilogram_of_potassium_hydroxide_(caustic_potash)>
+        qudt:uneceCommonCode  "KPH" .
+
+rec20:newton_per_millimetre
+        qudt:uneceCommonCode  "F47" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_hour>
+        qudt:uneceCommonCode  "K99" .
+
+rec20:millimetre_per_minute
+        qudt:uneceCommonCode  "H81" .
+
+rec20:inches_of_water
+        qudt:uneceCommonCode  "IF" .
+
+rec20:lite  qudt:uneceCommonCode  "LE" .
+
+rec20:gamma  qudt:uneceCommonCode  "P12" .
+
+rec20:kilogram_per_cubic_metre_bar
+        qudt:uneceCommonCode  "G18" .
+
+rec20:millilitre_per_minute
+        qudt:uneceCommonCode  "41" .
+
+rec20:standard_cubic_foot
+        qudt:uneceCommonCode  "5I" .
+
+rec20:denier_A49  qudt:uneceCommonCode  "A49" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_square_foot>
+        qudt:uneceCommonCode  "K65" .
+
+rec20:dollar_per_hour
+        qudt:uneceCommonCode  "D67" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_square_inch>
+        qudt:uneceCommonCode  "N22" .
+
+rec20:inch_per_second
+        qudt:uneceCommonCode  "IU" .
+
+rec20:gigapascal  qudt:uneceCommonCode  "A89" .
+
+rec20:millinewton_metre
+        qudt:uneceCommonCode  "D83" .
+
+rec20:milligram_per_second_kelvin
+        qudt:uneceCommonCode  "F46" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_hour>
+        qudt:uneceCommonCode  "L58" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(UK)_per_hour>
+        qudt:uneceCommonCode  "L45" .
+
+rec20:kilowatt_hour_per_kelvin
+        qudt:uneceCommonCode  "E47" .
+
+rec20:langley  qudt:uneceCommonCode  "P40" .
+
+rec20:conventional_metre_of_water
+        qudt:uneceCommonCode  "N23" .
+
+rec20:megapascal_per_bar
+        qudt:uneceCommonCode  "F05" .
+
+rec20:lump_sum  qudt:uneceCommonCode  "LS" .
+
+rec20:score  qudt:uneceCommonCode  "SCO" .
+
+rec20:microgray_per_second
+        qudt:uneceCommonCode  "P55" .
+
+rec20:pipeline_joint  qudt:uneceCommonCode
+                "JNT" .
+
+rec20:kilogram_per_cubic_metre_pascal
+        qudt:uneceCommonCode  "M73" .
+
+rec20:storage_unit  qudt:uneceCommonCode
+                "S7" .
+
+rec20:degree_Brix  qudt:uneceCommonCode
+                "J18" .
+
+rec20:kilojoule_per_minute
+        qudt:uneceCommonCode  "P19" .
+
+rec20:percent_per_decakelvin
+        qudt:uneceCommonCode  "H73" .
+
+rec20:volt_ampere_per_pound
+        qudt:uneceCommonCode  "71" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(UK_liquid)_per_hour>
+        qudt:uneceCommonCode  "K95" .
+
+rec20:cubic_yard_per_psi
+        qudt:uneceCommonCode  "M14" .
+
+rec20:cost  qudt:uneceCommonCode  "C5" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#15_°C_calorie>
+        qudt:uneceCommonCode  "A1" .
+
+rec20:kilogram_of_methylamine
+        qudt:uneceCommonCode  "KMA" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)-force>
+        qudt:uneceCommonCode  "L40" .
+
+rec20:module_width  qudt:uneceCommonCode
+                "H77" .
+
+rec20:centigram  qudt:uneceCommonCode  "CGM" .
+
+rec20:dose  qudt:uneceCommonCode  "E27" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US_shipping)>
+        qudt:uneceCommonCode  "L86" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_liquid)_per_minute>
+        qudt:uneceCommonCode  "L10" .
+
+rec20:assortment  qudt:uneceCommonCode  "AS" .
+
+rec20:centimetre_per_second_bar
+        qudt:uneceCommonCode  "J85" .
+
+rec20:tank_rectangular
+        qudt:uneceCommonCode  "TK" .
+
+rec20:slug_per_day  qudt:uneceCommonCode
+                "L63" .
+
+rec20:newton_second_per_metre
+        qudt:uneceCommonCode  "C58" .
+
+rec20:percent_per_millimetre
+        qudt:uneceCommonCode  "J10" .
+
+rec20:kilogram_per_day_bar
+        qudt:uneceCommonCode  "F66" .
+
+rec20:ampere_hour  qudt:uneceCommonCode
+                "AMH" .
+
+rec20:cop  qudt:uneceCommonCode  "AJ" .
+
+rec20:gigabyte  qudt:uneceCommonCode  "E34" .
+
+rec20:millilitre_per_hour_kelvin
+        qudt:uneceCommonCode  "G74" .
+
+rec20:hectolitre  qudt:uneceCommonCode  "HLT" .
+
+rec20:kilojoule_per_gram
+        qudt:uneceCommonCode  "Q31" .
+
+rec20:ounce_av  qudt:uneceCommonCode  "OZ" .
+
+rec20:gram_per_cubic_centimetre
+        qudt:uneceCommonCode  "23" .
+
+rec20:pascal_per_bar  qudt:uneceCommonCode
+                "F07" .
+
+rec20:Beaufort  qudt:uneceCommonCode  "M19" .
+
+rec20:cubic_metre_per_second_kelvin
+        qudt:uneceCommonCode  "G72" .
+
+rec20:pebibyte  qudt:uneceCommonCode  "E60" .
+
+rec20:joule_per_mole_kelvin
+        qudt:uneceCommonCode  "B16" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(UK_fluid)_per_day>
+        qudt:uneceCommonCode  "J95" .
+
+rec20:display  qudt:uneceCommonCode  "DS" .
+
+rec20:micropoise  qudt:uneceCommonCode  "J32" .
+
+rec20:standard_litre  qudt:uneceCommonCode
+                "STL" .
+
+rec20:pound-force_per_foot
+        qudt:uneceCommonCode  "F17" .
+
+rec20:inch_per_linear_foot
+        qudt:uneceCommonCode  "B82" .
+
+rec20:pound-force_second_per_square_inch
+        qudt:uneceCommonCode  "K92" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_day>
+        qudt:uneceCommonCode  "L48" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#anti-hemophilic_factor_(AHF)_unit>
+        qudt:uneceCommonCode  "AQ" .
+
+rec20:reciprocal_metre
+        qudt:uneceCommonCode  "C92" .
+
+rec20:cubic_foot_per_minute_per_square_foot
+        qudt:uneceCommonCode  "36" .
+
+rec20:solid_pound  qudt:uneceCommonCode
+                "SD" .
+
+rec20:neper_per_second
+        qudt:uneceCommonCode  "C51" .
+
+rec20:kilobecquerel_per_kilogram
+        qudt:uneceCommonCode  "B25" .
+
+rec20:bit_per_square_metre
+        qudt:uneceCommonCode  "E89" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#content_ton_(metric)>
+        qudt:uneceCommonCode  "CTN" .
+
+rec20:microwatt  qudt:uneceCommonCode  "D80" .
+
+rec20:big_point  qudt:uneceCommonCode  "H82" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(US_short)_per_cubic_yard>
+        qudt:uneceCommonCode  "L93" .
+
+rec20:microbar  qudt:uneceCommonCode  "B85" .
+
+rec20:joule_per_kelvin
+        qudt:uneceCommonCode  "JE" .
+
+rec20:ream  qudt:uneceCommonCode  "RM" .
+
+rec20:electronvolt_square_metre
+        qudt:uneceCommonCode  "A55" .
+
+rec20:hundred_troy_ounce
+        qudt:uneceCommonCode  "HO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#stone_(UK)>
+        qudt:uneceCommonCode  "STI" .
+
+rec20:kilogram_per_second
+        qudt:uneceCommonCode  "KGS" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_second>
+        qudt:uneceCommonCode  "J52" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#short_standard_(7200_matches)>
+        qudt:uneceCommonCode  "SST" .
+
+rec20:link  qudt:uneceCommonCode  "LK" .
+
+rec20:millisievert_per_second
+        qudt:uneceCommonCode  "P66" .
+
+rec20:megagram  qudt:uneceCommonCode  "2U" .
+
+rec20:wet_kilo  qudt:uneceCommonCode  "W2" .
+
+rec20:twenty_foot_container
+        qudt:uneceCommonCode  "20" .
+
+rec20:ounce_foot  qudt:uneceCommonCode  "4R" .
+
+rec20:becquerel  qudt:uneceCommonCode  "BQL" .
+
+rec20:combo  qudt:uneceCommonCode  "CZ" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#peck_(US_dry)_per_minute>
+        qudt:uneceCommonCode  "L50" .
+
+rec20:tin  qudt:uneceCommonCode  "TN" .
+
+rec20:millivolt_per_kelvin
+        qudt:uneceCommonCode  "D49" .
+
+rec20:mole_per_cubiv_metre_to_the_power_sum_of_stoichiometric_numbers
+        qudt:uneceCommonCode  "P99" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)-force_inch>
+        qudt:uneceCommonCode  "L41" .
+
+rec20:gram_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "G36" .
+
+rec20:terahertz  qudt:uneceCommonCode  "D29" .
+
+rec20:megavolt_ampere_reactive_hour
+        qudt:uneceCommonCode  "MAH" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#million_Btu(IT)_per_hour>
+        qudt:uneceCommonCode  "E16" .
+
+rec20:litre  qudt:uneceCommonCode  "LTR" .
+
+rec20:centimetre_per_bar
+        qudt:uneceCommonCode  "G04" .
+
+rec20:millivolt_per_metre
+        qudt:uneceCommonCode  "C30" .
+
+rec20:content_gram  qudt:uneceCommonCode
+                "CTG" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#fiftyfive_gallon_(US)_drum>
+        qudt:uneceCommonCode  "18" .
+
+rec20:ohm_centimetre  qudt:uneceCommonCode
+                "C60" .
+
+rec20:conventional_centimetre_of_water
+        qudt:uneceCommonCode  "H78" .
+
+rec20:erg_per_second  qudt:uneceCommonCode
+                "A63" .
+
+rec20:kilogram_per_kilogram
+        qudt:uneceCommonCode  "M29" .
+
+rec20:hectopascal_per_kelvin
+        qudt:uneceCommonCode  "F82" .
+
+rec20:milli-inch  qudt:uneceCommonCode  "77" .
+
+rec20:hundred_pack  qudt:uneceCommonCode
+                "CNP" .
+
+rec20:mat  qudt:uneceCommonCode  "MT" .
+
+rec20:equivalent_gallon
+        qudt:uneceCommonCode  "EQ" .
+
+rec20:baud  qudt:uneceCommonCode  "J38" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ten_thousand_gallon_(US)_tankcar>
+        qudt:uneceCommonCode  "96" .
+
+rec20:segment  qudt:uneceCommonCode  "SG" .
+
+rec20:steradian  qudt:uneceCommonCode  "D27" .
+
+rec20:reciprocal_volt_-_ampere_reciprocal_second
+        qudt:uneceCommonCode  "M30" .
+
+rec20:ration  qudt:uneceCommonCode  "13" .
+
+rec20:psi_per_inch  qudt:uneceCommonCode
+                "P86" .
+
+rec20:barn_per_steradian
+        qudt:uneceCommonCode  "A17" .
+
+rec20:milligram_per_kilogram
+        qudt:uneceCommonCode  "NA" .
+
+rec20:gram_including_container
+        qudt:uneceCommonCode  "GIC" .
+
+rec20:volt_per_pascal
+        qudt:uneceCommonCode  "N98" .
+
+rec20:hundred_foot  qudt:uneceCommonCode
+                "HF" .
+
+rec20:square_decimetre
+        qudt:uneceCommonCode  "DMK" .
+
+rec20:cubic_foot_per_degree_Fahrenheit
+        qudt:uneceCommonCode  "K21" .
+
+rec20:half_litre  qudt:uneceCommonCode  "H2" .
+
+rec20:air_dry_ton  qudt:uneceCommonCode
+                "E28" .
+
+rec20:mole_per_kilogram_kelvin
+        qudt:uneceCommonCode  "L24" .
+
+rec20:millibar  qudt:uneceCommonCode  "MBR" .
+
+rec20:pound_per_cubic_foot
+        qudt:uneceCommonCode  "87" .
+
+rec20:kiloelectronvolt
+        qudt:uneceCommonCode  "B29" .
+
+rec20:hundred_count  qudt:uneceCommonCode
+                "HC" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(thermochemical)_inch>
+        qudt:uneceCommonCode  "N89" .
+
+rec20:gram_per_day_bar
+        qudt:uneceCommonCode  "F62" .
+
+rec20:microlitre  qudt:uneceCommonCode  "4G" .
+
+rec20:joule_per_kilogram
+        qudt:uneceCommonCode  "J2" .
+
+rec20:millibar_per_kelvin
+        qudt:uneceCommonCode  "F84" .
+
+rec20:failures_in_time
+        qudt:uneceCommonCode  "FIT" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(US)_per_hour>
+        qudt:uneceCommonCode  "G50" .
+
+rec20:track_foot  qudt:uneceCommonCode  "FE" .
+
+rec20:draize_score  qudt:uneceCommonCode
+                "D8" .
+
+rec20:siemens_square_metre_per_mole
+        qudt:uneceCommonCode  "D12" .
+
+rec20:Kilowatt_hour_per_standard_cubic_metre
+        qudt:uneceCommonCode  "KWS" .
+
+rec20:gauss  qudt:uneceCommonCode  "76" .
+
+rec20:kibibit_per_square_metre
+        qudt:uneceCommonCode  "E73" .
+
+rec20:kelvin_per_watt
+        qudt:uneceCommonCode  "B21" .
+
+rec20:gray_per_minute
+        qudt:uneceCommonCode  "P57" .
+
+rec20:petabit  qudt:uneceCommonCode  "E78" .
+
+rec20:milliampere_per_inch
+        qudt:uneceCommonCode  "F08" .
+
+rec20:French_gauge  qudt:uneceCommonCode
+                "H79" .
+
+rec20:gram_per_mole  qudt:uneceCommonCode
+                "A94" .
+
+rec20:curl_unit  qudt:uneceCommonCode  "94" .
+
+rec20:set  qudt:uneceCommonCode  "SET" .
+
+rec20:strip  qudt:uneceCommonCode  "SR" .
+
+rec20:percent_per_volt
+        qudt:uneceCommonCode  "H95" .
+
+rec20:kilogauss  qudt:uneceCommonCode  "78" .
+
+rec20:liquid_pound  qudt:uneceCommonCode
+                "LP" .
+
+rec20:metric_horse_power
+        qudt:uneceCommonCode  "HJ" .
+
+rec20:tonne_per_second_kelvin
+        qudt:uneceCommonCode  "L82" .
+
+rec20:kilosiemens_per_metre
+        qudt:uneceCommonCode  "B54" .
+
+rec20:decibel  qudt:uneceCommonCode  "2N" .
+
+rec20:watt_per_square_metre
+        qudt:uneceCommonCode  "D54" .
+
+rec20:kilogram_per_cubic_centimetre
+        qudt:uneceCommonCode  "G31" .
+
+rec20:stick  qudt:uneceCommonCode  "STC" .
+
+rec20:pebibit_per_square_metre
+        qudt:uneceCommonCode  "E81" .
+
+rec20:milligram_per_metre
+        qudt:uneceCommonCode  "C12" .
+
+rec20:degree_day  qudt:uneceCommonCode  "E10" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#therm_(EC)>
+        qudt:uneceCommonCode  "N71" .
+
+rec20:biot  qudt:uneceCommonCode  "N96" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_minute>
+        qudt:uneceCommonCode  "L35" .
+
+rec20:million_cubic_metre
+        qudt:uneceCommonCode  "HMQ" .
+
+rec20:candela_per_square_foot
+        qudt:uneceCommonCode  "P32" .
+
+rec20:troy_ounce_or_apothecary_ounce
+        qudt:uneceCommonCode  "APZ" .
+
+rec20:megaampere  qudt:uneceCommonCode  "H38" .
+
+rec20:megajoule_per_kilogram
+        qudt:uneceCommonCode  "JK" .
+
+rec20:bar_cubic_metre_per_second
+        qudt:uneceCommonCode  "F92" .
+
+rec20:active_unit  qudt:uneceCommonCode
+                "E25" .
+
+rec20:split_tank_truck
+        qudt:uneceCommonCode  "SK" .
+
+rec20:milliradian  qudt:uneceCommonCode
+                "C25" .
+
+rec20:volt_per_microsecond
+        qudt:uneceCommonCode  "H24" .
+
+rec20:foot_per_psi  qudt:uneceCommonCode
+                "K17" .
+
+rec20:gram_per_litre_bar
+        qudt:uneceCommonCode  "G13" .
+
+rec20:four_pack  qudt:uneceCommonCode  "P4" .
+
+rec20:inch_per_second_degree_Fahrenheit
+        qudt:uneceCommonCode  "K47" .
+
+rec20:henry  qudt:uneceCommonCode  "81" .
+
+rec20:millilitre_per_second_kelvin
+        qudt:uneceCommonCode  "G76" .
+
+rec20:carton  qudt:uneceCommonCode  "CT" .
+
+rec20:inch_of_water  qudt:uneceCommonCode
+                "F78" .
+
+rec20:megajoule_per_cubic_metre
+        qudt:uneceCommonCode  "JM" .
+
+rec20:gram_per_second_kelvin
+        qudt:uneceCommonCode  "F38" .
+
+rec20:dispenser  qudt:uneceCommonCode  "DI" .
+
+rec20:kilogram_per_cubic_decimetre_bar
+        qudt:uneceCommonCode  "H55" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_second>
+        qudt:uneceCommonCode  "K81" .
+
+rec20:kibibyte  qudt:uneceCommonCode  "E64" .
+
+rec20:lumen_per_square_metre
+        qudt:uneceCommonCode  "B60" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US_dry)>
+        qudt:uneceCommonCode  "L62" .
+
+rec20:radian_square_metre_per_mole
+        qudt:uneceCommonCode  "C82" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#lot_[unit_of_weight]>
+        qudt:uneceCommonCode  "D04" .
+
+rec20:kilometre_KMT  qudt:uneceCommonCode
+                "KMT" .
+
+rec20:gram_per_minute
+        qudt:uneceCommonCode  "F28" .
+
+rec20:attojoule  qudt:uneceCommonCode  "A13" .
+
+rec20:watt_per_square_inch
+        qudt:uneceCommonCode  "N49" .
+
+rec20:volt_second_per_metre
+        qudt:uneceCommonCode  "H45" .
+
+rec20:millilitre_per_kelvin
+        qudt:uneceCommonCode  "G30" .
+
+rec20:megaelectronvolt
+        qudt:uneceCommonCode  "B71" .
+
+rec20:cubic_metre_per_hour
+        qudt:uneceCommonCode  "MQH" .
+
+rec20:nanoohm  qudt:uneceCommonCode  "P22" .
+
+rec20:stick_military  qudt:uneceCommonCode
+                "15" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_hour>
+        qudt:uneceCommonCode  "J60" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kiloampere_hour_(thousand_ampere_hour)>
+        qudt:uneceCommonCode  "TAH" .
+
+rec20:dioptre  qudt:uneceCommonCode  "Q25" .
+
+rec20:inch_per_two_pi_radiant
+        qudt:uneceCommonCode  "H57" .
+
+rec20:poundal_second_per_square_foot
+        qudt:uneceCommonCode  "N34" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_second_psi>
+        qudt:uneceCommonCode  "K83" .
+
+rec20:kilojoule  qudt:uneceCommonCode  "KJO" .
+
+rec20:microgray_per_hour
+        qudt:uneceCommonCode  "P63" .
+
+rec20:metre_per_radiant
+        qudt:uneceCommonCode  "M55" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#thousand_gallon_(US)>
+        qudt:uneceCommonCode  "T6" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilogram_of_substance_90_%_dry>
+        qudt:uneceCommonCode  "KSD" .
+
+rec20:microhenry  qudt:uneceCommonCode  "B90" .
+
+rec20:millilitre_per_litre
+        qudt:uneceCommonCode  "L19" .
+
+rec20:microgram_per_hectogram
+        qudt:uneceCommonCode  "Q29" .
+
+rec20:percent_per_1000_hour
+        qudt:uneceCommonCode  "62" .
+
+rec20:kilonewton_per_square_metre
+        qudt:uneceCommonCode  "KNM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_second_centimetre_kelvin>
+        qudt:uneceCommonCode  "D38" .
+
+rec20:kilobecquerel  qudt:uneceCommonCode
+                "2Q" .
+
+rec20:megaohm_per_metre
+        qudt:uneceCommonCode  "H37" .
+
+rec20:gram_per_litre  qudt:uneceCommonCode
+                "GL" .
+
+rec20:reciprocal_year
+        qudt:uneceCommonCode  "H09" .
+
+rec20:reciprocal_second_per_steradian_metre_squared
+        qudt:uneceCommonCode  "D2" .
+
+rec20:gram_per_cubic_centimetre_bar
+        qudt:uneceCommonCode  "G11" .
+
+rec20:Decibel-milliwatts
+        qudt:uneceCommonCode  "DBM" .
+
+rec20:five_pack  qudt:uneceCommonCode  "P5" .
+
+rec20:ampere_per_square_metre
+        qudt:uneceCommonCode  "A41" .
+
+rec20:hundred_cubic_foot
+        qudt:uneceCommonCode  "HH" .
+
+rec20:inch_per_second_psi
+        qudt:uneceCommonCode  "K48" .
+
+rec20:card  qudt:uneceCommonCode  "CG" .
+
+rec20:reciprocal_joule_per_cubic_metre
+        qudt:uneceCommonCode  "C90" .
+
+rec20:pound_inch_per_second
+        qudt:uneceCommonCode  "N11" .
+
+rec20:millinewton  qudt:uneceCommonCode
+                "C20" .
+
+rec20:pascal_squared_second
+        qudt:uneceCommonCode  "P42" .
+
+rec20:metre_per_minute
+        qudt:uneceCommonCode  "2X" .
+
+rec20:litre_per_minute
+        qudt:uneceCommonCode  "L2" .
+
+rec20:mole_per_litre_kelvin
+        qudt:uneceCommonCode  "L26" .
+
+rec20:yard_per_psi  qudt:uneceCommonCode
+                "L99" .
+
+rec20:pound-force_per_square_inch_degree_Fahrenheit
+        qudt:uneceCommonCode  "K86" .
+
+rec20:pad  qudt:uneceCommonCode  "PD" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ton_(UK_shipping)>
+        qudt:uneceCommonCode  "L84" .
+
+rec20:poise_per_bar  qudt:uneceCommonCode
+                "F06" .
+
+rec20:electronvolt  qudt:uneceCommonCode
+                "A53" .
+
+rec20:picopascal_per_kilometre
+        qudt:uneceCommonCode  "H69" .
+
+rec20:millijoule  qudt:uneceCommonCode  "C15" .
+
+rec20:thousand_casing
+        qudt:uneceCommonCode  "T5" .
+
+rec20:microfarad  qudt:uneceCommonCode  "4O" .
+
+rec20:slug_per_cubic_foot
+        qudt:uneceCommonCode  "L65" .
+
+rec20:pound-force_foot_per_ampere
+        qudt:uneceCommonCode  "F22" .
+
+rec20:cubic_decimetre_per_cubic_metre
+        qudt:uneceCommonCode  "J91" .
+
+rec20:gigaohm_metre  qudt:uneceCommonCode
+                "A88" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#calorie_(thermochemical)_per_square_centimetre>
+        qudt:uneceCommonCode  "P39" .
+
+rec20:two_week  qudt:uneceCommonCode  "W4" .
+
+rec20:box  qudt:uneceCommonCode  "BX" .
+
+rec20:reciprocal_kelvin_or_kelvin_to_the_power_minus_one
+        qudt:uneceCommonCode  "C91" .
+
+rec20:mile_per_second
+        qudt:uneceCommonCode  "M58" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_square_foot>
+        qudt:uneceCommonCode  "P38" .
+
+rec20:pair  qudt:uneceCommonCode  "PR" .
+
+rec20:terabyte  qudt:uneceCommonCode  "E35" .
+
+rec20:reciprocal_second
+        qudt:uneceCommonCode  "C97" .
+
+rec20:reciprocal_bar  qudt:uneceCommonCode
+                "F58" .
+
+rec20:psi_cubic_inch_per_second
+        qudt:uneceCommonCode  "K87" .
+
+rec20:decimetre  qudt:uneceCommonCode  "DMT" .
+
+rec20:kilomole_per_second
+        qudt:uneceCommonCode  "E94" .
+
+rec20:pump  qudt:uneceCommonCode  "5G" .
+
+rec20:nanoampere  qudt:uneceCommonCode  "C39" .
+
+rec20:milligram_per_cubic_metre_kelvin
+        qudt:uneceCommonCode  "L17" .
+
+rec20:weber_metre  qudt:uneceCommonCode
+                "P50" .
+
+rec20:coulomb_per_cubic_metre
+        qudt:uneceCommonCode  "A29" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gunter's_chain>
+        qudt:uneceCommonCode  "X1" .
+
+rec20:radian  qudt:uneceCommonCode  "C81" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#disk_(disc)>
+        qudt:uneceCommonCode  "DC" .
+
+rec20:newton_metre_per_degree
+        qudt:uneceCommonCode  "F89" .
+
+rec20:ten_thousand_yard
+        qudt:uneceCommonCode  "UH" .
+
+rec20:joule_per_cubic_metre
+        qudt:uneceCommonCode  "B8" .
+
+rec20:cubic_decimetre_per_second
+        qudt:uneceCommonCode  "J93" .
+
+rec20:watt_per_cubic_metre
+        qudt:uneceCommonCode  "H47" .
+
+rec20:newton_metre_squared_per_kilogram_squared
+        qudt:uneceCommonCode  "C54" .
+
+rec20:gross  qudt:uneceCommonCode  "GRO" .
+
+rec20:rack_unit  qudt:uneceCommonCode  "H80" .
+
+rec20:hanging_container
+        qudt:uneceCommonCode  "Z11" .
+
+rec20:Joule_per_standard_cubic_metre
+        qudt:uneceCommonCode  "Q42" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#thousand_foot_(linear)>
+        qudt:uneceCommonCode  "TL" .
+
+rec20:kilogram_per_second_bar
+        qudt:uneceCommonCode  "F69" .
+
+rec20:bulk  qudt:uneceCommonCode  "VQ" .
+
+rec20:megabyte  qudt:uneceCommonCode  "4L" .
+
+rec20:microgray_per_minute
+        qudt:uneceCommonCode  "P59" .
+
+rec20:tonne_per_minute
+        qudt:uneceCommonCode  "L78" .
+
+rec20:barn  qudt:uneceCommonCode  "A14" .
+
+rec20:Pferdestaerke  qudt:uneceCommonCode
+                "N12" .
+
+rec20:credit  qudt:uneceCommonCode  "B17" .
+
+rec20:millinewton_per_metre
+        qudt:uneceCommonCode  "C22" .
+
+rec20:nanofarad_per_metre
+        qudt:uneceCommonCode  "C42" .
+
+rec20:milliequivalence_caustic_potash_per_gram_of_product
+        qudt:uneceCommonCode  "KO" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)>
+        qudt:uneceCommonCode  "ONZ" .
+
+rec20:millimole  qudt:uneceCommonCode  "C18" .
+
+rec20:ampere_second  qudt:uneceCommonCode
+                "A8" .
+
+rec20:maxwell  qudt:uneceCommonCode  "B65" .
+
+rec20:square_metre_per_steradian_joule
+        qudt:uneceCommonCode  "D25" .
+
+rec20:tonne_kilometre
+        qudt:uneceCommonCode  "TKM" .
+
+rec20:net_ton  qudt:uneceCommonCode  "NT" .
+
+rec20:working_day  qudt:uneceCommonCode
+                "E49" .
+
+rec20:batt  qudt:uneceCommonCode  "B9" .
+
+rec20:beats_per_minute
+        qudt:uneceCommonCode  "BPM" .
+
+rec20:ten_thousand_sticks
+        qudt:uneceCommonCode  "TTS" .
+
+rec20:30-day_month  qudt:uneceCommonCode
+                "M36" .
+
+rec20:gibibyte  qudt:uneceCommonCode  "E62" .
+
+rec20:megajoule  qudt:uneceCommonCode  "3B" .
+
+rec20:hertz  qudt:uneceCommonCode  "HTZ" .
+
+rec20:tonne_per_second_bar
+        qudt:uneceCommonCode  "L83" .
+
+rec20:revolutions_per_second
+        qudt:uneceCommonCode  "RPS" .
+
+rec20:milligray_per_minute
+        qudt:uneceCommonCode  "P58" .
+
+rec20:ohm_circular-mil_per_foot
+        qudt:uneceCommonCode  "P23" .
+
+rec20:stokes_per_kelvin
+        qudt:uneceCommonCode  "G10" .
+
+rec20:theoretical_kilogram
+        qudt:uneceCommonCode  "53" .
+
+rec20:percent_weight  qudt:uneceCommonCode
+                "60" .
+
+rec20:metric_ton_including_container
+        qudt:uneceCommonCode  "TIC" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#composite_product_pound_(total_weight)>
+        qudt:uneceCommonCode  "C1" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_metre_hour_degree_Celsius_per_kilocalorie_(international_table)>
+        qudt:uneceCommonCode  "L14" .
+
+rec20:million_Btu_per_1000_cubic_foot
+        qudt:uneceCommonCode  "M9" .
+
+rec20:milligram_per_kelvin
+        qudt:uneceCommonCode  "F16" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#micrometre_(micron)>
+        qudt:uneceCommonCode  "4H" .
+
+rec20:ohm_kilometre  qudt:uneceCommonCode
+                "M24" .
+
+rec20:candela_per_square_inch
+        qudt:uneceCommonCode  "P28" .
+
+rec20:mole_per_cubic_metre
+        qudt:uneceCommonCode  "C36" .
+
+rec20:reciprocal_litre
+        qudt:uneceCommonCode  "K63" .
+
+rec20:degree_Fahrenheit_per_kelvin
+        qudt:uneceCommonCode  "J20" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_minute_degree_Fahrenheit>
+        qudt:uneceCommonCode  "K79" .
+
+rec20:joule_square_metre
+        qudt:uneceCommonCode  "D73" .
+
+rec20:microsievert_per_second
+        qudt:uneceCommonCode  "P67" .
+
+rec20:percent_per_hectobar
+        qudt:uneceCommonCode  "H72" .
+
+rec20:lift_van  qudt:uneceCommonCode  "Z1" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gill_(UK)_per_second>
+        qudt:uneceCommonCode  "K35" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_gallon_(UK)>
+        qudt:uneceCommonCode  "K71" .
+
+rec20:pound-force_inch
+        qudt:uneceCommonCode  "F21" .
+
+rec20:reset  qudt:uneceCommonCode  "RS" .
+
+rec20:newton  qudt:uneceCommonCode  "NEW" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pint_(US_liquid)_per_minute>
+        qudt:uneceCommonCode  "L59" .
+
+rec20:femtometre  qudt:uneceCommonCode  "A71" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(mean)>
+        qudt:uneceCommonCode  "J39" .
+
+rec20:kilobit  qudt:uneceCommonCode  "C37" .
+
+rec20:pen_calorie  qudt:uneceCommonCode
+                "N1" .
+
+rec20:dozen_piece  qudt:uneceCommonCode
+                "DPC" .
+
+rec20:petabit_per_second
+        qudt:uneceCommonCode  "E79" .
+
+rec20:pound_gross  qudt:uneceCommonCode
+                "D96" .
+
+rec20:head  qudt:uneceCommonCode  "HEA" .
+
+rec20:ampere_squared_second
+        qudt:uneceCommonCode  "H32" .
+
+rec20:cubic_decimetre_per_kilogram
+        qudt:uneceCommonCode  "N28" .
+
+rec20:farad_per_kilometre
+        qudt:uneceCommonCode  "H33" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#degree_Fahrenheit_hour_square_foot_per_British_thermal_unit_(international_table)_inch>
+        qudt:uneceCommonCode  "N88" .
+
+rec20:kilopascal  qudt:uneceCommonCode  "KPA" .
+
+rec20:kelvin_per_second
+        qudt:uneceCommonCode  "F12" .
+
+rec20:dyne_per_square_centimetre
+        qudt:uneceCommonCode  "D9" .
+
+rec20:Imperial_gallon_per_minute
+        qudt:uneceCommonCode  "G3" .
+
+rec20:katal  qudt:uneceCommonCode  "KAT" .
+
+rec20:thousand_pound_per_square_inch
+        qudt:uneceCommonCode  "KS" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#gallon_(UK)_per_hour>
+        qudt:uneceCommonCode  "K27" .
+
+rec20:stokes_per_bar  qudt:uneceCommonCode
+                "G46" .
+
+rec20:joule_per_gram  qudt:uneceCommonCode
+                "D95" .
+
+rec20:access_line  qudt:uneceCommonCode
+                "AL" .
+
+rec20:kilogram_per_minute
+        qudt:uneceCommonCode  "F31" .
+
+rec20:kilogram_per_hour_bar
+        qudt:uneceCommonCode  "F67" .
+
+rec20:number_of_words
+        qudt:uneceCommonCode  "D68" .
+
+rec20:degree_Fahrenheit
+        qudt:uneceCommonCode  "FAH" .
+
+rec20:cubic_yard_per_minute
+        qudt:uneceCommonCode  "M15" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#rod_[unit_of_distance]>
+        qudt:uneceCommonCode  "F49" .
+
+rec20:gal  qudt:uneceCommonCode  "A76" .
+
+rec20:milligram_per_hour_bar
+        qudt:uneceCommonCode  "F71" .
+
+rec20:poundal_per_square_inch
+        qudt:uneceCommonCode  "N26" .
+
+rec20:square  qudt:uneceCommonCode  "SQ" .
+
+rec20:oscillations_per_minute
+        qudt:uneceCommonCode  "OPM" .
+
+rec20:kilogram_of_tungsten_trioxide
+        qudt:uneceCommonCode  "KWO" .
+
+rec20:millivolt_-_ampere
+        qudt:uneceCommonCode  "M35" .
+
+rec20:cubic_centimetre_per_second
+        qudt:uneceCommonCode  "2J" .
+
+rec20:wheel  qudt:uneceCommonCode  "WH" .
+
+rec20:tonne_per_month
+        qudt:uneceCommonCode  "M88" .
+
+rec20:poundal_inch  qudt:uneceCommonCode
+                "M96" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#kilocalorie_(mean)>
+        qudt:uneceCommonCode  "K51" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#inch_of_water_(39.2_ºF)>
+        qudt:uneceCommonCode  "N18" .
+
+rec20:Standard_cubic_metre_per_hour
+        qudt:uneceCommonCode  "Q38" .
+
+rec20:volt_per_millimetre
+        qudt:uneceCommonCode  "D51" .
+
+rec20:linear_inch  qudt:uneceCommonCode
+                "LI" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_pound_degree_Fahrenheit>
+        qudt:uneceCommonCode  "J50" .
+
+rec20:milliwatt  qudt:uneceCommonCode  "C31" .
+
+rec20:megahertz_metre
+        qudt:uneceCommonCode  "M27" .
+
+rec20:square_centimetre_per_second
+        qudt:uneceCommonCode  "M81" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#MMSCF/day>
+        qudt:uneceCommonCode  "5E" .
+
+rec20:running_or_operating_hour
+        qudt:uneceCommonCode  "RH" .
+
+rec20:Cubic_Metre_Day
+        qudt:uneceCommonCode  "MQD" .
+
+rec20:mole_per_minute
+        qudt:uneceCommonCode  "L30" .
+
+rec20:metre_per_pascal
+        qudt:uneceCommonCode  "M53" .
+
+rec20:million_cubic_foot
+        qudt:uneceCommonCode  "FM" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_pound>
+        qudt:uneceCommonCode  "AZ" .
+
+rec20:centinewton_metre
+        qudt:uneceCommonCode  "J72" .
+
+rec20:lumen_second  qudt:uneceCommonCode
+                "B62" .
+
+rec20:candela_per_square_metre
+        qudt:uneceCommonCode  "A24" .
+
+rec20:kilomole  qudt:uneceCommonCode  "B45" .
+
+rec20:picowatt  qudt:uneceCommonCode  "C75" .
+
+rec20:square_inch  qudt:uneceCommonCode
+                "INK" .
+
+rec20:tyre  qudt:uneceCommonCode  "E23" .
+
+rec20:pound_mole  qudt:uneceCommonCode  "P44" .
+
+rec20:hectopascal_cubic_metre_per_second
+        qudt:uneceCommonCode  "F94" .
+
+rec20:tonne_per_day_bar
+        qudt:uneceCommonCode  "L73" .
+
+rec20:cubic_foot_per_second
+        qudt:uneceCommonCode  "E17" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(US_petroleum)_per_hour>
+        qudt:uneceCommonCode  "J62" .
+
+rec20:lambert  qudt:uneceCommonCode  "P30" .
+
+rec20:tonne_per_bar  qudt:uneceCommonCode
+                "L70" .
+
+rec20:theoretical_tonne
+        qudt:uneceCommonCode  "54" .
+
+rec20:spool  qudt:uneceCommonCode  "SO" .
+
+rec20:reciprocal_henry
+        qudt:uneceCommonCode  "C89" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_cubic_foot_psi>
+        qudt:uneceCommonCode  "K70" .
+
+rec20:gram_centimetre_per_second
+        qudt:uneceCommonCode  "M99" .
+
+rec20:degree_Rankine  qudt:uneceCommonCode
+                "A48" .
+
+rec20:cubic_metre_per_coulomb
+        qudt:uneceCommonCode  "A38" .
+
+rec20:unit_pole  qudt:uneceCommonCode  "P53" .
+
+rec20:thousand_standard_brick_equivalent
+        qudt:uneceCommonCode  "MBE" .
+
+rec20:cubic_centimetre
+        qudt:uneceCommonCode  "CMQ" .
+
+rec20:joule_per_metre
+        qudt:uneceCommonCode  "B12" .
+
+rec20:foot_to_the_fourth_power
+        qudt:uneceCommonCode  "N27" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#perm_(23_ºC)>
+        qudt:uneceCommonCode  "P92" .
+
+rec20:cubic_centimetre_per_hour_bar
+        qudt:uneceCommonCode  "G79" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#newton_metre_watt_to_the_power_minus_0,5>
+        qudt:uneceCommonCode  "H41" .
+
+rec20:vehicle  qudt:uneceCommonCode  "NV" .
+
+rec20:reciprocal_day  qudt:uneceCommonCode
+                "E91" .
+
+rec20:belt  qudt:uneceCommonCode  "E2" .
+
+rec20:centipoise_per_kelvin
+        qudt:uneceCommonCode  "J73" .
+
+rec20:millimetre_squared_per_second
+        qudt:uneceCommonCode  "C17" .
+
+rec20:kilogram_per_metre_day
+        qudt:uneceCommonCode  "N39" .
+
+rec20:reciprocal_week
+        qudt:uneceCommonCode  "H85" .
+
+rec20:month  qudt:uneceCommonCode  "MON" .
+
+rec20:microampere  qudt:uneceCommonCode
+                "B84" .
+
+rec20:bucket  qudt:uneceCommonCode  "BJ" .
+
+rec20:kilonewton_per_metre
+        qudt:uneceCommonCode  "N31" .
+
+rec20:hartley_per_second
+        qudt:uneceCommonCode  "Q18" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#second_[unit_of_angle]>
+        qudt:uneceCommonCode  "D62" .
+
+rec20:dozen_pack  qudt:uneceCommonCode  "DZP" .
+
+rec20:number_of_cells
+        qudt:uneceCommonCode  "NCL" .
+
+rec20:gram_per_hertz  qudt:uneceCommonCode
+                "F25" .
+
+rec20:pixel  qudt:uneceCommonCode  "E37" .
+
+rec20:lumen_hour  qudt:uneceCommonCode  "B59" .
+
+rec20:slug_per_second
+        qudt:uneceCommonCode  "L68" .
+
+rec20:per_mille_per_psi
+        qudt:uneceCommonCode  "J12" .
+
+rec20:millisiemens_per_centimetre
+        qudt:uneceCommonCode  "H61" .
+
+rec20:decitex  qudt:uneceCommonCode  "A47" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bar_[unit_of_pressure]>
+        qudt:uneceCommonCode  "BAR" .
+
+rec20:joule_per_square_centimetre
+        qudt:uneceCommonCode  "E43" .
+
+rec20:microhenry_per_kiloohm
+        qudt:uneceCommonCode  "G98" .
+
+rec20:kiloampere_per_metre
+        qudt:uneceCommonCode  "B24" .
+
+rec20:lux_second  qudt:uneceCommonCode  "B64" .
+
+rec20:count_per_inch  qudt:uneceCommonCode
+                "IC" .
+
+rec20:ten_set  qudt:uneceCommonCode  "TST" .
+
+rec20:square_hectometre
+        qudt:uneceCommonCode  "H18" .
+
+rec20:coulomb_square_metre_per_kilogram
+        qudt:uneceCommonCode  "J53" .
+
+rec20:megavar  qudt:uneceCommonCode  "MAR" .
+
+rec20:nanometre  qudt:uneceCommonCode  "C45" .
+
+rec20:kilosegment  qudt:uneceCommonCode
+                "KJ" .
+
+rec20:quarter_dozen  qudt:uneceCommonCode
+                "QD" .
+
+rec20:kilogram_metre_per_second
+        qudt:uneceCommonCode  "B31" .
+
+rec20:attofarad  qudt:uneceCommonCode  "H48" .
+
+rec20:bit  qudt:uneceCommonCode  "A99" .
+
+rec20:circular_mil  qudt:uneceCommonCode
+                "M47" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(thermochemical)_per_hour_square_foot_degree_Fahrenheit>
+        qudt:uneceCommonCode  "N75" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(international_table)_per_second_square_foot_degree_Rankine>
+        qudt:uneceCommonCode  "A20" .
+
+rec20:cubic_metre  qudt:uneceCommonCode
+                "MTQ" .
+
+rec20:megabecquerel  qudt:uneceCommonCode
+                "4N" .
+
+rec20:ton_short_per_hour_psi
+        qudt:uneceCommonCode  "L90" .
+
+rec20:kilowatt  qudt:uneceCommonCode  "KWT" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_second_degree_Fahrenheit>
+        qudt:uneceCommonCode  "K82" .
+
+rec20:ounce_per_square_foot
+        qudt:uneceCommonCode  "37" .
+
+rec20:lift  qudt:uneceCommonCode  "05" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#ounce_(avoirdupois)_per_day>
+        qudt:uneceCommonCode  "L33" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#quart_(US)>
+        qudt:uneceCommonCode  "QT" .
+
+rec20:percent_per_ohm
+        qudt:uneceCommonCode  "H89" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#grain_per_gallon_(US)>
+        qudt:uneceCommonCode  "K41" .
+
+rec20:pascal_cubic_metre_per_second
+        qudt:uneceCommonCode  "G01" .
+
+rec20:phot  qudt:uneceCommonCode  "P26" .
+
+rec20:cubic_centimetre_per_bar
+        qudt:uneceCommonCode  "G94" .
+
+rec20:tube  qudt:uneceCommonCode  "TU" .
+
+rec20:cubic_metre_per_day_bar
+        qudt:uneceCommonCode  "G86" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#square_mile_(based_on_U.S._survey_foot)>
+        qudt:uneceCommonCode  "M48" .
+
+rec20:sone  qudt:uneceCommonCode  "D15" .
+
+rec20:pound_per_foot_second
+        qudt:uneceCommonCode  "K68" .
+
+rec20:carboy  qudt:uneceCommonCode  "CO" .
+
+rec20:ten_pair  qudt:uneceCommonCode  "TPR" .
+
+rec20:linear_yard  qudt:uneceCommonCode
+                "LY" .
+
+rec20:curie  qudt:uneceCommonCode  "CUR" .
+
+rec20:kilogram_square_centimetre
+        qudt:uneceCommonCode  "F18" .
+
+rec20:reciprocal_radian
+        qudt:uneceCommonCode  "P97" .
+
+rec20:pound_per_foot_day
+        qudt:uneceCommonCode  "N44" .
+
+rec20:kilogram_per_pascal
+        qudt:uneceCommonCode  "M74" .
+
+rec20:kilowatt_hour_per_cubic_metre
+        qudt:uneceCommonCode  "E46" .
+
+rec20:kilogram_including_inner_packaging
+        qudt:uneceCommonCode  "KIP" .
+
+rec20:percent  qudt:uneceCommonCode  "P1" .
+
+rec20:failure_rate_in_time
+        qudt:uneceCommonCode  "63" .
+
+rec20:reciprocal_cubic_centimetre
+        qudt:uneceCommonCode  "H50" .
+
+rec20:ton_register  qudt:uneceCommonCode
+                "M70" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#Gaussian_CGS_(Centimetre-Gram-Second_system)_unit_of_electric_field_strength>
+        qudt:uneceCommonCode  "A80" .
+
+rec20:print_point  qudt:uneceCommonCode
+                "N3" .
+
+rec20:fifteen_kg_drum
+        qudt:uneceCommonCode  "98" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#British_thermal_unit_(59_ºF)>
+        qudt:uneceCommonCode  "N67" .
+
+rec20:litre_of_pure_alcohol
+        qudt:uneceCommonCode  "LPA" .
+
+rec20:strand  qudt:uneceCommonCode  "E30" .
+
+rec20:kilocurie  qudt:uneceCommonCode  "2R" .
+
+rec20:technical_atmosphere
+        qudt:uneceCommonCode  "ATT" .
+
+rec20:pascal_square_metre_per_kilogram
+        qudt:uneceCommonCode  "P79" .
+
+rec20:kelvin  qudt:uneceCommonCode  "KEL" .
+
+rec20:exabit_per_second
+        qudt:uneceCommonCode  "E58" .
+
+rec20:square_yard  qudt:uneceCommonCode
+                "YDK" .
+
+rec20:pound_per_yard  qudt:uneceCommonCode
+                "M84" .
+
+rec20:megabit_per_second
+        qudt:uneceCommonCode  "E20" .
+
+rec20:kilojoule_per_mole
+        qudt:uneceCommonCode  "B44" .
+
+rec20:layer  qudt:uneceCommonCode  "LR" .
+
+rec20:volt_-_ampere  qudt:uneceCommonCode
+                "D46" .
+
+rec20:number_of_mults
+        qudt:uneceCommonCode  "MV" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#barrel_(UK_petroleum)_per_second>
+        qudt:uneceCommonCode  "J61" .
+
+rec20:gray  qudt:uneceCommonCode  "A95" .
+
+rec20:fifty_lb_bulk_bag
+        qudt:uneceCommonCode  "46" .
+
+rec20:weber_per_millimetre
+        qudt:uneceCommonCode  "D60" .
+
+rec20:foot_of_water  qudt:uneceCommonCode
+                "K24" .
+
+rec20:tonne_per_cubic_metre
+        qudt:uneceCommonCode  "D41" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#bushel_(US_dry)_per_hour>
+        qudt:uneceCommonCode  "J69" .
+
+rec20:cubic_yard_per_degree_Fahrenheit
+        qudt:uneceCommonCode  "M11" .
+
+<https://service.unece.org/trade/uncefact/vocabulary/rec20#pound_(avoirdupois)_per_degree_Fahrenheit>
+        qudt:uneceCommonCode  "K64" .
+
+rec20:degree_Celsius_per_second
+        qudt:uneceCommonCode  "H14" .
